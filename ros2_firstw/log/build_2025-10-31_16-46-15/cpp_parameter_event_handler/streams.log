@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/ph/ros2_firstw/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_parameter_event_handler -- -j8 -l8
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[5.378s] [100%] [32m[1mLinking CXX executable parameter_event_handler[0m
+[5.522s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[5.522s] (.text+0x1b): undefined reference to `main'
+[5.530s] collect2: error: ld returned 1 exit status
+[5.534s] gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:151: parameter_event_handler] Error 1
+[5.535s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2
+[5.535s] gmake: *** [Makefile:146: all] Error 2
+[5.540s] Invoked command in '/home/ph/ros2_firstw/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_parameter_event_handler -- -j8 -l8

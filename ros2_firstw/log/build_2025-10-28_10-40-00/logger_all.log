@@ -1,0 +1,282 @@
+[0.214s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.214s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73b818117010>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73b818116620>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73b818116620>>, mixin_verb=('build',))
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.532s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ph/ros2_firstw'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.562s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.564s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/firstpkg) by extension 'ros'
+[0.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/firstpkg' with type 'ros.ament_cmake' and name 'firstpkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.633s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ph/ros2_firstw/install
+[0.636s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ros2_firstw/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ros2_firstw/install/cpp_srvcli', 'merge_install': False, 'path': '/home/ph/ros2_firstw/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'cmake_target' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'firstpkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.717s] DEBUG:colcon.colcon_core.verb:Building package 'firstpkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ros2_firstw/build/firstpkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ros2_firstw/install/firstpkg', 'merge_install': False, 'path': '/home/ph/ros2_firstw/src/firstpkg', 'symlink_install': False, 'test_result_base': None}
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.717s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.718s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ros2_firstw/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ros2_firstw/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/ph/ros2_firstw/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.719s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ros2_firstw/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ros2_firstw/install/cpp_pubsub', 'merge_install': False, 'path': '/home/ph/ros2_firstw/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.719s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ph/ros2_firstw/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ph/ros2_firstw/src/tutorial_interfaces'
+[0.725s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.733s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ph/ros2_firstw/src/cpp_srvcli' with build type 'ament_cmake'
+[0.733s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ph/ros2_firstw/src/cpp_srvcli'
+[0.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ph/ros2_firstw/src/firstpkg' with build type 'ament_cmake'
+[0.742s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ph/ros2_firstw/src/firstpkg'
+[0.742s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ros2_firstw/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/tutorial_interfaces -- -j8 -l8
+[0.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ros2_firstw/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ros2_firstw/build/firstpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/firstpkg -- -j8 -l8
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ros2_firstw/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/firstpkg -- -j8 -l8
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ros2_firstw/build/firstpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/firstpkg
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ros2_firstw/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ros2_firstw/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/cpp_srvcli
+[0.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(firstpkg)
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ros2_firstw/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/firstpkg
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg' for CMake module files
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg' for CMake config files
+[0.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('firstpkg', 'cmake_prefix_path')
+[0.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/hook/cmake_prefix_path.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/hook/cmake_prefix_path.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/hook/cmake_prefix_path.sh'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/lib'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/lib/pkgconfig/firstpkg.pc'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/lib/python3.10/site-packages'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/bin'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.sh'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.bash'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ros2_firstw/install/firstpkg/share/colcon-core/packages/firstpkg)
+[0.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(firstpkg)
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg' for CMake module files
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg' for CMake config files
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('firstpkg', 'cmake_prefix_path')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/hook/cmake_prefix_path.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/hook/cmake_prefix_path.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/hook/cmake_prefix_path.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/lib'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/bin'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/lib/pkgconfig/firstpkg.pc'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/lib/python3.10/site-packages'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/firstpkg/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.sh'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.bash'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.zsh'
+[0.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ros2_firstw/install/firstpkg/share/colcon-core/packages/firstpkg)
+[0.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli' for CMake module files
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ros2_firstw/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/cpp_srvcli
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli' for CMake config files
+[0.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/lib'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/bin'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/lib/python3.10/site-packages'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/bin'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ros2_firstw/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[1.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli' for CMake module files
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli' for CMake config files
+[1.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/lib'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/bin'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/lib/python3.10/site-packages'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/cpp_srvcli/bin'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[1.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ros2_firstw/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[2.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ros2_firstw/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/tutorial_interfaces -- -j8 -l8
+[2.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/tutorial_interfaces' for CMake module files
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/tutorial_interfaces' for CMake config files
+[2.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[2.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/tutorial_interfaces/lib'
+[2.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[2.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[2.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[2.327s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/tutorial_interfaces/bin'
+[2.327s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/tutorial_interfaces/lib/python3.10/site-packages'
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ros2_firstw/install/tutorial_interfaces/bin'
+[2.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[2.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[2.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[2.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[2.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[2.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ros2_firstw/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[2.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.348s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.348s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.366s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.397s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.398s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ros2_firstw/install/local_setup.ps1'
+[2.400s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ph/ros2_firstw/install/_local_setup_util_ps1.py'
+[2.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ros2_firstw/install/setup.ps1'
+[2.408s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ros2_firstw/install/local_setup.sh'
+[2.410s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ph/ros2_firstw/install/_local_setup_util_sh.py'
+[2.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ros2_firstw/install/setup.sh'
+[2.416s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ros2_firstw/install/local_setup.bash'
+[2.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ros2_firstw/install/setup.bash'
+[2.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ros2_firstw/install/local_setup.zsh'
+[2.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ros2_firstw/install/setup.zsh'

@@ -1,0 +1,88 @@
+[0.026s] Invoking command in '/home/ph/sixth_ws/build/rviz_plugin_tutorial': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch LD_LIBRARY_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ph/sixth_ws/build/rviz_plugin_tutorial -- -j8 -l8
+[0.076s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.259s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.268s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[0.322s] -- Found rviz_common: 11.2.22 (/opt/ros/humble/share/rviz_common/cmake)
+[0.335s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.340s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.341s] -- Found OGRE
+[0.341s] --   static     : OFF
+[0.341s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.342s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.342s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.342s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.342s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.342s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.343s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.343s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.343s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.343s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.343s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.453s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.475s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.478s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.486s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.593s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.618s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.633s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.654s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.667s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.769s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.878s] -- Found rviz_plugin_tutorial_msgs: 0.0.0 (/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/share/rviz_plugin_tutorial_msgs/cmake)
+[0.897s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.990s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.991s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.991s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ph/sixth_ws/src/rviz_plugin_tutorial/rviz_plugin_tutorial/include>
+[0.991s] -- Configured cppcheck exclude dirs and/or files: 
+[0.992s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.993s] -- Configured cpplint exclude dirs and/or files: 
+[0.993s] -- Added test 'lint_cmake' to check CMake code style
+[0.995s] -- Added test 'uncrustify' to check C / C++ code style
+[0.995s] -- Configured uncrustify additional arguments: 
+[0.995s] -- Added test 'xmllint' to check XML markup files
+[0.996s] -- Configuring done
+[1.039s] -- Generating done
+[1.046s] -- Build files have been written to: /home/ph/sixth_ws/build/rviz_plugin_tutorial
+[1.122s] [ 16%] [34m[1mAutomatic MOC for target point_display[0m
+[1.153s] [ 16%] Built target point_display_autogen
+[1.176s] [ 33%] [34m[1mGenerating include/rviz_plugin_tutorial/moc_point_display.cpp[0m
+[1.202s] [35m[1mConsolidate compiler generated dependencies of target point_display[0m
+[1.240s] [ 50%] [32mBuilding CXX object CMakeFiles/point_display.dir/include/rviz_plugin_tutorial/moc_point_display.cpp.o[0m
+[1.241s] [ 66%] [32mBuilding CXX object CMakeFiles/point_display.dir/src/point_display.cpp.o[0m
+[15.894s] [ 83%] [32m[1mLinking CXX shared library libpoint_display.so[0m
+[17.845s] [100%] Built target point_display
+[17.866s] Invoked command in '/home/ph/sixth_ws/build/rviz_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch LD_LIBRARY_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ph/sixth_ws/build/rviz_plugin_tutorial -- -j8 -l8
+[17.870s] Invoking command in '/home/ph/sixth_ws/build/rviz_plugin_tutorial': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch LD_LIBRARY_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ph/sixth_ws/build/rviz_plugin_tutorial
+[17.881s] -- Install configuration: ""
+[17.881s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/lib/libpoint_display.so
+[17.893s] -- Set runtime path of "/home/ph/sixth_ws/install/rviz_plugin_tutorial/lib/libpoint_display.so" to ""
+[17.894s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/include
+[17.894s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/include/rviz_plugin_tutorial
+[17.894s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/include/rviz_plugin_tutorial/point_display.hpp
+[17.895s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/rviz_common_plugins.xml
+[17.895s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/rviz_common_plugins.xml
+[17.895s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_plugin_tutorial
+[17.896s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_plugin_tutorial
+[17.896s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/ament_prefix_path.sh
+[17.896s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/ament_prefix_path.dsv
+[17.896s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/path.sh
+[17.897s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/environment/path.dsv
+[17.897s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.bash
+[17.897s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.sh
+[17.897s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.zsh
+[17.897s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/local_setup.dsv
+[17.897s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/package.dsv
+[17.898s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/ament_index/resource_index/packages/rviz_plugin_tutorial
+[17.898s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_plugin_tutorial
+[17.898s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/export_rviz_plugin_tutorialExport.cmake
+[17.899s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/export_rviz_plugin_tutorialExport-noconfig.cmake
+[17.899s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.901s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+[17.902s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/rviz_plugin_tutorialConfig.cmake
+[17.902s] -- Up-to-date: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/cmake/rviz_plugin_tutorialConfig-version.cmake
+[17.902s] -- Installing: /home/ph/sixth_ws/install/rviz_plugin_tutorial/share/rviz_plugin_tutorial/package.xml
+[17.903s] Invoked command in '/home/ph/sixth_ws/build/rviz_plugin_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch LD_LIBRARY_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ph/sixth_ws/build/rviz_plugin_tutorial

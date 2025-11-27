@@ -1,0 +1,11 @@
+[0.046s] Invoking command in '/home/ph/ros2_firstw/build/nnnode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/nnnode -- -j8 -l8
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target simple_node[0m
+[0.261s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o[0m
+[0.864s] [01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_lifecycle/lifecycle_node.hpp: No such file or directory
+[0.864s]     3 | #include [01;31m[K"rclcpp_lifecycle/lifecycle_node.hpp"[m[K
+[0.864s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.864s] compilation terminated.
+[0.871s] gmake[2]: *** [CMakeFiles/simple_node.dir/build.make:76: CMakeFiles/simple_node.dir/src/nnnode.cpp.o] Error 1
+[0.872s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_node.dir/all] Error 2
+[0.873s] gmake: *** [Makefile:146: all] Error 2
+[0.877s] Invoked command in '/home/ph/ros2_firstw/build/nnnode' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/nnnode -- -j8 -l8

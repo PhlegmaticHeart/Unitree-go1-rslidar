@@ -1,0 +1,2 @@
+Invoking command in '/home/ph/ros2_firstw/build/my_package': /usr/bin/cmake /home/ph/ros2_firstw/src/firstpkg -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/my_package
+Invoked command in '/home/ph/ros2_firstw/build/my_package' returned '1': /usr/bin/cmake /home/ph/ros2_firstw/src/firstpkg -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/my_package

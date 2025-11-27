@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/ph/ros2_firstw/build/cpp_pubbysub': /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubbysub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_pubbysub
+[0.092s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.314s] -- Detecting CXX compiler ABI info
+[0.427s] -- Detecting CXX compiler ABI info - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.457s] -- Detecting CXX compile features - done
+[0.479s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.479s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.479s]   has asked CMake to find a package configuration file provided by
+[0.479s]   "ament_cmake", but CMake did not find one.
+[0.479s] 
+[0.479s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.480s]   any of the following names:
+[0.480s] 
+[0.480s]     ament_cmakeConfig.cmake
+[0.480s]     ament_cmake-config.cmake
+[0.480s] 
+[0.480s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.481s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.481s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.481s]   has been installed.
+[0.481s] 
+[0.481s] [0m
+[0.481s] -- Configuring incomplete, errors occurred!
+[0.482s] See also "/home/ph/ros2_firstw/build/cpp_pubbysub/CMakeFiles/CMakeOutput.log".
+[0.484s] Invoked command in '/home/ph/ros2_firstw/build/cpp_pubbysub' returned '1': /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubbysub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_pubbysub

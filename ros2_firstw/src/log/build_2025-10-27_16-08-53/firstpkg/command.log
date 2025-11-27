@@ -1,0 +1,4 @@
+Invoking command in '/home/ph/ros2_firstw/src/build/firstpkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/src/build/firstpkg -- -j8 -l8
+Invoked command in '/home/ph/ros2_firstw/src/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/src/build/firstpkg -- -j8 -l8
+Invoking command in '/home/ph/ros2_firstw/src/build/firstpkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/src/build/firstpkg
+Invoked command in '/home/ph/ros2_firstw/src/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/src/build/firstpkg

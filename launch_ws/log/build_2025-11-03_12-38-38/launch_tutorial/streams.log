@@ -1,0 +1,23 @@
+[0.028s] Invoking command in '/home/ph/launch_ws/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/launch_tutorial -- -j8 -l8
+[0.398s] Invoked command in '/home/ph/launch_ws/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/launch_tutorial -- -j8 -l8
+[0.401s] Invoking command in '/home/ph/launch_ws/build/launch_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/launch_tutorial
+[0.420s] -- Install configuration: ""
+[0.420s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial//launch
+[0.420s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial//launch/example_substitutions_launch.yaml
+[0.420s] -- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial//launch/example_main_launch.yaml
+[0.421s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/ament_index/resource_index/package_run_dependencies/launch_tutorial
+[0.421s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/ament_index/resource_index/parent_prefix_path/launch_tutorial
+[0.421s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.sh
+[0.421s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.dsv
+[0.421s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/path.sh
+[0.421s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/path.dsv
+[0.422s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.bash
+[0.422s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.sh
+[0.422s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.zsh
+[0.422s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.dsv
+[0.422s] -- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.dsv
+[0.423s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/ament_index/resource_index/packages/launch_tutorial
+[0.423s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig.cmake
+[0.423s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig-version.cmake
+[0.423s] -- Up-to-date: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.xml
+[0.447s] Invoked command in '/home/ph/launch_ws/build/launch_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/launch_tutorial

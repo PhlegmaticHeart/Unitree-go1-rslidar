@@ -1,0 +1,6 @@
+[0.043s] Invoking command in '/home/ph/ros2_firstw/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_pubsub -- -j8 -l8
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.170s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.189s] [ 75%] Built target talker
+[14.406s] [100%] [32m[1mLinking CXX executable listener[0m
+[15.217s] [100%] Built target listener

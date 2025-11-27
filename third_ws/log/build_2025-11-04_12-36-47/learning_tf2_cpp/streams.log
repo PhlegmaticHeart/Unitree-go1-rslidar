@@ -1,0 +1,72 @@
+[0.018s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake /home/ph/third_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ph/third_ws/install/learning_tf2_cpp
+[0.247s] -- The C compiler identification is GNU 11.4.0
+[0.444s] -- The CXX compiler identification is GNU 11.4.0
+[0.458s] -- Detecting C compiler ABI info
+[0.571s] -- Detecting C compiler ABI info - done
+[0.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.581s] -- Detecting C compile features
+[0.582s] -- Detecting C compile features - done
+[0.590s] -- Detecting CXX compiler ABI info
+[0.747s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.773s] -- Detecting CXX compile features - done
+[0.784s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.032s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.218s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.306s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.320s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.337s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.483s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.573s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.580s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.809s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.851s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.930s] -- Looking for pthread.h
+[2.115s] -- Looking for pthread.h - found
+[2.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.257s] -- Found Threads: TRUE  
+[2.363s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[2.383s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.557s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[2.583s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.739s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.739s] -- Configured cppcheck include dirs: 
+[2.740s] -- Configured cppcheck exclude dirs and/or files: 
+[2.741s] -- Added test 'lint_cmake' to check CMake code style
+[2.743s] -- Added test 'uncrustify' to check C / C++ code style
+[2.743s] -- Configured uncrustify additional arguments: 
+[2.744s] -- Added test 'xmllint' to check XML markup files
+[2.746s] -- Configuring done
+[2.763s] -- Generating done
+[2.768s] -- Build files have been written to: /home/ph/third_ws/build/learning_tf2_cpp
+[2.783s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake /home/ph/third_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/ph/third_ws/install/learning_tf2_cpp
+[2.787s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8
+[2.895s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[8.435s] [100%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[8.771s] [100%] Built target static_turtle_tf2_broadcaster
+[8.790s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8
+[8.805s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --install /home/ph/third_ws/build/learning_tf2_cpp
+[8.823s] -- Install configuration: ""
+[8.824s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[8.825s] -- Set runtime path of "/home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[8.826s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[8.826s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[8.826s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[8.827s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[8.827s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[8.827s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[8.827s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[8.828s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[8.828s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[8.828s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[8.828s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[8.828s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[8.829s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[8.829s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[8.829s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[8.833s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --install /home/ph/third_ws/build/learning_tf2_cpp

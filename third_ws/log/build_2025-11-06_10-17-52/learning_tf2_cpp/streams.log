@@ -1,0 +1,39 @@
+[0.015s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target turtle_tf2_listener[0m
+[0.116s] [ 20%] Built target dynamic_frame_tf2_broadcaster
+[0.116s] [ 40%] Built target static_turtle_tf2_broadcaster
+[0.118s] [ 60%] Built target fixed_frame_tf2_broadcaster
+[0.119s] [ 80%] Built target turtle_tf2_broadcaster
+[0.124s] [ 90%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[6.625s] [100%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[6.977s] [100%] Built target turtle_tf2_listener
+[6.993s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8
+[7.006s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --install /home/ph/third_ws/build/learning_tf2_cpp
+[7.016s] -- Install configuration: ""
+[7.016s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster
+[7.016s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[7.017s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[7.020s] -- Set runtime path of "/home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener" to ""
+[7.020s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[7.020s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch
+[7.020s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_dynamic_frame_demo_launch.py
+[7.021s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_demo_launch.py
+[7.021s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/launch.yaml
+[7.021s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_fixed_frame_demo_launch.py
+[7.021s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[7.022s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[7.022s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[7.022s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[7.022s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[7.022s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[7.022s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[7.023s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[7.023s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[7.023s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[7.023s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[7.024s] -- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[7.024s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[7.024s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[7.024s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[7.024s] -- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[7.026s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --install /home/ph/third_ws/build/learning_tf2_cpp

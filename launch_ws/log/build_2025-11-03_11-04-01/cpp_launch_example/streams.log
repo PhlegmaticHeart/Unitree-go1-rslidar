@@ -1,0 +1,44 @@
+[0.023s] Invoking command in '/home/ph/launch_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake /home/ph/launch_ws/src/cpp_launch_example -DCMAKE_INSTALL_PREFIX=/home/ph/launch_ws/install/cpp_launch_example
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.214s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.550s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.550s] -- Detecting CXX compile features
+[0.552s] -- Detecting CXX compile features - done
+[0.563s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.788s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.969s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.085s] -- Added test 'lint_cmake' to check CMake code style
+[1.087s] -- Added test 'xmllint' to check XML markup files
+[1.089s] -- Configuring done
+[1.093s] -- Generating done
+[1.095s] -- Build files have been written to: /home/ph/launch_ws/build/cpp_launch_example
+[1.103s] Invoked command in '/home/ph/launch_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake /home/ph/launch_ws/src/cpp_launch_example -DCMAKE_INSTALL_PREFIX=/home/ph/launch_ws/install/cpp_launch_example
+[1.105s] Invoking command in '/home/ph/launch_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/cpp_launch_example -- -j8 -l8
+[1.167s] Invoked command in '/home/ph/launch_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/cpp_launch_example -- -j8 -l8
+[1.182s] Invoking command in '/home/ph/launch_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/cpp_launch_example
+[1.192s] -- Install configuration: ""
+[1.193s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example//launch
+[1.193s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example//launch/my_script_launch.xml
+[1.193s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/package_run_dependencies/cpp_launch_example
+[1.193s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/parent_prefix_path/cpp_launch_example
+[1.194s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.sh
+[1.194s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.dsv
+[1.194s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.sh
+[1.194s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.dsv
+[1.194s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.bash
+[1.195s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.sh
+[1.195s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.zsh
+[1.195s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.dsv
+[1.195s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.dsv
+[1.195s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/packages/cpp_launch_example
+[1.196s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig.cmake
+[1.196s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig-version.cmake
+[1.196s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.xml
+[1.199s] Invoked command in '/home/ph/launch_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/launch_ws/install/py_launch_example:/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/cpp_launch_example

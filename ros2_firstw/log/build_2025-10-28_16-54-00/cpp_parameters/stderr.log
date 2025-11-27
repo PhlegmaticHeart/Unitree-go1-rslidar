@@ -1,0 +1,12 @@
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:44:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass MinimalParam[m[K’
+   44 | class [01;31m[KMinimalParam[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:9:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass MinimalParam[m[K’
+    9 | class [01;36m[KMinimalParam[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:57:4:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   57 |   }
+      |    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/minimal_param_node.dir/build.make:76: CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_param_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

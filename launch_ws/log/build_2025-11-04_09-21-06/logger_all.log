@@ -1,0 +1,242 @@
+[0.587s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.587s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75ad3ef16ce0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75ad3ef162f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75ad3ef162f0>>, mixin_verb=('build',))
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.081s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ph/launch_ws'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_launch_example) by extension 'ros'
+[1.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_launch_example' with type 'ros.ament_cmake' and name 'cpp_launch_example'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore_ament_install'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_pkg']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_pkg'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_meta']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_meta'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ros']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ros'
+[1.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_tutorial' with type 'ros.ament_python' and name 'launch_tutorial'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extensions ['ignore', 'ignore_ament_install']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extension 'ignore'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extension 'ignore_ament_install'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extensions ['colcon_pkg']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extension 'colcon_pkg'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extensions ['colcon_meta']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extension 'colcon_meta'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extensions ['ros']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_example) by extension 'ros'
+[1.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_launch_example' with type 'ros.ament_python' and name 'py_launch_example'
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[1.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_target' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'cpp_launch_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.297s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_launch_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/launch_ws/build/cpp_launch_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/launch_ws/install/cpp_launch_example', 'merge_install': False, 'path': '/home/ph/launch_ws/src/cpp_launch_example', 'symlink_install': False, 'test_result_base': None}
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.298s] DEBUG:colcon.colcon_core.verb:Building package 'launch_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/launch_ws/build/launch_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/launch_ws/install/launch_tutorial', 'merge_install': False, 'path': '/home/ph/launch_ws/src/launch_tutorial', 'symlink_install': False, 'test_result_base': None}
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_target' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'py_launch_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.299s] DEBUG:colcon.colcon_core.verb:Building package 'py_launch_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/launch_ws/build/py_launch_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/launch_ws/install/py_launch_example', 'merge_install': False, 'path': '/home/ph/launch_ws/src/py_launch_example', 'symlink_install': False, 'test_result_base': None}
+[1.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ph/launch_ws/src/cpp_launch_example' with build type 'ament_cmake'
+[1.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ph/launch_ws/src/cpp_launch_example'
+[1.311s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ph/launch_ws/src/launch_tutorial' with build type 'ament_python'
+[1.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'ament_prefix_path')
+[1.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.sh'
+[1.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.332s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ph/launch_ws/src/py_launch_example' with build type 'ament_python'
+[1.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch_example', 'ament_prefix_path')
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/hook/ament_prefix_path.ps1'
+[1.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/hook/ament_prefix_path.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/hook/ament_prefix_path.sh'
+[1.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/launch_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/cpp_launch_example -- -j8 -l8
+[1.872s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ph/launch_ws/src/launch_tutorial'
+[1.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.393s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ph/launch_ws/src/py_launch_example'
+[2.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/launch_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/cpp_launch_example -- -j8 -l8
+[2.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/launch_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/cpp_launch_example
+[2.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_launch_example)
+[2.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/launch_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/cpp_launch_example
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example' for CMake module files
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example' for CMake config files
+[2.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_launch_example', 'cmake_prefix_path')
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.ps1'
+[2.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.dsv'
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.sh'
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/bin'
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/lib/pkgconfig/cpp_launch_example.pc'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/lib/python3.10/site-packages'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/bin'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.dsv'
+[2.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.sh'
+[2.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.bash'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.zsh'
+[2.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/launch_ws/install/cpp_launch_example/share/colcon-core/packages/cpp_launch_example)
+[2.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_launch_example)
+[2.512s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example' for CMake module files
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example' for CMake config files
+[2.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_launch_example', 'cmake_prefix_path')
+[2.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.ps1'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.dsv'
+[2.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/hook/cmake_prefix_path.sh'
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/bin'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/lib/pkgconfig/cpp_launch_example.pc'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/lib/python3.10/site-packages'
+[2.522s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/cpp_launch_example/bin'
+[2.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.ps1'
+[2.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.dsv'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.sh'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.bash'
+[2.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.zsh'
+[2.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/launch_ws/install/cpp_launch_example/share/colcon-core/packages/cpp_launch_example)
+[3.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/launch_ws/src/py_launch_example': PYTHONPATH=/home/ph/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/ph/launch_ws/build/py_launch_example/build install --record /home/ph/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[3.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/launch_ws/src/launch_tutorial': PYTHONPATH=/home/ph/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/ph/launch_ws/build/launch_tutorial/build install --record /home/ph/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[4.050s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/py_launch_example' for CMake module files
+[4.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/launch_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/ph/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/launch_ws/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/ph/launch_ws/build/py_launch_example/build install --record /home/ph/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[4.053s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/py_launch_example' for CMake config files
+[4.055s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/py_launch_example/lib'
+[4.056s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/py_launch_example/bin'
+[4.057s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/py_launch_example/lib/pkgconfig/py_launch_example.pc'
+[4.057s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/py_launch_example/lib/python3.10/site-packages'
+[4.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch_example', 'pythonpath')
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/hook/pythonpath.ps1'
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/hook/pythonpath.dsv'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/hook/pythonpath.sh'
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/py_launch_example/bin'
+[4.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_launch_example)
+[4.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/package.ps1'
+[4.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/package.dsv'
+[4.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/package.sh'
+[4.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/package.bash'
+[4.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/py_launch_example/share/py_launch_example/package.zsh'
+[4.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/launch_ws/install/py_launch_example/share/colcon-core/packages/py_launch_example)
+[4.077s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/launch_tutorial' for CMake module files
+[4.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/launch_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/ph/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/ph/launch_ws/build/launch_tutorial/build install --record /home/ph/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[4.081s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/launch_tutorial' for CMake config files
+[4.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'cmake_prefix_path')
+[4.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.ps1'
+[4.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.dsv'
+[4.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/cmake_prefix_path.sh'
+[4.088s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/launch_tutorial/lib'
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/launch_tutorial/bin'
+[4.089s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/launch_tutorial/lib/pkgconfig/launch_tutorial.pc'
+[4.090s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/launch_tutorial/lib/python3.10/site-packages'
+[4.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'pythonpath')
+[4.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.ps1'
+[4.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.dsv'
+[4.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.sh'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/ph/launch_ws/install/launch_tutorial/bin'
+[4.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_tutorial)
+[4.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.ps1'
+[4.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.dsv'
+[4.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.sh'
+[4.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.bash'
+[4.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.zsh'
+[4.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/launch_ws/install/launch_tutorial/share/colcon-core/packages/launch_tutorial)
+[4.101s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.102s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.102s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.102s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.125s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.126s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.126s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.172s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.173s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/launch_ws/install/local_setup.ps1'
+[4.176s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ph/launch_ws/install/_local_setup_util_ps1.py'
+[4.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/launch_ws/install/setup.ps1'
+[4.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/launch_ws/install/local_setup.sh'
+[4.186s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ph/launch_ws/install/_local_setup_util_sh.py'
+[4.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/launch_ws/install/setup.sh'
+[4.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/launch_ws/install/local_setup.bash'
+[4.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/launch_ws/install/setup.bash'
+[4.197s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/launch_ws/install/local_setup.zsh'
+[4.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/launch_ws/install/setup.zsh'

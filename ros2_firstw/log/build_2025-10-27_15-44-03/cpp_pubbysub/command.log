@@ -1,0 +1,2 @@
+Invoking command in '/home/ph/ros2_firstw/build/cpp_pubbysub': /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubbysub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_pubbysub
+Invoked command in '/home/ph/ros2_firstw/build/cpp_pubbysub' returned '1': /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubbysub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_pubbysub

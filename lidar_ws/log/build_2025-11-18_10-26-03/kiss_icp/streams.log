@@ -1,0 +1,93 @@
+[0.015s] Invoking command in '/home/ph/ws/lidar_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ws/lidar_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/ph/ws/lidar_ws/install/kiss_icp
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.140s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.312s] [0mCMake Deprecation Warning at /home/ph/ws/lidar_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):
+[0.312s]   The OLD behavior for policy CMP0135 will be removed from a future version
+[0.312s]   of CMake.
+[0.313s] 
+[0.313s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.313s]   policies are deprecated and that a policy should be set to OLD only under
+[0.313s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.313s]   behavior and not rely on setting a policy to OLD.
+[0.313s] Call Stack (most recent call first):
+[0.314s]   /home/ph/ws/lidar_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)
+[0.314s] 
+[0.314s] [0m
+[0.511s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.698s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.856s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.915s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.924s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.938s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.957s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.983s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.048s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.079s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.143s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.148s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.331s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.379s] -- Found FastRTPS: /opt/ros/humble/include
+[1.445s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.459s] -- Found Threads: TRUE
+[1.521s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.567s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.598s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.721s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.826s] -- Configuring done (1.8s)
+[1.864s] -- Generating done (0.0s)
+[1.871s] -- Build files have been written to: /home/ph/ws/lidar_ws/build/kiss_icp
+[1.884s] Invoked command in '/home/ph/ws/lidar_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ws/lidar_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/ph/ws/lidar_ws/install/kiss_icp
+[1.886s] Invoking command in '/home/ph/ws/lidar_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/kiss_icp -- -j8 -l8
+[1.947s] [ 14%] [32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o[0m
+[1.947s] [ 14%] [32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o[0m
+[1.948s] [ 21%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o[0m
+[1.949s] [ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o[0m
+[1.949s] [ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o[0m
+[1.949s] [ 50%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o[0m
+[1.949s] [ 50%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o[0m
+[7.332s] [ 57%] [1m[32mLinking CXX executable kiss_icp_node[0m
+[7.518s] [ 57%] Built target kiss_icp_node
+[12.732s] [ 64%] [1m[32mLinking CXX static library libkiss_icp_core.a[0m
+[12.836s] [ 64%] Built target kiss_icp_core
+[12.864s] [ 71%] [32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o[0m
+[15.761s] [ 78%] [1m[32mLinking CXX static library libkiss_icp_pipeline.a[0m
+[15.845s] [ 78%] Built target kiss_icp_pipeline
+[15.873s] [ 85%] [32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o[0m
+[19.114s] [ 92%] [1m[32mLinking CXX static library libkiss_icp_metrics.a[0m
+[19.197s] [ 92%] Built target kiss_icp_metrics
+[39.551s] [100%] [1m[32mLinking CXX shared library libodometry_component.so[0m
+[39.897s] [100%] Built target odometry_component
+[39.914s] Invoked command in '/home/ph/ws/lidar_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/kiss_icp -- -j8 -l8
+[39.930s] Invoking command in '/home/ph/ws/lidar_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/lidar_ws/build/kiss_icp
+[39.940s] -- Install configuration: "Release"
+[39.941s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[39.943s] -- Set non-toolchain portion of runtime path of "/home/ph/ws/lidar_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node" to ""
+[39.943s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/lib/libodometry_component.so
+[39.947s] -- Set non-toolchain portion of runtime path of "/home/ph/ws/lidar_ws/install/kiss_icp/lib/libodometry_component.so" to ""
+[39.947s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//launch
+[39.948s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[39.948s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//rviz
+[39.948s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[39.949s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//config
+[39.949s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//config/config.yaml
+[39.949s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[39.950s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[39.950s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[39.950s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[39.951s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/path.sh
+[39.951s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[39.951s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.bash
+[39.951s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.sh
+[39.951s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[39.952s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[39.952s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/package.dsv
+[39.952s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[39.952s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[39.953s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[39.953s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[39.953s] -- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/package.xml
+[39.955s] Invoked command in '/home/ph/ws/lidar_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/lidar_ws/build/kiss_icp

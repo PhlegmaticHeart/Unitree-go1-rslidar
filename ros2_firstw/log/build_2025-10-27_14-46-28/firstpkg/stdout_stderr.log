@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target fnode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fnode.dir/src/fnode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable fnode[0m
+[100%] Built target fnode
+-- Install configuration: ""
+-- Installing: /home/ph/ros2_firstw/install/firstpkg/lib/firstpkg/fnode
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/ament_index/resource_index/package_run_dependencies/firstpkg
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/ament_index/resource_index/parent_prefix_path/firstpkg
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/path.sh
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/path.dsv
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.bash
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.sh
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.zsh
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.dsv
+-- Installing: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.dsv
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/ament_index/resource_index/packages/firstpkg
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/cmake/firstpkgConfig.cmake
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/cmake/firstpkgConfig-version.cmake
+-- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.xml

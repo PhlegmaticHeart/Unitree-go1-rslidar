@@ -1,0 +1,18 @@
+[0.045s] Invoking command in '/home/ph/ros2_firstw/build/nnnode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/nnnode -- -j8 -l8
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target simple_node[0m
+[0.255s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o[0m
+[3.853s] [01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.853s] [01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:40:13:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((std::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>*)(& node))->std::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::operator*()[m[K’ from ‘[01m[Kstd::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[KSimpleNode[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’
+[3.853s]    40 |   node_info([01;31m[K*node[m[K);
+[3.853s]       |             [01;31m[K^~~~~[m[K
+[3.853s]       |             [01;31m[K|[m[K
+[3.853s]       |             [01;31m[Kstd::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::element_type {aka SimpleNode}[m[K
+[3.853s] [01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:41:13:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((std::__shared_ptr_access<LifecycleTalker, __gnu_cxx::_S_atomic, false, false>*)(& lc_node))->std::__shared_ptr_access<LifecycleTalker, __gnu_cxx::_S_atomic, false, false>::operator*()[m[K’ from ‘[01m[Kstd::__shared_ptr_access<LifecycleTalker, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[KLifecycleTalker[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’
+[3.854s]    41 |   node_info([01;31m[K*lc_node[m[K);
+[3.854s]       |             [01;31m[K^~~~~~~~[m[K
+[3.854s]       |             [01;31m[K|[m[K
+[3.854s]       |             [01;31m[Kstd::__shared_ptr_access<LifecycleTalker, __gnu_cxx::_S_atomic, false, false>::element_type {aka LifecycleTalker}[m[K
+[4.418s] gmake[2]: *** [CMakeFiles/simple_node.dir/build.make:76: CMakeFiles/simple_node.dir/src/nnnode.cpp.o] Error 1
+[4.419s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_node.dir/all] Error 2
+[4.419s] gmake: *** [Makefile:146: all] Error 2
+[4.423s] Invoked command in '/home/ph/ros2_firstw/build/nnnode' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/nnnode -- -j8 -l8

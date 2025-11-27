@@ -1,0 +1,1 @@
+Invoking command in '/home/ph/ros2_firstw/src/build/firstpkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/firstpkg -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/src/install/firstpkg

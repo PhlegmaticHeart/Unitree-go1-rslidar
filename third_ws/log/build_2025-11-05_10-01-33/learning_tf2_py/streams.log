@@ -1,0 +1,26 @@
+[1.567s] Invoking command in '/home/ph/third_ws/src/learning_tf2_py': PYTHONPATH=/home/ph/third_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ph/third_ws/build/learning_tf2_py/build install --record /home/ph/third_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[2.034s] running egg_info
+[2.035s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[2.036s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[2.036s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[2.037s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[2.041s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[2.042s] adding license file 'LICENSE'
+[2.043s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[2.044s] running build
+[2.044s] running build_py
+[2.045s] running install
+[2.046s] running install_lib
+[2.049s] running install_data
+[2.050s] copying launch/turtle_tf2_fixed_frame_demo_launch.py -> /home/ph/third_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[2.050s] running install_egg_info
+[2.054s] removing '/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.054s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[2.056s] running install_scripts
+[2.093s] Installing fixed_frame_tf2_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[2.094s] Installing static_turtle_tf2_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[2.094s] Installing turtle_tf2_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[2.094s] Installing turtle_tf2_listener script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[2.095s] writing list of installed files to '/home/ph/third_ws/build/learning_tf2_py/install.log'
+[2.161s] Invoked command in '/home/ph/third_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/ph/third_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ph/third_ws/build/learning_tf2_py/build install --record /home/ph/third_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data

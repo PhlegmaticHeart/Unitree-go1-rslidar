@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o[0m
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_lifecycle/lifecycle_node.hpp: No such file or directory
+    3 | #include [01;31m[K"rclcpp_lifecycle/lifecycle_node.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_node.dir/build.make:76: CMakeFiles/simple_node.dir/src/nnnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

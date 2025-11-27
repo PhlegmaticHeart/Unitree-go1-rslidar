@@ -1,0 +1,55 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o[0m
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:19:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle[m[K’ has not been declared
+   19 | ifecycleTalker : public [01;31m[Krclcpp_lifecycle[m[K::LifecycleNode
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:19:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KLifecycleNode[m[K’
+   19 | ublic rclcpp_lifecycle::[01;31m[KLifecycleNode[m[K
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:21:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   21 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:21:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:20:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   20 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:26:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   26 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:37:20:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kusing element_type = class LifecycleTalker[m[K’ {aka ‘[01m[Kclass LifecycleTalker[m[K’}
+   37 |   node_info(lc_node[01;31m[K->[m[Kget_node_base_interface(),lc_node->get_node_logging_interface());
+      |                    [01;31m[K^~[m[K
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:19:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kusing element_type = class LifecycleTalker[m[K’ {aka ‘[01m[Kclass LifecycleTalker[m[K’}
+   19 | class [01;36m[KLifecycleTalker[m[K : public rclcpp_lifecycle::LifecycleNode
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:37:55:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kusing element_type = class LifecycleTalker[m[K’ {aka ‘[01m[Kclass LifecycleTalker[m[K’}
+   37 | base_interface(),lc_node[01;31m[K->[m[Kget_node_logging_interface());
+      |                         [01;31m[K^~[m[K
+
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:19:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kusing element_type = class LifecycleTalker[m[K’ {aka ‘[01m[Kclass LifecycleTalker[m[K’}
+   19 | class [01;36m[KLifecycleTalker[m[K : public rclcpp_lifecycle::LifecycleNode
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:60[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:1[m[K:
+/usr/include/c++/11/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<LifecycleTalker>[m[K’:
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<LifecycleTalker, std::allocator<LifecycleTalker>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<LifecycleTalker, std::allocator<LifecycleTalker>, __gnu_cxx::_S_atomic>[m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = LifecycleTalker; _Alloc = std::allocator<LifecycleTalker>; _Args = {const char (&)[22]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LifecycleTalker>; _Args = {const char (&)[22]}; _Tp = LifecycleTalker; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LifecycleTalker>; _Args = {const char (&)[22]}; _Tp = LifecycleTalker][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = LifecycleTalker; _Alloc = std::allocator<LifecycleTalker>; _Args = {const char (&)[22]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = LifecycleTalker; _Args = {const char (&)[22]}][m[K’
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:35:51:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KLifecycleTalker[m[K’
+   91 |  : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KLifecycleTalker[m[K’
+gmake[2]: *** [CMakeFiles/simple_node.dir/build.make:76: CMakeFiles/simple_node.dir/src/nnnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

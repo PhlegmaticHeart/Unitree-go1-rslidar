@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- Definizione degli argomenti -->
+  <arg name="turtlesim_ns" default="turtlesim1" />
+  <arg name="use_provided_red" default="False" />
+  <arg name="new_background_r" default="200" />
+
+  <!-- Nodo turtlesim -->
+  <node pkg="turtlesim" namespace="$(arg turtlesim_ns)" exec="turtlesim_node" name="sim" />
+
+  <!-- Call del servizio spawn -->
+  <node pkg="ros2" exec="service" args="call $(arg turtlesim_ns)/spawn turtlesim/srv/Spawn '{x: 5, y: 2, theta: 0.2}'" />
+
+  <!-- Set del parametro background_r -->
+  <node pkg="ros2" exec="param" args="set $(arg turtlesim_ns)/sim background_r 120" />
+
+  <!-- Timer per cambiare background_r -->
+  <timer period="2.0">
+    <node pkg="ros2" exec="param" 
+      args="set $(arg turtlesim_ns)/sim background_r $(arg new_background_r)"
+      if="$(eval '$(arg new_background_r)' == '200' and '$(arg use_provided_red)' == 'True')" />
+  </timer>
+</launch>

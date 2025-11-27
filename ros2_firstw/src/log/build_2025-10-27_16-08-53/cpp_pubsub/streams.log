@@ -1,0 +1,40 @@
+[0.017s] Invoking command in '/home/ph/ros2_firstw/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/src/install/cpp_pubsub
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.207s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.261s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.265s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.272s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.340s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.471s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.612s] -- Configuring done
+[0.616s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.616s]   Cannot find source file:
+[0.617s] 
+[0.617s]     src/publisher_member_function.cpp
+[0.617s] 
+[0.617s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.617s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.617s] 
+[0.618s] [0m
+[0.618s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[0.618s]   Cannot find source file:
+[0.618s] 
+[0.619s]     src/subscriber_member_function.cpp
+[0.619s] 
+[0.619s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.619s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.619s] 
+[0.619s] [0m
+[0.619s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.620s]   No SOURCES given to target: talker
+[0.620s] 
+[0.620s] [0m
+[0.620s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[0.620s]   No SOURCES given to target: listener
+[0.620s] 
+[0.621s] [0m
+[0.621s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.627s] Invoked command in '/home/ph/ros2_firstw/src/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/src/install/cpp_pubsub

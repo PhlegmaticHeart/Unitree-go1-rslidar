@@ -1,0 +1,12 @@
+[0.019s] Invoking command in '/home/ph/ros2_firstw/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.101s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.104s] [ 75%] Built target server
+[0.407s] [01m[K/home/ph/ros2_firstw/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/srv/add_two_ints.hpp: No such file or directory
+[0.407s]     2 | #include [01;31m[K"tutorial_interfaces/srv/add_two_ints.hpp"[m[K
+[0.408s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.408s] compilation terminated.
+[0.413s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[0.413s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[0.414s] gmake: *** [Makefile:146: all] Error 2
+[0.419s] Invoked command in '/home/ph/ros2_firstw/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8

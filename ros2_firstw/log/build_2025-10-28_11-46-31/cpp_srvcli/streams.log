@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/ph/ros2_firstw/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8
+[0.100s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.105s] [ 75%] Built target server
+[4.097s] [100%] [32m[1mLinking CXX executable client[0m
+[4.324s] [100%] Built target client
+[4.342s] Invoked command in '/home/ph/ros2_firstw/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8
+[4.346s] Invoking command in '/home/ph/ros2_firstw/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/cpp_srvcli
+[4.355s] -- Install configuration: ""
+[4.356s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/lib/cpp_srvcli/server
+[4.356s] -- Set runtime path of "/home/ph/ros2_firstw/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[4.357s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/lib/cpp_srvcli/client
+[4.358s] -- Set runtime path of "/home/ph/ros2_firstw/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[4.358s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[4.358s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[4.359s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[4.359s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[4.359s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[4.359s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[4.360s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[4.360s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[4.360s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[4.360s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[4.360s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[4.361s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[4.361s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[4.361s] -- Up-to-date: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[4.361s] -- Installing: /home/ph/ros2_firstw/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[4.364s] Invoked command in '/home/ph/ros2_firstw/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/cpp_srvcli

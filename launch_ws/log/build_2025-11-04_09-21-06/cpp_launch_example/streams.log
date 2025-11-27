@@ -1,0 +1,22 @@
+[0.054s] Invoking command in '/home/ph/launch_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/cpp_launch_example -- -j8 -l8
+[1.102s] Invoked command in '/home/ph/launch_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/launch_ws/build/cpp_launch_example -- -j8 -l8
+[1.130s] Invoking command in '/home/ph/launch_ws/build/cpp_launch_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/cpp_launch_example
+[1.155s] -- Install configuration: ""
+[1.157s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example//launch
+[1.158s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example//launch/my_script_launch.xml
+[1.158s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/package_run_dependencies/cpp_launch_example
+[1.159s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/parent_prefix_path/cpp_launch_example
+[1.159s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.sh
+[1.159s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.dsv
+[1.159s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.sh
+[1.159s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.dsv
+[1.160s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.bash
+[1.160s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.sh
+[1.160s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.zsh
+[1.160s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.dsv
+[1.160s] -- Installing: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.dsv
+[1.161s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/packages/cpp_launch_example
+[1.161s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig.cmake
+[1.161s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig-version.cmake
+[1.162s] -- Up-to-date: /home/ph/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.xml
+[1.166s] Invoked command in '/home/ph/launch_ws/build/cpp_launch_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/launch_ws/build/cpp_launch_example

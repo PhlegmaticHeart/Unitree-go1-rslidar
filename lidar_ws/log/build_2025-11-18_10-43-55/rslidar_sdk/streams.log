@@ -1,0 +1,30 @@
+[0.023s] Invoking command in '/home/ph/ws/lidar_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/rslidar_sdk -- -j8 -l8
+[0.129s] [100%] Built target rslidar_sdk_node
+[0.158s] Invoked command in '/home/ph/ws/lidar_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/rslidar_sdk -- -j8 -l8
+[0.162s] Invoking command in '/home/ph/ws/lidar_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ph/ws/lidar_ws/build/rslidar_sdk
+[0.177s] -- Install configuration: "Release"
+[0.177s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[0.178s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[0.178s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[0.178s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[0.178s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[0.179s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[0.179s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[0.182s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[0.182s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[0.182s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[0.183s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[0.183s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[0.183s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[0.183s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[0.183s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[0.183s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[0.184s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[0.184s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[0.184s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[0.184s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[0.184s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[0.184s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[0.184s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[0.185s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[0.193s] Invoked command in '/home/ph/ws/lidar_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ph/ws/lidar_ws/build/rslidar_sdk

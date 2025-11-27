@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rviz_plugin_tutorial_msgs__py",
+		"source" : "/home/ph/sixth_ws/build/rviz_plugin_tutorial_msgs/rviz_plugin_tutorial_msgs__py"
+	}
+}

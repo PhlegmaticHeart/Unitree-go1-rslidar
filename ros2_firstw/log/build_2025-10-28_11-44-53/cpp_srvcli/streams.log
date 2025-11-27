@@ -1,0 +1,30 @@
+[0.030s] Invoking command in '/home/ph/ros2_firstw/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8
+[0.065s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.252s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.302s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.304s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.311s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.373s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.375s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.564s] -- Found tutorial_interfaces: 0.0.0 (/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.682s] -- Configuring done
+[0.703s] -- Generating done
+[0.710s] -- Build files have been written to: /home/ph/ros2_firstw/build/cpp_srvcli
+[0.753s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.757s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.775s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.790s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.098s] [01m[K/home/ph/ros2_firstw/src/cpp_srvcli/src/add_two_ints_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[1.098s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[1.098s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.098s] compilation terminated.
+[1.103s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[1.104s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.104s] gmake[1]: *** Waiting for unfinished jobs....
+[4.490s] [ 75%] [32m[1mLinking CXX executable server[0m
+[4.711s] [ 75%] Built target server
+[4.713s] gmake: *** [Makefile:146: all] Error 2
+[4.717s] Invoked command in '/home/ph/ros2_firstw/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_srvcli -- -j8 -l8

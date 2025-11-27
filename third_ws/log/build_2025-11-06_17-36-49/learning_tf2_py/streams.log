@@ -1,0 +1,31 @@
+[1.065s] Invoking command in '/home/ph/third_ws/src/learning_tf2_py': PYTHONPATH=/home/ph/third_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ph/third_ws/build/learning_tf2_py/build install --record /home/ph/third_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[1.367s] running egg_info
+[1.368s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[1.369s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[1.369s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[1.369s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[1.369s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[1.372s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.373s] adding license file 'LICENSE'
+[1.374s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[1.374s] running build
+[1.374s] running build_py
+[1.375s] copying learning_tf2_py/turtle_tf2_message_broadcaster.py -> /home/ph/third_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[1.375s] running install
+[1.376s] running install_lib
+[1.377s] copying /home/ph/third_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_message_broadcaster.py -> /home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[1.378s] byte-compiling /home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/turtle_tf2_message_broadcaster.py to turtle_tf2_message_broadcaster.cpython-310.pyc
+[1.379s] running install_data
+[1.380s] copying launch/turtle_tf2_sensor_message_launch.py -> /home/ph/third_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[1.380s] running install_egg_info
+[1.382s] removing '/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.382s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[1.384s] running install_scripts
+[1.406s] Installing dynamic_frame_tf2_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.406s] Installing fixed_frame_tf2_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.407s] Installing static_turtle_tf2_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.407s] Installing turtle_tf2_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.407s] Installing turtle_tf2_listener script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.407s] Installing turtle_tf2_message_broadcaster script to /home/ph/third_ws/install/learning_tf2_py/lib/learning_tf2_py
+[1.408s] writing list of installed files to '/home/ph/third_ws/build/learning_tf2_py/install.log'
+[1.442s] Invoked command in '/home/ph/third_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/ph/third_ws/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/ph/third_ws/build/learning_tf2_py/build install --record /home/ph/third_ws/build/learning_tf2_py/install.log --single-version-externally-managed install_data

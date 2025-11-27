@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b8ba88ea9a6cd81e7bfe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_parameter_event_handler",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_parameter_event_handler_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_parameter_event_handler_uninstall-28a4a53145c22e481484.json",
+					"name" : "cpp_parameter_event_handler_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_event_handler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_event_handler-716fe3115ecf8266d59e.json",
+					"name" : "parameter_event_handler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7a6e88c79af1710e7d06.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ph/ros2_firstw/build/cpp_parameter_event_handler",
+		"source" : "/home/ph/ros2_firstw/src/cpp_parameter_event_handler"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

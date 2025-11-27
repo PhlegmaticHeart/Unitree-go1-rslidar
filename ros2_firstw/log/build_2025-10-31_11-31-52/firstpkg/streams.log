@@ -1,0 +1,22 @@
+[0.042s] Invoking command in '/home/ph/ros2_firstw/build/firstpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/firstpkg -- -j8 -l8
+[0.141s] [100%] Built target fnode
+[0.185s] Invoked command in '/home/ph/ros2_firstw/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/firstpkg -- -j8 -l8
+[0.274s] Invoking command in '/home/ph/ros2_firstw/build/firstpkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/firstpkg
+[0.312s] -- Install configuration: ""
+[0.312s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/lib/firstpkg/fnode
+[0.313s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/ament_index/resource_index/package_run_dependencies/firstpkg
+[0.313s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/ament_index/resource_index/parent_prefix_path/firstpkg
+[0.313s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/ament_prefix_path.sh
+[0.314s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/ament_prefix_path.dsv
+[0.315s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/path.sh
+[0.318s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/environment/path.dsv
+[0.319s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.bash
+[0.319s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.sh
+[0.319s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.zsh
+[0.319s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/local_setup.dsv
+[0.320s] -- Installing: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.dsv
+[0.333s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/ament_index/resource_index/packages/firstpkg
+[0.334s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/cmake/firstpkgConfig.cmake
+[0.349s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/cmake/firstpkgConfig-version.cmake
+[0.350s] -- Up-to-date: /home/ph/ros2_firstw/install/firstpkg/share/firstpkg/package.xml
+[0.351s] Invoked command in '/home/ph/ros2_firstw/build/firstpkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/firstpkg

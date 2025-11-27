@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/fnode.dir/src/fnode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable fnode[0m
+[100%] Built target fnode
+-- Install configuration: ""
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/lib/firstpkg/fnode
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/ament_index/resource_index/package_run_dependencies/firstpkg
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/ament_index/resource_index/parent_prefix_path/firstpkg
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.sh
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.dsv
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/path.sh
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/path.dsv
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.bash
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.sh
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.zsh
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.dsv
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/package.dsv
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/ament_index/resource_index/packages/firstpkg
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig.cmake
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig-version.cmake
+-- Installing: /home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/package.xml

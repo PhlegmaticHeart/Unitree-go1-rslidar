@@ -1,0 +1,16 @@
+/home/ph/ros2_firstw/src/install/firstpkg/lib/firstpkg/fnode
+/home/ph/ros2_firstw/src/install/firstpkg/share/ament_index/resource_index/package_run_dependencies/firstpkg
+/home/ph/ros2_firstw/src/install/firstpkg/share/ament_index/resource_index/parent_prefix_path/firstpkg
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.sh
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/ament_prefix_path.dsv
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/path.sh
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/environment/path.dsv
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.bash
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.sh
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.zsh
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/local_setup.dsv
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/package.dsv
+/home/ph/ros2_firstw/src/install/firstpkg/share/ament_index/resource_index/packages/firstpkg
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig.cmake
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/cmake/firstpkgConfig-version.cmake
+/home/ph/ros2_firstw/src/install/firstpkg/share/firstpkg/package.xml

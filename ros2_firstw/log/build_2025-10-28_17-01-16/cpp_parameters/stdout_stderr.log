@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target minimal_param_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:19:10:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalParam::MinimalParam[m[K’ has the same name as the class in which it is declared
+   19 |   }class [01;31m[KMinimalParam[m[K : public rclcpp::Node
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:55:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   55 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:10:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   10 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:[m[K In constructor ‘[01m[KMinimalParam::MinimalParam()[m[K’:
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   17 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:18:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalParam[m[K’
+   18 | (&MinimalParam::[01;31m[Ktimer_callback[m[K, this));
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:[m[K At global scope:
+[01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:55:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   55 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/minimal_param_node.dir/build.make:76: CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_param_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

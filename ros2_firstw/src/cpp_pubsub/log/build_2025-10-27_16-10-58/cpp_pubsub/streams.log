@@ -1,0 +1,60 @@
+[0.014s] Invoking command in '/home/ph/ros2_firstw/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/src/cpp_pubsub/install/cpp_pubsub
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.206s] -- The CXX compiler identification is GNU 11.4.0
+[0.222s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.362s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.366s] -- Detecting CXX compiler ABI info
+[0.484s] -- Detecting CXX compiler ABI info - done
+[0.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.495s] -- Detecting CXX compile features
+[0.496s] -- Detecting CXX compile features - done
+[0.499s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.684s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.832s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.879s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.885s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.894s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.978s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.980s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.147s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.183s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.247s] -- Looking for pthread.h
+[1.380s] -- Looking for pthread.h - found
+[1.381s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.507s] -- Found Threads: TRUE  
+[1.651s] -- Configuring done
+[1.656s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[1.656s]   Cannot find source file:
+[1.656s] 
+[1.656s]     src/publisher_member_function.cpp
+[1.656s] 
+[1.656s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.656s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.656s] 
+[1.656s] [0m
+[1.656s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[1.657s]   Cannot find source file:
+[1.657s] 
+[1.657s]     src/subscriber_member_function.cpp
+[1.657s] 
+[1.657s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.657s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.657s] 
+[1.657s] [0m
+[1.657s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[1.658s]   No SOURCES given to target: talker
+[1.658s] 
+[1.658s] [0m
+[1.658s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[1.658s]   No SOURCES given to target: listener
+[1.658s] 
+[1.658s] [0m
+[1.658s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.668s] Invoked command in '/home/ph/ros2_firstw/src/cpp_pubsub/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/src/cpp_pubsub/install/cpp_pubsub

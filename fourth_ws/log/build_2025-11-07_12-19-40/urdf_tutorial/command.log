@@ -1,0 +1,6 @@
+Invoking command in '/home/ph/fourth_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/fourth_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_tutorial
+Invoked command in '/home/ph/fourth_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/fourth_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_tutorial
+Invoking command in '/home/ph/fourth_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_tutorial -- -j8 -l8
+Invoked command in '/home/ph/fourth_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_tutorial -- -j8 -l8
+Invoking command in '/home/ph/fourth_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/fourth_ws/build/urdf_tutorial
+Invoked command in '/home/ph/fourth_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/fourth_ws/build/urdf_tutorial

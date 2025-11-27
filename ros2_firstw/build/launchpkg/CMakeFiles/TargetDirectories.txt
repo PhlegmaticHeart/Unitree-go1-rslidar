@@ -1,0 +1,9 @@
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/uninstall.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/launchpkg_uninstall.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/test.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/edit_cache.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/rebuild_cache.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/list_install_components.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/install.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/install/local.dir
+/home/ph/ros2_firstw/build/launchpkg/CMakeFiles/install/strip.dir

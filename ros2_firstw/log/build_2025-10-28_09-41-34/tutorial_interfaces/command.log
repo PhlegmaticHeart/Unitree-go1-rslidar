@@ -1,0 +1,2 @@
+Invoking command in '/home/ph/ros2_firstw/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/tutorial_interfaces
+Invoked command in '/home/ph/ros2_firstw/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/tutorial_interfaces

@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ph/launch_ws/build/launch_tutorial
+-- Install configuration: ""
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial//launch
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial//launch/example_substitutions_launch.xml
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial//launch/example_main_launch.xml
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/ament_index/resource_index/package_run_dependencies/launch_tutorial
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/ament_index/resource_index/parent_prefix_path/launch_tutorial
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.sh
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/ament_prefix_path.dsv
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/path.sh
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/environment/path.dsv
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.bash
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.sh
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.zsh
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/local_setup.dsv
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.dsv
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/ament_index/resource_index/packages/launch_tutorial
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig.cmake
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/cmake/launch_tutorialConfig-version.cmake
+-- Installing: /home/ph/launch_ws/install/launch_tutorial/share/launch_tutorial/package.xml

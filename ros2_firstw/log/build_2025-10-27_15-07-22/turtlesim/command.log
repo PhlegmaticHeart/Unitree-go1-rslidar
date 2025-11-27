@@ -1,0 +1,3 @@
+Invoking command in '/home/ph/ros2_firstw/build/turtlesim': /usr/bin/cmake --build /home/ph/ros2_firstw/build/turtlesim -- -j8 -l8
+Invoked command in '/home/ph/ros2_firstw/build/turtlesim' returned '0': /usr/bin/cmake --build /home/ph/ros2_firstw/build/turtlesim -- -j8 -l8
+Invoking command in '/home/ph/ros2_firstw/build/turtlesim': /usr/bin/cmake --install /home/ph/ros2_firstw/build/turtlesim

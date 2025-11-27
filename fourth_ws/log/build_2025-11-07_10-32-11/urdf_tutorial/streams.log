@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/ph/fourth_ws/build/urdf_tutorial': /usr/bin/cmake /home/ph/fourth_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_tutorial
+[0.272s] -- The C compiler identification is GNU 11.4.0
+[0.482s] -- The CXX compiler identification is GNU 11.4.0
+[0.508s] -- Detecting C compiler ABI info
+[0.648s] -- Detecting C compiler ABI info - done
+[0.657s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.657s] -- Detecting C compile features
+[0.658s] -- Detecting C compile features - done
+[0.663s] -- Detecting CXX compiler ABI info
+[0.797s] -- Detecting CXX compiler ABI info - done
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.808s] -- Detecting CXX compile features - done
+[0.825s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.825s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.826s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.826s]   CMake did not find one.
+[0.826s] 
+[0.826s]   Could not find a package configuration file provided by "catkin" with any
+[0.826s]   of the following names:
+[0.827s] 
+[0.827s]     catkinConfig.cmake
+[0.827s]     catkin-config.cmake
+[0.827s] 
+[0.827s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.827s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.828s]   provides a separate development package or SDK, be sure it has been
+[0.828s]   installed.
+[0.828s] 
+[0.828s] [0m
+[0.829s] -- Configuring incomplete, errors occurred!
+[0.829s] See also "/home/ph/fourth_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[0.830s] Invoked command in '/home/ph/fourth_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/ph/fourth_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_tutorial

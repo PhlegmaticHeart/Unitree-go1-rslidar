@@ -1,0 +1,503 @@
+[0.000000] (-) TimerEvent: {}
+[0.000455] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000540] (-) JobUnselected: {'identifier': 'livox_sdk2'}
+[0.000608] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.000793] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
+[0.000891] (kiss_icp) JobQueued: {'identifier': 'kiss_icp', 'dependencies': OrderedDict()}
+[0.000946] (kiss_icp) JobStarted: {'identifier': 'kiss_icp'}
+[0.011390] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'cmake'}
+[0.012140] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '/home/ph/ws/lidar_ws/src/kiss-icp/ros', '-DCMAKE_INSTALL_PREFIX=/home/ph/ws/lidar_ws/install/kiss_icp'], 'cwd': '/home/ph/ws/lidar_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ph/.local/bin:/home/ph/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a38ea473_4107_43c6_8966_e0291b3102c5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.47'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/ph/ws/lidar_ws/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.1826'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099062] (-) TimerEvent: {}
+[0.124376] (kiss_icp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.140228] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199174] (-) TimerEvent: {}
+[0.247529] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.296076] (kiss_icp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.296409] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.297044] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299263] (-) TimerEvent: {}
+[0.312770] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/ph/ws/lidar_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):\n'}
+[0.313090] (kiss_icp) StderrLine: {'line': b'  The OLD behavior for policy CMP0135 will be removed from a future version\n'}
+[0.313254] (kiss_icp) StderrLine: {'line': b'  of CMake.\n'}
+[0.313409] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.313579] (kiss_icp) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.313788] (kiss_icp) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.313966] (kiss_icp) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.314136] (kiss_icp) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.314303] (kiss_icp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.314467] (kiss_icp) StderrLine: {'line': b'  /home/ph/ws/lidar_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)\n'}
+[0.314648] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.314841] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[0.399391] (-) TimerEvent: {}
+[0.499732] (-) TimerEvent: {}
+[0.511969] (kiss_icp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599880] (-) TimerEvent: {}
+[0.698676] (kiss_icp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.699956] (-) TimerEvent: {}
+[0.800315] (-) TimerEvent: {}
+[0.856333] (kiss_icp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.900439] (-) TimerEvent: {}
+[0.916079] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.924549] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.938853] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.957996] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.983797] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000797] (-) TimerEvent: {}
+[1.048712] (kiss_icp) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.079222] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.100953] (-) TimerEvent: {}
+[1.143917] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.148375] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201088] (-) TimerEvent: {}
+[1.301520] (-) TimerEvent: {}
+[1.331631] (kiss_icp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.379478] (kiss_icp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.401623] (-) TimerEvent: {}
+[1.445354] (kiss_icp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.460170] (kiss_icp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.501722] (-) TimerEvent: {}
+[1.522068] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.567876] (kiss_icp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.598794] (kiss_icp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.601795] (-) TimerEvent: {}
+[1.702097] (-) TimerEvent: {}
+[1.721655] (kiss_icp) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.802223] (-) TimerEvent: {}
+[1.826659] (kiss_icp) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.864703] (kiss_icp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.871600] (kiss_icp) StdoutLine: {'line': b'-- Build files have been written to: /home/ph/ws/lidar_ws/build/kiss_icp\n'}
+[1.884462] (kiss_icp) CommandEnded: {'returncode': 0}
+[1.885270] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'build'}
+[1.886040] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ph/ws/lidar_ws/build/kiss_icp', '--', '-j8', '-l8'], 'cwd': '/home/ph/ws/lidar_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ph/.local/bin:/home/ph/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a38ea473_4107_43c6_8966_e0291b3102c5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.47'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/ph/ws/lidar_ws/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.1826'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.902356] (-) TimerEvent: {}
+[1.947982] (kiss_icp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o\x1b[0m\n'}
+[1.948256] (kiss_icp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o\x1b[0m\n'}
+[1.949163] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o\x1b[0m\n'}
+[1.949470] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o\x1b[0m\n'}
+[1.949662] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o\x1b[0m\n'}
+[1.949997] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o\x1b[0m\n'}
+[1.950147] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o\x1b[0m\n'}
+[2.004705] (-) TimerEvent: {}
+[2.105141] (-) TimerEvent: {}
+[2.205526] (-) TimerEvent: {}
+[2.306013] (-) TimerEvent: {}
+[2.406444] (-) TimerEvent: {}
+[2.507757] (-) TimerEvent: {}
+[2.608231] (-) TimerEvent: {}
+[2.708752] (-) TimerEvent: {}
+[2.809171] (-) TimerEvent: {}
+[2.909889] (-) TimerEvent: {}
+[3.010326] (-) TimerEvent: {}
+[3.110779] (-) TimerEvent: {}
+[3.211190] (-) TimerEvent: {}
+[3.311649] (-) TimerEvent: {}
+[3.412073] (-) TimerEvent: {}
+[3.512492] (-) TimerEvent: {}
+[3.612929] (-) TimerEvent: {}
+[3.713394] (-) TimerEvent: {}
+[3.813888] (-) TimerEvent: {}
+[3.914340] (-) TimerEvent: {}
+[4.014751] (-) TimerEvent: {}
+[4.115182] (-) TimerEvent: {}
+[4.215607] (-) TimerEvent: {}
+[4.316063] (-) TimerEvent: {}
+[4.417497] (-) TimerEvent: {}
+[4.517949] (-) TimerEvent: {}
+[4.618384] (-) TimerEvent: {}
+[4.718835] (-) TimerEvent: {}
+[4.819284] (-) TimerEvent: {}
+[4.919715] (-) TimerEvent: {}
+[5.020136] (-) TimerEvent: {}
+[5.123935] (-) TimerEvent: {}
+[5.224371] (-) TimerEvent: {}
+[5.324854] (-) TimerEvent: {}
+[5.425323] (-) TimerEvent: {}
+[5.525789] (-) TimerEvent: {}
+[5.626210] (-) TimerEvent: {}
+[5.726661] (-) TimerEvent: {}
+[5.827050] (-) TimerEvent: {}
+[5.927476] (-) TimerEvent: {}
+[6.027961] (-) TimerEvent: {}
+[6.128405] (-) TimerEvent: {}
+[6.228823] (-) TimerEvent: {}
+[6.329242] (-) TimerEvent: {}
+[6.429703] (-) TimerEvent: {}
+[6.530106] (-) TimerEvent: {}
+[6.630566] (-) TimerEvent: {}
+[6.731006] (-) TimerEvent: {}
+[6.831416] (-) TimerEvent: {}
+[6.931862] (-) TimerEvent: {}
+[7.032310] (-) TimerEvent: {}
+[7.132705] (-) TimerEvent: {}
+[7.233127] (-) TimerEvent: {}
+[7.332490] (kiss_icp) StdoutLine: {'line': b'[ 57%] \x1b[1m\x1b[32mLinking CXX executable kiss_icp_node\x1b[0m\n'}
+[7.333249] (-) TimerEvent: {}
+[7.433665] (-) TimerEvent: {}
+[7.518643] (kiss_icp) StdoutLine: {'line': b'[ 57%] Built target kiss_icp_node\n'}
+[7.533794] (-) TimerEvent: {}
+[7.634157] (-) TimerEvent: {}
+[7.734822] (-) TimerEvent: {}
+[7.835196] (-) TimerEvent: {}
+[7.935548] (-) TimerEvent: {}
+[8.035937] (-) TimerEvent: {}
+[8.136326] (-) TimerEvent: {}
+[8.236691] (-) TimerEvent: {}
+[8.337070] (-) TimerEvent: {}
+[8.437502] (-) TimerEvent: {}
+[8.537889] (-) TimerEvent: {}
+[8.638271] (-) TimerEvent: {}
+[8.738666] (-) TimerEvent: {}
+[8.839040] (-) TimerEvent: {}
+[8.939438] (-) TimerEvent: {}
+[9.039901] (-) TimerEvent: {}
+[9.140277] (-) TimerEvent: {}
+[9.240648] (-) TimerEvent: {}
+[9.341035] (-) TimerEvent: {}
+[9.441506] (-) TimerEvent: {}
+[9.541914] (-) TimerEvent: {}
+[9.642271] (-) TimerEvent: {}
+[9.742670] (-) TimerEvent: {}
+[9.843080] (-) TimerEvent: {}
+[9.943647] (-) TimerEvent: {}
+[10.044022] (-) TimerEvent: {}
+[10.144404] (-) TimerEvent: {}
+[10.244790] (-) TimerEvent: {}
+[10.345188] (-) TimerEvent: {}
+[10.445781] (-) TimerEvent: {}
+[10.546163] (-) TimerEvent: {}
+[10.646689] (-) TimerEvent: {}
+[10.747052] (-) TimerEvent: {}
+[10.847599] (-) TimerEvent: {}
+[10.948135] (-) TimerEvent: {}
+[11.048465] (-) TimerEvent: {}
+[11.148855] (-) TimerEvent: {}
+[11.249244] (-) TimerEvent: {}
+[11.349644] (-) TimerEvent: {}
+[11.450106] (-) TimerEvent: {}
+[11.550480] (-) TimerEvent: {}
+[11.650858] (-) TimerEvent: {}
+[11.751253] (-) TimerEvent: {}
+[11.851645] (-) TimerEvent: {}
+[11.952026] (-) TimerEvent: {}
+[12.052403] (-) TimerEvent: {}
+[12.152800] (-) TimerEvent: {}
+[12.253231] (-) TimerEvent: {}
+[12.353666] (-) TimerEvent: {}
+[12.454080] (-) TimerEvent: {}
+[12.554485] (-) TimerEvent: {}
+[12.654902] (-) TimerEvent: {}
+[12.733023] (kiss_icp) StdoutLine: {'line': b'[ 64%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_core.a\x1b[0m\n'}
+[12.755037] (-) TimerEvent: {}
+[12.837175] (kiss_icp) StdoutLine: {'line': b'[ 64%] Built target kiss_icp_core\n'}
+[12.855158] (-) TimerEvent: {}
+[12.864562] (kiss_icp) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o\x1b[0m\n'}
+[12.955280] (-) TimerEvent: {}
+[13.055647] (-) TimerEvent: {}
+[13.156051] (-) TimerEvent: {}
+[13.256443] (-) TimerEvent: {}
+[13.356857] (-) TimerEvent: {}
+[13.457252] (-) TimerEvent: {}
+[13.557582] (-) TimerEvent: {}
+[13.657917] (-) TimerEvent: {}
+[13.758303] (-) TimerEvent: {}
+[13.858693] (-) TimerEvent: {}
+[13.959065] (-) TimerEvent: {}
+[14.059439] (-) TimerEvent: {}
+[14.159831] (-) TimerEvent: {}
+[14.260183] (-) TimerEvent: {}
+[14.360538] (-) TimerEvent: {}
+[14.460944] (-) TimerEvent: {}
+[14.561323] (-) TimerEvent: {}
+[14.661719] (-) TimerEvent: {}
+[14.762154] (-) TimerEvent: {}
+[14.862601] (-) TimerEvent: {}
+[14.963046] (-) TimerEvent: {}
+[15.063474] (-) TimerEvent: {}
+[15.163916] (-) TimerEvent: {}
+[15.264348] (-) TimerEvent: {}
+[15.364816] (-) TimerEvent: {}
+[15.465271] (-) TimerEvent: {}
+[15.565730] (-) TimerEvent: {}
+[15.666210] (-) TimerEvent: {}
+[15.761630] (kiss_icp) StdoutLine: {'line': b'[ 78%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_pipeline.a\x1b[0m\n'}
+[15.766319] (-) TimerEvent: {}
+[15.845493] (kiss_icp) StdoutLine: {'line': b'[ 78%] Built target kiss_icp_pipeline\n'}
+[15.866434] (-) TimerEvent: {}
+[15.873488] (kiss_icp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o\x1b[0m\n'}
+[15.966547] (-) TimerEvent: {}
+[16.066953] (-) TimerEvent: {}
+[16.167340] (-) TimerEvent: {}
+[16.267725] (-) TimerEvent: {}
+[16.368125] (-) TimerEvent: {}
+[16.468762] (-) TimerEvent: {}
+[16.569211] (-) TimerEvent: {}
+[16.669685] (-) TimerEvent: {}
+[16.770114] (-) TimerEvent: {}
+[16.870506] (-) TimerEvent: {}
+[16.971188] (-) TimerEvent: {}
+[17.071675] (-) TimerEvent: {}
+[17.172342] (-) TimerEvent: {}
+[17.273025] (-) TimerEvent: {}
+[17.373709] (-) TimerEvent: {}
+[17.474361] (-) TimerEvent: {}
+[17.574849] (-) TimerEvent: {}
+[17.675542] (-) TimerEvent: {}
+[17.776238] (-) TimerEvent: {}
+[17.876689] (-) TimerEvent: {}
+[17.977352] (-) TimerEvent: {}
+[18.078040] (-) TimerEvent: {}
+[18.178495] (-) TimerEvent: {}
+[18.278980] (-) TimerEvent: {}
+[18.379400] (-) TimerEvent: {}
+[18.479856] (-) TimerEvent: {}
+[18.580259] (-) TimerEvent: {}
+[18.680704] (-) TimerEvent: {}
+[18.781117] (-) TimerEvent: {}
+[18.881734] (-) TimerEvent: {}
+[18.982187] (-) TimerEvent: {}
+[19.082662] (-) TimerEvent: {}
+[19.114288] (kiss_icp) StdoutLine: {'line': b'[ 92%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_metrics.a\x1b[0m\n'}
+[19.182782] (-) TimerEvent: {}
+[19.197663] (kiss_icp) StdoutLine: {'line': b'[ 92%] Built target kiss_icp_metrics\n'}
+[19.282868] (-) TimerEvent: {}
+[19.383173] (-) TimerEvent: {}
+[19.483550] (-) TimerEvent: {}
+[19.583994] (-) TimerEvent: {}
+[19.684428] (-) TimerEvent: {}
+[19.784891] (-) TimerEvent: {}
+[19.885335] (-) TimerEvent: {}
+[19.985864] (-) TimerEvent: {}
+[20.086299] (-) TimerEvent: {}
+[20.186734] (-) TimerEvent: {}
+[20.287176] (-) TimerEvent: {}
+[20.387648] (-) TimerEvent: {}
+[20.488107] (-) TimerEvent: {}
+[20.588532] (-) TimerEvent: {}
+[20.688985] (-) TimerEvent: {}
+[20.789416] (-) TimerEvent: {}
+[20.889868] (-) TimerEvent: {}
+[20.990316] (-) TimerEvent: {}
+[21.090739] (-) TimerEvent: {}
+[21.191197] (-) TimerEvent: {}
+[21.291678] (-) TimerEvent: {}
+[21.392302] (-) TimerEvent: {}
+[21.492960] (-) TimerEvent: {}
+[21.593577] (-) TimerEvent: {}
+[21.694047] (-) TimerEvent: {}
+[21.794485] (-) TimerEvent: {}
+[21.894923] (-) TimerEvent: {}
+[21.995355] (-) TimerEvent: {}
+[22.095823] (-) TimerEvent: {}
+[22.196272] (-) TimerEvent: {}
+[22.296722] (-) TimerEvent: {}
+[22.397172] (-) TimerEvent: {}
+[22.497643] (-) TimerEvent: {}
+[22.598096] (-) TimerEvent: {}
+[22.698528] (-) TimerEvent: {}
+[22.799004] (-) TimerEvent: {}
+[22.899457] (-) TimerEvent: {}
+[23.000126] (-) TimerEvent: {}
+[23.100731] (-) TimerEvent: {}
+[23.201151] (-) TimerEvent: {}
+[23.301571] (-) TimerEvent: {}
+[23.402015] (-) TimerEvent: {}
+[23.502450] (-) TimerEvent: {}
+[23.602908] (-) TimerEvent: {}
+[23.703342] (-) TimerEvent: {}
+[23.803800] (-) TimerEvent: {}
+[23.904235] (-) TimerEvent: {}
+[24.004692] (-) TimerEvent: {}
+[24.105118] (-) TimerEvent: {}
+[24.205555] (-) TimerEvent: {}
+[24.306008] (-) TimerEvent: {}
+[24.406441] (-) TimerEvent: {}
+[24.507119] (-) TimerEvent: {}
+[24.607607] (-) TimerEvent: {}
+[24.708038] (-) TimerEvent: {}
+[24.808471] (-) TimerEvent: {}
+[24.908948] (-) TimerEvent: {}
+[25.009386] (-) TimerEvent: {}
+[25.109824] (-) TimerEvent: {}
+[25.210253] (-) TimerEvent: {}
+[25.310709] (-) TimerEvent: {}
+[25.411129] (-) TimerEvent: {}
+[25.511555] (-) TimerEvent: {}
+[25.611993] (-) TimerEvent: {}
+[25.712435] (-) TimerEvent: {}
+[25.813065] (-) TimerEvent: {}
+[25.913574] (-) TimerEvent: {}
+[26.014124] (-) TimerEvent: {}
+[26.114541] (-) TimerEvent: {}
+[26.214987] (-) TimerEvent: {}
+[26.315380] (-) TimerEvent: {}
+[26.415790] (-) TimerEvent: {}
+[26.516137] (-) TimerEvent: {}
+[26.616473] (-) TimerEvent: {}
+[26.716869] (-) TimerEvent: {}
+[26.817282] (-) TimerEvent: {}
+[26.917667] (-) TimerEvent: {}
+[27.018060] (-) TimerEvent: {}
+[27.118518] (-) TimerEvent: {}
+[27.218991] (-) TimerEvent: {}
+[27.319423] (-) TimerEvent: {}
+[27.419894] (-) TimerEvent: {}
+[27.520353] (-) TimerEvent: {}
+[27.620838] (-) TimerEvent: {}
+[27.721337] (-) TimerEvent: {}
+[27.821777] (-) TimerEvent: {}
+[27.922202] (-) TimerEvent: {}
+[28.022716] (-) TimerEvent: {}
+[28.123142] (-) TimerEvent: {}
+[28.223561] (-) TimerEvent: {}
+[28.323993] (-) TimerEvent: {}
+[28.424411] (-) TimerEvent: {}
+[28.524874] (-) TimerEvent: {}
+[28.625271] (-) TimerEvent: {}
+[28.725639] (-) TimerEvent: {}
+[28.826028] (-) TimerEvent: {}
+[28.926356] (-) TimerEvent: {}
+[29.026732] (-) TimerEvent: {}
+[29.127169] (-) TimerEvent: {}
+[29.227522] (-) TimerEvent: {}
+[29.327890] (-) TimerEvent: {}
+[29.428269] (-) TimerEvent: {}
+[29.528716] (-) TimerEvent: {}
+[29.629135] (-) TimerEvent: {}
+[29.729516] (-) TimerEvent: {}
+[29.829902] (-) TimerEvent: {}
+[29.930293] (-) TimerEvent: {}
+[30.030681] (-) TimerEvent: {}
+[30.131172] (-) TimerEvent: {}
+[30.232006] (-) TimerEvent: {}
+[30.332363] (-) TimerEvent: {}
+[30.432696] (-) TimerEvent: {}
+[30.533061] (-) TimerEvent: {}
+[30.633429] (-) TimerEvent: {}
+[30.733808] (-) TimerEvent: {}
+[30.834215] (-) TimerEvent: {}
+[30.934641] (-) TimerEvent: {}
+[31.035041] (-) TimerEvent: {}
+[31.135442] (-) TimerEvent: {}
+[31.235876] (-) TimerEvent: {}
+[31.336306] (-) TimerEvent: {}
+[31.436758] (-) TimerEvent: {}
+[31.537209] (-) TimerEvent: {}
+[31.637679] (-) TimerEvent: {}
+[31.738137] (-) TimerEvent: {}
+[31.838579] (-) TimerEvent: {}
+[31.939054] (-) TimerEvent: {}
+[32.039710] (-) TimerEvent: {}
+[32.140140] (-) TimerEvent: {}
+[32.240580] (-) TimerEvent: {}
+[32.341039] (-) TimerEvent: {}
+[32.441465] (-) TimerEvent: {}
+[32.542195] (-) TimerEvent: {}
+[32.642661] (-) TimerEvent: {}
+[32.743108] (-) TimerEvent: {}
+[32.843542] (-) TimerEvent: {}
+[32.944012] (-) TimerEvent: {}
+[33.044468] (-) TimerEvent: {}
+[33.144932] (-) TimerEvent: {}
+[33.245450] (-) TimerEvent: {}
+[33.345933] (-) TimerEvent: {}
+[33.446405] (-) TimerEvent: {}
+[33.546896] (-) TimerEvent: {}
+[33.647366] (-) TimerEvent: {}
+[33.747870] (-) TimerEvent: {}
+[33.848523] (-) TimerEvent: {}
+[33.949203] (-) TimerEvent: {}
+[34.049865] (-) TimerEvent: {}
+[34.150529] (-) TimerEvent: {}
+[34.251011] (-) TimerEvent: {}
+[34.351465] (-) TimerEvent: {}
+[34.451935] (-) TimerEvent: {}
+[34.552397] (-) TimerEvent: {}
+[34.652884] (-) TimerEvent: {}
+[34.753344] (-) TimerEvent: {}
+[34.853826] (-) TimerEvent: {}
+[34.954277] (-) TimerEvent: {}
+[35.054740] (-) TimerEvent: {}
+[35.155243] (-) TimerEvent: {}
+[35.255689] (-) TimerEvent: {}
+[35.356115] (-) TimerEvent: {}
+[35.456546] (-) TimerEvent: {}
+[35.557026] (-) TimerEvent: {}
+[35.657499] (-) TimerEvent: {}
+[35.757983] (-) TimerEvent: {}
+[35.858431] (-) TimerEvent: {}
+[35.958915] (-) TimerEvent: {}
+[36.059373] (-) TimerEvent: {}
+[36.159866] (-) TimerEvent: {}
+[36.260323] (-) TimerEvent: {}
+[36.360788] (-) TimerEvent: {}
+[36.461459] (-) TimerEvent: {}
+[36.561934] (-) TimerEvent: {}
+[36.662388] (-) TimerEvent: {}
+[36.762873] (-) TimerEvent: {}
+[36.863313] (-) TimerEvent: {}
+[36.963958] (-) TimerEvent: {}
+[37.064635] (-) TimerEvent: {}
+[37.165093] (-) TimerEvent: {}
+[37.265525] (-) TimerEvent: {}
+[37.365947] (-) TimerEvent: {}
+[37.466419] (-) TimerEvent: {}
+[37.566904] (-) TimerEvent: {}
+[37.667341] (-) TimerEvent: {}
+[37.768005] (-) TimerEvent: {}
+[37.868676] (-) TimerEvent: {}
+[37.969333] (-) TimerEvent: {}
+[38.069810] (-) TimerEvent: {}
+[38.170282] (-) TimerEvent: {}
+[38.270805] (-) TimerEvent: {}
+[38.371212] (-) TimerEvent: {}
+[38.471639] (-) TimerEvent: {}
+[38.572064] (-) TimerEvent: {}
+[38.672476] (-) TimerEvent: {}
+[38.772917] (-) TimerEvent: {}
+[38.873332] (-) TimerEvent: {}
+[38.973766] (-) TimerEvent: {}
+[39.074213] (-) TimerEvent: {}
+[39.174648] (-) TimerEvent: {}
+[39.275089] (-) TimerEvent: {}
+[39.375501] (-) TimerEvent: {}
+[39.475943] (-) TimerEvent: {}
+[39.551297] (kiss_icp) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX shared library libodometry_component.so\x1b[0m\n'}
+[39.576051] (-) TimerEvent: {}
+[39.676365] (-) TimerEvent: {}
+[39.776782] (-) TimerEvent: {}
+[39.877282] (-) TimerEvent: {}
+[39.897336] (kiss_icp) StdoutLine: {'line': b'[100%] Built target odometry_component\n'}
+[39.914916] (kiss_icp) CommandEnded: {'returncode': 0}
+[39.916169] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'install'}
+[39.928483] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ph/ws/lidar_ws/build/kiss_icp'], 'cwd': '/home/ph/ws/lidar_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ph/.local/bin:/home/ph/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a38ea473_4107_43c6_8966_e0291b3102c5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.47'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/ph/ws/lidar_ws/build/kiss_icp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.1826'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[39.940422] (kiss_icp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[39.942097] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node\n'}
+[39.943433] (kiss_icp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/lidar_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node" to ""\n'}
+[39.943716] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/lib/libodometry_component.so\n'}
+[39.947788] (kiss_icp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/lidar_ws/install/kiss_icp/lib/libodometry_component.so" to ""\n'}
+[39.948099] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//launch\n'}
+[39.948374] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py\n'}
+[39.948824] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//rviz\n'}
+[39.949098] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz\n'}
+[39.949492] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//config\n'}
+[39.949810] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//config/config.yaml\n'}
+[39.950299] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp\n'}
+[39.950606] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp\n'}
+[39.950888] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh\n'}
+[39.951131] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv\n'}
+[39.951366] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/path.sh\n'}
+[39.951569] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv\n'}
+[39.951830] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.bash\n'}
+[39.952033] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.sh\n'}
+[39.952260] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh\n'}
+[39.952501] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv\n'}
+[39.952759] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/package.dsv\n'}
+[39.952978] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp\n'}
+[39.953192] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp\n'}
+[39.953383] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake\n'}
+[39.953574] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake\n'}
+[39.953800] (kiss_icp) StdoutLine: {'line': b'-- Installing: /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp/package.xml\n'}
+[39.955948] (kiss_icp) CommandEnded: {'returncode': 0}
+[39.978366] (-) TimerEvent: {}
+[40.008740] (kiss_icp) JobEnded: {'identifier': 'kiss_icp', 'rc': 0}
+[40.009524] (-) EventReactorShutdown: {}

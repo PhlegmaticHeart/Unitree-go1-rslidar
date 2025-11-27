@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.001051] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.001130] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.001182] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001228] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001277] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001422] (-) JobUnselected: {'identifier': 'firstpkg'}
+[0.001467] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001555] (-) JobUnselected: {'identifier': 'nnnode'}
+[0.001599] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001648] (cpp_parameter_event_handler) JobQueued: {'identifier': 'cpp_parameter_event_handler', 'dependencies': OrderedDict()}
+[0.001711] (cpp_parameter_event_handler) JobStarted: {'identifier': 'cpp_parameter_event_handler'}
+[0.014347] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'cmake'}
+[0.015057] (cpp_parameter_event_handler) JobProgress: {'identifier': 'cpp_parameter_event_handler', 'progress': 'build'}
+[0.015935] (cpp_parameter_event_handler) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ph/ros2_firstw/build/cpp_parameter_event_handler', '--', '-j8', '-l8'], 'cwd': '/home/ph/ros2_firstw/build/cpp_parameter_event_handler', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ros2_firstw/install/tutorial_interfaces/lib:/home/ph/ros2_firstw/install/turtlesim/lib:/home/ph/ros2_firstw/install/more_interfaces/lib:/home/ph/ros2_firstw/install/action_tutorials_cpp/lib:/home/ph/ros2_firstw/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ros2_firstw/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2153'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ros2_firstw/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ph-s:@/tmp/.ICE-unix/1885,unix/ph-s:/tmp/.ICE-unix/1885'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b04f974_1f87_42c0_894e_c450fc7f7525'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/ros2_firstw/install/nnnode:/home/ph/ros2_firstw/install/cpp_parameter_event_handler:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/home/ph/ros2_firstw/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ph/ros2_firstw/build/cpp_parameter_event_handler'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ph/ros2_firstw/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ph/ros2_firstw/install/turtlesim/local/lib/python3.10/dist-packages:/home/ph/ros2_firstw/install/more_interfaces/local/lib/python3.10/dist-packages:/home/ph/ros2_firstw/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ph/ros2_firstw/install/nnnode:/home/ph/ros2_firstw/install/cpp_parameter_event_handler:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/home/ph/ros2_firstw/install/action_tutorials_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099519] (-) TimerEvent: {}
+[0.103408] (cpp_parameter_event_handler) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target parameter_event_handler\x1b[0m\n'}
+[0.131704] (cpp_parameter_event_handler) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o\x1b[0m\n'}
+[0.199651] (-) TimerEvent: {}
+[0.300074] (-) TimerEvent: {}
+[0.400483] (-) TimerEvent: {}
+[0.500844] (-) TimerEvent: {}
+[0.601259] (-) TimerEvent: {}
+[0.701686] (-) TimerEvent: {}
+[0.802121] (-) TimerEvent: {}
+[0.902547] (-) TimerEvent: {}
+[1.002985] (-) TimerEvent: {}
+[1.103363] (-) TimerEvent: {}
+[1.203805] (-) TimerEvent: {}
+[1.304232] (-) TimerEvent: {}
+[1.404682] (-) TimerEvent: {}
+[1.505116] (-) TimerEvent: {}
+[1.605505] (-) TimerEvent: {}
+[1.705960] (-) TimerEvent: {}
+[1.806372] (-) TimerEvent: {}
+[1.906807] (-) TimerEvent: {}
+[2.007149] (-) TimerEvent: {}
+[2.107456] (-) TimerEvent: {}
+[2.207871] (-) TimerEvent: {}
+[2.308302] (-) TimerEvent: {}
+[2.408738] (-) TimerEvent: {}
+[2.509173] (-) TimerEvent: {}
+[2.609584] (-) TimerEvent: {}
+[2.710010] (-) TimerEvent: {}
+[2.783788] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:30:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.784158] (cpp_parameter_event_handler) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K cb2 = [this](const rclcpp::Parameter & p) {\n'}
+[2.784336] (cpp_parameter_event_handler) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.784496] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:37:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.784653] (cpp_parameter_event_handler) StderrLine: {'line': b'   37 | \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K remote_node_name = std::string("parameter_blackboard");\n'}
+[2.784830] (cpp_parameter_event_handler) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.784998] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:38:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.785155] (cpp_parameter_event_handler) StderrLine: {'line': b'   38 | \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K remote_param_name = std::string("a_double_param");\n'}
+[2.785306] (cpp_parameter_event_handler) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.785859] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:39:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcb_handle2_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.786066] (cpp_parameter_event_handler) StderrLine: {'line': b'   39 | \x1b[01;31m\x1b[Kcb_handle2_\x1b[m\x1b[K = param_subscriber_->add_parameter_callback(remote_param_name, cb2, remote_node_name);\n'}
+[2.786222] (cpp_parameter_event_handler) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.793792] (cpp_parameter_event_handler) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:48:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.794028] (cpp_parameter_event_handler) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.794181] (cpp_parameter_event_handler) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.810113] (-) TimerEvent: {}
+[2.910452] (-) TimerEvent: {}
+[3.010845] (-) TimerEvent: {}
+[3.111228] (-) TimerEvent: {}
+[3.211616] (-) TimerEvent: {}
+[3.312020] (-) TimerEvent: {}
+[3.412416] (-) TimerEvent: {}
+[3.512815] (-) TimerEvent: {}
+[3.613234] (-) TimerEvent: {}
+[3.713621] (-) TimerEvent: {}
+[3.814052] (-) TimerEvent: {}
+[3.914579] (-) TimerEvent: {}
+[4.015055] (-) TimerEvent: {}
+[4.115471] (-) TimerEvent: {}
+[4.215903] (-) TimerEvent: {}
+[4.316356] (-) TimerEvent: {}
+[4.416812] (-) TimerEvent: {}
+[4.517425] (-) TimerEvent: {}
+[4.617862] (-) TimerEvent: {}
+[4.718286] (-) TimerEvent: {}
+[4.818700] (-) TimerEvent: {}
+[4.919119] (-) TimerEvent: {}
+[5.019584] (-) TimerEvent: {}
+[5.119981] (-) TimerEvent: {}
+[5.220371] (-) TimerEvent: {}
+[5.320783] (-) TimerEvent: {}
+[5.421178] (-) TimerEvent: {}
+[5.521582] (-) TimerEvent: {}
+[5.583715] (cpp_parameter_event_handler) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1\n'}
+[5.584348] (cpp_parameter_event_handler) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2\n'}
+[5.585000] (cpp_parameter_event_handler) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.588836] (cpp_parameter_event_handler) CommandEnded: {'returncode': 2}
+[5.605653] (cpp_parameter_event_handler) JobEnded: {'identifier': 'cpp_parameter_event_handler', 'rc': 2}
+[5.616476] (-) EventReactorShutdown: {}

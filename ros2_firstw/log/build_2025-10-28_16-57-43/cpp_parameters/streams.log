@@ -1,0 +1,16 @@
+[0.028s] Invoking command in '/home/ph/ros2_firstw/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_parameters -- -j8 -l8
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target minimal_param_node[0m
+[0.127s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[3.040s] [01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:44:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass MinimalParam[m[K’
+[3.041s]    44 | class [01;31m[KMinimalParam[m[K : public rclcpp::Node
+[3.041s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[3.041s] [01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:9:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass MinimalParam[m[K’
+[3.041s]     9 | class [01;36m[KMinimalParam[m[K : public rclcpp::Node
+[3.041s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[3.042s] [01m[K/home/ph/ros2_firstw/src/cpp_parameters/src/cpp_parameters_node.cpp:57:4:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.042s]    57 |   }
+[3.042s]       |    [01;31m[K^[m[K
+[3.597s] gmake[2]: *** [CMakeFiles/minimal_param_node.dir/build.make:76: CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o] Error 1
+[3.598s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_param_node.dir/all] Error 2
+[3.598s] gmake: *** [Makefile:146: all] Error 2
+[3.602s] Invoked command in '/home/ph/ros2_firstw/build/cpp_parameters' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_parameters -- -j8 -l8
