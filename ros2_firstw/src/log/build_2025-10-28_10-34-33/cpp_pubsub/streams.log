@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/ph/ros2_firstw/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/src/install/cpp_pubsub
+[0.049s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.300s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.362s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.377s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.473s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.476s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.675s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.758s] -- Found tutorial_interfaces: 0.0.0 (/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.937s] [31mCMake Error at CMakeLists.txt:35 (add_executable):
+[0.937s]   add_executable cannot create target "talker" because another target with
+[0.937s]   the same name already exists.  The existing target is an executable created
+[0.937s]   in source directory "/home/ph/ros2_firstw/src/cpp_pubsub".  See
+[0.937s]   documentation for policy CMP0002 for more details.
+[0.937s] 
+[0.938s] [0m
+[0.938s] [31mCMake Error at CMakeLists.txt:41 (add_executable):
+[0.938s]   add_executable cannot create target "listener" because another target with
+[0.938s]   the same name already exists.  The existing target is an executable created
+[0.938s]   in source directory "/home/ph/ros2_firstw/src/cpp_pubsub".  See
+[0.938s]   documentation for policy CMP0002 for more details.
+[0.938s] 
+[0.939s] [0m
+[0.940s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:29 (message):
+[0.940s]   ament_environment_hooks() must be called before
+[0.941s]   ament_generate_package_environment() (which is invoked by ament_package())
+[0.941s] Call Stack (most recent call first):
+[0.941s]   /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+[0.941s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.941s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.941s]   CMakeLists.txt:48 (ament_package)
+[0.941s] 
+[0.941s] [0m
+[0.941s] -- Configuring incomplete, errors occurred!
+[0.941s] See also "/home/ph/ros2_firstw/src/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.957s] Invoked command in '/home/ph/ros2_firstw/src/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/src/install/cpp_pubsub

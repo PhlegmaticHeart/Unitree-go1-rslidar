@@ -1,0 +1,115 @@
+[0.016s] Invoking command in '/home/ph/seventh_ws/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake /home/ph/seventh_ws/src/rviz_panel_tutorial -DCMAKE_INSTALL_PREFIX=/home/ph/seventh_ws/install/rviz_panel_tutorial
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.246s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.407s] -- Detecting C compiler ABI info - done
+[0.418s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.419s] -- Detecting C compile features
+[0.420s] -- Detecting C compile features - done
+[0.423s] -- Detecting CXX compiler ABI info
+[0.564s] -- Detecting CXX compiler ABI info - done
+[0.577s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.577s] -- Detecting CXX compile features
+[0.578s] -- Detecting CXX compile features - done
+[0.590s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.821s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.956s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.970s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[1.035s] -- Found rviz_common: 11.2.22 (/opt/ros/humble/share/rviz_common/cmake)
+[1.057s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.068s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.069s] -- Found OGRE
+[1.069s] --   static     : OFF
+[1.070s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.070s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.070s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.070s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.070s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.071s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.071s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.071s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.071s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.071s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.071s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.100s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.106s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.311s] -- Found X11: /usr/include   
+[1.312s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.455s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.455s] -- Looking for gethostbyname
+[1.584s] -- Looking for gethostbyname - found
+[1.584s] -- Looking for connect
+[1.721s] -- Looking for connect - found
+[1.722s] -- Looking for remove
+[1.847s] -- Looking for remove - found
+[1.847s] -- Looking for shmat
+[1.961s] -- Looking for shmat - found
+[1.962s] -- Looking for IceConnectionNumber in ICE
+[2.097s] -- Looking for IceConnectionNumber in ICE - found
+[2.271s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.321s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.332s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.347s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.492s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.496s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.532s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.645s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.654s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.672s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.676s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.689s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.704s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.719s] -- Looking for pthread.h
+[2.854s] -- Looking for pthread.h - found
+[2.854s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.001s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.005s] -- Found Threads: TRUE  
+[3.130s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.130s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.361s] -- Configuring done
+[3.397s] -- Generating done
+[3.404s] -- Build files have been written to: /home/ph/seventh_ws/build/rviz_panel_tutorial
+[3.419s] Invoked command in '/home/ph/seventh_ws/build/rviz_panel_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake /home/ph/seventh_ws/src/rviz_panel_tutorial -DCMAKE_INSTALL_PREFIX=/home/ph/seventh_ws/install/rviz_panel_tutorial
+[3.424s] Invoking command in '/home/ph/seventh_ws/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --build /home/ph/seventh_ws/build/rviz_panel_tutorial -- -j8 -l8
+[3.507s] [ 16%] [34m[1mAutomatic MOC for target demo_panel[0m
+[3.556s] [ 16%] Built target demo_panel_autogen
+[3.573s] [ 33%] [34m[1mGenerating include/rviz_panel_tutorial/moc_demo_panel.cpp[0m
+[3.609s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_panel.dir/src/demo_panel.cpp.o[0m
+[3.612s] [ 83%] [32mBuilding CXX object CMakeFiles/demo_panel.dir/demo_panel_autogen/mocs_compilation.cpp.o[0m
+[3.612s] [ 83%] [32mBuilding CXX object CMakeFiles/demo_panel.dir/include/rviz_panel_tutorial/moc_demo_panel.cpp.o[0m
+[14.985s] [100%] [32m[1mLinking CXX shared library libdemo_panel.so[0m
+[17.286s] [100%] Built target demo_panel
+[17.313s] Invoked command in '/home/ph/seventh_ws/build/rviz_panel_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --build /home/ph/seventh_ws/build/rviz_panel_tutorial -- -j8 -l8
+[17.336s] Invoking command in '/home/ph/seventh_ws/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --install /home/ph/seventh_ws/build/rviz_panel_tutorial
+[17.345s] -- Install configuration: ""
+[17.346s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/lib/libdemo_panel.so
+[17.355s] -- Set runtime path of "/home/ph/seventh_ws/install/rviz_panel_tutorial/lib/libdemo_panel.so" to ""
+[17.355s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/include
+[17.355s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/include/rviz_panel_tutorial
+[17.355s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/include/rviz_panel_tutorial/demo_panel.hpp
+[17.356s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+[17.356s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/icons/classes/DemoPanel.png
+[17.356s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+[17.356s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_panel_tutorial
+[17.356s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_panel_tutorial
+[17.357s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.sh
+[17.357s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.dsv
+[17.357s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.sh
+[17.357s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.dsv
+[17.357s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.bash
+[17.358s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.sh
+[17.358s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.zsh
+[17.358s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.dsv
+[17.358s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.dsv
+[17.358s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/packages/rviz_panel_tutorial
+[17.359s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_panel_tutorial
+[17.359s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport.cmake
+[17.359s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport-noconfig.cmake
+[17.359s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.360s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+[17.360s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig.cmake
+[17.360s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig-version.cmake
+[17.360s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.xml
+[17.364s] Invoked command in '/home/ph/seventh_ws/build/rviz_panel_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --install /home/ph/seventh_ws/build/rviz_panel_tutorial

@@ -1,0 +1,4 @@
+-DROS_PACKAGE_NAME="rviz_plugin_tutorial"
+-o
+/home/ph/sixth_ws/build/rviz_plugin_tutorial/include/rviz_plugin_tutorial/moc_point_display.cpp
+/home/ph/sixth_ws/src/rviz_plugin_tutorial/rviz_plugin_tutorial/include/rviz_plugin_tutorial/point_display.hpp

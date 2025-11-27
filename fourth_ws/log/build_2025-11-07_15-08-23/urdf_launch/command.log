@@ -1,0 +1,6 @@
+Invoking command in '/home/ph/fourth_ws/build/urdf_launch': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ph/fourth_ws/src/urdf_launch -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_launch
+Invoked command in '/home/ph/fourth_ws/build/urdf_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ph/fourth_ws/src/urdf_launch -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_launch
+Invoking command in '/home/ph/fourth_ws/build/urdf_launch': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_launch -- -j8 -l8
+Invoked command in '/home/ph/fourth_ws/build/urdf_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_launch -- -j8 -l8
+Invoking command in '/home/ph/fourth_ws/build/urdf_launch': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ph/fourth_ws/build/urdf_launch
+Invoked command in '/home/ph/fourth_ws/build/urdf_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ph/fourth_ws/build/urdf_launch

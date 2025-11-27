@@ -1,0 +1,31 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ph/ros2_firstw/build/nnnode
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o[0m
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:22:13:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((std::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>*)(& node))->std::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::operator*()[m[K’ from ‘[01m[Kstd::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[KSimpleNode[m[K’} to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+   22 |   node_info([01;31m[K*node[m[K);
+      |             [01;31m[K^~~~~[m[K
+      |             [01;31m[K|[m[K
+      |             [01;31m[Kstd::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::element_type {aka SimpleNode}[m[K
+gmake[2]: *** [CMakeFiles/simple_node.dir/build.make:76: CMakeFiles/simple_node.dir/src/nnnode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

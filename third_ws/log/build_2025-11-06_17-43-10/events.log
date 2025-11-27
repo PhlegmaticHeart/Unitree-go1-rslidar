@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.000408] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.000477] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.000536] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.011189] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.012300] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.013324] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ph/third_ws/build/learning_tf2_cpp', '--', '-j8', '-l8'], 'cwd': '/home/ph/third_ws/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/third_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ph-s:@/tmp/.ICE-unix/2127,unix/ph-s:/tmp/.ICE-unix/2127'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8f054cf_c5d7_4961_a363_0806f3eb723c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/third_ws/install/learning_tf2_py:/home/ph/third_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ph/third_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ph/third_ws/install/learning_tf2_cpp:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble')]), 'shell': False}
+[0.083933] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099014] (-) TimerEvent: {}
+[0.199326] (-) TimerEvent: {}
+[0.282345] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.299444] (-) TimerEvent: {}
+[0.332580] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.338031] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.349864] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.366707] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.389020] (learning_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399540] (-) TimerEvent: {}
+[0.446192] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.498756] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.499622] (-) TimerEvent: {}
+[0.501431] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599748] (-) TimerEvent: {}
+[0.648748] (learning_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.699863] (-) TimerEvent: {}
+[0.711382] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.721096] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.799965] (-) TimerEvent: {}
+[0.854972] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.879615] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.900053] (-) TimerEvent: {}
+[0.913037] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.915481] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.915780] (learning_tf2_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.933387] (learning_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000166] (-) TimerEvent: {}
+[1.040999] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.041380] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.041557] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.042024] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.042942] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.043508] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.045160] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.045351] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.045739] (learning_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.047808] (learning_tf2_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.100267] (-) TimerEvent: {}
+[1.103377] (learning_tf2_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.121173] (learning_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ph/third_ws/build/learning_tf2_cpp\n'}
+[1.165259] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_tf2_listener\x1b[0m\n'}
+[1.168669] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_tf2_listener_debug\x1b[0m\n'}
+[1.169029] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fixed_frame_tf2_broadcaster\x1b[0m\n'}
+[1.169176] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dynamic_frame_tf2_broadcaster\x1b[0m\n'}
+[1.169835] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_tf2_broadcaster\x1b[0m\n'}
+[1.170994] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target static_turtle_tf2_broadcaster\x1b[0m\n'}
+[1.185793] (learning_tf2_cpp) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_message_filter.dir/src/turtle_tf2_message_filter.cpp.o\x1b[0m\n'}
+[1.198674] (learning_tf2_cpp) StdoutLine: {'line': b'[ 35%] Built target turtle_tf2_listener\n'}
+[1.198950] (learning_tf2_cpp) StdoutLine: {'line': b'[ 35%] Built target dynamic_frame_tf2_broadcaster\n'}
+[1.199083] (learning_tf2_cpp) StdoutLine: {'line': b'[ 50%] Built target fixed_frame_tf2_broadcaster\n'}
+[1.199223] (learning_tf2_cpp) StdoutLine: {'line': b'[ 64%] Built target turtle_tf2_listener_debug\n'}
+[1.199356] (learning_tf2_cpp) StdoutLine: {'line': b'[ 78%] Built target turtle_tf2_broadcaster\n'}
+[1.200377] (-) TimerEvent: {}
+[1.203005] (learning_tf2_cpp) StdoutLine: {'line': b'[ 92%] Built target static_turtle_tf2_broadcaster\n'}
+[1.300487] (-) TimerEvent: {}
+[1.400823] (-) TimerEvent: {}
+[1.501162] (-) TimerEvent: {}
+[1.601487] (-) TimerEvent: {}
+[1.701808] (-) TimerEvent: {}
+[1.759303] (learning_tf2_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_message_filter.cpp:29\x1b[m\x1b[K:\n'}
+[1.759542] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.759691] (learning_tf2_cpp) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.759781] (learning_tf2_cpp) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.801929] (-) TimerEvent: {}
+[1.902275] (-) TimerEvent: {}
+[2.002645] (-) TimerEvent: {}
+[2.103000] (-) TimerEvent: {}
+[2.203451] (-) TimerEvent: {}
+[2.303815] (-) TimerEvent: {}
+[2.404180] (-) TimerEvent: {}
+[2.504539] (-) TimerEvent: {}
+[2.604902] (-) TimerEvent: {}
+[2.705261] (-) TimerEvent: {}
+[2.805636] (-) TimerEvent: {}
+[2.906103] (-) TimerEvent: {}
+[3.006470] (-) TimerEvent: {}
+[3.106846] (-) TimerEvent: {}
+[3.207204] (-) TimerEvent: {}
+[3.307577] (-) TimerEvent: {}
+[3.407950] (-) TimerEvent: {}
+[3.508299] (-) TimerEvent: {}
+[3.608668] (-) TimerEvent: {}
+[3.709039] (-) TimerEvent: {}
+[3.809438] (-) TimerEvent: {}
+[3.909833] (-) TimerEvent: {}
+[4.010208] (-) TimerEvent: {}
+[4.110628] (-) TimerEvent: {}
+[4.211012] (-) TimerEvent: {}
+[4.311380] (-) TimerEvent: {}
+[4.411869] (-) TimerEvent: {}
+[4.512261] (-) TimerEvent: {}
+[4.612648] (-) TimerEvent: {}
+[4.713000] (-) TimerEvent: {}
+[4.813350] (-) TimerEvent: {}
+[4.913752] (-) TimerEvent: {}
+[5.014112] (-) TimerEvent: {}
+[5.114464] (-) TimerEvent: {}
+[5.214846] (-) TimerEvent: {}
+[5.315253] (-) TimerEvent: {}
+[5.415632] (-) TimerEvent: {}
+[5.515993] (-) TimerEvent: {}
+[5.616355] (-) TimerEvent: {}
+[5.716924] (-) TimerEvent: {}
+[5.817292] (-) TimerEvent: {}
+[5.917674] (-) TimerEvent: {}
+[6.018046] (-) TimerEvent: {}
+[6.118401] (-) TimerEvent: {}
+[6.219180] (-) TimerEvent: {}
+[6.320101] (-) TimerEvent: {}
+[6.420466] (-) TimerEvent: {}
+[6.520873] (-) TimerEvent: {}
+[6.621230] (-) TimerEvent: {}
+[6.721610] (-) TimerEvent: {}
+[6.821975] (-) TimerEvent: {}
+[6.922360] (-) TimerEvent: {}
+[7.022742] (-) TimerEvent: {}
+[7.123102] (-) TimerEvent: {}
+[7.223619] (-) TimerEvent: {}
+[7.324092] (-) TimerEvent: {}
+[7.424471] (-) TimerEvent: {}
+[7.524855] (-) TimerEvent: {}
+[7.625362] (-) TimerEvent: {}
+[7.725735] (-) TimerEvent: {}
+[7.826115] (-) TimerEvent: {}
+[7.926706] (-) TimerEvent: {}
+[8.027219] (-) TimerEvent: {}
+[8.127715] (-) TimerEvent: {}
+[8.228136] (-) TimerEvent: {}
+[8.328582] (-) TimerEvent: {}
+[8.429050] (-) TimerEvent: {}
+[8.529467] (-) TimerEvent: {}
+[8.629906] (-) TimerEvent: {}
+[8.730326] (-) TimerEvent: {}
+[8.830795] (-) TimerEvent: {}
+[8.931230] (-) TimerEvent: {}
+[9.031688] (-) TimerEvent: {}
+[9.132118] (-) TimerEvent: {}
+[9.232526] (-) TimerEvent: {}
+[9.332965] (-) TimerEvent: {}
+[9.433306] (-) TimerEvent: {}
+[9.533644] (-) TimerEvent: {}
+[9.633979] (-) TimerEvent: {}
+[9.734320] (-) TimerEvent: {}
+[9.834673] (-) TimerEvent: {}
+[9.935120] (-) TimerEvent: {}
+[10.035557] (-) TimerEvent: {}
+[10.136228] (-) TimerEvent: {}
+[10.236877] (-) TimerEvent: {}
+[10.337516] (-) TimerEvent: {}
+[10.438183] (-) TimerEvent: {}
+[10.538651] (-) TimerEvent: {}
+[10.639285] (-) TimerEvent: {}
+[10.739908] (-) TimerEvent: {}
+[10.840343] (-) TimerEvent: {}
+[10.940815] (-) TimerEvent: {}
+[11.041253] (-) TimerEvent: {}
+[11.141702] (-) TimerEvent: {}
+[11.242138] (-) TimerEvent: {}
+[11.342629] (-) TimerEvent: {}
+[11.443129] (-) TimerEvent: {}
+[11.543465] (-) TimerEvent: {}
+[11.643823] (-) TimerEvent: {}
+[11.744170] (-) TimerEvent: {}
+[11.844529] (-) TimerEvent: {}
+[11.944894] (-) TimerEvent: {}
+[12.045236] (-) TimerEvent: {}
+[12.073463] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_message_filter\x1b[0m\n'}
+[12.145374] (-) TimerEvent: {}
+[12.245924] (-) TimerEvent: {}
+[12.346417] (-) TimerEvent: {}
+[12.446892] (-) TimerEvent: {}
+[12.547337] (-) TimerEvent: {}
+[12.647748] (-) TimerEvent: {}
+[12.748137] (-) TimerEvent: {}
+[12.799024] (learning_tf2_cpp) StdoutLine: {'line': b'[100%] Built target turtle_tf2_message_filter\n'}
+[12.828625] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[12.829969] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'install'}
+[12.848268] (-) TimerEvent: {}
+[12.852624] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ph/third_ws/build/learning_tf2_cpp'], 'cwd': '/home/ph/third_ws/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/third_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ph-s:@/tmp/.ICE-unix/2127,unix/ph-s:/tmp/.ICE-unix/2127'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8f054cf_c5d7_4961_a363_0806f3eb723c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/third_ws/install/learning_tf2_py:/home/ph/third_ws/install/learning_tf2_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ph/third_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ph/third_ws/install/learning_tf2_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ph/third_ws/install/learning_tf2_cpp:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble')]), 'shell': False}
+[12.872103] (learning_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.872440] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_message_filter\n'}
+[12.878686] (learning_tf2_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_message_filter" to ""\n'}
+[12.879416] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/dynamic_frame_tf2_broadcaster\n'}
+[12.880717] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster\n'}
+[12.881090] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener\n'}
+[12.881466] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener_debug\n'}
+[12.882501] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster\n'}
+[12.882743] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch\n'}
+[12.882930] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_dynamic_frame_demo_launch.py\n'}
+[12.883108] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_demo_launch.py\n'}
+[12.883241] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/launch.yaml\n'}
+[12.883486] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_fixed_frame_demo_launch.py\n'}
+[12.883628] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/start_tf2_debug_demo_launch.py\n'}
+[12.883939] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster\n'}
+[12.884176] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp\n'}
+[12.884881] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp\n'}
+[12.885059] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[12.885209] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[12.885382] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh\n'}
+[12.885493] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv\n'}
+[12.885667] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash\n'}
+[12.885859] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh\n'}
+[12.886012] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh\n'}
+[12.886134] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv\n'}
+[12.886257] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv\n'}
+[12.886413] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp\n'}
+[12.886623] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake\n'}
+[12.886750] (learning_tf2_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake\n'}
+[12.886845] (learning_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/ph/third_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml\n'}
+[12.889204] (learning_tf2_cpp) CommandEnded: {'returncode': 0}
+[12.912131] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 0}
+[12.913376] (-) EventReactorShutdown: {}

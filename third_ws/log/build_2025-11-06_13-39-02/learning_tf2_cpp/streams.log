@@ -1,0 +1,15 @@
+[0.015s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.108s] [  8%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[0.113s] [ 58%] Built target fixed_frame_tf2_broadcaster
+[0.113s] [ 58%] Built target turtle_tf2_listener
+[0.113s] [ 58%] Built target dynamic_frame_tf2_broadcaster
+[0.114s] [ 75%] Built target turtle_tf2_broadcaster
+[0.118s] [ 91%] Built target static_turtle_tf2_broadcaster
+[3.059s] [01m[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[3.059s] [01m[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:79:32:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(const TimePoint {aka const std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >}) ()[m[K’
+[3.059s]    79 |              [01;31m[Ktf2::TimePointZero()[m[K);
+[3.059s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[4.329s] gmake[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:76: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+[4.329s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+[4.330s] gmake: *** [Makefile:146: all] Error 2
+[4.336s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8

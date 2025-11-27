@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:30:1:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   30 | [01;31m[Kauto[m[K cb2 = [this](const rclcpp::Parameter & p) {
+      | [01;31m[K^~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:37:1:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   37 | [01;31m[Kauto[m[K remote_node_name = std::string("parameter_blackboard");
+      | [01;31m[K^~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:38:1:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   38 | [01;31m[Kauto[m[K remote_param_name = std::string("a_double_param");
+      | [01;31m[K^~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:39:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb_handle2_[m[K’ does not name a type
+   39 | [01;31m[Kcb_handle2_[m[K = param_subscriber_->add_parameter_callback(remote_param_name, cb2, remote_node_name);
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_subscriber_[m[K’ was not declared in this scope
+   15 |     [01;31m[Kparam_subscriber_[m[K = std::make_shared<rclcpp::ParameterEventHandler>(this);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb_handle_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksa_handler[m[K’?
+   25 |     [01;31m[Kcb_handle_[m[K = param_subscriber_->add_parameter_callback("an_int_param", cb);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Ksa_handler[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K At global scope:
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:41:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   41 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:45:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   45 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:48:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   48 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

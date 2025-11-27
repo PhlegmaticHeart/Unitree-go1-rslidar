@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000903] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.001197] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.001251] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001304] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001519] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001578] (-) JobUnselected: {'identifier': 'firstpkg'}
+[0.001624] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001673] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001720] (nnnode) JobQueued: {'identifier': 'nnnode', 'dependencies': OrderedDict()}
+[0.001947] (nnnode) JobStarted: {'identifier': 'nnnode'}
+[0.012886] (nnnode) JobProgress: {'identifier': 'nnnode', 'progress': 'cmake'}
+[0.013474] (nnnode) JobProgress: {'identifier': 'nnnode', 'progress': 'build'}
+[0.014172] (nnnode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ph/ros2_firstw/build/nnnode', '--', '-j8', '-l8'], 'cwd': '/home/ph/ros2_firstw/build/nnnode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ros2_firstw/install/tutorial_interfaces/lib:/home/ph/ros2_firstw/install/turtlesim/lib:/home/ph/ros2_firstw/install/more_interfaces/lib:/home/ph/ros2_firstw/install/action_tutorials_cpp/lib:/home/ph/ros2_firstw/install/action_tutorials_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ros2_firstw/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2153'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ros2_firstw/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ph-s:@/tmp/.ICE-unix/1885,unix/ph-s:/tmp/.ICE-unix/1885'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13b8546c_0f3a_4505_9646_3ed997947fbc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/ros2_firstw/install/nnnode:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/home/ph/ros2_firstw/install/action_tutorials_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ph/ros2_firstw/build/nnnode'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ph/ros2_firstw/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ph/ros2_firstw/install/turtlesim/local/lib/python3.10/dist-packages:/home/ph/ros2_firstw/install/more_interfaces/local/lib/python3.10/dist-packages:/home/ph/ros2_firstw/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ph/ros2_firstw/install/nnnode:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/home/ph/ros2_firstw/install/action_tutorials_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.055766] (nnnode) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099673] (-) TimerEvent: {}
+[0.200004] (-) TimerEvent: {}
+[0.223120] (nnnode) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.275268] (nnnode) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.278202] (nnnode) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.284929] (nnnode) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.296194] (nnnode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300075] (-) TimerEvent: {}
+[0.310801] (nnnode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.347887] (nnnode) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.349683] (nnnode) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400244] (-) TimerEvent: {}
+[0.482519] (nnnode) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500388] (-) TimerEvent: {}
+[0.537767] (nnnode) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600547] (-) TimerEvent: {}
+[0.627029] (nnnode) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.627328] (nnnode) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.627554] (nnnode) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.627818] (nnnode) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.628918] (nnnode) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.629170] (nnnode) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.629572] (nnnode) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.630166] (nnnode) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.641048] (nnnode) StdoutLine: {'line': b'-- Generating done\n'}
+[0.645316] (nnnode) StdoutLine: {'line': b'-- Build files have been written to: /home/ph/ros2_firstw/build/nnnode\n'}
+[0.700656] (-) TimerEvent: {}
+[0.711639] (nnnode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o\x1b[0m\n'}
+[0.800787] (-) TimerEvent: {}
+[0.901171] (-) TimerEvent: {}
+[1.001791] (-) TimerEvent: {}
+[1.102184] (-) TimerEvent: {}
+[1.202593] (-) TimerEvent: {}
+[1.303009] (-) TimerEvent: {}
+[1.403428] (-) TimerEvent: {}
+[1.503886] (-) TimerEvent: {}
+[1.604574] (-) TimerEvent: {}
+[1.705211] (-) TimerEvent: {}
+[1.805642] (-) TimerEvent: {}
+[1.906321] (-) TimerEvent: {}
+[2.006954] (-) TimerEvent: {}
+[2.107588] (-) TimerEvent: {}
+[2.208214] (-) TimerEvent: {}
+[2.308853] (-) TimerEvent: {}
+[2.409521] (-) TimerEvent: {}
+[2.510143] (-) TimerEvent: {}
+[2.610557] (-) TimerEvent: {}
+[2.710960] (-) TimerEvent: {}
+[2.811396] (-) TimerEvent: {}
+[2.911762] (-) TimerEvent: {}
+[3.012091] (-) TimerEvent: {}
+[3.112424] (-) TimerEvent: {}
+[3.212757] (-) TimerEvent: {}
+[3.313136] (-) TimerEvent: {}
+[3.413572] (-) TimerEvent: {}
+[3.513936] (-) TimerEvent: {}
+[3.550144] (nnnode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.550559] (nnnode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/ros2_firstw/src/nnnode/src/nnnode.cpp:22:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K((std::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>*)(& node))->std::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::operator*()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::element_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[KSimpleNode\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.550755] (nnnode) StderrLine: {'line': b'   22 |   node_info(\x1b[01;31m\x1b[K*node\x1b[m\x1b[K);\n'}
+[3.550862] (nnnode) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.551013] (nnnode) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.551183] (nnnode) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[Kstd::__shared_ptr_access<SimpleNode, __gnu_cxx::_S_atomic, false, false>::element_type {aka SimpleNode}\x1b[m\x1b[K\n'}
+[3.614054] (-) TimerEvent: {}
+[3.714438] (-) TimerEvent: {}
+[3.814790] (-) TimerEvent: {}
+[3.915112] (-) TimerEvent: {}
+[4.015425] (-) TimerEvent: {}
+[4.049182] (nnnode) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_node.dir/build.make:76: CMakeFiles/simple_node.dir/src/nnnode.cpp.o] Error 1\n'}
+[4.049556] (nnnode) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_node.dir/all] Error 2\n'}
+[4.049910] (nnnode) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.054251] (nnnode) CommandEnded: {'returncode': 2}
+[4.069389] (nnnode) JobEnded: {'identifier': 'nnnode', 'rc': 2}
+[4.080278] (-) EventReactorShutdown: {}

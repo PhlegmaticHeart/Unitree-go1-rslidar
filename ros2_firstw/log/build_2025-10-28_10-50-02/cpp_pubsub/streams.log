@@ -1,0 +1,91 @@
+[0.028s] Invoking command in '/home/ph/ros2_firstw/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_pubsub -- -j8 -l8
+[0.080s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.316s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.366s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.370s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.381s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.419s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.474s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.477s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.756s] -- Found tutorial_interfaces: 0.0.0 (/home/ph/ros2_firstw/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[0.930s] -- Configuring done
+[0.955s] -- Generating done
+[0.965s] -- Build files have been written to: /home/ph/ros2_firstw/build/cpp_pubsub
+[1.024s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[1.026s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[1.059s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.059s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.512s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/subscriber_member_function.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/num.hpp: No such file or directory
+[1.512s]    19 | #include [01;31m[K"std_msgs/msg/num.hpp"[m[K
+[1.512s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.512s] compilation terminated.
+[1.518s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:58:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[1.518s]    58 | }
+[1.519s]       |  [01;31m[K^[m[K
+[1.519s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.520s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[1.520s] gmake[1]: *** Waiting for unfinished jobs....
+[5.295s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:44:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.295s]    44 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing: '%s'"<< message.num<<"'";
+[5.296s]       |                [01;31m[K^[m[K
+[5.296s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:29:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.296s]    29 | [01;36m[K{[m[K
+[5.296s]       | [01;36m[K^[m[K
+[5.296s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[5.297s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:32:32:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[5.297s]    32 |   : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+[5.297s]       |                                [01;31m[K^~~~~~[m[K
+[5.307s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[5.307s]    34 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Num>("topic", 10);
+[5.308s]       |     [01;31m[K^~~~~~~~~~[m[K
+[5.308s]       |     [32m[Krmw_publisher_t[m[K
+[5.309s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:34:56:[m[K [01;31m[Kerror: [m[K‘[01m[KNum[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[5.309s]    34 | ->create_publisher<std_msgs::msg::[01;31m[KNum[m[K>("topic", 10);
+[5.309s]       |                                   [01;31m[K^~~[m[K
+[5.309s] 
+[5.309s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:34:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[5.310s]    34 | [01;31m[Keate_publisher<std_msgs::msg::Num>("topic", 10)[m[K;
+[5.310s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.310s] 
+[5.310s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.311s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.311s]                  from [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:20[m[K:
+[5.311s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[5.311s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[5.311s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.312s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.312s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:34:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.312s]    34 | [01;31m[Keate_publisher<std_msgs::msg::Num>("topic", 10)[m[K;
+[5.312s]       | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.312s] 
+[5.317s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.317s]    35 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[5.317s]       |     [01;31m[K^~~~~~[m[K
+[5.318s]       |     [32m[Ktimer_t[m[K
+[5.335s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.335s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[Knum[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[5.335s]    42 |     auto message = std_msgs::msg::[01;31m[Knum[m[K();
+[5.336s]       |                                   [01;31m[K^~~[m[K
+[5.336s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:43:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalPublisher[m[K’ has no member named ‘[01m[Kcount_[m[K’
+[5.336s]    43 |     message.Num = this->[01;31m[Kcount_[m[K++;
+[5.336s]       |                         [01;31m[K^~~~~~[m[K
+[5.345s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[5.346s]    44 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'"<< message.num<<"'";
+[5.346s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.346s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:44:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.346s]    44 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing: '%s'"<< message.num<<"'";
+[5.347s]       |                [01;31m[K^[m[K
+[5.347s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:41:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.347s]    41 |   [01;36m[K{[m[K
+[5.347s]       |   [01;36m[K^[m[K
+[5.347s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K At global scope:
+[5.347s] [01m[K/home/ph/ros2_firstw/src/cpp_pubsub/src/publisher_member_function.cpp:44:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[5.348s]    44 |     RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing: '%s'"<< message.num<<"'";
+[5.348s]       |                [01;31m[K^[m[K
+[6.191s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[6.192s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[6.192s] gmake: *** [Makefile:146: all] Error 2
+[6.200s] Invoked command in '/home/ph/ros2_firstw/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_pubsub -- -j8 -l8

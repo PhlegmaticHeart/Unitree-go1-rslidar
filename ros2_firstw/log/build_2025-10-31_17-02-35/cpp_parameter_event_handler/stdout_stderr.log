@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:53:88:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()::<lambda(const ParameterEvent&)>[m[K’ to ‘[01m[Krclcpp::ParameterEventHandler::ParameterCallbackType[m[K’ {aka ‘[01m[Kstd::function<void(const rclcpp::Parameter&)>[m[K’}
+   53 | eter_callback("another_double_param", [01;31m[Kevent_cb[m[K);
+      |                                       [01;31m[K^~~~~~~~[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[KSampleNodeWithParameters::SampleNodeWithParameters()::<lambda(const ParameterEvent&)>[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:160[m[K,
+                 from [01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:224:27:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Krclcpp::ParameterCallbackHandle::SharedPtr rclcpp::ParameterEventHandler::add_parameter_callback(const string&, rclcpp::ParameterEventHandler::ParameterCallbackType, const string&)[m[K’
+  224 |     [01;36m[KParameterCallbackType callback[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

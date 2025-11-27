@@ -1,0 +1,19 @@
+[0.017s] Invoking command in '/home/ph/ros2_firstw/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_parameter_event_handler -- -j8 -l8
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target parameter_event_handler[0m
+[0.129s] [ 50%] [32mBuilding CXX object CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o[0m
+[2.871s] [01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:[m[K In constructor ‘[01m[KSampleNodeWithParameters::SampleNodeWithParameters()[m[K’:
+[2.871s] [01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:42:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+[2.872s]    42 | [01;31m[K...[m[K
+[2.872s]       | [01;31m[K^~~[m[K
+[2.880s] [01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:56:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent_cb_handle_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcb_handle_[m[K’?
+[2.881s]    56 |     [01;31m[Kevent_cb_handle_[m[K = param_subscriber_->add_parameter_event_callback(event_cb);
+[2.881s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.881s]       |     [32m[Kcb_handle_[m[K
+[2.886s] [01m[K/home/ph/ros2_firstw/src/cpp_parameter_event_handler/src/parameter_event_handler.cpp:56:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent_cb[m[K’ was not declared in this scope
+[2.886s]    56 | criber_->add_parameter_event_callback([01;31m[Kevent_cb[m[K);
+[2.887s]       |                                       [01;31m[K^~~~~~~~[m[K
+[2.887s] 
+[5.657s] gmake[2]: *** [CMakeFiles/parameter_event_handler.dir/build.make:76: CMakeFiles/parameter_event_handler.dir/src/parameter_event_handler.cpp.o] Error 1
+[5.658s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/parameter_event_handler.dir/all] Error 2
+[5.658s] gmake: *** [Makefile:146: all] Error 2
+[5.665s] Invoked command in '/home/ph/ros2_firstw/build/cpp_parameter_event_handler' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/cpp_parameter_event_handler -- -j8 -l8

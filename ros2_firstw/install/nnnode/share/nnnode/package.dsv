@@ -1,0 +1,8 @@
+source;share/nnnode/hook/cmake_prefix_path.ps1
+source;share/nnnode/hook/cmake_prefix_path.dsv
+source;share/nnnode/hook/cmake_prefix_path.sh
+source;share/nnnode/local_setup.bash
+source;share/nnnode/local_setup.dsv
+source;share/nnnode/local_setup.ps1
+source;share/nnnode/local_setup.sh
+source;share/nnnode/local_setup.zsh

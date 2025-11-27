@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "more_interfaces__py",
+		"source" : "/home/ph/ros2_firstw/build/more_interfaces/more_interfaces__py"
+	}
+}

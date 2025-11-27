@@ -1,0 +1,3 @@
+[0.013s] Invoking command in '/home/ph/ros2_firstw/build/cpp_pubbysub': /usr/bin/cmake /home/ph/ros2_firstw/src -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_pubbysub
+[0.034s] [0mCMake Error: The source "/home/ph/ros2_firstw/src/CMakeLists.txt" does not match the source "/home/ph/ros2_firstw/src/cpp_pubbysub/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.039s] Invoked command in '/home/ph/ros2_firstw/build/cpp_pubbysub' returned '1': /usr/bin/cmake /home/ph/ros2_firstw/src -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_pubbysub

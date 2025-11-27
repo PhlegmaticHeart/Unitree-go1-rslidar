@@ -1,0 +1,15 @@
+[0.015s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.104s] [  8%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[0.114s] [ 25%] Built target static_turtle_tf2_broadcaster
+[0.120s] [ 41%] Built target dynamic_frame_tf2_broadcaster
+[0.120s] [ 58%] Built target fixed_frame_tf2_broadcaster
+[0.124s] [ 83%] Built target turtle_tf2_listener
+[0.124s] [ 91%] Built target turtle_tf2_broadcaster
+[0.173s] [01m[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
+[0.173s]    20 | #include [01;31m[K"geometry_msgs/msg/transform_stamped.hpp"[m[K
+[0.173s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.173s] compilation terminated.
+[0.175s] gmake[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:76: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+[0.176s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+[0.176s] gmake: *** [Makefile:146: all] Error 2
+[0.182s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/third_ws/install/learning_tf2_py:/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8

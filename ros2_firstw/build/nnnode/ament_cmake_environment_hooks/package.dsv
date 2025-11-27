@@ -1,0 +1,4 @@
+source;share/nnnode/local_setup.bash
+source;share/nnnode/local_setup.dsv
+source;share/nnnode/local_setup.sh
+source;share/nnnode/local_setup.zsh

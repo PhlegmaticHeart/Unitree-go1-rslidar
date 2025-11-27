@@ -1,0 +1,2 @@
+Invoking command in '/home/ph/fourth_ws/build/urdf_launch': /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_launch -- -j8 -l8
+Invoked command in '/home/ph/fourth_ws/build/urdf_launch' returned '2': /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_launch -- -j8 -l8

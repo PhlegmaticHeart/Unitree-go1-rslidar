@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (-) JobUnselected: {'identifier': 'learning_tf2_py'}
+[0.000375] (learning_tf2_cpp) JobQueued: {'identifier': 'learning_tf2_cpp', 'dependencies': OrderedDict()}
+[0.000429] (learning_tf2_cpp) JobStarted: {'identifier': 'learning_tf2_cpp'}
+[0.011243] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'cmake'}
+[0.011849] (learning_tf2_cpp) JobProgress: {'identifier': 'learning_tf2_cpp', 'progress': 'build'}
+[0.012660] (learning_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ph/third_ws/build/learning_tf2_cpp', '--', '-j8', '-l8'], 'cwd': '/home/ph/third_ws/build/learning_tf2_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ph-s:@/tmp/.ICE-unix/2127,unix/ph-s:/tmp/.ICE-unix/2127'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8f054cf_c5d7_4961_a363_0806f3eb723c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ph/third_ws/build/learning_tf2_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099133] (-) TimerEvent: {}
+[0.127111] (learning_tf2_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dynamic_frame_tf2_broadcaster\x1b[0m\n'}
+[0.149585] (learning_tf2_cpp) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o\x1b[0m\n'}
+[0.154171] (learning_tf2_cpp) StdoutLine: {'line': b'[ 70%] Built target fixed_frame_tf2_broadcaster\n'}
+[0.154409] (learning_tf2_cpp) StdoutLine: {'line': b'[ 70%] Built target dynamic_frame_tf2_broadcaster\n'}
+[0.154504] (learning_tf2_cpp) StdoutLine: {'line': b'[ 70%] Built target turtle_tf2_broadcaster\n'}
+[0.155201] (learning_tf2_cpp) StdoutLine: {'line': b'[ 90%] Built target static_turtle_tf2_broadcaster\n'}
+[0.199267] (-) TimerEvent: {}
+[0.299695] (-) TimerEvent: {}
+[0.400112] (-) TimerEvent: {}
+[0.500511] (-) TimerEvent: {}
+[0.600949] (-) TimerEvent: {}
+[0.701447] (-) TimerEvent: {}
+[0.801865] (-) TimerEvent: {}
+[0.902314] (-) TimerEvent: {}
+[1.002744] (-) TimerEvent: {}
+[1.103224] (-) TimerEvent: {}
+[1.203634] (-) TimerEvent: {}
+[1.304295] (-) TimerEvent: {}
+[1.404726] (-) TimerEvent: {}
+[1.505351] (-) TimerEvent: {}
+[1.605800] (-) TimerEvent: {}
+[1.706279] (-) TimerEvent: {}
+[1.806692] (-) TimerEvent: {}
+[1.907120] (-) TimerEvent: {}
+[2.007562] (-) TimerEvent: {}
+[2.108235] (-) TimerEvent: {}
+[2.208901] (-) TimerEvent: {}
+[2.309390] (-) TimerEvent: {}
+[2.409813] (-) TimerEvent: {}
+[2.510269] (-) TimerEvent: {}
+[2.610673] (-) TimerEvent: {}
+[2.711209] (-) TimerEvent: {}
+[2.811641] (-) TimerEvent: {}
+[2.912078] (-) TimerEvent: {}
+[3.012725] (-) TimerEvent: {}
+[3.113207] (-) TimerEvent: {}
+[3.213655] (-) TimerEvent: {}
+[3.223337] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FrameListener::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.223693] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:76:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time rclcpp::Node::now() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.223869] (learning_tf2_cpp) StderrLine: {'line': b'   76 |             \x1b[01;31m\x1b[Know\x1b[m\x1b[K);\n'}
+[3.224078] (learning_tf2_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.224243] (learning_tf2_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.224447] (learning_tf2_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.224665] (learning_tf2_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.224887] (learning_tf2_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:22\x1b[m\x1b[K:\n'}
+[3.225136] (learning_tf2_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.225374] (learning_tf2_cpp) StderrLine: {'line': b' 1126 |   \x1b[01;36m\x1b[Know\x1b[m\x1b[K() const;\n'}
+[3.225527] (learning_tf2_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.313811] (-) TimerEvent: {}
+[3.414281] (-) TimerEvent: {}
+[3.514718] (-) TimerEvent: {}
+[3.615207] (-) TimerEvent: {}
+[3.715648] (-) TimerEvent: {}
+[3.816047] (-) TimerEvent: {}
+[3.916513] (-) TimerEvent: {}
+[4.016992] (-) TimerEvent: {}
+[4.117451] (-) TimerEvent: {}
+[4.217898] (-) TimerEvent: {}
+[4.318397] (-) TimerEvent: {}
+[4.418839] (-) TimerEvent: {}
+[4.519315] (-) TimerEvent: {}
+[4.539230] (learning_tf2_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:76: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1\n'}
+[4.540057] (learning_tf2_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/turtle_tf2_listener.dir/all] Error 2\n'}
+[4.540689] (learning_tf2_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.545121] (learning_tf2_cpp) CommandEnded: {'returncode': 2}
+[4.615783] (learning_tf2_cpp) JobEnded: {'identifier': 'learning_tf2_cpp', 'rc': 2}
+[4.617938] (-) EventReactorShutdown: {}

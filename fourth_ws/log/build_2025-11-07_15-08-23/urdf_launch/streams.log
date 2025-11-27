@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/ph/fourth_ws/build/urdf_launch': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ph/fourth_ws/src/urdf_launch -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_launch
+[0.268s] -- The C compiler identification is GNU 11.4.0
+[0.482s] -- The CXX compiler identification is GNU 11.4.0
+[0.499s] -- Detecting C compiler ABI info
+[0.650s] -- Detecting C compiler ABI info - done
+[0.661s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.662s] -- Detecting C compile features
+[0.662s] -- Detecting C compile features - done
+[0.667s] -- Detecting CXX compiler ABI info
+[0.795s] -- Detecting CXX compiler ABI info - done
+[0.817s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.818s] -- Detecting CXX compile features
+[0.819s] -- Detecting CXX compile features - done
+[0.838s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.051s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.313s] -- Configuring done
+[1.323s] -- Generating done
+[1.327s] -- Build files have been written to: /home/ph/fourth_ws/build/urdf_launch
+[1.333s] Invoked command in '/home/ph/fourth_ws/build/urdf_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ph/fourth_ws/src/urdf_launch -DCMAKE_INSTALL_PREFIX=/home/ph/fourth_ws/install/urdf_launch
+[1.335s] Invoking command in '/home/ph/fourth_ws/build/urdf_launch': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_launch -- -j8 -l8
+[1.414s] Invoked command in '/home/ph/fourth_ws/build/urdf_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ph/fourth_ws/build/urdf_launch -- -j8 -l8
+[1.430s] Invoking command in '/home/ph/fourth_ws/build/urdf_launch': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ph/fourth_ws/build/urdf_launch
+[1.439s] -- Install configuration: ""
+[1.439s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/config
+[1.439s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/config/urdf.rviz
+[1.439s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/launch
+[1.439s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/launch/display.launch.py
+[1.440s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/launch/description.launch.py
+[1.440s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/ament_index/resource_index/package_run_dependencies/urdf_launch
+[1.440s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/ament_index/resource_index/parent_prefix_path/urdf_launch
+[1.440s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/environment/ament_prefix_path.sh
+[1.440s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/environment/ament_prefix_path.dsv
+[1.441s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/environment/path.sh
+[1.441s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/environment/path.dsv
+[1.441s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/local_setup.bash
+[1.441s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/local_setup.sh
+[1.441s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/local_setup.zsh
+[1.442s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/local_setup.dsv
+[1.442s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/package.dsv
+[1.442s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/ament_index/resource_index/packages/urdf_launch
+[1.442s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/cmake/urdf_launchConfig.cmake
+[1.442s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/cmake/urdf_launchConfig-version.cmake
+[1.443s] -- Installing: /home/ph/fourth_ws/install/urdf_launch/share/urdf_launch/package.xml
+[1.446s] Invoked command in '/home/ph/fourth_ws/build/urdf_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ph/fourth_ws/build/urdf_launch

@@ -1,0 +1,24 @@
+[37;1m2025-10-30 15:29:21.198 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port7423: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+/Client:
+  ros__parameters:
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    use_sim_time: false
+
+[37;1m2025-10-30 15:30:03.523 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port7423: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+/Server:
+  ros__parameters:
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    use_sim_time: false
+

@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/ph/third_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target dynamic_frame_tf2_broadcaster[0m
+[0.149s] [ 10%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[0.154s] [ 70%] Built target fixed_frame_tf2_broadcaster
+[0.154s] [ 70%] Built target dynamic_frame_tf2_broadcaster
+[0.154s] [ 70%] Built target turtle_tf2_broadcaster
+[0.155s] [ 90%] Built target static_turtle_tf2_broadcaster
+[3.223s] [01m[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[3.223s] [01m[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:76:13:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’
+[3.224s]    76 |             [01;31m[Know[m[K);
+[3.224s]       |             [01;31m[K^~~[m[K
+[3.224s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.225s]                  from [01m[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener.cpp:22[m[K:
+[3.225s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1126:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.225s]  1126 |   [01;36m[Know[m[K() const;
+[3.225s]       |   [01;36m[K^~~[m[K
+[4.539s] gmake[2]: *** [CMakeFiles/turtle_tf2_listener.dir/build.make:76: CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o] Error 1
+[4.540s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/turtle_tf2_listener.dir/all] Error 2
+[4.540s] gmake: *** [Makefile:146: all] Error 2
+[4.545s] Invoked command in '/home/ph/third_ws/build/learning_tf2_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/third_ws/build/learning_tf2_cpp -- -j8 -l8

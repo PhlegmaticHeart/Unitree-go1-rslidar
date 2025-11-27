@@ -1,0 +1,38 @@
+[0.016s] Invoking command in '/home/ph/seventh_ws/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --build /home/ph/seventh_ws/build/rviz_panel_tutorial -- -j8 -l8
+[0.104s] [ 16%] [34m[1mAutomatic MOC for target demo_panel[0m
+[0.138s] [ 16%] Built target demo_panel_autogen
+[0.193s] [ 33%] [32mBuilding CXX object CMakeFiles/demo_panel.dir/src/demo_panel.cpp.o[0m
+[11.330s] [ 50%] [32m[1mLinking CXX shared library libdemo_panel.so[0m
+[13.553s] [100%] Built target demo_panel
+[13.573s] Invoked command in '/home/ph/seventh_ws/build/rviz_panel_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --build /home/ph/seventh_ws/build/rviz_panel_tutorial -- -j8 -l8
+[13.591s] Invoking command in '/home/ph/seventh_ws/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --install /home/ph/seventh_ws/build/rviz_panel_tutorial
+[13.601s] -- Install configuration: ""
+[13.601s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/lib/libdemo_panel.so
+[13.611s] -- Set runtime path of "/home/ph/seventh_ws/install/rviz_panel_tutorial/lib/libdemo_panel.so" to ""
+[13.611s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/include
+[13.612s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/include/rviz_panel_tutorial
+[13.612s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/include/rviz_panel_tutorial/demo_panel.hpp
+[13.612s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+[13.612s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/icons/classes/DemoPanel.png
+[13.612s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml
+[13.613s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_panel_tutorial
+[13.613s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_panel_tutorial
+[13.613s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.sh
+[13.613s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.dsv
+[13.613s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.sh
+[13.613s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.dsv
+[13.614s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.bash
+[13.614s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.sh
+[13.614s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.zsh
+[13.614s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.dsv
+[13.615s] -- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.dsv
+[13.615s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/packages/rviz_panel_tutorial
+[13.616s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_panel_tutorial
+[13.616s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport.cmake
+[13.617s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport-noconfig.cmake
+[13.617s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.618s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+[13.618s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig.cmake
+[13.618s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig-version.cmake
+[13.618s] -- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.xml
+[13.619s] Invoked command in '/home/ph/seventh_ws/build/rviz_panel_tutorial' returned '0': CMAKE_PREFIX_PATH=/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch /usr/bin/cmake --install /home/ph/seventh_ws/build/rviz_panel_tutorial

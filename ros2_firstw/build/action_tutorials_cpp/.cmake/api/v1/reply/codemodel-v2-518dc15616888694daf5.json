@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ebf4612f3be41651273c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "action_tutorials_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client-6954adc7eb0a4d580532.json",
+					"name" : "action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_server-6e73db664406975d9cd0.json",
+					"name" : "action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_tutorials_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_tutorials_cpp_uninstall-d1dd79ea1e661ddc4323.json",
+					"name" : "action_tutorials_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci_action_client-f0023131c3d937329a28.json",
+					"name" : "fibonacci_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci_action_server-e6987330eae6c778de17.json",
+					"name" : "fibonacci_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-306a66403cd932eba5a1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ph/ros2_firstw/build/action_tutorials_cpp",
+		"source" : "/home/ph/ros2_firstw/src/action_tutorials_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

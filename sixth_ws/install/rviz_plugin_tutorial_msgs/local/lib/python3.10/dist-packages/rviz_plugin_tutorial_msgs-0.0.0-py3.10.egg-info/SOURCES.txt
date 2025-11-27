@@ -1,0 +1,8 @@
+setup.py
+rviz_plugin_tutorial_msgs/__init__.py
+rviz_plugin_tutorial_msgs.egg-info/PKG-INFO
+rviz_plugin_tutorial_msgs.egg-info/SOURCES.txt
+rviz_plugin_tutorial_msgs.egg-info/dependency_links.txt
+rviz_plugin_tutorial_msgs.egg-info/top_level.txt
+rviz_plugin_tutorial_msgs/msg/__init__.py
+rviz_plugin_tutorial_msgs/msg/_point2_d.py

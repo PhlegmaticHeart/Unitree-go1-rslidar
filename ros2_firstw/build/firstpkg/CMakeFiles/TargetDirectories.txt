@@ -1,0 +1,10 @@
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/uninstall.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/firstpkg_uninstall.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/fnode.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/test.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/edit_cache.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/rebuild_cache.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/list_install_components.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/install.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/install/local.dir
+/home/ph/ros2_firstw/build/firstpkg/CMakeFiles/install/strip.dir

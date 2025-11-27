@@ -1,0 +1,2 @@
+Invoking command in '/home/ph/ros2_firstw/build/firstpkg': /usr/bin/cmake --build /home/ph/ros2_firstw/build/firstpkg -- -j8 -l8
+Invoked command in '/home/ph/ros2_firstw/build/firstpkg' returned '2': /usr/bin/cmake --build /home/ph/ros2_firstw/build/firstpkg -- -j8 -l8

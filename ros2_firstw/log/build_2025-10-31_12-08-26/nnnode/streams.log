@@ -1,0 +1,26 @@
+[0.044s] Invoking command in '/home/ph/ros2_firstw/build/nnnode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/nnnode -- -j8 -l8
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target simple_node[0m
+[0.300s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o[0m
+[4.624s] [100%] [32m[1mLinking CXX executable simple_node[0m
+[4.810s] [100%] Built target simple_node
+[4.830s] Invoked command in '/home/ph/ros2_firstw/build/nnnode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/nnnode -- -j8 -l8
+[4.834s] Invoking command in '/home/ph/ros2_firstw/build/nnnode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/nnnode
+[4.847s] -- Install configuration: ""
+[4.847s] -- Installing: /home/ph/ros2_firstw/install/nnnode/lib/nnnode/simple_node
+[4.848s] -- Set runtime path of "/home/ph/ros2_firstw/install/nnnode/lib/nnnode/simple_node" to ""
+[4.849s] -- Installing: /home/ph/ros2_firstw/install/nnnode/share/ament_index/resource_index/package_run_dependencies/nnnode
+[4.849s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/ament_index/resource_index/parent_prefix_path/nnnode
+[4.850s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/ament_prefix_path.sh
+[4.850s] -- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/ament_prefix_path.dsv
+[4.850s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/path.sh
+[4.850s] -- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/path.dsv
+[4.850s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.bash
+[4.851s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.sh
+[4.851s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.zsh
+[4.851s] -- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.dsv
+[4.851s] -- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/package.dsv
+[4.851s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/ament_index/resource_index/packages/nnnode
+[4.851s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/cmake/nnnodeConfig.cmake
+[4.851s] -- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/cmake/nnnodeConfig-version.cmake
+[4.852s] -- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/package.xml
+[4.855s] Invoked command in '/home/ph/ros2_firstw/build/nnnode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ph/ros2_firstw/build/nnnode

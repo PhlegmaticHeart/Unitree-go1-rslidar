@@ -1,0 +1,15 @@
+/home/ph/ros2_firstw/install/launchpkg/share/ament_index/resource_index/package_run_dependencies/launchpkg
+/home/ph/ros2_firstw/install/launchpkg/share/ament_index/resource_index/parent_prefix_path/launchpkg
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/environment/ament_prefix_path.sh
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/environment/ament_prefix_path.dsv
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/environment/path.sh
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/environment/path.dsv
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/local_setup.bash
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/local_setup.sh
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/local_setup.zsh
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/local_setup.dsv
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/package.dsv
+/home/ph/ros2_firstw/install/launchpkg/share/ament_index/resource_index/packages/launchpkg
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/cmake/launchpkgConfig.cmake
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/cmake/launchpkgConfig-version.cmake
+/home/ph/ros2_firstw/install/launchpkg/share/launchpkg/package.xml

@@ -1,0 +1,24 @@
+[0.042s] Invoking command in '/home/ph/ros2_firstw/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ph/ros2_firstw/build/more_interfaces -- -j8 -l8
+[0.150s] [  3%] Built target more_interfaces__cpp
+[0.167s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.213s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[0.320s] [ 21%] Built target more_interfaces__rosidl_typesupport_c
+[0.322s] [ 30%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.327s] [ 39%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.327s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.332s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.338s] [ 66%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.432s] [ 66%] Built target more_interfaces
+[0.460s] [ 72%] Built target publish_address_book
+[0.532s] [ 75%] Built target more_interfaces__py
+[0.587s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[0.677s] [ 87%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.684s] [ 93%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.699s] [100%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.948s] running egg_info
+[0.949s] writing more_interfaces.egg-info/PKG-INFO
+[0.949s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.950s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.955s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.956s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.018s] [100%] Built target ament_cmake_python_build_more_interfaces_egg

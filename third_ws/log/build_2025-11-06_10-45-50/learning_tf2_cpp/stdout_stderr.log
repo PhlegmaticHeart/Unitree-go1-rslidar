@@ -1,0 +1,13 @@
+[  8%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[ 33%] Built target fixed_frame_tf2_broadcaster
+[ 41%] Built target dynamic_frame_tf2_broadcaster
+[ 58%] Built target static_turtle_tf2_broadcaster
+[ 75%] Built target turtle_tf2_listener
+[ 91%] Built target turtle_tf2_broadcaster
+[01m[K/home/ph/third_ws/src/learning_tf2_cpp/src/turtle_tf2_listener_debug.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
+   20 | #include [01;31m[K"geometry_msgs/msg/transform_stamped.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:76: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

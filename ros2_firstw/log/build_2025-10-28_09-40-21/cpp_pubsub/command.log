@@ -1,0 +1,1 @@
+Invoking command in '/home/ph/ros2_firstw/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_pubsub

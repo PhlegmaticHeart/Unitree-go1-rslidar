@@ -1,0 +1,6 @@
+[  8%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o[0m
+[ 58%] Built target fixed_frame_tf2_broadcaster
+[ 58%] Built target turtle_tf2_listener
+[ 58%] Built target dynamic_frame_tf2_broadcaster
+[ 75%] Built target turtle_tf2_broadcaster
+[ 91%] Built target static_turtle_tf2_broadcaster

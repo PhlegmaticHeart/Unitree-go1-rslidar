@@ -1,0 +1,25 @@
+[31mCMake Error at CMakeLists.txt:35 (add_executable):
+  add_executable cannot create target "talker" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/ph/ros2_firstw/src/cpp_pubsub".  See
+  documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at CMakeLists.txt:41 (add_executable):
+  add_executable cannot create target "listener" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/ph/ros2_firstw/src/cpp_pubsub".  See
+  documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:29 (message):
+  ament_environment_hooks() must be called before
+  ament_generate_package_environment() (which is invoked by ament_package())
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+  CMakeLists.txt:48 (ament_package)
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

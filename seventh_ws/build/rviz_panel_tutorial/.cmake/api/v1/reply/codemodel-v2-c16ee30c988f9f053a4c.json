@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-09c239631e9d8c0846b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rviz_panel_tutorial",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_panel-e77191ccc178fbc1ecad.json",
+					"name" : "demo_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_panel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_panel_autogen-49ed22aab4874abda0b5.json",
+					"name" : "demo_panel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_panel_tutorial_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_panel_tutorial_uninstall-1f31765bf9350ad61c06.json",
+					"name" : "rviz_panel_tutorial_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0a61b9de1a6f39c1c2a4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ph/seventh_ws/build/rviz_panel_tutorial",
+		"source" : "/home/ph/seventh_ws/src/rviz_panel_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

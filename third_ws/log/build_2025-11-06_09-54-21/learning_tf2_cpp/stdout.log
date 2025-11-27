@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target dynamic_frame_tf2_broadcaster[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[ 70%] Built target fixed_frame_tf2_broadcaster
+[ 70%] Built target dynamic_frame_tf2_broadcaster
+[ 70%] Built target turtle_tf2_broadcaster
+[ 90%] Built target static_turtle_tf2_broadcaster

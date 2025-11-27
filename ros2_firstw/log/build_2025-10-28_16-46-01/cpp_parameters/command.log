@@ -1,0 +1,2 @@
+Invoking command in '/home/ph/ros2_firstw/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_parameters
+Invoked command in '/home/ph/ros2_firstw/build/cpp_parameters' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ph/ros2_firstw/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/ph/ros2_firstw/install/cpp_parameters

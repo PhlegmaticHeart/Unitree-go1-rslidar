@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000734] (rviz_panel_tutorial) JobQueued: {'identifier': 'rviz_panel_tutorial', 'dependencies': OrderedDict()}
+[0.001050] (rviz_panel_tutorial) JobStarted: {'identifier': 'rviz_panel_tutorial'}
+[0.012596] (rviz_panel_tutorial) JobProgress: {'identifier': 'rviz_panel_tutorial', 'progress': 'cmake'}
+[0.013345] (rviz_panel_tutorial) JobProgress: {'identifier': 'rviz_panel_tutorial', 'progress': 'build'}
+[0.014263] (rviz_panel_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ph/seventh_ws/build/rviz_panel_tutorial', '--', '-j8', '-l8'], 'cwd': '/home/ph/seventh_ws/build/rviz_panel_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/seventh_ws/install/rviz_panel_tutorial/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/seventh_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2280'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/seventh_ws/install:/home/ph/sixth_ws/install:/home/ph/fifth_ws/src/install:/home/ph/fourth_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ph-s:@/tmp/.ICE-unix/1985,unix/ph-s:/tmp/.ICE-unix/1985'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2737ca7_5375_4529_a2c1_a448ea91f1f0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ph/seventh_ws/build/rviz_panel_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch')]), 'shell': False}
+[0.099635] (-) TimerEvent: {}
+[0.104367] (rviz_panel_tutorial) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mAutomatic MOC for target demo_panel\x1b[0m\n'}
+[0.139400] (rviz_panel_tutorial) StdoutLine: {'line': b'[ 16%] Built target demo_panel_autogen\n'}
+[0.194132] (rviz_panel_tutorial) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/demo_panel.dir/src/demo_panel.cpp.o\x1b[0m\n'}
+[0.199761] (-) TimerEvent: {}
+[0.300209] (-) TimerEvent: {}
+[0.400522] (-) TimerEvent: {}
+[0.500836] (-) TimerEvent: {}
+[0.601154] (-) TimerEvent: {}
+[0.701478] (-) TimerEvent: {}
+[0.801801] (-) TimerEvent: {}
+[0.902224] (-) TimerEvent: {}
+[1.002724] (-) TimerEvent: {}
+[1.103052] (-) TimerEvent: {}
+[1.203457] (-) TimerEvent: {}
+[1.303810] (-) TimerEvent: {}
+[1.404179] (-) TimerEvent: {}
+[1.504621] (-) TimerEvent: {}
+[1.605052] (-) TimerEvent: {}
+[1.705438] (-) TimerEvent: {}
+[1.805844] (-) TimerEvent: {}
+[1.906189] (-) TimerEvent: {}
+[2.006524] (-) TimerEvent: {}
+[2.106893] (-) TimerEvent: {}
+[2.207350] (-) TimerEvent: {}
+[2.307699] (-) TimerEvent: {}
+[2.408107] (-) TimerEvent: {}
+[2.508542] (-) TimerEvent: {}
+[2.608929] (-) TimerEvent: {}
+[2.709259] (-) TimerEvent: {}
+[2.809619] (-) TimerEvent: {}
+[2.909954] (-) TimerEvent: {}
+[3.010321] (-) TimerEvent: {}
+[3.110692] (-) TimerEvent: {}
+[3.211023] (-) TimerEvent: {}
+[3.311363] (-) TimerEvent: {}
+[3.411698] (-) TimerEvent: {}
+[3.512050] (-) TimerEvent: {}
+[3.612424] (-) TimerEvent: {}
+[3.712759] (-) TimerEvent: {}
+[3.813088] (-) TimerEvent: {}
+[3.913504] (-) TimerEvent: {}
+[4.013906] (-) TimerEvent: {}
+[4.114269] (-) TimerEvent: {}
+[4.214623] (-) TimerEvent: {}
+[4.315018] (-) TimerEvent: {}
+[4.415386] (-) TimerEvent: {}
+[4.515755] (-) TimerEvent: {}
+[4.616110] (-) TimerEvent: {}
+[4.716504] (-) TimerEvent: {}
+[4.816863] (-) TimerEvent: {}
+[4.917250] (-) TimerEvent: {}
+[5.017613] (-) TimerEvent: {}
+[5.117981] (-) TimerEvent: {}
+[5.218427] (-) TimerEvent: {}
+[5.318780] (-) TimerEvent: {}
+[5.419134] (-) TimerEvent: {}
+[5.519502] (-) TimerEvent: {}
+[5.619897] (-) TimerEvent: {}
+[5.720250] (-) TimerEvent: {}
+[5.820598] (-) TimerEvent: {}
+[5.920925] (-) TimerEvent: {}
+[6.021247] (-) TimerEvent: {}
+[6.121631] (-) TimerEvent: {}
+[6.222156] (-) TimerEvent: {}
+[6.322565] (-) TimerEvent: {}
+[6.422911] (-) TimerEvent: {}
+[6.523251] (-) TimerEvent: {}
+[6.623593] (-) TimerEvent: {}
+[6.723989] (-) TimerEvent: {}
+[6.824398] (-) TimerEvent: {}
+[6.924721] (-) TimerEvent: {}
+[7.025066] (-) TimerEvent: {}
+[7.125494] (-) TimerEvent: {}
+[7.225836] (-) TimerEvent: {}
+[7.326205] (-) TimerEvent: {}
+[7.426527] (-) TimerEvent: {}
+[7.526904] (-) TimerEvent: {}
+[7.627362] (-) TimerEvent: {}
+[7.727762] (-) TimerEvent: {}
+[7.828087] (-) TimerEvent: {}
+[7.928427] (-) TimerEvent: {}
+[8.028756] (-) TimerEvent: {}
+[8.129080] (-) TimerEvent: {}
+[8.229427] (-) TimerEvent: {}
+[8.329747] (-) TimerEvent: {}
+[8.430071] (-) TimerEvent: {}
+[8.530403] (-) TimerEvent: {}
+[8.630729] (-) TimerEvent: {}
+[8.731065] (-) TimerEvent: {}
+[8.831519] (-) TimerEvent: {}
+[8.931991] (-) TimerEvent: {}
+[9.032443] (-) TimerEvent: {}
+[9.132848] (-) TimerEvent: {}
+[9.233256] (-) TimerEvent: {}
+[9.333657] (-) TimerEvent: {}
+[9.434049] (-) TimerEvent: {}
+[9.534472] (-) TimerEvent: {}
+[9.634805] (-) TimerEvent: {}
+[9.735193] (-) TimerEvent: {}
+[9.835511] (-) TimerEvent: {}
+[9.935840] (-) TimerEvent: {}
+[10.036249] (-) TimerEvent: {}
+[10.136637] (-) TimerEvent: {}
+[10.237043] (-) TimerEvent: {}
+[10.337484] (-) TimerEvent: {}
+[10.437881] (-) TimerEvent: {}
+[10.538323] (-) TimerEvent: {}
+[10.638719] (-) TimerEvent: {}
+[10.739057] (-) TimerEvent: {}
+[10.839506] (-) TimerEvent: {}
+[10.939915] (-) TimerEvent: {}
+[11.040379] (-) TimerEvent: {}
+[11.140803] (-) TimerEvent: {}
+[11.241230] (-) TimerEvent: {}
+[11.330553] (rviz_panel_tutorial) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libdemo_panel.so\x1b[0m\n'}
+[11.341340] (-) TimerEvent: {}
+[11.441690] (-) TimerEvent: {}
+[11.542123] (-) TimerEvent: {}
+[11.642545] (-) TimerEvent: {}
+[11.742948] (-) TimerEvent: {}
+[11.843366] (-) TimerEvent: {}
+[11.943755] (-) TimerEvent: {}
+[12.044195] (-) TimerEvent: {}
+[12.144631] (-) TimerEvent: {}
+[12.245014] (-) TimerEvent: {}
+[12.345442] (-) TimerEvent: {}
+[12.445847] (-) TimerEvent: {}
+[12.546260] (-) TimerEvent: {}
+[12.646646] (-) TimerEvent: {}
+[12.747034] (-) TimerEvent: {}
+[12.847453] (-) TimerEvent: {}
+[12.947881] (-) TimerEvent: {}
+[13.048369] (-) TimerEvent: {}
+[13.148799] (-) TimerEvent: {}
+[13.249119] (-) TimerEvent: {}
+[13.349469] (-) TimerEvent: {}
+[13.449861] (-) TimerEvent: {}
+[13.550275] (-) TimerEvent: {}
+[13.553681] (rviz_panel_tutorial) StdoutLine: {'line': b'[100%] Built target demo_panel\n'}
+[13.573414] (rviz_panel_tutorial) CommandEnded: {'returncode': 0}
+[13.574574] (rviz_panel_tutorial) JobProgress: {'identifier': 'rviz_panel_tutorial', 'progress': 'install'}
+[13.590220] (rviz_panel_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ph/seventh_ws/build/rviz_panel_tutorial'], 'cwd': '/home/ph/seventh_ws/build/rviz_panel_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/seventh_ws/install/rviz_panel_tutorial/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial/lib:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/seventh_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2280'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/seventh_ws/install:/home/ph/sixth_ws/install:/home/ph/fifth_ws/src/install:/home/ph/fourth_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ph-s:@/tmp/.ICE-unix/1985,unix/ph-s:/tmp/.ICE-unix/1985'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2737ca7_5375_4529_a2c1_a448ea91f1f0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.92'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ph/seventh_ws/build/rviz_panel_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ph/seventh_ws/install/rviz_panel_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial:/home/ph/sixth_ws/install/rviz_plugin_tutorial_msgs:/home/ph/fifth_ws/src/install/urdf_tutorial_cpp:/opt/ros/humble:/home/ph/fourth_ws/install/urdf_sim_tutorial:/home/ph/fourth_ws/install/urdf_tutorial:/home/ph/fourth_ws/install/urdf_launch')]), 'shell': False}
+[13.601499] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.601845] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/lib/libdemo_panel.so\n'}
+[13.611875] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/ph/seventh_ws/install/rviz_panel_tutorial/lib/libdemo_panel.so" to ""\n'}
+[13.612233] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/include\n'}
+[13.612492] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/include/rviz_panel_tutorial\n'}
+[13.612745] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/include/rviz_panel_tutorial/demo_panel.hpp\n'}
+[13.612919] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml\n'}
+[13.613124] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/icons/classes/DemoPanel.png\n'}
+[13.613376] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/rviz_common_plugins.xml\n'}
+[13.613583] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/package_run_dependencies/rviz_panel_tutorial\n'}
+[13.613752] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/parent_prefix_path/rviz_panel_tutorial\n'}
+[13.613917] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.sh\n'}
+[13.614082] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/ament_prefix_path.dsv\n'}
+[13.614287] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.sh\n'}
+[13.614461] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/environment/path.dsv\n'}
+[13.614627] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.bash\n'}
+[13.614791] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.sh\n'}
+[13.614955] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.zsh\n'}
+[13.615118] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/local_setup.dsv\n'}
+[13.615428] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Installing: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.dsv\n'}
+[13.616012] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/packages/rviz_panel_tutorial\n'}
+[13.616545] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_panel_tutorial\n'}
+[13.617006] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport.cmake\n'}
+[13.617365] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/export_rviz_panel_tutorialExport-noconfig.cmake\n'}
+[13.618307] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.618560] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.618765] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig.cmake\n'}
+[13.618940] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/cmake/rviz_panel_tutorialConfig-version.cmake\n'}
+[13.619179] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Up-to-date: /home/ph/seventh_ws/install/rviz_panel_tutorial/share/rviz_panel_tutorial/package.xml\n'}
+[13.619446] (rviz_panel_tutorial) CommandEnded: {'returncode': 0}
+[13.642583] (rviz_panel_tutorial) JobEnded: {'identifier': 'rviz_panel_tutorial', 'rc': 0}
+[13.643631] (-) EventReactorShutdown: {}

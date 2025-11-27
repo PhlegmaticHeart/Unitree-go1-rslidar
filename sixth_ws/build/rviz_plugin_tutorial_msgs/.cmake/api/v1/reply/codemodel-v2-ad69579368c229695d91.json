@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-572faba8d2462a5638d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rviz_plugin_tutorial_msgs__py",
+					"jsonFile" : "directory-rviz_plugin_tutorial_msgs__py-f0ef576d7d4b9b0acec1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ph/sixth_ws/build/rviz_plugin_tutorial_msgs/rviz_plugin_tutorial_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rviz_plugin_tutorial_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rviz_plugin_tutorial_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rviz_plugin_tutorial_msgs_egg-4b050a274995f8fc902d.json",
+					"name" : "ament_cmake_python_build_rviz_plugin_tutorial_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rviz_plugin_tutorial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rviz_plugin_tutorial_msgs-fe9d1baea5a9304ae386.json",
+					"name" : "ament_cmake_python_copy_rviz_plugin_tutorial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs-410ea1f3ee3c13fa9f3e.json",
+					"name" : "rviz_plugin_tutorial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__cpp-8d1398d08c474f9f3b66.json",
+					"name" : "rviz_plugin_tutorial_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rviz_plugin_tutorial_msgs__py::@302b1afdf1d1d8548c3c",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__py-76493976d37252634e90.json",
+					"name" : "rviz_plugin_tutorial_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_generator_c-b94c561b9101fb65e71a.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_generator_py-6315a9f762dc18ab7b38.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_c-10051af9b11a76d493b7.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_c__pyext-3b53aa84596024f32e68.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_cpp-67cf56baead3bc1bc2cc.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_c-dbc8aedc7c464b12fe5a.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_c__pyext-4bfe7f41442a8676410a.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_cpp-e63fe31fa0cbcb06edab.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_c-2d8744a4092cb921a516.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_c__pyext-51296ca6b0326994c168.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_cpp-17ea20452dab6cb78f34.json",
+					"name" : "rviz_plugin_tutorial_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_plugin_tutorial_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_plugin_tutorial_msgs_uninstall-9fa407d8426a796275dc.json",
+					"name" : "rviz_plugin_tutorial_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ca5f0dc048dba0eb9aad.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ph/sixth_ws/build/rviz_plugin_tutorial_msgs",
+		"source" : "/home/ph/sixth_ws/src/rviz_plugin_tutorial/rviz_plugin_tutorial_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

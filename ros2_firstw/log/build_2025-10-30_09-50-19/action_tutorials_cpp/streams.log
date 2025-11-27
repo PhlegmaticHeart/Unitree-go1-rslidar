@@ -1,0 +1,37 @@
+[0.032s] Invoking command in '/home/ph/ros2_firstw/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces/lib:/home/ph/ros2_firstw/install/tutorial_interfaces/lib:/home/ph/ros2_firstw/install/turtlesim/lib:/home/ph/ros2_firstw/install/more_interfaces/lib:/home/ph/ros2_firstw/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ph/ros2_firstw/build/action_tutorials_cpp -- -j8 -l8
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.181s] [ 50%] Built target fibonacci_action_client
+[0.181s] [ 50%] Built target fibonacci_action_server
+[0.190s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[0.191s] [ 75%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[7.990s] [ 87%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[8.442s] [ 87%] Built target action_server
+[8.536s] [100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[8.919s] [100%] Built target action_client
+[8.954s] Invoked command in '/home/ph/ros2_firstw/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces/lib:/home/ph/ros2_firstw/install/tutorial_interfaces/lib:/home/ph/ros2_firstw/install/turtlesim/lib:/home/ph/ros2_firstw/install/more_interfaces/lib:/home/ph/ros2_firstw/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ph/ros2_firstw/build/action_tutorials_cpp -- -j8 -l8
+[8.959s] Invoking command in '/home/ph/ros2_firstw/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces/lib:/home/ph/ros2_firstw/install/tutorial_interfaces/lib:/home/ph/ros2_firstw/install/turtlesim/lib:/home/ph/ros2_firstw/install/more_interfaces/lib:/home/ph/ros2_firstw/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ph/ros2_firstw/build/action_tutorials_cpp
+[8.980s] -- Install configuration: ""
+[8.982s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client
+[8.984s] -- Installing: /home/ph/ros2_firstw/install/action_tutorials_cpp/lib/libaction_client.so
+[8.988s] -- Set runtime path of "/home/ph/ros2_firstw/install/action_tutorials_cpp/lib/libaction_client.so" to ""
+[8.989s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[8.991s] -- Installing: /home/ph/ros2_firstw/install/action_tutorials_cpp/lib/libaction_server.so
+[8.994s] -- Set runtime path of "/home/ph/ros2_firstw/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[8.995s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[8.995s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[8.996s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[8.996s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[8.996s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[8.996s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[8.996s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[8.997s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[8.997s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[8.997s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[8.998s] -- Installing: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[8.998s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[8.998s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[8.998s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[8.998s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[8.999s] -- Up-to-date: /home/ph/ros2_firstw/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[9.003s] Invoked command in '/home/ph/ros2_firstw/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces:/home/ph/ros2_firstw/install/cpp_srvcli:/home/ph/ros2_firstw/install/cpp_pubsub:/home/ph/ros2_firstw/install/tutorial_interfaces:/home/ph/ros2_firstw/install/turtlesim:/home/ph/ros2_firstw/install/more_interfaces:/home/ph/ros2_firstw/install/firstpkg:/home/ph/ros2_firstw/install/cpp_parameters:/home/ph/ros2_firstw/install/action_tutorials_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ros2_firstw/install/action_tutorials_interfaces/lib:/home/ph/ros2_firstw/install/tutorial_interfaces/lib:/home/ph/ros2_firstw/install/turtlesim/lib:/home/ph/ros2_firstw/install/more_interfaces/lib:/home/ph/ros2_firstw/install/action_tutorials_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ph/ros2_firstw/build/action_tutorials_cpp

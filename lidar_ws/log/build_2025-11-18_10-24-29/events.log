@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000471] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.000649] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000750] (-) JobUnselected: {'identifier': 'livox_sdk2'}
+[0.000797] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.000854] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/ph/ws/lidar_ws/install/rslidar_msg')])}
+[0.000917] (rslidar_sdk) JobStarted: {'identifier': 'rslidar_sdk'}
+[0.014003] (rslidar_sdk) JobEnded: {'identifier': 'rslidar_sdk', 'rc': 1}
+[0.024682] (-) EventReactorShutdown: {}

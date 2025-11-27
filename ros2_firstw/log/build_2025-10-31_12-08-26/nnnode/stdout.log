@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/nnnode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_node[0m
+[100%] Built target simple_node
+-- Install configuration: ""
+-- Installing: /home/ph/ros2_firstw/install/nnnode/lib/nnnode/simple_node
+-- Set runtime path of "/home/ph/ros2_firstw/install/nnnode/lib/nnnode/simple_node" to ""
+-- Installing: /home/ph/ros2_firstw/install/nnnode/share/ament_index/resource_index/package_run_dependencies/nnnode
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/ament_index/resource_index/parent_prefix_path/nnnode
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/ament_prefix_path.sh
+-- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/path.sh
+-- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/environment/path.dsv
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.bash
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.sh
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.zsh
+-- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/local_setup.dsv
+-- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/package.dsv
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/ament_index/resource_index/packages/nnnode
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/cmake/nnnodeConfig.cmake
+-- Up-to-date: /home/ph/ros2_firstw/install/nnnode/share/nnnode/cmake/nnnodeConfig-version.cmake
+-- Installing: /home/ph/ros2_firstw/install/nnnode/share/nnnode/package.xml
