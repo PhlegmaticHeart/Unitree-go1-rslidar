@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/ph/wsfake/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c"
-  "/home/ph/wsfake/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/ph/wsfake/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c"
-  "/home/ph/wsfake/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/msg/__init__.py"
-  "/home/ph/wsfake/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet.py"
-  "/home/ph/wsfake/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c"
+  "/home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c"
+  "/home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c"
+  "/home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/msg/__init__.py"
+  "/home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet.py"
+  "/home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c"
   "CMakeFiles/rslidar_msg__py"
 )
 

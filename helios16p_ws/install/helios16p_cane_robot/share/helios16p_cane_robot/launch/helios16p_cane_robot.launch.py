@@ -16,7 +16,7 @@ default_config_file = os.path.join(
 
 #flags di simulazione
 def generate_launch_description():
-    simulation = LaunchConfiguration('simulation', default='false')
+    simulation = LaunchConfiguration('simulation', default='false') #flag simulazione tempo simulato + bag
     use_sim_time = LaunchConfiguration('use_sim_time', default=simulation) #flag tempo simulato
     play_bag = LaunchConfiguration('play_bag', default=simulation)  # flag per rosbag e path della bag
     bagfile = LaunchConfiguration('bagfile', default='/home/ph/bagrecords/rosbag2_2025_11_17-16_12_04/')
@@ -49,7 +49,7 @@ def generate_launch_description():
             package='robot_state_publisher',
             executable='robot_state_publisher',
             output='screen',                                   #path dell'urdf del robot
-            parameters=[{'robot_description': FileContent('/home/ph/ws/lidar_ws/src/helios16p_cane_robot/urdf/helios16p.urdf'), 'use_sim_time' : use_sim_time }]
+            parameters=[{'robot_description': FileContent('/home/ph/ws/helios16p_ws/src/helios16p_cane_robot/urdf/helios16p.urdf'), 'use_sim_time' : use_sim_time }]
         ),
         Node(
             package='tf2_ros',
@@ -74,6 +74,7 @@ def generate_launch_description():
             ],
             output='screen',
             condition=IfCondition(play_bag),
+            name='startmybag',
         ),
 
          Node(

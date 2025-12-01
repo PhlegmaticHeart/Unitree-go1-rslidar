@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ph/wsfake/helios16p_ws/src/rslidar_msg
+CMAKE_SOURCE_DIR = /home/ph/ws/helios16p_ws/src/rslidar_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ph/wsfake/helios16p_ws/build/rslidar_msg
+CMAKE_BINARY_DIR = /home/ph/ws/helios16p_ws/build/rslidar_msg
 
 # Utility rule file for uninstall.
 
@@ -81,6 +81,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ph/wsfake/helios16p_ws/build/rslidar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/wsfake/helios16p_ws/src/rslidar_msg /home/ph/wsfake/helios16p_ws/src/rslidar_msg /home/ph/wsfake/helios16p_ws/build/rslidar_msg /home/ph/wsfake/helios16p_ws/build/rslidar_msg /home/ph/wsfake/helios16p_ws/build/rslidar_msg/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
+	cd /home/ph/ws/helios16p_ws/build/rslidar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/ws/helios16p_ws/src/rslidar_msg /home/ph/ws/helios16p_ws/src/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
 .PHONY : CMakeFiles/uninstall.dir/depend
 

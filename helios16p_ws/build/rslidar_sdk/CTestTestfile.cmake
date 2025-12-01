@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ph/wsfake/helios16p_ws/src/rslidar_sdk
-# Build directory: /home/ph/wsfake/helios16p_ws/build/rslidar_sdk
+# Source directory: /home/ph/ws/helios16p_ws/src/rslidar_sdk
+# Build directory: /home/ph/ws/helios16p_ws/build/rslidar_sdk
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

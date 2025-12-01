@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ph/wsfake/helios16p_ws/src/rslidar_msg
+CMAKE_SOURCE_DIR = /home/ph/ws/helios16p_ws/src/rslidar_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ph/wsfake/helios16p_ws/build/rslidar_msg
+CMAKE_BINARY_DIR = /home/ph/ws/helios16p_ws/build/rslidar_msg
 
 # Utility rule file for ament_cmake_python_build_rslidar_msg_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/compiler_depend.
 include CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_rslidar_msg_egg:
-	cd /home/ph/wsfake/helios16p_ws/build/rslidar_msg/ament_cmake_python/rslidar_msg && /usr/bin/python3 setup.py egg_info
+	cd /home/ph/ws/helios16p_ws/build/rslidar_msg/ament_cmake_python/rslidar_msg && /usr/bin/python3 setup.py egg_info
 
 CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/codegen:
 .PHONY : CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/depend:
-	cd /home/ph/wsfake/helios16p_ws/build/rslidar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/wsfake/helios16p_ws/src/rslidar_msg /home/ph/wsfake/helios16p_ws/src/rslidar_msg /home/ph/wsfake/helios16p_ws/build/rslidar_msg /home/ph/wsfake/helios16p_ws/build/rslidar_msg /home/ph/wsfake/helios16p_ws/build/rslidar_msg/CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_build_rslidar_msg_egg
+	cd /home/ph/ws/helios16p_ws/build/rslidar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/ws/helios16p_ws/src/rslidar_msg /home/ph/ws/helios16p_ws/src/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_build_rslidar_msg_egg
 .PHONY : CMakeFiles/ament_cmake_python_build_rslidar_msg_egg.dir/depend
 

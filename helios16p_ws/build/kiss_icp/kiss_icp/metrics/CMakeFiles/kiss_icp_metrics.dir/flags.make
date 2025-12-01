@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3
+CXX_INCLUDES = -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ph/wsfake/helios16p_ws/src/rslidar_sdk
+CMAKE_SOURCE_DIR = /home/ph/ws/helios16p_ws/src/rslidar_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ph/wsfake/helios16p_ws/build/rslidar_sdk
+CMAKE_BINARY_DIR = /home/ph/ws/helios16p_ws/build/rslidar_sdk
 
 # Utility rule file for rslidar_sdk_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/rslidar_sdk_uninstall.dir/compiler_depend.make
 include CMakeFiles/rslidar_sdk_uninstall.dir/progress.make
 
 CMakeFiles/rslidar_sdk_uninstall:
-	/usr/bin/cmake -P /home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/rslidar_sdk_uninstall.dir/codegen:
 .PHONY : CMakeFiles/rslidar_sdk_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/rslidar_sdk_uninstall.dir/clean:
 .PHONY : CMakeFiles/rslidar_sdk_uninstall.dir/clean
 
 CMakeFiles/rslidar_sdk_uninstall.dir/depend:
-	cd /home/ph/wsfake/helios16p_ws/build/rslidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/wsfake/helios16p_ws/src/rslidar_sdk /home/ph/wsfake/helios16p_ws/src/rslidar_sdk /home/ph/wsfake/helios16p_ws/build/rslidar_sdk /home/ph/wsfake/helios16p_ws/build/rslidar_sdk /home/ph/wsfake/helios16p_ws/build/rslidar_sdk/CMakeFiles/rslidar_sdk_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" rslidar_sdk_uninstall
+	cd /home/ph/ws/helios16p_ws/build/rslidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/ws/helios16p_ws/src/rslidar_sdk /home/ph/ws/helios16p_ws/src/rslidar_sdk /home/ph/ws/helios16p_ws/build/rslidar_sdk /home/ph/ws/helios16p_ws/build/rslidar_sdk /home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/rslidar_sdk_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" rslidar_sdk_uninstall
 .PHONY : CMakeFiles/rslidar_sdk_uninstall.dir/depend
 
