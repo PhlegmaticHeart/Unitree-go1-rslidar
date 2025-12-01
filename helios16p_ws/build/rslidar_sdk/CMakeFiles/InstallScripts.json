@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/cmake_install.cmake",
+		"/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/src/rs_driver/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

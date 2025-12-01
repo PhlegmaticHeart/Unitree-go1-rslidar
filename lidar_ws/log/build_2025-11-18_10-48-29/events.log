@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000530] (-) JobUnselected: {'identifier': 'kiss_icp'}
-[0.000597] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
-[0.000810] (-) JobUnselected: {'identifier': 'livox_sdk2'}
-[0.000865] (-) JobUnselected: {'identifier': 'rslidar_msg'}
-[0.000907] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
-[0.000947] (-) EventReactorShutdown: {}

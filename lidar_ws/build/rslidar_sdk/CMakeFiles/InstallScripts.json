@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/ph/ws/lidar_ws/build/rslidar_sdk/cmake_install.cmake",
-		"/home/ph/ws/lidar_ws/build/rslidar_sdk/src/rs_driver/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
