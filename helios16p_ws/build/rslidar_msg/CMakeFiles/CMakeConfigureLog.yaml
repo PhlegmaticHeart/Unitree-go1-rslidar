@@ -59,9 +59,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -111,9 +111,9 @@ events:
       - "/opt/ros/humble/bin/uname"
       - "/opt/ros/humble/sbin/uname"
       - "/opt/ros/humble/uname"
+      - "/home/ph/.local/bin/uname"
       - "/opt/ros/humble/bin/uname"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/uname"
-      - "/home/ph/.local/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
       - "/usr/sbin/uname"
@@ -134,6 +134,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -215,9 +216,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -267,9 +268,9 @@ events:
       - "/opt/ros/humble/bin/gmake"
       - "/opt/ros/humble/sbin/gmake"
       - "/opt/ros/humble/gmake"
+      - "/home/ph/.local/bin/gmake"
       - "/opt/ros/humble/bin/gmake"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/gmake"
-      - "/home/ph/.local/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/sbin/gmake"
@@ -290,6 +291,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -369,9 +371,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -421,9 +423,9 @@ events:
       - "/opt/ros/humble/bin/cc"
       - "/opt/ros/humble/sbin/cc"
       - "/opt/ros/humble/cc"
+      - "/home/ph/.local/bin/cc"
       - "/opt/ros/humble/bin/cc"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/cc"
-      - "/home/ph/.local/bin/cc"
       - "/usr/local/sbin/cc"
       - "/usr/local/bin/cc"
       - "/usr/sbin/cc"
@@ -444,6 +446,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -499,6 +502,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -556,9 +560,9 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -584,6 +588,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -619,9 +624,9 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -647,6 +652,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -682,9 +688,9 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -710,6 +716,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -745,9 +752,9 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -773,6 +780,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -808,9 +816,9 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -836,6 +844,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -871,9 +880,9 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -899,6 +908,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -934,9 +944,9 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -962,6 +972,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -997,9 +1008,9 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1025,6 +1036,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1060,9 +1072,9 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1073,9 +1085,9 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
+      - "/home/ph/.local/bin/dlltool"
       - "/opt/ros/humble/bin/dlltool"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/dlltool"
-      - "/home/ph/.local/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/usr/sbin/dlltool"
@@ -1101,6 +1113,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1136,9 +1149,9 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1164,6 +1177,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1199,9 +1213,9 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1212,9 +1226,9 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/tapi"
+      - "/home/ph/.local/bin/tapi"
       - "/opt/ros/humble/bin/tapi"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/tapi"
-      - "/home/ph/.local/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/usr/sbin/tapi"
@@ -1240,6 +1254,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1278,9 +1293,9 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1291,9 +1306,9 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-11.4"
+      - "/home/ph/.local/bin/gcc-ar-11.4"
       - "/opt/ros/humble/bin/gcc-ar-11.4"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/gcc-ar-11.4"
-      - "/home/ph/.local/bin/gcc-ar-11.4"
       - "/usr/local/sbin/gcc-ar-11.4"
       - "/usr/local/bin/gcc-ar-11.4"
       - "/usr/sbin/gcc-ar-11.4"
@@ -1319,6 +1334,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1357,9 +1373,9 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1370,9 +1386,9 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-11.4"
+      - "/home/ph/.local/bin/gcc-ranlib-11.4"
       - "/opt/ros/humble/bin/gcc-ranlib-11.4"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/gcc-ranlib-11.4"
-      - "/home/ph/.local/bin/gcc-ranlib-11.4"
       - "/usr/local/sbin/gcc-ranlib-11.4"
       - "/usr/local/bin/gcc-ranlib-11.4"
       - "/usr/sbin/gcc-ranlib-11.4"
@@ -1398,6 +1414,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1459,6 +1476,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1514,6 +1532,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1574,9 +1593,9 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1587,9 +1606,9 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-11.4"
+      - "/home/ph/.local/bin/gcc-ar-11.4"
       - "/opt/ros/humble/bin/gcc-ar-11.4"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/gcc-ar-11.4"
-      - "/home/ph/.local/bin/gcc-ar-11.4"
       - "/usr/local/sbin/gcc-ar-11.4"
       - "/usr/local/bin/gcc-ar-11.4"
       - "/usr/sbin/gcc-ar-11.4"
@@ -1615,6 +1634,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1653,9 +1673,9 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1666,9 +1686,9 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-11.4"
+      - "/home/ph/.local/bin/gcc-ranlib-11.4"
       - "/opt/ros/humble/bin/gcc-ranlib-11.4"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/gcc-ranlib-11.4"
-      - "/home/ph/.local/bin/gcc-ranlib-11.4"
       - "/usr/local/sbin/gcc-ranlib-11.4"
       - "/usr/local/bin/gcc-ranlib-11.4"
       - "/usr/sbin/gcc-ranlib-11.4"
@@ -1694,6 +1714,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -1717,8 +1738,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-boJvJU"
-      binary: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-boJvJU"
+      source: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-VMIwhU"
+      binary: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-VMIwhU"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1726,13 +1747,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-boJvJU'
+        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-VMIwhU'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7af2/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e7af2.dir/build.make CMakeFiles/cmTC_e7af2.dir/build
-        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-boJvJU'
-        Building C object CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a7d1f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a7d1f.dir/build.make CMakeFiles/cmTC_a7d1f.dir/build
+        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-VMIwhU'
+        Building C object CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1742,8 +1763,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7af2.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e7af2.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cct0yjdU.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7d1f.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a7d1f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMRqCRa.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -1763,14 +1784,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7af2.dir/'
-         as -v --64 -o CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o /tmp/cct0yjdU.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7d1f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o /tmp/ccMRqCRa.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_e7af2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7af2.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a7d1f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7d1f.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -1783,14 +1804,14 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7af2' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7af2.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJY38d7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7af2 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7d1f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7d1f.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmNl2xH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a7d1f /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJY38d7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7af2 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmNl2xH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a7d1f /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7af2' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7af2.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o -o cmTC_e7af2
-        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-boJvJU'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7d1f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7d1f.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o -o cmTC_a7d1f
+        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-VMIwhU'
         
       exitCode: 0
   -
@@ -1825,13 +1846,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-boJvJU']
+        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-VMIwhU']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7af2/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e7af2.dir/build.make CMakeFiles/cmTC_e7af2.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-boJvJU']
-        ignore line: [Building C object CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a7d1f/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a7d1f.dir/build.make CMakeFiles/cmTC_a7d1f.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-VMIwhU']
+        ignore line: [Building C object CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1841,8 +1862,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7af2.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e7af2.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cct0yjdU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7d1f.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a7d1f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMRqCRa.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -1862,14 +1883,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7af2.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o /tmp/cct0yjdU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7d1f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o /tmp/ccMRqCRa.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_e7af2]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7af2.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a7d1f]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7d1f.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -1882,13 +1903,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7af2' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7af2.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJY38d7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7af2 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7d1f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7d1f.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmNl2xH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a7d1f /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccJY38d7.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccmNl2xH.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1906,7 +1927,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e7af2] ==> ignore
+          arg [cmTC_a7d1f] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -1919,7 +1940,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1934,7 +1955,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJY38d7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7af2 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e7af2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmNl2xH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a7d1f /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a7d1f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1972,8 +1993,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-OywqAU"
-      binary: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-OywqAU"
+      source: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-C5hrEm"
+      binary: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-C5hrEm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -1982,13 +2003,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-OywqAU'
+        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-C5hrEm'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9e815/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9e815.dir/build.make CMakeFiles/cmTC_9e815.dir/build
-        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-OywqAU'
-        Building CXX object CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bfe33/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bfe33.dir/build.make CMakeFiles/cmTC_bfe33.dir/build
+        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-C5hrEm'
+        Building CXX object CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1998,8 +2019,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e815.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9e815.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccWlLGEq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bfe33.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bfe33.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc6Anr75.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -2023,14 +2044,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e815.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWlLGEq.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bfe33.dir/'
+         as -v --64 -o CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6Anr75.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9e815
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e815.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_bfe33
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfe33.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -2043,14 +2064,14 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e815' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9e815.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVixdUA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9e815 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfe33' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bfe33.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvAsG3Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bfe33 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVixdUA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9e815 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvAsG3Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bfe33 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e815' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9e815.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9e815
-        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-OywqAU'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfe33' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bfe33.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bfe33
+        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-C5hrEm'
         
       exitCode: 0
   -
@@ -2091,13 +2112,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-OywqAU']
+        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-C5hrEm']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9e815/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9e815.dir/build.make CMakeFiles/cmTC_9e815.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-OywqAU']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bfe33/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_bfe33.dir/build.make CMakeFiles/cmTC_bfe33.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-C5hrEm']
+        ignore line: [Building CXX object CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -2107,8 +2128,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e815.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9e815.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccWlLGEq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bfe33.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bfe33.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc6Anr75.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -2132,14 +2153,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e815.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWlLGEq.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bfe33.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6Anr75.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9e815]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e815.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_bfe33]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfe33.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -2152,13 +2173,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e815' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9e815.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVixdUA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9e815 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bfe33' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bfe33.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvAsG3Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bfe33 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccVixdUA.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccvAsG3Y.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -2176,7 +2197,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9e815] ==> ignore
+          arg [cmTC_bfe33] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -2189,7 +2210,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -2200,7 +2221,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVixdUA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9e815 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_9e815.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvAsG3Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bfe33 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_bfe33.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2318,6 +2339,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -2404,9 +2426,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2473,9 +2495,9 @@ events:
       - "/opt/ros/humble/bin/python3"
       - "/opt/ros/humble/sbin/python3"
       - "/opt/ros/humble/python3"
+      - "/home/ph/.local/bin/python3"
       - "/opt/ros/humble/bin/python3"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/python3"
-      - "/home/ph/.local/bin/python3"
       - "/usr/local/sbin/python3"
       - "/usr/local/bin/python3"
       - "/usr/sbin/python3"
@@ -2496,6 +2518,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -2608,6 +2631,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -2720,6 +2744,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -2832,6 +2857,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -2944,6 +2970,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3056,6 +3083,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3168,6 +3196,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3280,6 +3309,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3392,6 +3422,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3504,6 +3535,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3616,6 +3648,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3730,6 +3763,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3842,6 +3876,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -3954,6 +3989,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -4066,6 +4102,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -4624,6 +4661,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -4687,6 +4725,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -4752,6 +4791,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -4817,6 +4857,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -4886,6 +4927,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -4976,9 +5018,9 @@ events:
       - "/opt/ros/humble/lib/x86_64-linux-gnu/"
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5046,9 +5088,9 @@ events:
       - "/opt/ros/humble/lib/x86_64-linux-gnu/"
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5078,6 +5120,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5196,6 +5239,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5312,6 +5356,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5377,6 +5422,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5509,6 +5555,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5623,6 +5670,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5735,6 +5783,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5851,6 +5900,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -5981,6 +6031,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6101,6 +6152,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6251,6 +6303,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6318,6 +6371,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6466,6 +6520,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6592,6 +6647,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6661,6 +6717,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6859,6 +6916,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -6926,6 +6984,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7050,6 +7109,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7119,6 +7179,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7269,6 +7330,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7338,6 +7400,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7456,6 +7519,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7523,6 +7587,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7671,6 +7736,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7740,6 +7806,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7866,6 +7933,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -7933,6 +8001,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8057,6 +8126,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8173,6 +8243,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8238,6 +8309,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8303,6 +8375,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8417,6 +8490,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8480,6 +8554,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8543,6 +8618,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8606,6 +8682,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8669,6 +8746,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8732,6 +8810,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8844,6 +8923,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -8907,6 +8987,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9021,6 +9102,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9086,6 +9168,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9153,6 +9236,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9222,6 +9306,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9291,6 +9376,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9360,6 +9446,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9429,6 +9516,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9498,6 +9586,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9616,6 +9705,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9734,6 +9824,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9803,6 +9894,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -9895,9 +9987,9 @@ events:
       - "/opt/ros/humble/lib/x86_64-linux-gnu/"
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9980,6 +10072,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10086,6 +10179,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10206,6 +10300,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10324,6 +10419,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10444,6 +10540,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10516,6 +10613,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10590,6 +10688,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10664,6 +10763,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10738,6 +10838,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10812,6 +10913,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10886,6 +10988,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -10960,6 +11063,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -11083,6 +11187,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -11157,6 +11262,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -11233,6 +11339,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -11366,6 +11473,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -11512,6 +11620,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -11627,19 +11736,19 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ph/.nvm/versions/node/v18.20.8/TinyXML2Config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ph/.nvm/versions/node/v18.20.8/tinyxml2-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/home/ph/.local/TinyXML2Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
         path: "/home/ph/.local/tinyxml2-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ph/.nvm/versions/node/v18.20.8/TinyXML2Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ph/.nvm/versions/node/v18.20.8/tinyxml2-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -11707,6 +11816,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -11806,9 +11916,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11914,12 +12024,12 @@ events:
       - "/opt/ros/humble/sbin/pkgconf"
       - "/opt/ros/humble/pkg-config"
       - "/opt/ros/humble/pkgconf"
+      - "/home/ph/.local/bin/pkg-config"
+      - "/home/ph/.local/bin/pkgconf"
       - "/opt/ros/humble/bin/pkg-config"
       - "/opt/ros/humble/bin/pkgconf"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/pkg-config"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/pkgconf"
-      - "/home/ph/.local/bin/pkg-config"
-      - "/home/ph/.local/bin/pkgconf"
       - "/usr/local/sbin/pkg-config"
       - "/usr/local/sbin/pkgconf"
       - "/usr/local/bin/pkg-config"
@@ -11943,6 +12053,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -12021,6 +12132,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -12101,6 +12213,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -12239,12 +12352,12 @@ events:
       - "/opt/ros/humble/"
       - "/usr/include/include/"
       - "/usr/include/"
+      - "/home/ph/.local/bin/include/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/include/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/include/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/include/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/include/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/include/"
@@ -12396,6 +12509,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -12576,15 +12690,15 @@ events:
       - "/usr/lib/x86_64-linux-gnu/lib/"
       - "/usr/lib/x86_64-linux-gnu/lib64/"
       - "/usr/lib/x86_64-linux-gnu/"
+      - "/home/ph/.local/bin/lib/"
+      - "/home/ph/.local/bin/lib64/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/lib/"
       - "/opt/ros/humble/bin/lib64/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/lib/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/lib64/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/lib/"
-      - "/home/ph/.local/bin/lib64/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/lib64/"
       - "/usr/local/sbin/"
@@ -13041,6 +13155,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -13219,15 +13334,15 @@ events:
       - "/usr/lib/x86_64-linux-gnu/lib/"
       - "/usr/lib/x86_64-linux-gnu/lib64/"
       - "/usr/lib/x86_64-linux-gnu/"
+      - "/home/ph/.local/bin/lib/"
+      - "/home/ph/.local/bin/lib64/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/lib/"
       - "/opt/ros/humble/bin/lib64/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/lib/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/lib64/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/lib/"
-      - "/home/ph/.local/bin/lib64/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/lib64/"
       - "/usr/local/sbin/"
@@ -13446,6 +13561,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -13591,6 +13707,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -13686,9 +13803,9 @@ events:
       - "/opt/ros/humble/include/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/include/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13771,6 +13888,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -13869,9 +13987,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13940,9 +14058,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14024,6 +14142,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -14121,9 +14240,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14192,9 +14311,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14239,6 +14358,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -14337,9 +14457,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14408,9 +14528,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14492,6 +14612,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -14589,9 +14710,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14660,9 +14781,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/opt/ros/humble/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14707,6 +14828,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -14830,6 +14952,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -14951,6 +15074,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -15085,6 +15209,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -15205,6 +15330,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -15250,8 +15376,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-YU4EXA"
-      binary: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-YU4EXA"
+      source: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-PAm3c5"
+      binary: "/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-PAm3c5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -15260,17 +15386,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-YU4EXA'
+        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-PAm3c5'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a4735/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a4735.dir/build.make CMakeFiles/cmTC_a4735.dir/build
-        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-YU4EXA'
-        Building C object CMakeFiles/cmTC_a4735.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a4735.dir/src.c.o -c /home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-YU4EXA/src.c
-        Linking C executable cmTC_a4735
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4735.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_a4735.dir/src.c.o -o cmTC_a4735
-        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-YU4EXA'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f669/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f669.dir/build.make CMakeFiles/cmTC_3f669.dir/build
+        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-PAm3c5'
+        Building C object CMakeFiles/cmTC_3f669.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3f669.dir/src.c.o -c /home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-PAm3c5/src.c
+        Linking C executable cmTC_3f669
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f669.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3f669.dir/src.c.o -o cmTC_3f669
+        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_msg/CMakeFiles/CMakeScratch/TryCompile-PAm3c5'
         
       exitCode: 0
   -
@@ -15344,19 +15470,19 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ph/.nvm/versions/node/v18.20.8/fmtConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ph/.nvm/versions/node/v18.20.8/fmt-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/home/ph/.local/fmtConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
         path: "/home/ph/.local/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ph/.nvm/versions/node/v18.20.8/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ph/.nvm/versions/node/v18.20.8/fmt-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -15399,6 +15525,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -15506,19 +15633,19 @@ events:
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/ph/.nvm/versions/node/v18.20.8/spdlogConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/home/ph/.nvm/versions/node/v18.20.8/spdlog-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
         path: "/home/ph/.local/spdlogConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
         path: "/home/ph/.local/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ph/.nvm/versions/node/v18.20.8/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/ph/.nvm/versions/node/v18.20.8/spdlog-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -15557,6 +15684,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -15626,6 +15754,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -15744,6 +15873,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16044,6 +16174,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16111,6 +16242,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16178,6 +16310,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16245,6 +16378,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16312,6 +16446,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16379,6 +16514,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16495,6 +16631,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16609,6 +16746,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16674,6 +16812,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16739,6 +16878,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16804,6 +16944,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16869,6 +17010,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -16934,6 +17076,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17048,6 +17191,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17216,6 +17360,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17338,6 +17483,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17450,6 +17596,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17567,6 +17714,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17684,6 +17832,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17801,6 +17950,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -17916,6 +18066,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -18003,9 +18154,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -18072,9 +18223,9 @@ events:
       - "/opt/ros/humble/bin/python3.6"
       - "/opt/ros/humble/sbin/python3.6"
       - "/opt/ros/humble/python3.6"
+      - "/home/ph/.local/bin/python3.6"
       - "/opt/ros/humble/bin/python3.6"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/python3.6"
-      - "/home/ph/.local/bin/python3.6"
       - "/usr/local/sbin/python3.6"
       - "/usr/local/bin/python3.6"
       - "/usr/sbin/python3.6"
@@ -18140,9 +18291,9 @@ events:
       - "/opt/ros/humble/bin/python3"
       - "/opt/ros/humble/sbin/python3"
       - "/opt/ros/humble/python3"
+      - "/home/ph/.local/bin/python3"
       - "/opt/ros/humble/bin/python3"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/python3"
-      - "/home/ph/.local/bin/python3"
       - "/usr/local/sbin/python3"
       - "/usr/local/bin/python3"
       - "/usr/sbin/python3"
@@ -18163,6 +18314,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -18276,6 +18428,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -18369,9 +18522,9 @@ events:
       - "/opt/ros/humble/lib/"
       - "/opt/ros/humble/"
       - "/usr/lib/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -18600,6 +18753,11 @@ events:
       - "/usr/lib/"
       - "/usr/lib/"
       - "/usr/lib/"
+      - "/home/ph/.local/bin/"
+      - "/home/ph/.local/bin/"
+      - "/home/ph/.local/bin/"
+      - "/home/ph/.local/bin/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/bin/"
@@ -18610,11 +18768,6 @@ events:
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
-      - "/home/ph/.local/bin/"
-      - "/home/ph/.local/bin/"
-      - "/home/ph/.local/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/sbin/"
       - "/usr/local/sbin/"
@@ -18696,6 +18849,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -18944,6 +19098,11 @@ events:
       - "/usr/lib/include/python3.10u/"
       - "/usr/lib/include/python3.10/"
       - "/usr/lib/include/"
+      - "/home/ph/.local/bin/python3.10mu/"
+      - "/home/ph/.local/bin/python3.10m/"
+      - "/home/ph/.local/bin/python3.10u/"
+      - "/home/ph/.local/bin/python3.10/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/python3.10mu/"
       - "/opt/ros/humble/bin/python3.10m/"
       - "/opt/ros/humble/bin/python3.10u/"
@@ -18954,11 +19113,6 @@ events:
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/python3.10u/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/python3.10/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/python3.10mu/"
-      - "/home/ph/.local/bin/python3.10m/"
-      - "/home/ph/.local/bin/python3.10u/"
-      - "/home/ph/.local/bin/python3.10/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/python3.10mu/"
       - "/usr/local/sbin/python3.10m/"
       - "/usr/local/sbin/python3.10u/"
@@ -19295,6 +19449,11 @@ events:
       - "/usr/lib/include/python3.10u/Python.h"
       - "/usr/lib/include/python3.10/Python.h"
       - "/usr/lib/include/Python.h"
+      - "/home/ph/.local/bin/python3.10mu/Python.h"
+      - "/home/ph/.local/bin/python3.10m/Python.h"
+      - "/home/ph/.local/bin/python3.10u/Python.h"
+      - "/home/ph/.local/bin/python3.10/Python.h"
+      - "/home/ph/.local/bin/Python.h"
       - "/opt/ros/humble/bin/python3.10mu/Python.h"
       - "/opt/ros/humble/bin/python3.10m/Python.h"
       - "/opt/ros/humble/bin/python3.10u/Python.h"
@@ -19305,11 +19464,6 @@ events:
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/python3.10u/Python.h"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/python3.10/Python.h"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/Python.h"
-      - "/home/ph/.local/bin/python3.10mu/Python.h"
-      - "/home/ph/.local/bin/python3.10m/Python.h"
-      - "/home/ph/.local/bin/python3.10u/Python.h"
-      - "/home/ph/.local/bin/python3.10/Python.h"
-      - "/home/ph/.local/bin/Python.h"
       - "/usr/local/sbin/python3.10mu/Python.h"
       - "/usr/local/sbin/python3.10m/Python.h"
       - "/usr/local/sbin/python3.10u/Python.h"
@@ -19395,6 +19549,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -19480,9 +19635,9 @@ events:
       - "/opt/ros/humble/include/x86_64-linux-gnu/"
       - "/opt/ros/humble/include/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -19551,9 +19706,9 @@ events:
       - "/opt/ros/humble/include/x86_64-linux-gnu/numpy/numpyconfig.h"
       - "/opt/ros/humble/include/numpy/numpyconfig.h"
       - "/opt/ros/humble/numpy/numpyconfig.h"
+      - "/home/ph/.local/bin/numpy/numpyconfig.h"
       - "/opt/ros/humble/bin/numpy/numpyconfig.h"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/numpy/numpyconfig.h"
-      - "/home/ph/.local/bin/numpy/numpyconfig.h"
       - "/usr/local/sbin/numpy/numpyconfig.h"
       - "/usr/local/bin/numpy/numpyconfig.h"
       - "/usr/sbin/numpy/numpyconfig.h"
@@ -19598,6 +19753,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -19710,6 +19866,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -19826,6 +19983,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -19942,6 +20100,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20058,6 +20217,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20174,6 +20334,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20290,6 +20451,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20406,6 +20568,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20522,6 +20685,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20638,6 +20802,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20752,6 +20917,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -20841,9 +21007,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -20924,6 +21090,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -21010,9 +21177,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -21093,6 +21260,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -21179,9 +21347,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -21262,6 +21430,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
@@ -21348,9 +21517,9 @@ events:
       - "/opt/ros/humble/bin/"
       - "/opt/ros/humble/sbin/"
       - "/opt/ros/humble/"
+      - "/home/ph/.local/bin/"
       - "/opt/ros/humble/bin/"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/"
-      - "/home/ph/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -21417,9 +21586,9 @@ events:
       - "/opt/ros/humble/bin/xmllint"
       - "/opt/ros/humble/sbin/xmllint"
       - "/opt/ros/humble/xmllint"
+      - "/home/ph/.local/bin/xmllint"
       - "/opt/ros/humble/bin/xmllint"
       - "/home/ph/.nvm/versions/node/v18.20.8/bin/xmllint"
-      - "/home/ph/.local/bin/xmllint"
       - "/usr/local/sbin/xmllint"
       - "/usr/local/bin/xmllint"
       - "/usr/sbin/xmllint"
@@ -21440,6 +21609,7 @@ events:
         - "/home/ph/ws/lidar_ws/install/helios16p_cane_robot"
         - "/opt/ros/humble"
       ENV{PATH}:
+        - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
