@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001012] (-) JobUnselected: {'identifier': 'kiss_icp'}
-[0.001206] (-) JobUnselected: {'identifier': 'rslidar_msg'}
-[0.001264] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
-[0.001724] (-) EventReactorShutdown: {}
