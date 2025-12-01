@@ -13,7 +13,7 @@
 Actually, the folder of interest for getting a working kiss_icp pipeline setup is helios16p_ws.
 Folder tutorial_wss is a group of workspaces made to better undestand how ROS 2 works.
 
-################################################################################
+###########################################################################
 
 § Workspace structure §
 
@@ -27,7 +27,7 @@ kiss_icp
 
 helios16p_cane_robot
 
-################################################################################
+###########################################################################
 
 § Packages functions §
 
@@ -40,7 +40,7 @@ kiss_icp: Contains the odometry SLAM pipeline with a personalized configuration 
 helios16p_cane_robot: Contains a launch and an urdf model. 
 With the growth of the project, it'll become more complex and eventually will comprehend and entire model of the robot dog.
 
-################################################################################
+###########################################################################
 
 § Launch file parameters §
 
@@ -52,7 +52,7 @@ Its set by default to false.
 bagfile:='<your/bag/path>' -> it allow you to set a different path for your bag file.
 Its default value can be set in the launch file's def generate_launch_description.
 
-################################################################################
+###########################################################################
 
 § Launch description §
  
@@ -78,7 +78,7 @@ NODE | kiss_icp: Starts the pipeline for converting lidar data to odometry.
 NODE | rviz2: Starts a preconfigured, working out of the box rviz2 session,
 equipped with visual data, visual odometry and visual mapping.
 
-################################################################################
+###########################################################################
 
 § Behaviour §
 
@@ -103,7 +103,7 @@ if simulation is flagged false:
 
 - The rviz2 session will start with a custom config file and it'll show the raw data visualization with a odometry and mapped data output as well.
 
-################################################################################
+###########################################################################
 
 § Building §
 
@@ -111,7 +111,7 @@ Its necessary, if building is needed, to build rslidar_msg package BEFORE rslida
 
 §
 
-################################################################################
+###########################################################################
 
 § Infos on the project §
 
