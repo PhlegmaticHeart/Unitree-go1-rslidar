@@ -1,8 +1,8 @@
-///This project aims to integrate the Robosense Helios 16 P) on a robot dog\\\
+///This project aims to integrate the Robosense Helios 16 P on a robot dog\\\
 
-§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+§
 
-Actually, the folder of interest is helios16p_ws.
+Actually, the folder of interest for getting a working kiss_icp pipeline setup is helios16p_ws.
 Folder tutorial_wss is a group of workspaces made to better undestand how ROS 2 works.
 
 ################################################################################
@@ -97,4 +97,14 @@ if simulation is flagged false:
 
 ################################################################################
 
-§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+§
+
+################################################################################
+
+§ Infos on the project §
+
+This project is currently a cooperational project led by Links Foundation and ITS Meccatronica e Aerospazio Piemonte (MAP).
+
+
+
+
