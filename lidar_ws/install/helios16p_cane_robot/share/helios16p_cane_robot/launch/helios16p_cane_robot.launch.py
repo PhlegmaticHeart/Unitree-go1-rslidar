@@ -7,6 +7,7 @@ from launch.actions import ExecuteProcess, DeclareLaunchArgument
 from launch.conditions import IfCondition, UnlessCondition 
 import os
 
+
 # configurazione di kiss_icp
 default_config_file = os.path.join(
     get_package_share_directory('kiss_icp'), 'config', 'config.yaml'
@@ -15,8 +16,9 @@ default_config_file = os.path.join(
 
 #flags di simulazione
 def generate_launch_description():
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true') #flag tempo simulato
-    play_bag = LaunchConfiguration('play_bag', default='true')  # flag per rosbag e path della bag
+    simulation = LaunchConfiguration('simulation', default='false')
+    use_sim_time = LaunchConfiguration('use_sim_time', default=simulation) #flag tempo simulato
+    play_bag = LaunchConfiguration('play_bag', default=simulation)  # flag per rosbag e path della bag
     bagfile = LaunchConfiguration('bagfile', default='/home/ph/bagrecords/rosbag2_2025_11_17-16_12_04/')
     
 #configurazione dei topic

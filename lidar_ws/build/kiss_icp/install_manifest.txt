@@ -1,7 +1,6 @@
 /home/ph/ws/lidar_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node
 /home/ph/ws/lidar_ws/install/kiss_icp/lib/libodometry_component.so
 /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
-/home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//launch/.odometry.launch.py.swp
 /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
 /home/ph/ws/lidar_ws/install/kiss_icp/share/kiss_icp//config/config.yaml
 /home/ph/ws/lidar_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp

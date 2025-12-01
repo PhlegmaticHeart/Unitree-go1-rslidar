@@ -1,0 +1,2 @@
+Invoking command in '/home/ph/ws/lidar_ws/build/kiss_icp': /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/kiss_icp -- -j8 -l8
+Invoked command in '/home/ph/ws/lidar_ws/build/kiss_icp' returned '2': /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/kiss_icp -- -j8 -l8

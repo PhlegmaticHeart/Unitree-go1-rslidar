@@ -1,0 +1,88 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+[0m=============================================================[0m
+[0m-- POINT_TYPE is XYZI[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0m=============================================================[0m
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0m=============================================================[0m
+[0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[0m=============================================================[0m
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rslidar_msg: 0.0.0 (/home/ph/ws/lidar_ws/install/rslidar_msg/share/rslidar_msg/cmake)
+[0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[0m=============================================================[0m
+[0m-- CMake run for UNIX GNU Compiler[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- rs_driver Version : v1.5.18[0m
+[0m=============================================================[0m
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/ph/ws/lidar_ws/build/rslidar_sdk
+[ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[100%] [1m[32mLinking CXX executable rslidar_sdk_node[0m
+[100%] Built target rslidar_sdk_node
+-- Install configuration: "Release"
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+-- Set non-toolchain portion of runtime path of "/home/ph/ws/lidar_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+-- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+-- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
