@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000504] (-) JobUnselected: {'identifier': 'helios16p_cane_robot'}
+[0.000567] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.000612] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.000653] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
+[0.000696] (-) EventReactorShutdown: {}

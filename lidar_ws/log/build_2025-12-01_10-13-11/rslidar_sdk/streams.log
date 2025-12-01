@@ -1,0 +1,92 @@
+[0.024s] Invoking command in '/home/ph/ws/lidar_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/rslidar_sdk -- -j8 -l8
+[0.043s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.044s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.044s]   CMake.
+[0.044s] 
+[0.044s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.044s]   to tell CMake that the project requires at least <min> but has been updated
+[0.044s]   to work with policies introduced by <max> or earlier.
+[0.044s] 
+[0.044s] [0m
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.253s] -- The CXX compiler identification is GNU 11.4.0
+[0.274s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.407s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.407s] -- Detecting C compile features
+[0.408s] -- Detecting C compile features - done
+[0.428s] -- Detecting CXX compiler ABI info
+[0.532s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.557s] -- Detecting CXX compile features
+[0.558s] -- Detecting CXX compile features - done
+[0.572s] [0m=============================================================[0m
+[0.573s] [0m-- POINT_TYPE is XYZI[0m
+[0.573s] [0m=============================================================[0m
+[0.590s] [0m=============================================================[0m
+[0.590s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0.591s] [0m=============================================================[0m
+[0.938s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.941s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.949s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.027s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.029s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.267s] [0m=============================================================[0m
+[1.267s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[1.267s] [0m=============================================================[0m
+[1.267s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.314s] -- Found rslidar_msg: 0.0.0 (/home/ph/ws/lidar_ws/install/rslidar_msg/share/rslidar_msg/cmake)
+[1.340s] [0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):
+[1.340s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.340s]   CMake.
+[1.340s] 
+[1.340s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.340s]   to tell CMake that the project requires at least <min> but has been updated
+[1.341s]   to work with policies introduced by <max> or earlier.
+[1.341s] 
+[1.341s] [0m
+[1.341s] [0m=============================================================[0m
+[1.341s] [0m-- CMake run for UNIX GNU Compiler[0m
+[1.342s] [0m=============================================================[0m
+[1.342s] [0m=============================================================[0m
+[1.342s] [0m-- rs_driver Version : v1.5.18[0m
+[1.342s] [0m=============================================================[0m
+[1.463s] -- Configuring done (1.4s)
+[1.484s] -- Generating done (0.0s)
+[1.518s] -- Build files have been written to: /home/ph/ws/lidar_ws/build/rslidar_sdk
+[1.593s] [ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[1.593s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[24.401s] [100%] [1m[32mLinking CXX executable rslidar_sdk_node[0m
+[24.689s] [100%] Built target rslidar_sdk_node
+[24.706s] Invoked command in '/home/ph/ws/lidar_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ph/ws/lidar_ws/build/rslidar_sdk -- -j8 -l8
+[24.723s] Invoking command in '/home/ph/ws/lidar_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ph/ws/lidar_ws/build/rslidar_sdk
+[24.733s] -- Install configuration: "Release"
+[24.734s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[24.740s] -- Set non-toolchain portion of runtime path of "/home/ph/ws/lidar_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+[24.741s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[24.741s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[24.741s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[24.741s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[24.741s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[24.742s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[24.742s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[24.742s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[24.742s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[24.742s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[24.743s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[24.743s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[24.743s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[24.744s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[24.744s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[24.744s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[24.744s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[24.744s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[24.745s] -- Installing: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[24.745s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[24.745s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[24.746s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[24.747s] -- Up-to-date: /home/ph/ws/lidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[24.747s] Invoked command in '/home/ph/ws/lidar_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/lidar_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ph/ws/lidar_ws/build/rslidar_sdk
