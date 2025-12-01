@@ -1,0 +1,107 @@
+[0.019s] Invoking command in '/home/ph/ws/helios16p_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/bin/cmake /home/ph/ws/helios16p_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/kiss_icp
+[0.147s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.332s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.357s] [0mCMake Deprecation Warning at /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):
+[0.357s]   The OLD behavior for policy CMP0135 will be removed from a future version
+[0.358s]   of CMake.
+[0.358s] 
+[0.358s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.358s]   policies are deprecated and that a policy should be set to OLD only under
+[0.359s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.359s]   behavior and not rely on setting a policy to OLD.
+[0.359s] Call Stack (most recent call first):
+[0.359s]   /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)
+[0.359s] 
+[0.360s] [0m
+[0.595s] [0mCMake Deprecation Warning at /usr/share/cmake/tsl-robin-map/tsl-robin-mapTargets.cmake:7 (cmake_policy):
+[0.596s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.596s]   CMake.
+[0.596s] 
+[0.596s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.596s]   to tell CMake that the project requires at least <min> but has been updated
+[0.597s]   to work with policies introduced by <max> or earlier.
+[0.597s] Call Stack (most recent call first):
+[0.597s]   /usr/share/cmake/tsl-robin-map/tsl-robin-mapConfig.cmake:31 (include)
+[0.597s]   /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:32 (find_package)
+[0.597s]   /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:43 (find_external_dependency)
+[0.597s]   /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)
+[0.598s] 
+[0.598s] [0m
+[0.604s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.818s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.988s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.058s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.067s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.084s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.216s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.253s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.325s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.331s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.561s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.629s] -- Found FastRTPS: /opt/ros/humble/include
+[1.699s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.717s] -- Found Threads: TRUE
+[1.786s] -- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.854s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.887s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.055s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[2.208s] -- Configuring done (2.2s)
+[2.248s] -- Generating done (0.0s)
+[2.301s] -- Build files have been written to: /home/ph/ws/helios16p_ws/build/kiss_icp
+[2.316s] Invoked command in '/home/ph/ws/helios16p_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/bin/cmake /home/ph/ws/helios16p_ws/src/kiss-icp/ros -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/kiss_icp
+[2.318s] Invoking command in '/home/ph/ws/helios16p_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/kiss_icp -- -j8 -l8
+[2.380s] [ 21%] [32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o[0m
+[2.380s] [ 21%] [32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o[0m
+[2.381s] [ 21%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o[0m
+[2.381s] [ 28%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o[0m
+[2.382s] [ 35%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o[0m
+[2.382s] [ 50%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o[0m
+[2.382s] [ 50%] [32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o[0m
+[8.694s] [ 57%] [1m[32mLinking CXX executable kiss_icp_node[0m
+[8.875s] [ 57%] Built target kiss_icp_node
+[13.290s] [ 64%] [1m[32mLinking CXX static library libkiss_icp_core.a[0m
+[13.699s] [ 64%] Built target kiss_icp_core
+[13.732s] [ 71%] [32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o[0m
+[16.647s] [ 78%] [1m[32mLinking CXX static library libkiss_icp_pipeline.a[0m
+[16.735s] [ 78%] Built target kiss_icp_pipeline
+[16.761s] [ 85%] [32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o[0m
+[20.471s] [ 92%] [1m[32mLinking CXX static library libkiss_icp_metrics.a[0m
+[20.567s] [ 92%] Built target kiss_icp_metrics
+[41.051s] [100%] [1m[32mLinking CXX shared library libodometry_component.so[0m
+[41.380s] [100%] Built target odometry_component
+[41.390s] Invoked command in '/home/ph/ws/helios16p_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/kiss_icp -- -j8 -l8
+[41.402s] Invoking command in '/home/ph/ws/helios16p_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/kiss_icp
+[41.407s] -- Install configuration: "Release"
+[41.408s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[41.409s] -- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node" to ""
+[41.409s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/lib/libodometry_component.so
+[41.412s] -- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/kiss_icp/lib/libodometry_component.so" to ""
+[41.412s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//launch
+[41.412s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[41.412s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//rviz
+[41.412s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[41.413s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//config
+[41.413s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//config/config.yaml
+[41.413s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[41.414s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[41.414s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[41.414s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[41.414s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/path.sh
+[41.415s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[41.415s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.bash
+[41.415s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.sh
+[41.415s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[41.416s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[41.416s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.dsv
+[41.416s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[41.416s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[41.416s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[41.417s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[41.417s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.xml
+[41.420s] Invoked command in '/home/ph/ws/helios16p_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/kiss_icp

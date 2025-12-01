@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.000926] (-) JobUnselected: {'identifier': 'helios16p_cane_robot'}
+[0.001232] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.001292] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.001347] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/ph/ws/helios16p_ws/install/rslidar_msg')])}
+[0.001407] (rslidar_sdk) JobStarted: {'identifier': 'rslidar_sdk'}
+[0.022237] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'cmake'}
+[0.023516] (rslidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/ph/ws/helios16p_ws/src/rslidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/rslidar_sdk'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:/home/ph/ws/helios16p_ws/install/kiss_icp/lib:/home/ph/wsfake/helios16p_ws/install/rslidar_msg/lib:/home/ph/wsfake/helios16p_ws/install/kiss_icp/lib:/home/ph/ws/lidar_ws/install/rslidar_msg/lib:/home/ph/ws/lidar_ws/install/kiss_icp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/bagrecords/bagtest600'), ('DESKTOP_SESSION', 'i3'), ('NVM_BIN', '/home/ph/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ph/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/ph/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install:/home/ph/ws/lidar_ws/install:/home/ph/wsfake/helios16p_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '33554464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ph/.local/bin:/opt/ros/humble/bin:/home/ph/.nvm/versions/node/v18.20.8/bin:/home/ph/.local/bin:/home/ph/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/rslidar_sdk:/home/ph/wsfake/helios16p_ws/install/rslidar_msg:/home/ph/wsfake/helios16p_ws/install/kiss_icp:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/rslidar_sdk:/home/ph/ws/lidar_ws/install/rslidar_msg:/home/ph/ws/lidar_ws/install/kiss_icp:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('GPG_TTY', '/dev/pts/0'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/wsfake/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/lidar_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2073'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/wsfake/helios16p_ws/install/rslidar_sdk:/home/ph/wsfake/helios16p_ws/install/rslidar_msg:/home/ph/wsfake/helios16p_ws/install/kiss_icp:/home/ph/ws/lidar_ws/install/rslidar_sdk:/home/ph/ws/lidar_ws/install/rslidar_msg:/home/ph/ws/lidar_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble')]), 'shell': False}
+[0.041918] (rslidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.042395] (rslidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.042626] (rslidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[0.042851] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[0.042984] (rslidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.043106] (rslidar_sdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.043233] (rslidar_sdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.043364] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[0.043484] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099664] (-) TimerEvent: {}
+[0.110779] (rslidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199818] (-) TimerEvent: {}
+[0.243661] (rslidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.268458] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299967] (-) TimerEvent: {}
+[0.400402] (-) TimerEvent: {}
+[0.406165] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.449014] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.449630] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.450602] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.481594] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500527] (-) TimerEvent: {}
+[0.601023] (-) TimerEvent: {}
+[0.607529] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.661086] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.661591] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.662455] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.678419] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.678660] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- POINT_TYPE is XYZI\x1b[0m\n'}
+[0.678769] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.697668] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.697905] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS Not Found. ROS Support is turned Off.\x1b[0m\n'}
+[0.698014] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[0.701084] (-) TimerEvent: {}
+[0.801359] (-) TimerEvent: {}
+[0.901698] (-) TimerEvent: {}
+[0.909809] (rslidar_sdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.001835] (-) TimerEvent: {}
+[1.102279] (-) TimerEvent: {}
+[1.184238] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.193486] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.202396] (-) TimerEvent: {}
+[1.209670] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.231429] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.260132] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302524] (-) TimerEvent: {}
+[1.341933] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.347396] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402672] (-) TimerEvent: {}
+[1.503155] (-) TimerEvent: {}
+[1.529556] (rslidar_sdk) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.581965] (rslidar_sdk) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[1.603250] (-) TimerEvent: {}
+[1.650833] (rslidar_sdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.666664] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.703403] (-) TimerEvent: {}
+[1.780657] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.785844] (rslidar_sdk) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.803544] (-) TimerEvent: {}
+[1.897019] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.897541] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS2 Found. ROS2 Support is turned On.\x1b[0m\n'}
+[1.897847] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.901322] (rslidar_sdk) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.903626] (-) TimerEvent: {}
+[1.965897] (rslidar_sdk) StdoutLine: {'line': b'-- Found rslidar_msg: 0.0.0 (/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake)\n'}
+[1.996959] (rslidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[1.997294] (rslidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[1.997467] (rslidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[1.997630] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[1.997826] (rslidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[1.998024] (rslidar_sdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[1.998188] (rslidar_sdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[1.998345] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[1.998499] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[1.998652] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.998836] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- CMake run for UNIX GNU Compiler\x1b[0m\n'}
+[1.999004] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[2.001664] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[2.001882] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- rs_driver Version : v1.5.18\x1b[0m\n'}
+[2.002046] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[2.003705] (-) TimerEvent: {}
+[2.104036] (-) TimerEvent: {}
+[2.127969] (rslidar_sdk) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.149015] (rslidar_sdk) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.181730] (rslidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/ph/ws/helios16p_ws/build/rslidar_sdk\n'}
+[2.194064] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[2.195221] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'build'}
+[2.196909] (rslidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ph/ws/helios16p_ws/build/rslidar_sdk', '--', '-j8', '-l8'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:/home/ph/ws/helios16p_ws/install/kiss_icp/lib:/home/ph/wsfake/helios16p_ws/install/rslidar_msg/lib:/home/ph/wsfake/helios16p_ws/install/kiss_icp/lib:/home/ph/ws/lidar_ws/install/rslidar_msg/lib:/home/ph/ws/lidar_ws/install/kiss_icp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/bagrecords/bagtest600'), ('DESKTOP_SESSION', 'i3'), ('NVM_BIN', '/home/ph/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ph/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/ph/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install:/home/ph/ws/lidar_ws/install:/home/ph/wsfake/helios16p_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '33554464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ph/.local/bin:/opt/ros/humble/bin:/home/ph/.nvm/versions/node/v18.20.8/bin:/home/ph/.local/bin:/home/ph/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/rslidar_sdk:/home/ph/wsfake/helios16p_ws/install/rslidar_msg:/home/ph/wsfake/helios16p_ws/install/kiss_icp:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/rslidar_sdk:/home/ph/ws/lidar_ws/install/rslidar_msg:/home/ph/ws/lidar_ws/install/kiss_icp:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('GPG_TTY', '/dev/pts/0'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/wsfake/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/lidar_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2073'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/wsfake/helios16p_ws/install/rslidar_sdk:/home/ph/wsfake/helios16p_ws/install/rslidar_msg:/home/ph/wsfake/helios16p_ws/install/kiss_icp:/home/ph/ws/lidar_ws/install/rslidar_sdk:/home/ph/ws/lidar_ws/install/rslidar_msg:/home/ph/ws/lidar_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble')]), 'shell': False}
+[2.204135] (-) TimerEvent: {}
+[2.262511] (rslidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o\x1b[0m\n'}
+[2.262810] (rslidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o\x1b[0m\n'}
+[2.304246] (-) TimerEvent: {}
+[2.404590] (-) TimerEvent: {}
+[2.504981] (-) TimerEvent: {}
+[2.605359] (-) TimerEvent: {}
+[2.705692] (-) TimerEvent: {}
+[2.806026] (-) TimerEvent: {}
+[2.906419] (-) TimerEvent: {}
+[3.006777] (-) TimerEvent: {}
+[3.107148] (-) TimerEvent: {}
+[3.207507] (-) TimerEvent: {}
+[3.307901] (-) TimerEvent: {}
+[3.408269] (-) TimerEvent: {}
+[3.508634] (-) TimerEvent: {}
+[3.609011] (-) TimerEvent: {}
+[3.709402] (-) TimerEvent: {}
+[3.809822] (-) TimerEvent: {}
+[3.910234] (-) TimerEvent: {}
+[4.010719] (-) TimerEvent: {}
+[4.111159] (-) TimerEvent: {}
+[4.211676] (-) TimerEvent: {}
+[4.312063] (-) TimerEvent: {}
+[4.412466] (-) TimerEvent: {}
+[4.512937] (-) TimerEvent: {}
+[4.613369] (-) TimerEvent: {}
+[4.713833] (-) TimerEvent: {}
+[4.814285] (-) TimerEvent: {}
+[4.914805] (-) TimerEvent: {}
+[5.015243] (-) TimerEvent: {}
+[5.115689] (-) TimerEvent: {}
+[5.216161] (-) TimerEvent: {}
+[5.316635] (-) TimerEvent: {}
+[5.417130] (-) TimerEvent: {}
+[5.517583] (-) TimerEvent: {}
+[5.618059] (-) TimerEvent: {}
+[5.718529] (-) TimerEvent: {}
+[5.819012] (-) TimerEvent: {}
+[5.919459] (-) TimerEvent: {}
+[6.019955] (-) TimerEvent: {}
+[6.120436] (-) TimerEvent: {}
+[6.220879] (-) TimerEvent: {}
+[6.321267] (-) TimerEvent: {}
+[6.421623] (-) TimerEvent: {}
+[6.522061] (-) TimerEvent: {}
+[6.622495] (-) TimerEvent: {}
+[6.722966] (-) TimerEvent: {}
+[6.823380] (-) TimerEvent: {}
+[6.923824] (-) TimerEvent: {}
+[7.024270] (-) TimerEvent: {}
+[7.124685] (-) TimerEvent: {}
+[7.225150] (-) TimerEvent: {}
+[7.325602] (-) TimerEvent: {}
+[7.426308] (-) TimerEvent: {}
+[7.526781] (-) TimerEvent: {}
+[7.627450] (-) TimerEvent: {}
+[7.728149] (-) TimerEvent: {}
+[7.828576] (-) TimerEvent: {}
+[7.928961] (-) TimerEvent: {}
+[8.029316] (-) TimerEvent: {}
+[8.129633] (-) TimerEvent: {}
+[8.230053] (-) TimerEvent: {}
+[8.330456] (-) TimerEvent: {}
+[8.430882] (-) TimerEvent: {}
+[8.531306] (-) TimerEvent: {}
+[8.631827] (-) TimerEvent: {}
+[8.732282] (-) TimerEvent: {}
+[8.832773] (-) TimerEvent: {}
+[8.933439] (-) TimerEvent: {}
+[9.034141] (-) TimerEvent: {}
+[9.134575] (-) TimerEvent: {}
+[9.235076] (-) TimerEvent: {}
+[9.335527] (-) TimerEvent: {}
+[9.436032] (-) TimerEvent: {}
+[9.536485] (-) TimerEvent: {}
+[9.636971] (-) TimerEvent: {}
+[9.737424] (-) TimerEvent: {}
+[9.837890] (-) TimerEvent: {}
+[9.938314] (-) TimerEvent: {}
+[10.038810] (-) TimerEvent: {}
+[10.139276] (-) TimerEvent: {}
+[10.239721] (-) TimerEvent: {}
+[10.340205] (-) TimerEvent: {}
+[10.440623] (-) TimerEvent: {}
+[10.541109] (-) TimerEvent: {}
+[10.641560] (-) TimerEvent: {}
+[10.742262] (-) TimerEvent: {}
+[10.842918] (-) TimerEvent: {}
+[10.943596] (-) TimerEvent: {}
+[11.044073] (-) TimerEvent: {}
+[11.144538] (-) TimerEvent: {}
+[11.245055] (-) TimerEvent: {}
+[11.345523] (-) TimerEvent: {}
+[11.446225] (-) TimerEvent: {}
+[11.546698] (-) TimerEvent: {}
+[11.647194] (-) TimerEvent: {}
+[11.747666] (-) TimerEvent: {}
+[11.848167] (-) TimerEvent: {}
+[11.948641] (-) TimerEvent: {}
+[12.049128] (-) TimerEvent: {}
+[12.149605] (-) TimerEvent: {}
+[12.250047] (-) TimerEvent: {}
+[12.350507] (-) TimerEvent: {}
+[12.451069] (-) TimerEvent: {}
+[12.551535] (-) TimerEvent: {}
+[12.651975] (-) TimerEvent: {}
+[12.752345] (-) TimerEvent: {}
+[12.852785] (-) TimerEvent: {}
+[12.953201] (-) TimerEvent: {}
+[13.053637] (-) TimerEvent: {}
+[13.154110] (-) TimerEvent: {}
+[13.254523] (-) TimerEvent: {}
+[13.355014] (-) TimerEvent: {}
+[13.455454] (-) TimerEvent: {}
+[13.555897] (-) TimerEvent: {}
+[13.656343] (-) TimerEvent: {}
+[13.756840] (-) TimerEvent: {}
+[13.857287] (-) TimerEvent: {}
+[13.957731] (-) TimerEvent: {}
+[14.058234] (-) TimerEvent: {}
+[14.158678] (-) TimerEvent: {}
+[14.259164] (-) TimerEvent: {}
+[14.359837] (-) TimerEvent: {}
+[14.460289] (-) TimerEvent: {}
+[14.560731] (-) TimerEvent: {}
+[14.661202] (-) TimerEvent: {}
+[14.761658] (-) TimerEvent: {}
+[14.862195] (-) TimerEvent: {}
+[14.962627] (-) TimerEvent: {}
+[15.063314] (-) TimerEvent: {}
+[15.163947] (-) TimerEvent: {}
+[15.264383] (-) TimerEvent: {}
+[15.365133] (-) TimerEvent: {}
+[15.465853] (-) TimerEvent: {}
+[15.566304] (-) TimerEvent: {}
+[15.666791] (-) TimerEvent: {}
+[15.767240] (-) TimerEvent: {}
+[15.867693] (-) TimerEvent: {}
+[15.968864] (-) TimerEvent: {}
+[16.069268] (-) TimerEvent: {}
+[16.169667] (-) TimerEvent: {}
+[16.270096] (-) TimerEvent: {}
+[16.370512] (-) TimerEvent: {}
+[16.471007] (-) TimerEvent: {}
+[16.571444] (-) TimerEvent: {}
+[16.671897] (-) TimerEvent: {}
+[16.772535] (-) TimerEvent: {}
+[16.873014] (-) TimerEvent: {}
+[16.973646] (-) TimerEvent: {}
+[17.074141] (-) TimerEvent: {}
+[17.174607] (-) TimerEvent: {}
+[17.275090] (-) TimerEvent: {}
+[17.375546] (-) TimerEvent: {}
+[17.476041] (-) TimerEvent: {}
+[17.576483] (-) TimerEvent: {}
+[17.676946] (-) TimerEvent: {}
+[17.777391] (-) TimerEvent: {}
+[17.877835] (-) TimerEvent: {}
+[17.978242] (-) TimerEvent: {}
+[18.078664] (-) TimerEvent: {}
+[18.179104] (-) TimerEvent: {}
+[18.279552] (-) TimerEvent: {}
+[18.380038] (-) TimerEvent: {}
+[18.480488] (-) TimerEvent: {}
+[18.580946] (-) TimerEvent: {}
+[18.681393] (-) TimerEvent: {}
+[18.781843] (-) TimerEvent: {}
+[18.882510] (-) TimerEvent: {}
+[18.982971] (-) TimerEvent: {}
+[19.083437] (-) TimerEvent: {}
+[19.183881] (-) TimerEvent: {}
+[19.284305] (-) TimerEvent: {}
+[19.384794] (-) TimerEvent: {}
+[19.485263] (-) TimerEvent: {}
+[19.585710] (-) TimerEvent: {}
+[19.686196] (-) TimerEvent: {}
+[19.786652] (-) TimerEvent: {}
+[19.887139] (-) TimerEvent: {}
+[19.987589] (-) TimerEvent: {}
+[20.088085] (-) TimerEvent: {}
+[20.188547] (-) TimerEvent: {}
+[20.289018] (-) TimerEvent: {}
+[20.389472] (-) TimerEvent: {}
+[20.489972] (-) TimerEvent: {}
+[20.590436] (-) TimerEvent: {}
+[20.690929] (-) TimerEvent: {}
+[20.791402] (-) TimerEvent: {}
+[20.892076] (-) TimerEvent: {}
+[20.992779] (-) TimerEvent: {}
+[21.093242] (-) TimerEvent: {}
+[21.193895] (-) TimerEvent: {}
+[21.294360] (-) TimerEvent: {}
+[21.394812] (-) TimerEvent: {}
+[21.495247] (-) TimerEvent: {}
+[21.595691] (-) TimerEvent: {}
+[21.696183] (-) TimerEvent: {}
+[21.796609] (-) TimerEvent: {}
+[21.897103] (-) TimerEvent: {}
+[21.997648] (-) TimerEvent: {}
+[22.098132] (-) TimerEvent: {}
+[22.198577] (-) TimerEvent: {}
+[22.299112] (-) TimerEvent: {}
+[22.399568] (-) TimerEvent: {}
+[22.500069] (-) TimerEvent: {}
+[22.600550] (-) TimerEvent: {}
+[22.701033] (-) TimerEvent: {}
+[22.801490] (-) TimerEvent: {}
+[22.902021] (-) TimerEvent: {}
+[23.002453] (-) TimerEvent: {}
+[23.102914] (-) TimerEvent: {}
+[23.203377] (-) TimerEvent: {}
+[23.303829] (-) TimerEvent: {}
+[23.404297] (-) TimerEvent: {}
+[23.504812] (-) TimerEvent: {}
+[23.605281] (-) TimerEvent: {}
+[23.705941] (-) TimerEvent: {}
+[23.806405] (-) TimerEvent: {}
+[23.907079] (-) TimerEvent: {}
+[24.007552] (-) TimerEvent: {}
+[24.108034] (-) TimerEvent: {}
+[24.212206] (-) TimerEvent: {}
+[24.312679] (-) TimerEvent: {}
+[24.413187] (-) TimerEvent: {}
+[24.513643] (-) TimerEvent: {}
+[24.614091] (-) TimerEvent: {}
+[24.714440] (-) TimerEvent: {}
+[24.814849] (-) TimerEvent: {}
+[24.915261] (-) TimerEvent: {}
+[25.015644] (-) TimerEvent: {}
+[25.116021] (-) TimerEvent: {}
+[25.216376] (-) TimerEvent: {}
+[25.316759] (-) TimerEvent: {}
+[25.417104] (-) TimerEvent: {}
+[25.517462] (-) TimerEvent: {}
+[25.617814] (-) TimerEvent: {}
+[25.718178] (-) TimerEvent: {}
+[25.818561] (-) TimerEvent: {}
+[25.869673] (rslidar_sdk) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable rslidar_sdk_node\x1b[0m\n'}
+[25.918679] (-) TimerEvent: {}
+[26.019171] (-) TimerEvent: {}
+[26.119667] (-) TimerEvent: {}
+[26.220168] (-) TimerEvent: {}
+[26.244920] (rslidar_sdk) StdoutLine: {'line': b'[100%] Built target rslidar_sdk_node\n'}
+[26.263959] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[26.266537] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'install'}
+[26.280604] (rslidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:/home/ph/ws/helios16p_ws/install/kiss_icp/lib:/home/ph/wsfake/helios16p_ws/install/rslidar_msg/lib:/home/ph/wsfake/helios16p_ws/install/kiss_icp/lib:/home/ph/ws/lidar_ws/install/rslidar_msg/lib:/home/ph/ws/lidar_ws/install/kiss_icp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/bagrecords/bagtest600'), ('DESKTOP_SESSION', 'i3'), ('NVM_BIN', '/home/ph/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ph/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'it_IT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/ph/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install:/home/ph/ws/lidar_ws/install:/home/ph/wsfake/helios16p_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '33554464'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', 'c2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ph/.local/bin:/opt/ros/humble/bin:/home/ph/.nvm/versions/node/v18.20.8/bin:/home/ph/.local/bin:/home/ph/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/ph/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/ph'), ('AMENT_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/rslidar_sdk:/home/ph/wsfake/helios16p_ws/install/rslidar_msg:/home/ph/wsfake/helios16p_ws/install/kiss_icp:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/rslidar_sdk:/home/ph/ws/lidar_ws/install/rslidar_msg:/home/ph/ws/lidar_ws/install/kiss_icp:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('GPG_TTY', '/dev/pts/0'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/wsfake/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/ws/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/lidar_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2073'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/wsfake/helios16p_ws/install/rslidar_sdk:/home/ph/wsfake/helios16p_ws/install/rslidar_msg:/home/ph/wsfake/helios16p_ws/install/kiss_icp:/home/ph/ws/lidar_ws/install/rslidar_sdk:/home/ph/ws/lidar_ws/install/rslidar_msg:/home/ph/ws/lidar_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/wsfake/helios16p_ws/install/helios16p_cane_robot:/home/ph/ws/lidar_ws/install/helios16p_cane_robot:/opt/ros/humble')]), 'shell': False}
+[26.292544] (rslidar_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[26.293183] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node\n'}
+[26.298817] (rslidar_sdk) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""\n'}
+[26.299080] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch\n'}
+[26.299308] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py\n'}
+[26.299447] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch\n'}
+[26.299772] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py\n'}
+[26.299949] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py\n'}
+[26.300092] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz\n'}
+[26.300222] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz\n'}
+[26.300539] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz\n'}
+[26.301133] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk\n'}
+[26.301364] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk\n'}
+[26.301631] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh\n'}
+[26.301801] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv\n'}
+[26.301978] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh\n'}
+[26.302155] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv\n'}
+[26.302328] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash\n'}
+[26.302501] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh\n'}
+[26.302682] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh\n'}
+[26.302894] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv\n'}
+[26.303061] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv\n'}
+[26.303306] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk\n'}
+[26.303531] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake\n'}
+[26.303683] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake\n'}
+[26.303887] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml\n'}
+[26.306156] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[26.320448] (-) TimerEvent: {}
+[26.327190] (rslidar_sdk) JobEnded: {'identifier': 'rslidar_sdk', 'rc': 0}
+[26.328452] (-) EventReactorShutdown: {}
