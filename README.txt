@@ -1,3 +1,11 @@
+#\\\#########\\\###\\\###\\\###\\\##\\\\###\\\\\\\\\###\########################
+#\\\#########\\\###\\\\##\\\###\\\#\\\#####\\\#########\###\\##\\\\\\####\\\\###
+#\\\#########\\\###\\\\\#\\\###\\\\\\######\\\\\\\\\###\###\\####\\#####\\######
+#\\\#########\\\###\\\#\\\\\###\\\\\\######\\\\\\\\\###\###\\####\\#####\\######
+#\\\\\\\\\###\\\###\\\##\\\\###\\\#\\\###########\\\###\###\\####\\##\\\\#######
+#\\\\\\\\\###\\\###\\\###\\\###\\\##\\\\###\\\\\\\\\###\########################
+
+
 ///This project aims to integrate the Robosense Helios 16 P on a robot dog\\\
 
 §
@@ -96,6 +104,10 @@ if simulation is flagged false:
 - The rviz2 session will start with a custom config file and it'll show the raw data visualization with a odometry and mapped data output as well.
 
 ################################################################################
+
+§ Building §
+
+Its necessary, if building is needed, to build rslidar_msg package BEFORE rslidar_sdk, as its required by the latter to build effectively.
 
 §
 
