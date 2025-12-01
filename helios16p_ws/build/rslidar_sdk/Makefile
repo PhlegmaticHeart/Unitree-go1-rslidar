@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ph/wsfake/helios16p_ws/src/rslidar_sdk
+CMAKE_SOURCE_DIR = /home/ph/ws/helios16p_ws/src/rslidar_sdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ph/wsfake/helios16p_ws/build/rslidar_sdk
+CMAKE_BINARY_DIR = /home/ph/ws/helios16p_ws/build/rslidar_sdk
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ph/wsfake/helios16p_ws/build/rslidar_sdk/CMakeFiles /home/ph/wsfake/helios16p_ws/build/rslidar_sdk//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles /home/ph/ws/helios16p_ws/build/rslidar_sdk//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ph/wsfake/helios16p_ws/build/rslidar_sdk/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

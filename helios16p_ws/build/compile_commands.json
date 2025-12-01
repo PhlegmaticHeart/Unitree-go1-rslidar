@@ -1,44 +1,44 @@
 [
 {
-  "directory": "/home/ph/wsfake/helios16p_ws/build/kiss_icp/kiss_icp/core",
-  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Registration.cpp.o -c /home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp",
-  "file": "/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp",
+  "directory": "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Registration.cpp.o -c /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp",
+  "file": "/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Registration.cpp",
   "output": "kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o"
 },
 {
-  "directory": "/home/ph/wsfake/helios16p_ws/build/kiss_icp/kiss_icp/core",
-  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o -c /home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp",
-  "file": "/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp",
+  "directory": "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o -c /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp",
+  "file": "/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelHashMap.cpp",
   "output": "kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o"
 },
 {
-  "directory": "/home/ph/wsfake/helios16p_ws/build/kiss_icp/kiss_icp/core",
-  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o -c /home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp",
-  "file": "/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp",
+  "directory": "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o -c /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp",
+  "file": "/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/VoxelUtils.cpp",
   "output": "kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o"
 },
 {
-  "directory": "/home/ph/wsfake/helios16p_ws/build/kiss_icp/kiss_icp/core",
-  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o -c /home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp",
-  "file": "/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp",
+  "directory": "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o -c /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp",
+  "file": "/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Preprocessing.cpp",
   "output": "kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o"
 },
 {
-  "directory": "/home/ph/wsfake/helios16p_ws/build/kiss_icp/kiss_icp/core",
-  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o -c /home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp",
-  "file": "/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp",
+  "directory": "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o -c /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp",
+  "file": "/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core/Threshold.cpp",
   "output": "kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o"
 },
 {
-  "directory": "/home/ph/wsfake/helios16p_ws/build/kiss_icp/kiss_icp/metrics",
-  "command": "/usr/bin/c++  -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o -c /home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp",
-  "file": "/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp",
+  "directory": "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/metrics",
+  "command": "/usr/bin/c++  -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o -c /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp",
+  "file": "/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/metrics/Metrics.cpp",
   "output": "kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o"
 },
 {
-  "directory": "/home/ph/wsfake/helios16p_ws/build/kiss_icp/kiss_icp/pipeline",
-  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/pipeline -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o -c /home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp",
-  "file": "/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp",
+  "directory": "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/pipeline",
+  "command": "/usr/bin/c++ -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=\"\" -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/pipeline -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual -o CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o -c /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp",
+  "file": "/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/pipeline/KissICP.cpp",
   "output": "kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o"
 }
 ]

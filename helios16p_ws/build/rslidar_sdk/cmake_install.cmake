@@ -1,8 +1,8 @@
-# Install script for directory: /home/ph/wsfake/helios16p_ws/src/rslidar_sdk
+# Install script for directory: /home/ph/ws/helios16p_ws/src/rslidar_sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ph/wsfake/helios16p_ws/install/rslidar_sdk")
+  set(CMAKE_INSTALL_PREFIX "/home/ph/ws/helios16p_ws/install/rslidar_sdk")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rslidar_sdk/rslidar_sdk_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rslidar_sdk" TYPE EXECUTABLE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/rslidar_sdk_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rslidar_sdk" TYPE EXECUTABLE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/rslidar_sdk_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rslidar_sdk/rslidar_sdk_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rslidar_sdk/rslidar_sdk_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rslidar_sdk/rslidar_sdk_node"
-         OLD_RPATH "/opt/ros/humble/lib:/home/ph/wsfake/helios16p_ws/install/rslidar_msg/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rslidar_sdk/rslidar_sdk_node")
@@ -63,22 +63,22 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/CMakeFiles/rslidar_sdk_node.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+  include("/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/rslidar_sdk_node.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE DIRECTORY FILES
-    "/home/ph/wsfake/helios16p_ws/src/rslidar_sdk/launch"
-    "/home/ph/wsfake/helios16p_ws/src/rslidar_sdk/rviz"
+    "/home/ph/ws/helios16p_ws/src/rslidar_sdk/launch"
+    "/home/ph/ws/helios16p_ws/src/rslidar_sdk/rviz"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,7 +86,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk/environment" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk/environment" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,54 +94,54 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk/environment" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk/environment" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_index/share/ament_index/resource_index/packages/rslidar_sdk")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_index/share/ament_index/resource_index/packages/rslidar_sdk")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk/cmake" TYPE FILE FILES
-    "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_core/rslidar_sdkConfig.cmake"
-    "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/ament_cmake_core/rslidar_sdkConfig-version.cmake"
+    "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_core/rslidar_sdkConfig.cmake"
+    "/home/ph/ws/helios16p_ws/build/rslidar_sdk/ament_cmake_core/rslidar_sdkConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/wsfake/helios16p_ws/src/rslidar_sdk/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rslidar_sdk" TYPE FILE FILES "/home/ph/ws/helios16p_ws/src/rslidar_sdk/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/src/rs_driver/cmake_install.cmake")
+  include("/home/ph/ws/helios16p_ws/build/rslidar_sdk/src/rs_driver/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/install_local_manifest.txt"
+  file(WRITE "/home/ph/ws/helios16p_ws/build/rslidar_sdk/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -157,6 +157,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/ph/ws/helios16p_ws/build/rslidar_sdk/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

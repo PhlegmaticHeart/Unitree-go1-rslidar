@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCERES_EXPORT_INTERNAL_SYMBOLS -DFMT_LOCALE -DFMT_SHARED -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL="" -DGOOGLE_GLOG_DLL_DECL_FOR_UNITTESTS=""
 
-CXX_INCLUDES = -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/wsfake/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include
+CXX_INCLUDES = -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp/core -I/home/ph/ws/helios16p_ws/src/kiss-icp/cpp -isystem /usr/include/eigen3 -isystem /opt/ros/humble/include
 
 CXX_FLAGS = -O3 -DNDEBUG -fPIC -fdiagnostics-color=always -Werror -Wall -Wextra -pedantic -Wcast-align -Wcast-qual -Wconversion -Wdisabled-optimization -Woverloaded-virtual
 

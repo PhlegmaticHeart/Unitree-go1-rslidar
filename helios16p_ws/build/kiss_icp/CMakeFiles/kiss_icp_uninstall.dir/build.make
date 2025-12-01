@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ph/wsfake/helios16p_ws/src/kiss-icp/ros
+CMAKE_SOURCE_DIR = /home/ph/ws/helios16p_ws/src/kiss-icp/ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ph/wsfake/helios16p_ws/build/kiss_icp
+CMAKE_BINARY_DIR = /home/ph/ws/helios16p_ws/build/kiss_icp
 
 # Utility rule file for kiss_icp_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/kiss_icp_uninstall.dir/compiler_depend.make
 include CMakeFiles/kiss_icp_uninstall.dir/progress.make
 
 CMakeFiles/kiss_icp_uninstall:
-	/usr/bin/cmake -P /home/ph/wsfake/helios16p_ws/build/kiss_icp/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ph/ws/helios16p_ws/build/kiss_icp/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/kiss_icp_uninstall.dir/codegen:
 .PHONY : CMakeFiles/kiss_icp_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/kiss_icp_uninstall.dir/clean:
 .PHONY : CMakeFiles/kiss_icp_uninstall.dir/clean
 
 CMakeFiles/kiss_icp_uninstall.dir/depend:
-	cd /home/ph/wsfake/helios16p_ws/build/kiss_icp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/wsfake/helios16p_ws/src/kiss-icp/ros /home/ph/wsfake/helios16p_ws/src/kiss-icp/ros /home/ph/wsfake/helios16p_ws/build/kiss_icp /home/ph/wsfake/helios16p_ws/build/kiss_icp /home/ph/wsfake/helios16p_ws/build/kiss_icp/CMakeFiles/kiss_icp_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" kiss_icp_uninstall
+	cd /home/ph/ws/helios16p_ws/build/kiss_icp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ph/ws/helios16p_ws/src/kiss-icp/ros /home/ph/ws/helios16p_ws/src/kiss-icp/ros /home/ph/ws/helios16p_ws/build/kiss_icp /home/ph/ws/helios16p_ws/build/kiss_icp /home/ph/ws/helios16p_ws/build/kiss_icp/CMakeFiles/kiss_icp_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" kiss_icp_uninstall
 .PHONY : CMakeFiles/kiss_icp_uninstall.dir/depend
 

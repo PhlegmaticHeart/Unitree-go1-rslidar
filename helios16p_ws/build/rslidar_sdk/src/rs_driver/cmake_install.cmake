@@ -1,4 +1,4 @@
-# Install script for directory: /home/ph/wsfake/helios16p_ws/src/rslidar_sdk/src/rs_driver
+# Install script for directory: /home/ph/ws/helios16p_ws/src/rslidar_sdk/src/rs_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ph/wsfake/helios16p_ws/build/rslidar_sdk/src/rs_driver/install_local_manifest.txt"
+  file(WRITE "/home/ph/ws/helios16p_ws/build/rslidar_sdk/src/rs_driver/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
