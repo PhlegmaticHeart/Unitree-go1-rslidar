@@ -8,7 +8,7 @@ setup.py
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/zip-safe
 helios16p_cane_robot/__init__.py
-launch/helios16p.launch.py
+launch/L.py
 launch/helios16p_cane_robot.launch.py
 resource/helios16p_cane_robot
 test/test_copyright.py

@@ -16,10 +16,16 @@ default_config_file = os.path.join(
 
 #flags di simulazione
 def generate_launch_description():
+    lidarmaxdistance = LaunchConfiguration('max_distance', default=30.0) #distanza oltre cui i dati sono scarti
     simulation = LaunchConfiguration('simulation', default='false') #flag simulazione tempo simulato + bag
     use_sim_time = LaunchConfiguration('use_sim_time', default=simulation) #flag tempo simulato
+    kissmaxrange = LaunchConfiguration('data.max_range', default=30.0) #di base è 100
+    kissminrange = LaunchConfiguration('data.min_range', default=0.0) #di base è a 0
+    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.3) #di base è 0.5
+    kissmappingvoxelpoints = LaunchConfiguration('mapping.max_points_per_voxel', default=10) #di base è 20
+    datadeskew = LaunchConfiguration('data.deskew', default='true') #abilita la manipolazione delle soglie max e min data range
     play_bag = LaunchConfiguration('play_bag', default=simulation)  # flag per rosbag e path della bag
-    bagfile = LaunchConfiguration('bagfile', default='/home/ph/bagrecords/rosbag2_2025_11_17-16_12_04/')
+    bagfile = LaunchConfiguration('bagfile', default='/home/ph/bagrecords/bagtest600/rosbag2_600_BIG/') #posizione del file bag da riprodurre
     
 #configurazione dei topic
     declare_topic_arg = DeclareLaunchArgument( 
@@ -56,6 +62,7 @@ def generate_launch_description():
             name='static_transform_map_to_base_link',
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', 'map', 'base_link'],
+            parameters=[{'use_sim_time' : use_sim_time}],
             output='screen'
         ),
         Node(
@@ -63,14 +70,16 @@ def generate_launch_description():
             name='static_transform_base_link_to_rslidar',
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'rslidar'],
+            parameters=[{'use_sim_time' : use_sim_time}],
             output='screen'
         ),
         ExecuteProcess(
             cmd=[
                 'ros2', 'bag', 'play',
-                '--rate', '1',
+                '--rate', '0.2',
                 bagfile,
-                '--clock', '1.0', '--loop'
+                '--clock', '0.2', '--loop',
+                '--topic', '/rslidar_points',
             ],
             output='screen',
             condition=IfCondition(play_bag),
@@ -82,6 +91,7 @@ def generate_launch_description():
             executable='rslidar_sdk_node',
             name='helios_16p_node',
             output='screen',
+            parameters=[{"max_distance": lidarmaxdistance}],
             condition=UnlessCondition(play_bag),
         ),
 
@@ -94,19 +104,31 @@ def generate_launch_description():
                 ("pointcloud_topic", pointcloud_topic),
         ],
             parameters=[
-            {
-                #configurazione di kiss_icp
-                "base_frame": base_frame,
-                "lidar_odom_frame": lidar_odom_frame,
-                "publish_odom_tf": publish_odom_tf,
-                "invert_odom_tf": invert_odom_tf,
-                #configurazione della CLI di kiss_icp
-                "publish_debug_clouds": visualize,
-                "use_sim_time": use_sim_time,
-                "position_covariance": position_covariance,
-                "orientation_covariance": orientation_covariance,
-            },
-            config_file,
+                config_file, #file base, i parametri qui sotto hanno valenza prioritaria
+
+                {#///configurazione di kiss_icp\\\
+                    
+                 #"adaptive_threshold.initial_threshold",
+                 #"adaptive_threshold.min_motion_th",
+                 "base_frame": base_frame,              
+                 "data.deskew": datadeskew,
+                 "data.max_range": kissmaxrange,
+                 "data.min_range": kissminrange,
+                 "invert_odom_tf": invert_odom_tf,
+                 "lidar_odom_frame": lidar_odom_frame,      
+                 "mapping.max_points_per_voxel": kissmappingvoxelpoints,
+                 "mapping.voxel_size": kissmappingvoxelsize,
+                 "orientation_covariance": orientation_covariance, 
+                 "position_covariance": position_covariance,
+                 "publish_debug_clouds": visualize,
+                 "publish_odom_tf": publish_odom_tf,                
+                 # "registration.convergence_criterion":,
+                 # "registration.max_num_iterations":,
+                 # "registration.max_num_threads":,
+                 "use_sim_time": use_sim_time,
+
+                },
+                
         ],
         ),
 
