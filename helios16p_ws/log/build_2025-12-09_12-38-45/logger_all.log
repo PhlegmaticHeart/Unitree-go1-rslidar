@@ -1,0 +1,438 @@
+[0.368s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.368s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x760a847a9600>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x760a847a8c10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x760a847a8c10>>, mixin_verb=('build',))
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.482s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ph/ws/helios16p_ws'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extensions ['colcon_pkg']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'colcon_pkg'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extensions ['colcon_meta']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extensions ['cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'python'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extensions ['python_setup_py']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(old_frames) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extensions ['cmake', 'python']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'cmake'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'python'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_57_50) by extension 'python_setup_py'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'ros'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extensions ['cmake', 'python']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_04-17_58_53) by extension 'python_setup_py'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/helios16p_cane_robot) by extension 'ros'
+[0.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src/helios16p_cane_robot' with type 'ros.ament_python' and name 'helios16p_cane_robot'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'cmake'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python_setup_py'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ros'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['cmake', 'python']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'cmake'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['python_setup_py']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python_setup_py'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) ignored
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ros'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['cmake', 'python']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'cmake'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['python_setup_py']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python_setup_py'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) ignored
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kiss-icp/ros' with type 'ros.ament_cmake' and name 'kiss_icp'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_msg) by extension 'ros'
+[0.593s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_msg' with type 'ros.ament_cmake' and name 'rslidar_msg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extensions ['ros']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src/rslidar_sdk) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rslidar_sdk' with type 'ros.ament_cmake' and name 'rslidar_sdk'
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.681s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 461 installed packages in /opt/ros/humble
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'cmake_target' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.874s] Level 5:colcon.colcon_core.verb:set package 'helios16p_cane_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.875s] DEBUG:colcon.colcon_core.verb:Building package 'helios16p_cane_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot', 'merge_install': False, 'path': '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot', 'symlink_install': False, 'test_result_base': None}
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_first' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_force_configure' from command line to 'False'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'ament_cmake_args' from command line to 'None'
+[0.876s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.877s] DEBUG:colcon.colcon_core.verb:Building package 'kiss_icp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ws/helios16p_ws/build/kiss_icp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ws/helios16p_ws/install/kiss_icp', 'merge_install': False, 'path': '/home/ph/ws/helios16p_ws/src/kiss-icp/ros', 'symlink_install': False, 'test_result_base': None}
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.878s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.879s] Level 5:colcon.colcon_core.verb:set package 'rslidar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.879s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ws/helios16p_ws/build/rslidar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ws/helios16p_ws/install/rslidar_msg', 'merge_install': False, 'path': '/home/ph/ws/helios16p_ws/src/rslidar_msg', 'symlink_install': False, 'test_result_base': None}
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_args' from command line to 'None'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target' from command line to 'None'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.880s] Level 5:colcon.colcon_core.verb:set package 'rslidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.880s] DEBUG:colcon.colcon_core.verb:Building package 'rslidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ph/ws/helios16p_ws/build/rslidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ph/ws/helios16p_ws/install/rslidar_sdk', 'merge_install': False, 'path': '/home/ph/ws/helios16p_ws/src/rslidar_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.881s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.884s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ph/ws/helios16p_ws/src/rslidar_msg' with build type 'ament_cmake'
+[0.884s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ph/ws/helios16p_ws/src/rslidar_msg'
+[0.890s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.901s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot' with build type 'ament_python'
+[0.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('helios16p_cane_robot', 'ament_prefix_path')
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/hook/ament_prefix_path.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/hook/ament_prefix_path.dsv'
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/hook/ament_prefix_path.sh'
+[0.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.909s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.919s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ph/ws/helios16p_ws/src/kiss-icp/ros' with build type 'ament_cmake'
+[0.920s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ph/ws/helios16p_ws/src/kiss-icp/ros'
+[0.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_msg -- -j8 -l8
+[1.720s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot'
+[1.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ws/helios16p_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/kiss_icp -- -j8 -l8
+[2.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ws/helios16p_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/kiss_icp -- -j8 -l8
+[2.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ws/helios16p_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/kiss_icp
+[2.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ws/helios16p_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/kiss_icp
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp' for CMake module files
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp' for CMake config files
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/lib'
+[2.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/bin'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/bin'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ws/helios16p_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[2.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp' for CMake module files
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp' for CMake config files
+[2.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/lib'
+[2.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/bin'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.116s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/kiss_icp/bin'
+[2.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ws/helios16p_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_msg -- -j8 -l8
+[2.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_msg
+[2.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[2.447s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg' for CMake module files
+[2.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_msg
+[2.450s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg' for CMake config files
+[2.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[2.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib'
+[2.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[2.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[2.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/bin'
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/python3.10/site-packages'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/bin'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.sh'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.bash'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[2.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ws/helios16p_ws/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[2.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_msg)
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg' for CMake module files
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg' for CMake config files
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'cmake_prefix_path')
+[2.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.ps1'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.dsv'
+[2.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/cmake_prefix_path.sh'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib'
+[2.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_msg', 'ld_library_path_lib')
+[2.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.ps1'
+[2.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.dsv'
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/hook/ld_library_path_lib.sh'
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/bin'
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/pkgconfig/rslidar_msg.pc'
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/python3.10/site-packages'
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_msg/bin'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.ps1'
+[2.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.dsv'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.sh'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.bash'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.zsh'
+[2.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ws/helios16p_ws/install/rslidar_msg/share/colcon-core/packages/rslidar_msg)
+[2.497s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ph/ws/helios16p_ws/src/rslidar_sdk' with build type 'ament_cmake'
+[2.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ph/ws/helios16p_ws/src/rslidar_sdk'
+[2.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_sdk -- -j8 -l8
+[2.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_sdk -- -j8 -l8
+[2.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_sdk
+[2.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[2.684s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk' for CMake module files
+[2.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_sdk
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk' for CMake config files
+[2.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[2.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/bin'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/python3.10/site-packages'
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/bin'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[2.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[2.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[2.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[2.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[2.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rslidar_sdk)
+[2.711s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk' for CMake module files
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk' for CMake config files
+[2.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('rslidar_sdk', 'cmake_prefix_path')
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.ps1'
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.dsv'
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/hook/cmake_prefix_path.sh'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib'
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/bin'
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/pkgconfig/rslidar_sdk.pc'
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/python3.10/site-packages'
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/rslidar_sdk/bin'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.ps1'
+[2.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv'
+[2.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.sh'
+[2.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.bash'
+[2.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.zsh'
+[2.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ws/helios16p_ws/install/rslidar_sdk/share/colcon-core/packages/rslidar_sdk)
+[4.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data
+[5.884s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot' for CMake module files
+[5.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot' returned '0': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data
+[5.886s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot' for CMake config files
+[5.888s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib'
+[5.888s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/bin'
+[5.889s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/pkgconfig/helios16p_cane_robot.pc'
+[5.889s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages'
+[5.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('helios16p_cane_robot', 'pythonpath')
+[5.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/hook/pythonpath.ps1'
+[5.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/hook/pythonpath.dsv'
+[5.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/hook/pythonpath.sh'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/bin'
+[5.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(helios16p_cane_robot)
+[5.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/package.ps1'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/package.dsv'
+[5.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/package.sh'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/package.bash'
+[5.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/package.zsh'
+[5.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/colcon-core/packages/helios16p_cane_robot)
+[5.903s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.905s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.920s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.925s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ws/helios16p_ws/install/local_setup.ps1'
+[5.929s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ph/ws/helios16p_ws/install/_local_setup_util_ps1.py'
+[5.936s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ws/helios16p_ws/install/setup.ps1'
+[5.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ws/helios16p_ws/install/local_setup.sh'
+[5.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ph/ws/helios16p_ws/install/_local_setup_util_sh.py'
+[5.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ws/helios16p_ws/install/setup.sh'
+[5.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ws/helios16p_ws/install/local_setup.bash'
+[5.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ws/helios16p_ws/install/setup.bash'
+[5.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ph/ws/helios16p_ws/install/local_setup.zsh'
+[5.953s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ph/ws/helios16p_ws/install/setup.zsh'

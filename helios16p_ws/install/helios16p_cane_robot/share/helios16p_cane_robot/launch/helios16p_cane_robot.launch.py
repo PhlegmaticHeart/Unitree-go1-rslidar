@@ -5,23 +5,38 @@ from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, File
 from launch_ros.substitutions import FindPackageShare
 from launch.actions import ExecuteProcess, DeclareLaunchArgument
 from launch.conditions import IfCondition, UnlessCondition 
+from pathlib import Path
 import os
 
+package_name = 'helios16p_cane_robot'
 
-# configurazione di kiss_icp
-default_config_file = os.path.join(
-    get_package_share_directory('kiss_icp'), 'config', 'config.yaml'
-)
+
 
 
 #flags di simulazione
 def generate_launch_description():
-    lidarmaxdistance = LaunchConfiguration('max_distance', default=30.0) #distanza oltre cui i dati sono scarti
+
+
+
+# configurazione di kiss_icp
+    default_config_file = os.path.join(
+        get_package_share_directory('kiss_icp'), 'config', 'config.yaml'
+    )
+    
+    pkg_share = FindPackageShare('helios16p_cane_robot').find('helios16p_cane_robot')
+    
+    lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml')
+    
+    urdf_file = os.path.join(pkg_share, 'urdf', 'helios16p.urdf')
+    
+    config_file = LaunchConfiguration("config_file", default=default_config_file)
+
+    lidarmaxdistance = LaunchConfiguration('max_distance', default=200) #distanza oltre cui i dati sono scarti
     simulation = LaunchConfiguration('simulation', default='false') #flag simulazione tempo simulato + bag
     use_sim_time = LaunchConfiguration('use_sim_time', default=simulation) #flag tempo simulato
-    kissmaxrange = LaunchConfiguration('data.max_range', default=30.0) #di base è 100
+    kissmaxrange = LaunchConfiguration('data.max_range', default=100.0) #di base è 100
     kissminrange = LaunchConfiguration('data.min_range', default=0.0) #di base è a 0
-    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.3) #di base è 0.5
+    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.5) #di base è 0.5
     kissmappingvoxelpoints = LaunchConfiguration('mapping.max_points_per_voxel', default=10) #di base è 20
     datadeskew = LaunchConfiguration('data.deskew', default='true') #abilita la manipolazione delle soglie max e min data range
     play_bag = LaunchConfiguration('play_bag', default=simulation)  # flag per rosbag e path della bag
@@ -44,7 +59,6 @@ def generate_launch_description():
     position_covariance = LaunchConfiguration("position_covariance", default=0.1)
     orientation_covariance = LaunchConfiguration("orientation_covariance", default=0.1)
 
-    config_file = LaunchConfiguration("config_file", default=default_config_file)
 #    urdf_path = PathJoinSubstitution([
 #        FindPackageShare('helios16p_cane_robot'), 'urdf', 'helios16p.urdf'
 #    ])
@@ -55,7 +69,7 @@ def generate_launch_description():
             package='robot_state_publisher',
             executable='robot_state_publisher',
             output='screen',                                   #path dell'urdf del robot
-            parameters=[{'robot_description': FileContent('/home/ph/ws/helios16p_ws/src/helios16p_cane_robot/urdf/helios16p.urdf'), 'use_sim_time' : use_sim_time }]
+            parameters=[{'robot_description': FileContent(urdf_file), 'use_sim_time' : use_sim_time }],
         ),
         Node(
             package='tf2_ros',
@@ -63,7 +77,7 @@ def generate_launch_description():
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', 'map', 'base_link'],
             parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen'
+            output='screen',
         ),
         Node(
             package='tf2_ros',
@@ -71,14 +85,14 @@ def generate_launch_description():
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'rslidar'],
             parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen'
+            output='screen',
         ),
         ExecuteProcess(
             cmd=[
                 'ros2', 'bag', 'play',
-                '--rate', '0.2',
+                '--rate', '1.0',
                 bagfile,
-                '--clock', '0.2', '--loop',
+                '--clock', '1.0', '--loop',
                 '--topic', '/rslidar_points',
             ],
             output='screen',
@@ -86,12 +100,13 @@ def generate_launch_description():
             name='startmybag',
         ),
 
-         Node(
+        Node(
             package='rslidar_sdk',
+            #namespace='rslidar_sdk',
             executable='rslidar_sdk_node',
-            name='helios_16p_node',
+            name='helios16p_node',
             output='screen',
-            parameters=[{"max_distance": lidarmaxdistance}],
+            parameters=[{'config_path': lidar_config_file}],
             condition=UnlessCondition(play_bag),
         ),
 

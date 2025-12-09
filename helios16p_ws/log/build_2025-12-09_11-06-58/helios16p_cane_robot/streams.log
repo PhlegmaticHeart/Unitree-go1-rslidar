@@ -1,0 +1,40 @@
+[3.670s] Invoking command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data
+[4.527s] running egg_info
+[4.590s] writing ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/PKG-INFO
+[4.592s] writing dependency_links to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/dependency_links.txt
+[4.593s] writing requirements to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/requires.txt
+[4.593s] writing top-level names to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt
+[4.722s] reading manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+[4.726s] writing manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+[4.727s] running build
+[4.727s] running build_py
+[4.727s] copying helios16p_cane_robot/__init__.py -> /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build/lib/helios16p_cane_robot
+[4.728s] running install
+[4.739s] running install_lib
+[4.805s] running install_data
+[4.805s] copying resource/helios16p_cane_robot -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/ament_index/resource_index/packages
+[4.806s] copying package.xml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot
+[4.806s] copying launch/helios16p_cane_robot.launch.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+[4.807s] copying launch/L.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+[4.808s] copying configs/lidar_config.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[4.808s] copying urdf/helios16p.urdf -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/urdf
+[4.809s] running install_egg_info
+[4.883s] removing '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[4.883s] Copying ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info to /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info
+[4.886s] running install_scripts
+[5.411s] writing list of installed files to '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log'
+[6.014s] error: Multiple top-level packages discovered in a flat-layout: ['urdf', 'launch', 'configs', 'resource', 'helios16p_cane_robot'].
+[6.015s] 
+[6.015s] To avoid accidental inclusion of unwanted files or directories,
+[6.015s] setuptools will not proceed with this build.
+[6.015s] 
+[6.016s] If you are trying to create a single distribution with multiple packages
+[6.016s] on purpose, you should not rely on automatic discovery.
+[6.016s] Instead, consider the following options:
+[6.016s] 
+[6.016s] 1. set up custom discovery (`find` directive with `include` or `exclude`)
+[6.016s] 2. use a `src-layout`
+[6.017s] 3. explicitly set `py_modules` or `packages` with a list of names
+[6.017s] 
+[6.017s] To find more information, look for "package discovery" on setuptools docs.
+[6.091s] Invoked command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot' returned '1': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data

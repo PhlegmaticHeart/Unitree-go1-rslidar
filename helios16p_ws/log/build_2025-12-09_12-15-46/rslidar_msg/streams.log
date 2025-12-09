@@ -1,0 +1,144 @@
+[0.067s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_msg -- -j8 -l8
+[0.915s] [  3%] Built target rslidar_msg__cpp
+[0.918s] [ 12%] Built target rslidar_msg__rosidl_generator_c
+[0.918s] [ 12%] Built target ament_cmake_python_copy_rslidar_msg
+[0.919s] [ 22%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp
+[0.920s] [ 32%] Built target rslidar_msg__rosidl_typesupport_cpp
+[0.921s] [ 41%] Built target rslidar_msg__rosidl_typesupport_introspection_c
+[0.921s] [ 51%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp
+[0.922s] [ 61%] Built target rslidar_msg__rosidl_typesupport_c
+[0.923s] [ 70%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c
+[0.923s] [ 70%] Built target rslidar_msg
+[0.923s] [ 74%] Built target rslidar_msg__py
+[0.924s] [ 80%] Built target rslidar_msg__rosidl_generator_py
+[0.924s] [ 87%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext
+[0.927s] [100%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.928s] [100%] Built target rslidar_msg__rosidl_typesupport_c__pyext
+[1.030s] running egg_info
+[1.111s] writing rslidar_msg.egg-info/PKG-INFO
+[1.113s] writing dependency_links to rslidar_msg.egg-info/dependency_links.txt
+[1.114s] writing top-level names to rslidar_msg.egg-info/top_level.txt
+[1.381s] reading manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[1.384s] writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[1.471s] [100%] Built target ament_cmake_python_build_rslidar_msg_egg
+[1.491s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_msg -- -j8 -l8
+[1.496s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_msg
+[1.509s] -- Install configuration: ""
+[1.509s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg
+[1.510s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[1.510s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[1.510s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_c__visibility_control.h
+[1.511s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[1.511s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.c
+[1.512s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.h
+[1.512s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.h
+[1.513s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.h
+[1.513s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.h
+[1.513s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh
+[1.514s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv
+[1.514s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so
+[1.515s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[1.515s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[1.515s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[1.516s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h
+[1.516s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.516s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so
+[1.517s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[1.517s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[1.517s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.517s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[1.518s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__builder.hpp
+[1.519s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__traits.hpp
+[1.523s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.hpp
+[1.523s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.hpp
+[1.523s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.hpp
+[1.524s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[1.524s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[1.524s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.525s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[1.525s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.527s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/dds_fastrtps
+[1.528s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.528s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[1.528s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[1.532s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.532s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[1.533s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.c
+[1.533s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h
+[1.533s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so
+[1.534s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so
+[1.534s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[1.535s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[1.535s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[1.535s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp
+[1.536s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.536s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so
+[1.536s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so
+[1.537s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh
+[1.537s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv
+[1.537s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info
+[1.537s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/top_level.txt
+[1.538s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.538s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.538s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.539s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg
+[1.539s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.539s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/librslidar_msg__rosidl_generator_py.so
+[1.539s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c
+[1.540s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.540s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c
+[1.540s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.540s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py
+[1.541s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.541s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg
+[1.541s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet_s.c
+[1.542s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py
+[1.542s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py
+[1.638s] Listing '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg'...
+[1.639s] Listing '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg'...
+[1.654s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.655s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.656s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.657s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so
+[1.658s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl
+[1.658s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg
+[1.659s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg
+[1.659s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg
+[1.659s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh
+[1.660s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv
+[1.660s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/path.sh
+[1.661s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/path.dsv
+[1.661s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.bash
+[1.662s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.sh
+[1.662s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.zsh
+[1.663s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.dsv
+[1.663s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.dsv
+[1.664s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg
+[1.664s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport.cmake
+[1.665s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport-noconfig.cmake
+[1.666s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.666s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.666s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cppExport.cmake
+[1.667s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.667s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.667s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.668s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.668s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake
+[1.669s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.669s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.670s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.671s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake
+[1.674s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.675s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport.cmake
+[1.676s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport-noconfig.cmake
+[1.677s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake
+[1.678s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.678s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.679s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.679s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.680s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.680s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.682s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake
+[1.683s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake
+[1.684s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.xml
+[1.685s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_msg
