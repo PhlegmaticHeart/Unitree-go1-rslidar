@@ -1,0 +1,34 @@
+[0.758s] Invoking command in '/home/ph/ws/helios16p_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/kiss_icp -- -j8 -l8
+[0.856s] [ 14%] Built target kiss_icp_metrics
+[0.868s] [ 50%] Built target kiss_icp_node
+[0.869s] [ 71%] Built target kiss_icp_core
+[0.915s] [ 85%] Built target kiss_icp_pipeline
+[0.981s] [100%] Built target odometry_component
+[1.000s] Invoked command in '/home/ph/ws/helios16p_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ph/ws/helios16p_ws/build/kiss_icp -- -j8 -l8
+[1.018s] Invoking command in '/home/ph/ws/helios16p_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/kiss_icp
+[1.028s] -- Install configuration: "Release"
+[1.029s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node
+[1.030s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/lib/libodometry_component.so
+[1.031s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//launch
+[1.032s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py
+[1.032s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//rviz
+[1.033s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz
+[1.033s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//config
+[1.034s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp//config/config.yaml
+[1.034s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp
+[1.034s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp
+[1.035s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh
+[1.035s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv
+[1.035s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/path.sh
+[1.036s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv
+[1.036s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.bash
+[1.036s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.sh
+[1.037s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh
+[1.039s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv
+[1.040s] -- Installing: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.dsv
+[1.041s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp
+[1.042s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp
+[1.043s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake
+[1.043s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake
+[1.044s] -- Up-to-date: /home/ph/ws/helios16p_ws/install/kiss_icp/share/kiss_icp/package.xml
+[1.045s] Invoked command in '/home/ph/ws/helios16p_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ph/ws/helios16p_ws/build/kiss_icp

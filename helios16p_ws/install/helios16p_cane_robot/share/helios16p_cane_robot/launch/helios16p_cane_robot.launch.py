@@ -1,47 +1,60 @@
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, FileContent, PythonExpression
+from launch.substitutions import LaunchConfiguration, FindExecutable, PathJoinSubstitution, Command, FileContent, PythonExpression
 from launch_ros.substitutions import FindPackageShare
 from launch.actions import ExecuteProcess, DeclareLaunchArgument
 from launch.conditions import IfCondition, UnlessCondition 
 from pathlib import Path
+import xacro
 import os
 
 package_name = 'helios16p_cane_robot'
 
-
-
-
-#flags di simulazione
 def generate_launch_description():
 
 
-
 # configurazione di kiss_icp
-    default_config_file = os.path.join(
+    default_config_file_path = os.path.join(
         get_package_share_directory('kiss_icp'), 'config', 'config.yaml'
-    )
-    
-    pkg_share = FindPackageShare('helios16p_cane_robot').find('helios16p_cane_robot')
-    
-    lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml')
-    
-    urdf_file = os.path.join(pkg_share, 'urdf', 'helios16p.urdf')
-    
-    config_file = LaunchConfiguration("config_file", default=default_config_file)
+    )    
+ #   custom_config_file_path = os.path.join(
+#        get_package_share_directory('kiss_icp'), 'config', 'custom_config.yaml'
+  #  )
 
-    lidarmaxdistance = LaunchConfiguration('max_distance', default=200) #distanza oltre cui i dati sono scarti
+
+
+    pkg_share = FindPackageShare('helios16p_cane_robot').find('helios16p_cane_robot')
+    xacro_file = os.path.join(pkg_share, 'urdf', 'helios16p.urdf.xacro')
+    robot_description = xacro.process_file(xacro_file).toxml()
+    lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml')
+    default_config_file = LaunchConfiguration("config_file", default=default_config_file_path)
+    #custom_config_file = LaunchConfiguration("config_file", default=custom_config_file_path)
+
+#flags di simulazione e bag
     simulation = LaunchConfiguration('simulation', default='false') #flag simulazione tempo simulato + bag
     use_sim_time = LaunchConfiguration('use_sim_time', default=simulation) #flag tempo simulato
-    kissmaxrange = LaunchConfiguration('data.max_range', default=100.0) #di base è 100
-    kissminrange = LaunchConfiguration('data.min_range', default=0.0) #di base è a 0
-    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.5) #di base è 0.5
-    kissmappingvoxelpoints = LaunchConfiguration('mapping.max_points_per_voxel', default=10) #di base è 20
-    datadeskew = LaunchConfiguration('data.deskew', default='true') #abilita la manipolazione delle soglie max e min data range
     play_bag = LaunchConfiguration('play_bag', default=simulation)  # flag per rosbag e path della bag
     bagfile = LaunchConfiguration('bagfile', default='/home/ph/bagrecords/bagtest600/rosbag2_600_BIG/') #posizione del file bag da riprodurre
-    
+
+
+#parametri per kiss-ICP di comodità    
+    kissmaxrange = LaunchConfiguration('data.max_range', default=30.0) #di base è 100
+    kissminrange = LaunchConfiguration('data.min_range', default=0.2) #di base è a 0
+    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.3) #di base è 0.5
+    kissmappingvoxelpoints = LaunchConfiguration('mapping.max_points_per_voxel', default=10) #di base è 20
+    datadeskew = LaunchConfiguration('data.deskew', default='true') #abilita la manipolazione delle soglie max e min data range
+    base_frame = LaunchConfiguration("base_frame", default="")  # (base_link/base_footprint)
+    lidar_odom_frame = LaunchConfiguration("lidar_odom_frame", default="odom_lidar")
+    visualize = LaunchConfiguration('visualize', default='true')
+    publish_odom_tf = LaunchConfiguration("publish_odom_tf", default=True)
+    invert_odom_tf = LaunchConfiguration("invert_odom_tf", default=True)
+    position_covariance = LaunchConfiguration("position_covariance", default=0.1)
+    orientation_covariance = LaunchConfiguration("orientation_covariance", default=0.1)
+    max_num_iterations = LaunchConfiguration("registration.max_num_iterations", default=500) #di base 500
+    convergencecriterion = LaunchConfiguration("registration.convergence_criterion", default=0.0001) #di base 0.0001
+
+
 #configurazione dei topic
     declare_topic_arg = DeclareLaunchArgument( 
         "topic",
@@ -49,27 +62,23 @@ def generate_launch_description():
         description="Input pointcloud topic for KISS-ICP"
     )
     pointcloud_topic = LaunchConfiguration('topic') 
-    visualize = LaunchConfiguration('visualize', default='true')
 
-    base_frame = LaunchConfiguration("base_frame", default="")  # (base_link/base_footprint)
-    lidar_odom_frame = LaunchConfiguration("lidar_odom_frame", default="odom_lidar")
-    publish_odom_tf = LaunchConfiguration("publish_odom_tf", default=True)
-    invert_odom_tf = LaunchConfiguration("invert_odom_tf", default=True)
-
-    position_covariance = LaunchConfiguration("position_covariance", default=0.1)
-    orientation_covariance = LaunchConfiguration("orientation_covariance", default=0.1)
-
-#    urdf_path = PathJoinSubstitution([
-#        FindPackageShare('helios16p_cane_robot'), 'urdf', 'helios16p.urdf'
-#    ])
+ 
+#Description e nodi
     return LaunchDescription([
+        
         declare_topic_arg,
+
+        
 
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
-            output='screen',                                   #path dell'urdf del robot
-            parameters=[{'robot_description': FileContent(urdf_file), 'use_sim_time' : use_sim_time }],
+            output='screen',
+            parameters=[{
+                'robot_description': robot_description,
+                'use_sim_time': use_sim_time,
+            }],
         ),
         Node(
             package='tf2_ros',
@@ -90,9 +99,9 @@ def generate_launch_description():
         ExecuteProcess(
             cmd=[
                 'ros2', 'bag', 'play',
-                '--rate', '1.0',
+                '--rate', '0.5',
                 bagfile,
-                '--clock', '1.0', '--loop',
+                '--clock', '0.5', '--loop',
                 '--topic', '/rslidar_points',
             ],
             output='screen',
@@ -119,7 +128,8 @@ def generate_launch_description():
                 ("pointcloud_topic", pointcloud_topic),
         ],
             parameters=[
-                config_file, #file base, i parametri qui sotto hanno valenza prioritaria
+
+                default_config_file_path, #file base, i parametri qui sotto hanno valenza prioritaria
 
                 {#///configurazione di kiss_icp\\\
                     
@@ -137,13 +147,14 @@ def generate_launch_description():
                  "position_covariance": position_covariance,
                  "publish_debug_clouds": visualize,
                  "publish_odom_tf": publish_odom_tf,                
-                 # "registration.convergence_criterion":,
-                 # "registration.max_num_iterations":,
-                 # "registration.max_num_threads":,
+                 "registration.convergence_criterion": convergencecriterion,
+                 "registration.max_num_iterations": max_num_iterations,
+                 #"registration.max_num_threads":,
                  "use_sim_time": use_sim_time,
 
-                },
-                
+           #     custom_config_file,
+
+                },       
         ],
         ),
 
@@ -158,9 +169,4 @@ def generate_launch_description():
             parameters=[{'use_sim_time' : use_sim_time}],
             condition=IfCondition(visualize),
     )
-
-        
-
-
-    
     ])
