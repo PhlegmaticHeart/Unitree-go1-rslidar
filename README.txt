@@ -1,10 +1,13 @@
-\\\#########\\\###\\\###\\\###\\\##\\\\###\\\\\\\\\###\####################
-\\\#########\\\###\\\\##\\\###\\\#\\\#####\\\#########\#\\##\\\\\\####\\\\#
-\\\#########\\\###\\\\\#\\\###\\\\\\######\\\\\\\\\###\#\\####\\#####\\####
-\\\#########\\\###\\\#\\\\\###\\\\\\######\\\\\\\\\###\#\\####\\#####\\####
-\\\\\\\\\###\\\###\\\##\\\\###\\\#\\\###########\\\###\#\\####\\##\\\\#####
-\\\\\\\\\###\\\###\\\###\\\###\\\##\\\\###\\\\\\\\\###\####################
 
+'##:::::::'####:'##::: ##:'##:::'##::'######:::::::'####:::::::'####:'########::'######:::::::::::::::::::::::::
+ ##:::::::. ##:: ###:: ##: ##::'##::'##... ##:::::'##. ##::::::. ##::... ##..::'##... ##:: #:: #:::: #::: ###:::::
+ ##:::::::: ##:: ####: ##: ##:'##::: ##:::..::::::. ####:::::::: ##::::: ##:::: ##:::..::: ## ##::: # #:: #: #::::::
+ ##:::::::: ##:: ## ## ##: #####::::. ######::::::'####::::::::: ##::::: ##::::. ######::: #.# #:. #:. #: ###:::::::::.
+ ##:::::::: ##:: ##. ####: ##. ##::::..... ##::::'##. ##'##::::: ##::::: ##:::::..... ##:: #:: #:: #####: #.::::::::::
+ ##:::::::: ##:: ##:. ###: ##:. ##::'##::: ##:::: ##:. ##::::::: ##::::: ##::::'##::: ##:: #:: #:: #:: #: #:::::::::
+ ########:'####: ##::. ##: ##::. ##:. ######:::::. ####. ##::::'####:::: ##::::. ######:::.:::.:::.:::.::.::::::::
+........::....::..::::..::..::::..:::......:::::::....::..:::::....:::::..::::::......::::::::::::::::::::::::::
+																	
 
 ///This project aims to integrate the Robosense Helios 16 P on a robot dog\\\
 
@@ -38,7 +41,7 @@ rslidar_sdk: Contains the drivers of Helios 16 P lidar, they are handled by the 
 kiss_icp: Contains the odometry SLAM pipeline with a personalized configuration of Rviz for a better visualization of the ongoing matters.
 
 helios16p_cane_robot: Contains a launch and an urdf model. 
-With the growth of the project, it'll become more complex and eventually will comprehend and entire model of the robot dog.
+With the growth of the project, the urdf will become more complex and eventually will comprehend an entire model of the robot dog.
 
 ###########################################################################
 
@@ -107,7 +110,7 @@ if simulation is flagged false:
 
 § Building §
 
-Its necessary, if building is needed, to build rslidar_msg package BEFORE rslidar_sdk, as its required by the latter to build effectively.
+Its necessary, if building from scratch is needed, to build rslidar_msg package BEFORE rslidar_sdk, as its required by the latter to build effectively.
 
 §
 
@@ -115,7 +118,7 @@ Its necessary, if building is needed, to build rslidar_msg package BEFORE rslida
 
 § Infos on the project §
 
-This project is currently a cooperational project led by Links Foundation and ITS Meccatronica e Aerospazio Piemonte (MAP).
+This project is currently a cooperational project lead by Links Foundation and ITS Meccatronica e Aerospazio Piemonte (MAP).
 
 
 
