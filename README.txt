@@ -131,7 +131,7 @@ Soon there will be:
 
 § Infos on the project §
 
-This project is currently a cooperational project lead by Links Foundation and ITS Meccatronica e Aerospazio Piemonte (MAP).
+This project is currently a cooperational project led by Links Foundation and ITS Meccatronica e Aerospazio Piemonte (MAP).
 
 
 
