@@ -1,4 +1,4 @@
-![Logo](Unitree-go1-rslidar/blob/main/assets/links_its.png))
+![Logo](Unitree-go1-rslidar/assets/links_its.png))
 
 # Workspace for out-of-the-box Helios 16 P Deploy
 
