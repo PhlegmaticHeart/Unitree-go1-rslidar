@@ -1,11 +1,10 @@
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.substitutions import LaunchConfiguration, FindExecutable, PathJoinSubstitution, Command, FileContent, PythonExpression
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
 from launch.actions import ExecuteProcess, DeclareLaunchArgument
 from launch.conditions import IfCondition, UnlessCondition 
-from pathlib import Path
 import xacro
 import os
 
@@ -16,10 +15,7 @@ def generate_launch_description():
 # configurazione di kiss_icp
     default_config_file_path = os.path.join(
         get_package_share_directory('kiss_icp'), 'config', 'config.yaml'
-    )    
- #   custom_config_file_path = os.path.join(
-#        get_package_share_directory('kiss_icp'), 'config', 'custom_config.yaml'
-  #  )
+    )
 
     pkg_share = FindPackageShare('helios16p_cane_robot').find('helios16p_cane_robot')
     
@@ -27,8 +23,6 @@ def generate_launch_description():
     robot_description = xacro.process_file(xacro_file).toxml()
     
     lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml')
-    #default_config_file = LaunchConfiguration('config_file', default=default_config_file_path)
-    #custom_config_file = LaunchConfiguration('config_file', default=custom_config_file_path)
 
 #flags di simulazione e bag
     simulation = LaunchConfiguration('simulation', default=False) #flag simulazione tempo simulato + bag
@@ -37,14 +31,14 @@ def generate_launch_description():
     bagfile = LaunchConfiguration('bagfile', default='/home/ph/bagrecords/bagtest600/rosbag2_600_BIG/') #posizione del file bag da riprodurre
 
 #parametri per kiss-ICP di comodità    
-    kissmaxrange = LaunchConfiguration('data.max_range', default=30.0) #di base è 100
+    visualize = LaunchConfiguration('visualize', default=False)
+    kissmaxrange = LaunchConfiguration('data.max_range', default=5.0) #di base è 100
     kissminrange = LaunchConfiguration('data.min_range', default=0.2) #di base è a 0
-    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.3) #di base è 0.5
-    kissmappingvoxelpoints = LaunchConfiguration('mapping.max_points_per_voxel', default=10) #di base è 20
+    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.4) #di base è 0.5
+    kissmappingvoxelpoints = LaunchConfiguration('mapping.max_points_per_voxel', default=2) #di base è 20
     datadeskew = LaunchConfiguration('data.deskew', default=True) #abilita la manipolazione delle soglie max e min data range
     base_frame = LaunchConfiguration('base_frame', default='')  # (base_link/base_footprint)
     lidar_odom_frame = LaunchConfiguration('lidar_odom_frame', default='odom_lidar')
-    visualize = LaunchConfiguration('visualize', default=False)
     publish_odom_tf = LaunchConfiguration('publish_odom_tf', default=True)
     invert_odom_tf = LaunchConfiguration('invert_odom_tf', default=True)
     position_covariance = LaunchConfiguration('position_covariance', default=0.1)
@@ -94,9 +88,9 @@ def generate_launch_description():
         ExecuteProcess(
             cmd=[
                 'ros2', 'bag', 'play',
-                '--rate', '0.5',
+                '--rate', '1',
                 bagfile,
-                '--clock', '0.5', '--loop',
+                '--clock', '1', '--loop',
                 '--topic', '/rslidar_points',
             ],
             output='screen',
@@ -144,9 +138,6 @@ def generate_launch_description():
                  'registration.max_num_iterations': max_num_iterations,
                  #'registration.max_num_threads':,
                  'use_sim_time': use_sim_time,
-
-           #     custom_config_file,
-
                 },       
         ],
         ),

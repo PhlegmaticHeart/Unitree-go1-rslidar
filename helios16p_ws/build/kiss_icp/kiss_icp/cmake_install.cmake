@@ -44,6 +44,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core/cmake_install.cmake")
 endif()
 

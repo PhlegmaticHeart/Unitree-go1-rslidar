@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_rslidar_msg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_rslidar_msg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_rslidar_msg:
-	/usr/bin/cmake -E copy_directory /home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg/ament_cmake_python/rslidar_msg/rslidar_msg
+	/home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E copy_directory /home/ph/ws/helios16p_ws/build/rslidar_msg/rosidl_generator_py/rslidar_msg /home/ph/ws/helios16p_ws/build/rslidar_msg/ament_cmake_python/rslidar_msg/rslidar_msg
 
 CMakeFiles/ament_cmake_python_copy_rslidar_msg.dir/codegen:
 .PHONY : CMakeFiles/ament_cmake_python_copy_rslidar_msg.dir/codegen

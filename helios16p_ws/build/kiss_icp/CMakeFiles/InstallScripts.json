@@ -3,6 +3,8 @@
 	[
 		"/home/ph/ws/helios16p_ws/build/kiss_icp/cmake_install.cmake",
 		"/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/cmake_install.cmake",
+		"/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-build/cmake_install.cmake",
+		"/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-build/cmake_install.cmake",
 		"/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core/cmake_install.cmake",
 		"/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/metrics/cmake_install.cmake",
 		"/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/pipeline/cmake_install.cmake"

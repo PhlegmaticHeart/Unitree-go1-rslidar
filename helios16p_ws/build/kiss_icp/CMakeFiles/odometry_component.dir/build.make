@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -117,11 +117,6 @@ libodometry_component.so: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.s
 libodometry_component.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libodometry_component.so: kiss_icp/core/libkiss_icp_core.a
 libodometry_component.so: /usr/lib/x86_64-linux-gnu/libtbb.so.12.5
-libodometry_component.so: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
-libodometry_component.so: /usr/lib/libceres.so.2.0.0
-libodometry_component.so: /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0
-libodometry_component.so: /usr/lib/x86_64-linux-gnu/libunwind.so
-libodometry_component.so: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
 libodometry_component.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so
 libodometry_component.so: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
 libodometry_component.so: /opt/ros/humble/lib/libclass_loader.so
