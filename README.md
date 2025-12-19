@@ -1,4 +1,4 @@
-![Logo](assets/links_its.png))
+![Logo](assets/links_its.png)
 
 # Workspace for out-of-the-box Helios 16 P Deploy
 
