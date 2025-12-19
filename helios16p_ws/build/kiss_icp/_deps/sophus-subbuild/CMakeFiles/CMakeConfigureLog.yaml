@@ -52,8 +52,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"

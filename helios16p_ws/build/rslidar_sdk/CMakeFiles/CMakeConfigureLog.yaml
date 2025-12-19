@@ -59,8 +59,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -142,8 +140,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -223,8 +219,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -269,8 +263,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -349,8 +341,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -403,8 +393,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -461,8 +449,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -515,8 +501,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -573,8 +557,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -627,8 +609,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -685,8 +665,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -739,8 +717,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -810,8 +786,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -864,8 +838,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -933,8 +905,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -1007,8 +977,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -1079,8 +1047,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -1133,8 +1099,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -1179,8 +1143,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -1275,8 +1237,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -1347,8 +1307,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -1372,8 +1330,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-bcfSsq"
-      binary: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-bcfSsq"
+      source: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-MGgd9z"
+      binary: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-MGgd9z"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -1381,13 +1339,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-bcfSsq'
+        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-MGgd9z'
         
-        Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d4e1/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_0d4e1.dir/build.make CMakeFiles/cmTC_0d4e1.dir/build
-        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-bcfSsq'
-        Building C object CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01523/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_01523.dir/build.make CMakeFiles/cmTC_01523.dir/build
+        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-MGgd9z'
+        Building C object CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1397,8 +1355,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d4e1.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0d4e1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYPGmRi.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01523.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_01523.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRoU8CU.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -1418,14 +1376,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d4e1.dir/'
-         as -v --64 -o CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o /tmp/ccYPGmRi.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01523.dir/'
+         as -v --64 -o CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o /tmp/ccRoU8CU.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_0d4e1
-        /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d4e1.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_01523
+        /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01523.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -1438,14 +1396,14 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d4e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d4e1.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccewLAwr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d4e1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01523' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_01523.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJGsM4M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01523 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccewLAwr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d4e1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJGsM4M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01523 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d4e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d4e1.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o -o cmTC_0d4e1
-        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-bcfSsq'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01523' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_01523.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o -o cmTC_01523
+        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-MGgd9z'
         
       exitCode: 0
   -
@@ -1480,13 +1438,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-bcfSsq']
+        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-MGgd9z']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d4e1/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0d4e1.dir/build.make CMakeFiles/cmTC_0d4e1.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-bcfSsq']
-        ignore line: [Building C object CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01523/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_01523.dir/build.make CMakeFiles/cmTC_01523.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-MGgd9z']
+        ignore line: [Building C object CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1496,8 +1454,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d4e1.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0d4e1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccYPGmRi.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01523.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_01523.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccRoU8CU.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -1517,14 +1475,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d4e1.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o /tmp/ccYPGmRi.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01523.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o /tmp/ccRoU8CU.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_0d4e1]
-        ignore line: [/home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d4e1.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_01523]
+        ignore line: [/home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01523.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -1537,13 +1495,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d4e1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d4e1.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccewLAwr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d4e1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01523' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_01523.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJGsM4M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01523 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccewLAwr.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJGsM4M.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1561,7 +1519,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0d4e1] ==> ignore
+          arg [cmTC_01523] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -1574,7 +1532,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1589,7 +1547,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccewLAwr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0d4e1 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_0d4e1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJGsM4M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_01523 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_01523.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1627,8 +1585,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-9dVONH"
-      binary: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-9dVONH"
+      source: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-5i5IJq"
+      binary: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-5i5IJq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -1637,13 +1595,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-9dVONH'
+        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-5i5IJq'
         
-        Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e6bb3/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e6bb3.dir/build.make CMakeFiles/cmTC_e6bb3.dir/build
-        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-9dVONH'
-        Building CXX object CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_63013/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_63013.dir/build.make CMakeFiles/cmTC_63013.dir/build
+        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-5i5IJq'
+        Building CXX object CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1653,8 +1611,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6bb3.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e6bb3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccwKtKfy.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63013.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_63013.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccnwAObQ.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -1678,14 +1636,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6bb3.dir/'
-         as -v --64 -o CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwKtKfy.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63013.dir/'
+         as -v --64 -o CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnwAObQ.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_e6bb3
-        /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6bb3.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_63013
+        /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63013.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -1698,14 +1656,14 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6bb3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e6bb3.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBviPty.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e6bb3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63013' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63013.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cchfLGac.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63013 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.4.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBviPty.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e6bb3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cchfLGac.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63013 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6bb3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e6bb3.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e6bb3
-        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-9dVONH'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63013' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63013.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_63013
+        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-5i5IJq'
         
       exitCode: 0
   -
@@ -1746,13 +1704,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-9dVONH']
+        ignore line: [Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-5i5IJq']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e6bb3/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e6bb3.dir/build.make CMakeFiles/cmTC_e6bb3.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-9dVONH']
-        ignore line: [Building CXX object CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_63013/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_63013.dir/build.make CMakeFiles/cmTC_63013.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-5i5IJq']
+        ignore line: [Building CXX object CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o -c /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1762,8 +1720,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6bb3.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e6bb3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccwKtKfy.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63013.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/ph/.local/lib/python3.10/site-packages/cmake/data/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_63013.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccnwAObQ.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -1787,14 +1745,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6bb3.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwKtKfy.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63013.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnwAObQ.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_e6bb3]
-        ignore line: [/home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6bb3.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_63013]
+        ignore line: [/home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63013.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -1807,13 +1765,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6bb3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e6bb3.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBviPty.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e6bb3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_63013' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_63013.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cchfLGac.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63013 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccBviPty.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cchfLGac.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1831,7 +1789,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e6bb3] ==> ignore
+          arg [cmTC_63013] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -1844,7 +1802,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1855,7 +1813,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.4.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBviPty.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e6bb3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_e6bb3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cchfLGac.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_63013 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_63013.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -2041,8 +1999,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -2150,8 +2106,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -2265,8 +2219,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -2317,8 +2269,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -2434,8 +2384,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -2547,8 +2495,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -2601,8 +2547,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -2663,8 +2607,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -2723,8 +2665,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -2781,8 +2721,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -2845,8 +2783,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -2974,8 +2910,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -3099,8 +3033,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -3220,8 +3152,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -3345,8 +3275,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -3466,8 +3394,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -3591,8 +3517,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -3712,8 +3636,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -3837,8 +3759,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -3960,8 +3880,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -4081,8 +3999,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -4208,8 +4124,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -4329,8 +4243,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -4454,8 +4366,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -4575,8 +4485,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -5146,8 +5054,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -5263,8 +5169,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -5384,8 +5288,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -5442,8 +5344,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -5579,8 +5479,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -5696,8 +5594,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -5809,8 +5705,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -5928,8 +5822,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -6063,8 +5955,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -6184,8 +6074,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -6339,8 +6227,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -6399,8 +6285,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -6552,8 +6436,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -6681,8 +6563,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -6743,8 +6623,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -6946,8 +6824,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -7006,8 +6882,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -7135,8 +7009,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -7197,8 +7069,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -7352,8 +7222,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -7414,8 +7282,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -7537,8 +7403,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -7597,8 +7461,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -7750,8 +7612,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -7812,8 +7672,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -7943,8 +7801,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8003,8 +7859,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -8132,8 +7986,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8251,8 +8103,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8311,8 +8161,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8369,8 +8217,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -8488,8 +8334,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8546,8 +8390,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -8610,8 +8452,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8670,8 +8510,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -8734,8 +8572,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8796,8 +8632,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -8856,8 +8690,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -8977,8 +8809,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -9096,8 +8926,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -9156,8 +8984,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -9268,8 +9094,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -9373,8 +9197,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -9496,8 +9318,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -9613,8 +9433,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -9736,8 +9554,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -9799,8 +9615,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -9868,8 +9682,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -9933,8 +9745,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -10002,8 +9812,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -10067,8 +9875,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -10136,8 +9942,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -10201,8 +10005,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -10327,8 +10129,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -10392,8 +10192,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -10461,8 +10259,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -10595,8 +10391,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -10742,8 +10536,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -10956,8 +10748,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -11092,8 +10882,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -11161,8 +10949,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -11234,8 +11020,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -11402,8 +11186,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -11664,8 +11446,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -11882,8 +11662,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -12028,8 +11806,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -12139,8 +11915,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -12300,8 +12074,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -12452,8 +12224,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -12613,8 +12383,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -12767,8 +12535,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -12891,8 +12657,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -13011,8 +12775,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -13148,8 +12910,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -13269,8 +13029,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -13316,8 +13074,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-4BPQcX"
-      binary: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-4BPQcX"
+      source: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-Y944BF"
+      binary: "/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-Y944BF"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -13326,17 +13084,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-4BPQcX'
+        Change Dir: '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-Y944BF'
         
-        Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c53a4/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c53a4.dir/build.make CMakeFiles/cmTC_c53a4.dir/build
-        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-4BPQcX'
-        Building C object CMakeFiles/cmTC_c53a4.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c53a4.dir/src.c.o -c /home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-4BPQcX/src.c
-        Linking C executable cmTC_c53a4
-        /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c53a4.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_c53a4.dir/src.c.o -o cmTC_c53a4
-        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-4BPQcX'
+        Run Build Command(s): /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46eec/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46eec.dir/build.make CMakeFiles/cmTC_46eec.dir/build
+        gmake[1]: Entering directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-Y944BF'
+        Building C object CMakeFiles/cmTC_46eec.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_46eec.dir/src.c.o -c /home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-Y944BF/src.c
+        Linking C executable cmTC_46eec
+        /home/ph/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46eec.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_46eec.dir/src.c.o -o cmTC_46eec
+        gmake[1]: Leaving directory '/home/ph/ws/helios16p_ws/build/rslidar_sdk/CMakeFiles/CMakeScratch/TryCompile-Y944BF'
         
       exitCode: 0
   -
@@ -13462,8 +13220,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -13623,8 +13379,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -13683,8 +13437,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -13802,8 +13554,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -14105,8 +13855,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -14163,8 +13911,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -14225,8 +13971,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -14283,8 +14027,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -14345,8 +14087,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -14403,8 +14143,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -14522,8 +14260,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -14580,8 +14316,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -14642,8 +14376,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -14700,8 +14432,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -14762,8 +14492,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -14820,8 +14548,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -14939,8 +14665,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -15054,8 +14778,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -15110,8 +14832,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -15170,8 +14890,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -15226,8 +14944,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -15286,8 +15002,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -15342,8 +15056,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -15457,8 +15169,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -15628,8 +15338,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -15684,8 +15392,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -15744,8 +15450,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -15800,8 +15504,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -15860,8 +15562,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -15916,8 +15616,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16033,8 +15731,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -16087,8 +15783,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16145,8 +15839,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -16199,8 +15891,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16257,8 +15947,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -16311,8 +15999,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16434,8 +16120,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -16488,8 +16172,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16546,8 +16228,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -16600,8 +16280,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16658,8 +16336,6 @@ events:
       ENV{PATH}:
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
         - "/home/ph/.local/bin"
         - "/opt/ros/humble/bin"
@@ -16712,8 +16388,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16809,8 +16483,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"
@@ -16950,8 +16622,6 @@ events:
         - "/home/ph/ws/helios16p_ws/install/rslidar_msg"
         - "/opt/ros/humble"
       ENV{PATH}:
-        - "/home/ph/.local/bin"
-        - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.local/bin"
         - "/home/ph/.nvm/versions/node/v18.20.8/bin"

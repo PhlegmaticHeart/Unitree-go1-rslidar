@@ -1,0 +1,449 @@
+[0.000000] (-) TimerEvent: {}
+[0.001090] (-) JobUnselected: {'identifier': 'helios16p_cane_robot'}
+[0.001666] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.001727] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
+[0.001778] (rslidar_msg) JobQueued: {'identifier': 'rslidar_msg', 'dependencies': OrderedDict()}
+[0.001831] (rslidar_msg) JobStarted: {'identifier': 'rslidar_msg'}
+[0.020401] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'cmake'}
+[0.021822] (rslidar_msg) Command: {'cmd': ['/home/ph/.local/bin/cmake', '/home/ph/ws/helios16p_ws/src/rslidar_msg', '-DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/rslidar_msg'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ws'), ('DESKTOP_SESSION', 'i3'), ('NVM_BIN', '/home/ph/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ph/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/ph/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '41943052'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ph'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ph/.local/bin:/home/ph/.local/bin:/home/ph/.nvm/versions/node/v18.20.8/bin:/home/ph/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '2'), ('GPG_TTY', '/dev/pts/5'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.6427'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099460] (-) TimerEvent: {}
+[0.199986] (-) TimerEvent: {}
+[0.248966] (rslidar_msg) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.249380] (rslidar_msg) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.249562] (rslidar_msg) StderrLine: {'line': b'  CMake.\n'}
+[0.249767] (rslidar_msg) StderrLine: {'line': b'\n'}
+[0.249934] (rslidar_msg) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.250087] (rslidar_msg) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.250238] (rslidar_msg) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.250388] (rslidar_msg) StderrLine: {'line': b'\n'}
+[0.250585] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.300129] (-) TimerEvent: {}
+[0.400590] (-) TimerEvent: {}
+[0.501066] (-) TimerEvent: {}
+[0.516958] (rslidar_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.601219] (-) TimerEvent: {}
+[0.701751] (-) TimerEvent: {}
+[0.802226] (-) TimerEvent: {}
+[0.821154] (rslidar_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.855818] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.902373] (-) TimerEvent: {}
+[1.002877] (-) TimerEvent: {}
+[1.038228] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.090186] (rslidar_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.091352] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.093020] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.103018] (-) TimerEvent: {}
+[1.132533] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.203162] (-) TimerEvent: {}
+[1.303668] (-) TimerEvent: {}
+[1.346572] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.402538] (rslidar_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.403710] (-) TimerEvent: {}
+[1.404050] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.406012] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.434914] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.503863] (-) TimerEvent: {}
+[1.604334] (-) TimerEvent: {}
+[1.704747] (-) TimerEvent: {}
+[1.804769] (rslidar_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.805219] (-) TimerEvent: {}
+[1.905610] (-) TimerEvent: {}
+[2.006082] (-) TimerEvent: {}
+[2.093123] (rslidar_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.106227] (-) TimerEvent: {}
+[2.206785] (-) TimerEvent: {}
+[2.242193] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.262140] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.300716] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.306876] (-) TimerEvent: {}
+[2.357125] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.407023] (-) TimerEvent: {}
+[2.428524] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.507167] (-) TimerEvent: {}
+[2.554821] (rslidar_msg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.607328] (-) TimerEvent: {}
+[2.707845] (-) TimerEvent: {}
+[2.727521] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.738928] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.807985] (-) TimerEvent: {}
+[2.908435] (-) TimerEvent: {}
+[3.008982] (-) TimerEvent: {}
+[3.059831] (rslidar_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[3.109090] (-) TimerEvent: {}
+[3.163769] (rslidar_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[3.209252] (-) TimerEvent: {}
+[3.309764] (-) TimerEvent: {}
+[3.311342] (rslidar_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.346383] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.409915] (-) TimerEvent: {}
+[3.510412] (-) TimerEvent: {}
+[3.547515] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.551258] (rslidar_msg) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.610545] (-) TimerEvent: {}
+[3.711006] (-) TimerEvent: {}
+[3.735795] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.811161] (-) TimerEvent: {}
+[3.911704] (-) TimerEvent: {}
+[4.012173] (-) TimerEvent: {}
+[4.112589] (-) TimerEvent: {}
+[4.213031] (-) TimerEvent: {}
+[4.313514] (-) TimerEvent: {}
+[4.413948] (-) TimerEvent: {}
+[4.514399] (-) TimerEvent: {}
+[4.614876] (-) TimerEvent: {}
+[4.715306] (-) TimerEvent: {}
+[4.815740] (-) TimerEvent: {}
+[4.916172] (-) TimerEvent: {}
+[4.978037] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.016339] (-) TimerEvent: {}
+[5.116888] (-) TimerEvent: {}
+[5.217334] (-) TimerEvent: {}
+[5.317764] (-) TimerEvent: {}
+[5.418266] (-) TimerEvent: {}
+[5.518781] (-) TimerEvent: {}
+[5.619293] (-) TimerEvent: {}
+[5.719833] (-) TimerEvent: {}
+[5.820366] (-) TimerEvent: {}
+[5.920972] (-) TimerEvent: {}
+[6.023797] (-) TimerEvent: {}
+[6.124439] (-) TimerEvent: {}
+[6.225081] (-) TimerEvent: {}
+[6.325629] (-) TimerEvent: {}
+[6.426269] (-) TimerEvent: {}
+[6.526872] (-) TimerEvent: {}
+[6.627425] (-) TimerEvent: {}
+[6.727999] (-) TimerEvent: {}
+[6.828563] (-) TimerEvent: {}
+[6.929147] (-) TimerEvent: {}
+[7.029707] (-) TimerEvent: {}
+[7.130273] (-) TimerEvent: {}
+[7.230877] (-) TimerEvent: {}
+[7.254159] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.331040] (-) TimerEvent: {}
+[7.431572] (-) TimerEvent: {}
+[7.532048] (-) TimerEvent: {}
+[7.632505] (-) TimerEvent: {}
+[7.732995] (-) TimerEvent: {}
+[7.833477] (-) TimerEvent: {}
+[7.933956] (-) TimerEvent: {}
+[8.034412] (-) TimerEvent: {}
+[8.134990] (-) TimerEvent: {}
+[8.146159] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.155822] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[8.156224] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[8.156421] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[8.156580] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[8.156775] (rslidar_msg) StderrLine: {'line': b'\n'}
+[8.156936] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.157088] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[8.157240] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[8.157392] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[8.157542] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.157715] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[8.217547] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[8.224893] (rslidar_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.227949] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[8.228272] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[8.228457] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[8.228633] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[8.228844] (rslidar_msg) StderrLine: {'line': b'\n'}
+[8.229018] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.229185] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[8.229350] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[8.229517] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[8.229748] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[8.229934] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.230099] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[8.235094] (-) TimerEvent: {}
+[8.287147] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[8.287489] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[8.287694] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[8.287892] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[8.288063] (rslidar_msg) StderrLine: {'line': b'\n'}
+[8.288227] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.288390] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[8.288573] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[8.288784] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[8.288960] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[8.289152] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.289331] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[8.314946] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[8.315420] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.315692] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.315889] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.335251] (-) TimerEvent: {}
+[8.383403] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[8.435421] (-) TimerEvent: {}
+[8.535990] (-) TimerEvent: {}
+[8.558581] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.636129] (-) TimerEvent: {}
+[8.647264] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.658081] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.664223] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.676796] (rslidar_msg) StdoutLine: {'line': b'-- Configuring done (8.4s)\n'}
+[8.736269] (-) TimerEvent: {}
+[8.826060] (rslidar_msg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[8.836426] (-) TimerEvent: {}
+[8.936951] (-) TimerEvent: {}
+[8.941060] (rslidar_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ph/ws/helios16p_ws/build/rslidar_msg\n'}
+[8.979488] (rslidar_msg) CommandEnded: {'returncode': 0}
+[8.981093] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'build'}
+[8.983739] (rslidar_msg) Command: {'cmd': ['/home/ph/.local/bin/cmake', '--build', '/home/ph/ws/helios16p_ws/build/rslidar_msg', '--', '-j8', '-l8'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ws'), ('DESKTOP_SESSION', 'i3'), ('NVM_BIN', '/home/ph/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ph/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/ph/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '41943052'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ph'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ph/.local/bin:/home/ph/.local/bin:/home/ph/.nvm/versions/node/v18.20.8/bin:/home/ph/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '2'), ('GPG_TTY', '/dev/pts/5'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.6427'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.037151] (-) TimerEvent: {}
+[9.137718] (-) TimerEvent: {}
+[9.238157] (-) TimerEvent: {}
+[9.281665] (rslidar_msg) StdoutLine: {'line': b'[  3%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.298911] (rslidar_msg) StdoutLine: {'line': b'[  6%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.308406] (rslidar_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_rslidar_msg\n'}
+[9.338297] (-) TimerEvent: {}
+[9.438758] (-) TimerEvent: {}
+[9.539240] (-) TimerEvent: {}
+[9.639766] (-) TimerEvent: {}
+[9.740284] (-) TimerEvent: {}
+[9.840825] (-) TimerEvent: {}
+[9.941301] (-) TimerEvent: {}
+[10.004075] (rslidar_msg) StdoutLine: {'line': b'running egg_info\n'}
+[10.006284] (rslidar_msg) StdoutLine: {'line': b'creating rslidar_msg.egg-info\n'}
+[10.006863] (rslidar_msg) StdoutLine: {'line': b'writing rslidar_msg.egg-info/PKG-INFO\n'}
+[10.007366] (rslidar_msg) StdoutLine: {'line': b'writing dependency_links to rslidar_msg.egg-info/dependency_links.txt\n'}
+[10.007895] (rslidar_msg) StdoutLine: {'line': b'writing top-level names to rslidar_msg.egg-info/top_level.txt\n'}
+[10.008542] (rslidar_msg) StdoutLine: {'line': b"writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[10.014884] (rslidar_msg) StdoutLine: {'line': b"reading manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[10.016495] (rslidar_msg) StdoutLine: {'line': b"writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'\n"}
+[10.029639] (rslidar_msg) StdoutLine: {'line': b'[  6%] Built target rslidar_msg__cpp\n'}
+[10.033918] (rslidar_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/detail/rslidar_packet__functions.c.o\x1b[0m\n'}
+[10.041470] (-) TimerEvent: {}
+[10.047792] (rslidar_msg) StdoutLine: {'line': b'[ 19%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.048674] (rslidar_msg) StdoutLine: {'line': b'[ 19%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.049029] (rslidar_msg) StdoutLine: {'line': b'[ 19%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.090498] (rslidar_msg) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_rslidar_msg_egg\n'}
+[10.141614] (-) TimerEvent: {}
+[10.213482] (rslidar_msg) StdoutLine: {'line': b'[ 22%] \x1b[1m\x1b[32mLinking C shared library librslidar_msg__rosidl_generator_c.so\x1b[0m\n'}
+[10.241765] (-) TimerEvent: {}
+[10.308683] (rslidar_msg) StdoutLine: {'line': b'[ 22%] Built target rslidar_msg__rosidl_generator_c\n'}
+[10.328156] (rslidar_msg) StdoutLine: {'line': b'[ 25%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.328579] (rslidar_msg) StdoutLine: {'line': b'[ 29%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.330621] (rslidar_msg) StdoutLine: {'line': b'[ 32%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.344754] (-) TimerEvent: {}
+[10.445338] (-) TimerEvent: {}
+[10.545900] (-) TimerEvent: {}
+[10.646452] (-) TimerEvent: {}
+[10.747008] (-) TimerEvent: {}
+[10.847583] (-) TimerEvent: {}
+[10.882957] (rslidar_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[10.938184] (rslidar_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[10.947761] (-) TimerEvent: {}
+[11.018533] (rslidar_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/detail/dds_fastrtps/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[11.047953] (-) TimerEvent: {}
+[11.149322] (-) TimerEvent: {}
+[11.254236] (-) TimerEvent: {}
+[11.295187] (rslidar_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/detail/rslidar_packet__type_support.c.o\x1b[0m\n'}
+[11.331277] (rslidar_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[11.354427] (-) TimerEvent: {}
+[11.391330] (rslidar_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/detail/rslidar_packet__type_support_c.cpp.o\x1b[0m\n'}
+[11.434051] (rslidar_msg) StdoutLine: {'line': b'[ 54%] \x1b[1m\x1b[32mLinking CXX shared library librslidar_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.442116] (rslidar_msg) StdoutLine: {'line': b'[ 58%] \x1b[1m\x1b[32mLinking C shared library librslidar_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.454615] (-) TimerEvent: {}
+[11.546529] (rslidar_msg) StdoutLine: {'line': b'[ 58%] Built target rslidar_msg__rosidl_typesupport_introspection_c\n'}
+[11.554768] (-) TimerEvent: {}
+[11.574362] (rslidar_msg) StdoutLine: {'line': b'[ 58%] Built target rslidar_msg__rosidl_typesupport_c\n'}
+[11.654950] (-) TimerEvent: {}
+[11.755521] (-) TimerEvent: {}
+[11.845272] (rslidar_msg) StdoutLine: {'line': b'[ 61%] \x1b[1m\x1b[32mLinking CXX shared library librslidar_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.855727] (-) TimerEvent: {}
+[11.941272] (rslidar_msg) StdoutLine: {'line': b'[ 61%] Built target rslidar_msg__rosidl_typesupport_cpp\n'}
+[11.956379] (-) TimerEvent: {}
+[12.057001] (-) TimerEvent: {}
+[12.157604] (-) TimerEvent: {}
+[12.258223] (-) TimerEvent: {}
+[12.303849] (rslidar_msg) StdoutLine: {'line': b'[ 64%] \x1b[1m\x1b[32mLinking CXX shared library librslidar_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.358371] (-) TimerEvent: {}
+[12.410933] (rslidar_msg) StdoutLine: {'line': b'[ 67%] \x1b[1m\x1b[32mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.430880] (rslidar_msg) StdoutLine: {'line': b'[ 70%] \x1b[1m\x1b[32mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.458535] (-) TimerEvent: {}
+[12.537726] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp\n'}
+[12.558740] (-) TimerEvent: {}
+[12.659309] (-) TimerEvent: {}
+[12.685701] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[12.687077] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c\n'}
+[12.719803] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg\n'}
+[12.752663] (rslidar_msg) StdoutLine: {'line': b'[ 74%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.759442] (-) TimerEvent: {}
+[12.859975] (-) TimerEvent: {}
+[12.960494] (-) TimerEvent: {}
+[13.061030] (-) TimerEvent: {}
+[13.161559] (-) TimerEvent: {}
+[13.262113] (-) TimerEvent: {}
+[13.362727] (-) TimerEvent: {}
+[13.463280] (-) TimerEvent: {}
+[13.563860] (-) TimerEvent: {}
+[13.638188] (rslidar_msg) StdoutLine: {'line': b'[ 74%] Built target rslidar_msg__py\n'}
+[13.664015] (-) TimerEvent: {}
+[13.674057] (rslidar_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_py.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c.o\x1b[0m\n'}
+[13.764186] (-) TimerEvent: {}
+[13.864744] (-) TimerEvent: {}
+[13.965308] (-) TimerEvent: {}
+[14.065807] (-) TimerEvent: {}
+[14.071258] (rslidar_msg) StdoutLine: {'line': b'[ 80%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/rslidar_msg/librslidar_msg__rosidl_generator_py.so\x1b[0m\n'}
+[14.165989] (-) TimerEvent: {}
+[14.194166] (rslidar_msg) StdoutLine: {'line': b'[ 80%] Built target rslidar_msg__rosidl_generator_py\n'}
+[14.226715] (rslidar_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.227101] (rslidar_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.227306] (rslidar_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.266133] (-) TimerEvent: {}
+[14.366755] (-) TimerEvent: {}
+[14.467300] (-) TimerEvent: {}
+[14.526482] (rslidar_msg) StdoutLine: {'line': b'[ 93%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.530295] (rslidar_msg) StdoutLine: {'line': b'[ 96%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.534439] (rslidar_msg) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.567502] (-) TimerEvent: {}
+[14.624401] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[14.627820] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_c__pyext\n'}
+[14.630492] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.651964] (rslidar_msg) CommandEnded: {'returncode': 0}
+[14.654238] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'install'}
+[14.667621] (-) TimerEvent: {}
+[14.768118] (-) TimerEvent: {}
+[14.868577] (-) TimerEvent: {}
+[14.913917] (rslidar_msg) Command: {'cmd': ['/home/ph/.local/bin/cmake', '--install', '/home/ph/ws/helios16p_ws/build/rslidar_msg'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ws'), ('DESKTOP_SESSION', 'i3'), ('NVM_BIN', '/home/ph/.nvm/versions/node/v18.20.8/bin'), ('NVM_INC', '/home/ph/.nvm/versions/node/v18.20.8/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2184'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/ph/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '41943052'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ph'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ph/.local/bin:/home/ph/.local/bin:/home/ph/.nvm/versions/node/v18.20.8/bin:/home/ph/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '2'), ('GPG_TTY', '/dev/pts/5'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.6427'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.968721] (-) TimerEvent: {}
+[15.069165] (-) TimerEvent: {}
+[15.169772] (-) TimerEvent: {}
+[15.172764] (rslidar_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.173248] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg\n'}
+[15.173529] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[15.173893] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[15.174082] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.h\n'}
+[15.174345] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.174595] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[15.174936] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.h\n'}
+[15.175290] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.c\n'}
+[15.175756] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.h\n'}
+[15.176215] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.h\n'}
+[15.177204] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh\n'}
+[15.177891] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv\n'}
+[15.178856] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so\n'}
+[15.180868] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so" to ""\n'}
+[15.181268] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[15.181628] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[15.181860] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.182112] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[15.182356] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[15.183059] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[15.184855] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.185268] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[15.185515] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[15.185832] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.186110] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.hpp\n'}
+[15.186507] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[15.186841] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__traits.hpp\n'}
+[15.187199] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__builder.hpp\n'}
+[15.187606] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.hpp\n'}
+[15.188106] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.hpp\n'}
+[15.188600] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[15.188961] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[15.189152] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.189665] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[15.189908] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.190238] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/dds_fastrtps\n'}
+[15.190689] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.192301] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.192661] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[15.192911] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[15.193088] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.193367] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[15.193630] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.c\n'}
+[15.193923] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[15.194460] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so\n'}
+[15.196544] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.197052] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so\n'}
+[15.198553] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so" to ""\n'}
+[15.199025] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg\n'}
+[15.199240] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg\n'}
+[15.199523] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail\n'}
+[15.199741] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp\n'}
+[15.199996] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.200688] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[15.202637] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.202969] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so\n'}
+[15.204842] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[15.205247] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh\n'}
+[15.205565] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv\n'}
+[15.206050] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info\n'}
+[15.206624] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.207071] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.207466] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.207921] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.208381] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg\n'}
+[15.208704] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.209204] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c\n'}
+[15.209615] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py\n'}
+[15.210012] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/librslidar_msg__rosidl_generator_py.so\n'}
+[15.210499] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.211007] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.211728] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg\n'}
+[15.212473] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet_s.c\n'}
+[15.213089] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py\n'}
+[15.213536] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py\n'}
+[15.213981] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.214520] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.269911] (-) TimerEvent: {}
+[15.346886] (rslidar_msg) StdoutLine: {'line': b"Listing '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg'...\n"}
+[15.347428] (rslidar_msg) StdoutLine: {'line': b"Compiling '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py'...\n"}
+[15.347640] (rslidar_msg) StdoutLine: {'line': b"Listing '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg'...\n"}
+[15.347975] (rslidar_msg) StdoutLine: {'line': b"Compiling '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py'...\n"}
+[15.348246] (rslidar_msg) StdoutLine: {'line': b"Compiling '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py'...\n"}
+[15.369737] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.370180] (-) TimerEvent: {}
+[15.371327] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.372385] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.373883] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.374713] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.375988] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.376409] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so\n'}
+[15.378887] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so" to ""\n'}
+[15.379806] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl\n'}
+[15.380843] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg\n'}
+[15.382241] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg\n'}
+[15.382940] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg\n'}
+[15.384238] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh\n'}
+[15.384945] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv\n'}
+[15.386152] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/path.sh\n'}
+[15.387093] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/environment/path.dsv\n'}
+[15.387708] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.bash\n'}
+[15.388166] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.sh\n'}
+[15.388751] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.zsh\n'}
+[15.389333] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/local_setup.dsv\n'}
+[15.390004] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.dsv\n'}
+[15.390947] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg\n'}
+[15.392054] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport.cmake\n'}
+[15.392857] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.393594] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.395557] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.396080] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cppExport.cmake\n'}
+[15.396901] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.397462] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.398217] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.399509] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.400270] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake\n'}
+[15.400848] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.401393] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.401987] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.402732] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake\n'}
+[15.403424] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.404017] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport.cmake\n'}
+[15.404683] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.405296] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[15.405879] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.406490] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.407124] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.407735] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.408307] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.408906] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.409512] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake\n'}
+[15.410048] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake\n'}
+[15.410685] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/package.xml\n'}
+[15.417169] (rslidar_msg) CommandEnded: {'returncode': 0}
+[15.470327] (-) TimerEvent: {}
+[15.497775] (rslidar_msg) JobEnded: {'identifier': 'rslidar_msg', 'rc': 0}
+[15.500865] (-) EventReactorShutdown: {}
