@@ -25,18 +25,18 @@ def generate_launch_description():
     lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml')
 
 #flags di simulazione e bag
-    simulation = LaunchConfiguration('simulation', default=False) #flag simulazione tempo simulato + bag
-    use_sim_time = LaunchConfiguration('use_sim_time', default=simulation) #flag tempo simulato
-    play_bag = LaunchConfiguration('play_bag', default=simulation)  # flag per rosbag e path della bag
+    simulate = LaunchConfiguration('simulation', default=False) #flag simulazione tempo simulato + bag
+    use_sim_time = LaunchConfiguration('use_sim_time', default=simulate) #flag tempo simulato
+    play_bag = LaunchConfiguration('play_bag', default=simulate)  # flag per rosbag e path della bag
     bagfile = LaunchConfiguration('bagfile', default='/home/ph/bagrecords/bagtest600/rosbag2_600_BIG/') #posizione del file bag da riprodurre
 
 #parametri per kiss-ICP di comodità    
     visualize = LaunchConfiguration('visualize', default=False)
-    kissmaxrange = LaunchConfiguration('data.max_range', default=5.0) #di base è 100
-    kissminrange = LaunchConfiguration('data.min_range', default=0.2) #di base è a 0
-    kissmappingvoxelsize = LaunchConfiguration('mapping.voxel_size', default=0.4) #di base è 0.5
-    kissmappingvoxelpoints = LaunchConfiguration('mapping.max_points_per_voxel', default=2) #di base è 20
-    datadeskew = LaunchConfiguration('data.deskew', default=True) #abilita la manipolazione delle soglie max e min data range
+    max_range = LaunchConfiguration('data.max_range', default=30.0) #di base è 100
+    min_range = LaunchConfiguration('data.min_range', default=0.2) #di base è a 0
+    mapping_voxel_size = LaunchConfiguration('mapping.voxel_size', default=0.5) #di base è 0.5
+    mapping_voxel_points = LaunchConfiguration('mapping.max_points_per_voxel', default=10) #di base è 20
+    data_deskew = LaunchConfiguration('data.deskew', default=True) #abilita la manipolazione delle soglie max e min data range
     base_frame = LaunchConfiguration('base_frame', default='')  # (base_link/base_footprint)
     lidar_odom_frame = LaunchConfiguration('lidar_odom_frame', default='odom_lidar')
     publish_odom_tf = LaunchConfiguration('publish_odom_tf', default=True)
@@ -44,7 +44,7 @@ def generate_launch_description():
     position_covariance = LaunchConfiguration('position_covariance', default=0.1)
     orientation_covariance = LaunchConfiguration('orientation_covariance', default=0.1)
     max_num_iterations = LaunchConfiguration('registration.max_num_iterations', default=500) #di base 500
-    convergencecriterion = LaunchConfiguration('registration.convergence_criterion', default=0.0001) #di base 0.0001
+    convergence_criterion = LaunchConfiguration('registration.convergence_criterion', default=0.0001) #di base 0.0001
 
 #configurazione dei topic
     declare_topic_arg = DeclareLaunchArgument( 
@@ -123,18 +123,18 @@ def generate_launch_description():
                  #'adaptive_threshold.initial_threshold',
                  #'adaptive_threshold.min_motion_th',
                  'base_frame': base_frame,              
-                 'data.deskew': datadeskew,
-                 'data.max_range': kissmaxrange,
-                 'data.min_range': kissminrange,
+                 'data.deskew': data_deskew,
+                 'data.max_range': max_range,
+                 'data.min_range': min_range,
                  'invert_odom_tf': invert_odom_tf,
                  'lidar_odom_frame': lidar_odom_frame,      
-                 'mapping.max_points_per_voxel': kissmappingvoxelpoints,
-                ' mapping.voxel_size': kissmappingvoxelsize,
+                 'mapping.max_points_per_voxel': mapping_voxel_points,
+                ' mapping.voxel_size': mapping_voxel_size,
                  'orientation_covariance': orientation_covariance, 
                  'position_covariance': position_covariance,
                  'publish_debug_clouds': visualize,
                  'publish_odom_tf': publish_odom_tf,                
-                 'registration.convergence_criterion': convergencecriterion,
+                 'registration.convergence_criterion': convergence_criterion,
                  'registration.max_num_iterations': max_num_iterations,
                  #'registration.max_num_threads':,
                  'use_sim_time': use_sim_time,
