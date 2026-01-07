@@ -2,7 +2,7 @@
 
 # Workspace for out-of-the-box Helios 16 P Deploy
 
-///This project aims to integrate the Robosense Helios 16 P on a robot dog\\\
+///This project aims to integrate the Robosense Helios 16 P on a robot dog\\\\
 
 §
 
@@ -83,17 +83,19 @@ ________________________________________________________________________________
 
 ## § Configuration files §
 
-The folder "configs" holds a number of stable and semi-stable configurations for an out-of-the-box use.
+The folder "configs" of helios16p_cane_robot package holds a number of stable and semi-stable configurations for an out-of-the-box use.
 
 Actually the stablest configurations are:
 
-- up to 30 and 25 meters for indoor usage.
-- up to 100 meters for outdoor usage.
+- up to 30 and 25 meters for indoor usage. [STABLE]
+- up to 100 meters for outdoor usage. [STABLE]
+- up to 21 and 20 meters for indoor usage. [SEMI-STABLE]
 
 Keep in mind that if you want to change configurations,
 you'll may want to change the distance thresholds into the lidar configuration file(same folder as other config files),
 as reducing the pipeline threshold without doing the same with the LiDAR one could burden unnecessarily your maps.
 
+---
 
 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ## § Launch description §
