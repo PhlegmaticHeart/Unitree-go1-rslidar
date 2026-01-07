@@ -9,7 +9,8 @@
 Actually, the folder of interest for getting a working kiss_icp pipeline setup is helios16p_ws.
 Folder tutorial_wss is a group of workspaces made to better undestand how ROS 2 works.
 
-______________________________________________________________________________________________________________________											
+
+---
 
 <span style='color: red;'>long</span>
 
@@ -25,7 +26,8 @@ kiss_icp
 
 helios16p_cane_robot
 
-______________________________________________________________________________________________________________________
+
+---
 
 ## § Packages functions §
 
@@ -38,7 +40,8 @@ kiss_icp: Contains the odometry SLAM pipeline with a personalized configuration 
 helios16p_cane_robot: Contains a launch file and an urdf model with xacro syntax, be sure to install xacro throught pip before attempting to load it. 
                       With the growth of the project, the urdf will become more complex and eventually will comprehend an entire model of the robot dog.
 
-______________________________________________________________________________________________________________________
+
+---
 
 ## § Launch file parameters §
 
@@ -79,7 +82,8 @@ These parameters are included exclusively for debugging and testing.
 If you want to load a certain configuration, please,
 change the **default_config_file_path** variable path or load it with **ros2 param load <file_path>* .
 
-______________________________________________________________________________________________________________________
+
+---
 
 ## § Configuration files §
 
@@ -95,9 +99,9 @@ Keep in mind that if you want to change configurations,
 you'll may want to change the distance thresholds into the lidar configuration file(same folder as other config files),
 as reducing the pipeline threshold without doing the same with the LiDAR one could burden unnecessarily your maps.
 
+
 ---
 
-¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ## § Launch description §
  
 The launch file actually contains the following nodes:
@@ -122,7 +126,8 @@ The launch file actually contains the following nodes:
 **NODE** | rviz2: Starts a preconfigured, working out of the box rviz2 session,
            equipped with visual data, visual odometry and visual mapping.
 
-______________________________________________________________________________________________________________________
+
+---
 
 ## § Behaviour §
 
@@ -147,13 +152,15 @@ if simulate is flagged false:
 
 - The rviz2 session will start with a custom config file and it'll show the raw data visualization with a odometry and mapped data output as well.
 
-______________________________________________________________________________________________________________________
+
+---
 
 ## § Building §
 
 Its necessary, if building from scratch is needed, to build rslidar_msg package BEFORE rslidar_sdk, as its required by the latter to build effectively.
 
-______________________________________________________________________________________________________________________
+
+---
 
 ## § Next steps §
 
@@ -162,8 +169,9 @@ Soon there will be:
 - a multi-architecture docker container image linked to this page, with, for completion, a Dockerfile to let you tune the application.
 
 - a benchmark of the Kiss-ICP pipeline respect to a Vicon based groundtruth.
-  
-______________________________________________________________________________________________________________________
+
+ 
+---
 
 ## § Infos on the project §
 
