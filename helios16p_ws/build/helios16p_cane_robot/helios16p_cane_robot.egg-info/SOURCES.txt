@@ -8,7 +8,10 @@ setup.py
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/requires.txt
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/zip-safe
-configs/config_mrange30_voxsize3Em1.yaml
+configs/config_mrange20_voxsize25Em2_voxpoints10.yaml
+configs/config_mrange21_voxsize3Em1_voxpoints14.yaml
+configs/config_mrange25_voxsize3Em1_voxpoints10.yaml
+configs/config_mrange30_voxsize3Em1_voxpoints10.yaml
 configs/lidar_config.yaml
 helios16p_cane_robot/__init__.py
 launch/helios16p_cane_robot.launch.py

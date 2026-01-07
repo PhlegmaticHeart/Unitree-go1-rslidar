@@ -45,37 +45,33 @@ ________________________________________________________________________________
 The launch file actually has the following parameters: 
 
 - simulate:=True/False -> its a flag to enable or disable the simulated environment, to enable it you first require a ros bag.
-                          Its set by default to false.
+                          Its set by default to False.
 
 - bagfile:='<your/bag/path>' -> it allows you to set a different path for your bag file.
 
 - visualize:=True/False -> it enables Rviz visualization, its False by default and its recommended so for containerization.
 
-- max_range:=<double> ->
+- max_range:=<double> -> it allows you to set the maximum threshold before which the collected points are computed.
 
-- min_range:=<double> ->
+- min_range:=<double> -> it allows you to set the minimum threshold by which the collected points are computed.
 
-- mapping_voxel_size:=<double> ->
+- mapping_voxel_size:=<double> -> it allows you to set the side lenght of the voxel.
 
-- mapping_voxel_points:=<double> ->
+- mapping_voxel_points:=<double> -> it allows you to set the number of points per voxel.
 
-- data_deskew:=True/False ->
+- data_deskew:=True/False -> it allows you to enable max/min range parameters, by default its set True.
 
-- base_frame:=True/False ->
+- base_frame:=<str> -> it allows you to set the base frame's name, by default its empty, meaning that it is inherited by the urdf file.
 
-- lidar_odom_frame:=<double> ->
+- lidar_odom_frame:=<double> -> it determines the odometry frame's name, by default its set as "odom lidar".
 
-- publish_odom_tf:=True/False ->
+- publish_odom_tf:=True/False -> it determines if odometry hasto be published, by default its set True.
 
-- invert_odom_tf:=True/False ->
+- invert_odom_tf:=True/False -> it allows you to invert the transform, by default its set True.
 
-- position_covariance:=<double> ->
+- max_num_iterations:=<int> -> it allows you to set the maximum number of iteractions allowed for reaching the convergence threshold.
 
-- orientation_covariance:=<double> ->
-
-- max_num_iterations:=<int> ->
-
-- convergence_criterion:=<float> ->
+- convergence_criterion:=<float> -> it allows you to set the convergence threshold, default value is 0.0001.
 
 Their default values can be set in the launch file's def generate_launch_description.
 These parameters are included exclusively for debugging and testing.
@@ -84,6 +80,21 @@ If you want to load a certain configuration, please,
 change the **default_config_file_path** variable path or load it with **ros2 param load <file_path>* .
 
 ______________________________________________________________________________________________________________________
+
+## § Configuration files §
+
+The folder "configs" holds a number of stable and semi-stable configurations for an out-of-the-box use.
+
+Actually the stablest configurations are:
+
+- up to 30 and 25 meters for indoor usage.
+- up to 100 meters for outdoor usage.
+
+Keep in mind that if you want to change configurations,
+you'll may want to change the distance thresholds into the lidar configuration file(same folder as other config files),
+as reducing the pipeline threshold without doing the same with the LiDAR one could burden unnecessarily your maps.
+
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 
 ## § Launch description §
  
