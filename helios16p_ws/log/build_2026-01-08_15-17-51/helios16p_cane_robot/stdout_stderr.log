@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/entry_points.txt
+writing requirements to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/requires.txt
+writing top-level names to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt
+reading manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/helios16p_cane_robot.launch.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+copying configs/config_mrange5_voxsize1Em1_voxpoints1.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+copying configs/config_mrange20_voxsize3Em1_voxpoints12.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+copying configs/config_mrange8_voxsize2Em1_voxpoints4.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+copying configs/config_mrange30_voxsize3Em1_voxpoints10 (another copy).yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+copying configs/config_mrange15_voxsize3Em1_voxpoints12.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+copying configs/config_mrange4_voxsize1Em1_voxpoints1.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+copying configs/config_mrange10_voxsize2Em1_voxpoints14.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+running install_egg_info
+removing '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info to /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log'

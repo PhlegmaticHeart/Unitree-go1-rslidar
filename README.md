@@ -91,9 +91,15 @@ The folder "configs" of helios16p_cane_robot package holds a number of stable an
 
 Actually the stablest configurations are:
 
-- up to 30 and 25 meters for indoor usage. [STABLE]
-- up to 100 meters for outdoor usage. [STABLE]
-- up to 21 and 20 meters for indoor usage. [SEMI-STABLE]
+[STABLE]
+Up to 4, 5, 8, 10, 15, 20, 25 and 30 [m]
+
+[SEMI-STABLE]
+Ranges 11-14, 16-19, 21-24, 26-29 [m]
+
+[UNSTABLE]
+Actually if you need a max_range up to 6, 7 and 9 meters, you'll not find it preconfigured as they requires more tuning.
+
 
 Keep in mind that if you want to change configurations,
 you'll may want to change the distance thresholds into the lidar configuration file(same folder as other config files),

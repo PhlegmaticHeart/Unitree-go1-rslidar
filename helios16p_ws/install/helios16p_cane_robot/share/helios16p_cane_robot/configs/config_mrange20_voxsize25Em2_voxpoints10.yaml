@@ -6,13 +6,13 @@
     base_frame: ''
     data:
       deskew: true
-      max_range: 25.0
+      max_range: 20.0
       min_range: 0.2
     invert_odom_tf: true
     lidar_odom_frame: odom_lidar
     mapping:
-      max_points_per_voxel: 10
-      voxel_size: 0.25
+      max_points_per_voxel: 12
+      voxel_size: 0.2
     orientation_covariance: 0.1
     position_covariance: 0.1
     publish_debug_clouds: false
@@ -35,4 +35,3 @@
       max_num_iterations: 500
       max_num_threads: 0
     use_sim_time: false
-
