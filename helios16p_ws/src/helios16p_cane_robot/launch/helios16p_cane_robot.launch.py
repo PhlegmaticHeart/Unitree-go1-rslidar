@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
 from launch.actions import ExecuteProcess, DeclareLaunchArgument
-from launch.conditions import IfCondition, UnlessCondition 
+from launch.conditions import IfCondition, UnlessCondition
 import xacro
 import os
 
@@ -16,16 +16,16 @@ def generate_launch_description():
     pkg_share = FindPackageShare('helios16p_cane_robot').find('helios16p_cane_robot')
 
     default_config_file_path = os.path.join(
-        get_package_share_directory(package_name), 'configs', 'config.yaml'
+        get_package_share_directory(package_name), 'configs', 'config_mrange100_voxsize5Em1_voxpoints20.yaml'
     )
-
+    
     custom_config_file_path = os.path.join(
         get_package_share_directory(package_name), 'configs', 'config_mrange30_voxsize3Em1_voxpoints10.yaml'
-    )    
+    )
 
     xacro_file = os.path.join(pkg_share, 'urdf', 'helios16p.urdf.xacro')
     robot_description = xacro.process_file(xacro_file).toxml()
-    
+
     lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml')
 
     bag_path = '/home/ph/bagrecords/bagtest600/rosbag2_600_BIG/'
@@ -36,11 +36,11 @@ def generate_launch_description():
     play_bag = LaunchConfiguration('play_bag', default=simulate)  # Flag to enable bag file playback
     bagfile = LaunchConfiguration('bagfile', default=bag_path) # Bag file path
 
-# Kiss-ICP's debug parameters    
+# Kiss-ICP's debug parameters
     visualize = LaunchConfiguration('visualize', default=False)
     max_range = LaunchConfiguration('data.max_range', default=30.0) # By default its 100
     min_range = LaunchConfiguration('data.min_range', default=0.2) # By default its 0
-    mapping_voxel_size = LaunchConfiguration('mapping.voxel_size', default=0.3) # By default its 0.5
+    mapping_voxel_size = LaunchConfiguration('mapping.voxel_size', default=0.1) # By default its 0.5
     mapping_voxel_points = LaunchConfiguration('mapping.max_points_per_voxel', default=10) # By default its 20
     data_deskew = LaunchConfiguration('data.deskew', default=True) # Enable manipulation of max and min range
     base_frame = LaunchConfiguration('base_frame', default='')  # (base_link/base_footprint)
@@ -51,16 +51,16 @@ def generate_launch_description():
     convergence_criterion = LaunchConfiguration('registration.convergence_criterion', default=0.0001) # By default its 0.0001
 
 # Topics' configuration
-    declare_topic_arg = DeclareLaunchArgument( 
+    declare_topic_arg = DeclareLaunchArgument(
         'topic',
         default_value='/rslidar_points',   # Driver's topic
         description='Input pointcloud topic for KISS-ICP'
     )
-    pointcloud_topic = LaunchConfiguration('topic') 
+    pointcloud_topic = LaunchConfiguration('topic')
 
 # Nodes and commands execution
     return LaunchDescription([
-        
+
         declare_topic_arg,
 
         Node(
@@ -122,38 +122,38 @@ def generate_launch_description():
             parameters=[
 
 
-            #default_config_file_path, # Default configuration file
+            default_config_file_path, # Default configuration file
 
-            custom_config_file_path, # Custom configuration file
+            #custom_config_file_path, # Custom configuration file
 
 
                 {#///kiss-ICP's configuration\\\
-                    
+
                  'publish_debug_clouds': visualize, # Toggle rviz visualization
                  'use_sim_time': use_sim_time,      # Toggle simulation time
+                 'base_frame': base_frame,
+                 'publish_odom_tf': publish_odom_tf,
+                 'invert_odom_tf': invert_odom_tf,
+                 'lidar_odom_frame': lidar_odom_frame,
+                 'data.deskew': data_deskew,
 
                 # Main parameters to tune for performance evaluation
 
-                #  'base_frame': base_frame,              
-                #  'data.deskew': data_deskew,
                 #  'data.max_range': max_range,
                 #  'data.min_range': min_range,
-                #  'invert_odom_tf': invert_odom_tf,
-                #  'lidar_odom_frame': lidar_odom_frame,      
                 #  'mapping.max_points_per_voxel': mapping_voxel_points,
                 #  'mapping.voxel_size': mapping_voxel_size,
-                #  'publish_odom_tf': publish_odom_tf,                
                 #  'registration.convergence_criterion': convergence_criterion,
                 #  'registration.max_num_iterations': max_num_iterations,
-                 
+
                 # More parameters available for tuning in the configuration files
 
                  #'adaptive_threshold.initial_threshold',
                  #'adaptive_threshold.min_motion_th',
                  #'registration.max_num_threads':,
-                 #'orientation_covariance': orientation_covariance, 
+                 #'orientation_covariance': orientation_covariance,
                  #'position_covariance': position_covariance,
-                },       
+                },
             ],
         ),
 

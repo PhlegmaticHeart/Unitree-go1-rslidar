@@ -4,6 +4,7 @@
 /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/package.xml
 /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch/helios16p_cane_robot.launch.py
 /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs/config_mrange5_voxsize1Em1_voxpoints1.yaml
+/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs/config_mrange100_voxsize5Em1_voxpoints20.yaml
 /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs/config_mrange25_voxsize25Em2_voxpoints10.yaml
 /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs/config_mrange30_voxsize3Em1_voxpoints10.yaml
 /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs/config_mrange20_voxsize3Em1_voxpoints12.yaml

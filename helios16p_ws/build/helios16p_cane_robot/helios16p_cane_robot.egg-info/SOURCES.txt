@@ -8,6 +8,7 @@ setup.py
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/requires.txt
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt
 ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/zip-safe
+configs/config_mrange100_voxsize5Em1_voxpoints20.yaml
 configs/config_mrange10_voxsize2Em1_voxpoints14.yaml
 configs/config_mrange15_voxsize3Em1_voxpoints12.yaml
 configs/config_mrange20_voxsize3Em1_voxpoints12.yaml
