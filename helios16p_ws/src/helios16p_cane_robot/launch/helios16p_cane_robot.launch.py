@@ -72,6 +72,7 @@ def generate_launch_description():
                 'use_sim_time': use_sim_time,
             }],
         ),
+
         Node( # Static transform from map to base_link
             package='tf2_ros',
             name='static_transform_map_to_base_link',
@@ -80,6 +81,7 @@ def generate_launch_description():
             parameters=[{'use_sim_time' : use_sim_time}],
             output='screen',
         ),
+
         Node( # Static transform from base_link to rslidar
             package='tf2_ros',
             name='static_transform_base_link_to_rslidar',
@@ -139,12 +141,12 @@ def generate_launch_description():
 
                 # Main parameters to tune for performance evaluation
 
-                 'data.max_range': max_range,
-                 'data.min_range': min_range,
-                 'mapping.max_points_per_voxel': mapping_voxel_points,
-                 'mapping.voxel_size': mapping_voxel_size,
-                 'registration.convergence_criterion': convergence_criterion,
-                 'registration.max_num_iterations': max_num_iterations,
+                #  'data.max_range': max_range,
+                #  'data.min_range': min_range,
+                #  'mapping.max_points_per_voxel': mapping_voxel_points,
+                #  'mapping.voxel_size': mapping_voxel_size,
+                #  'registration.convergence_criterion': convergence_criterion,
+                #  'registration.max_num_iterations': max_num_iterations,
 
                 # More parameters available for tuning in the configuration files
 
