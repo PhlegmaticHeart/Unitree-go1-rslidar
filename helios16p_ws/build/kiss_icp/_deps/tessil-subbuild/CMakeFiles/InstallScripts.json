@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
