@@ -1,0 +1,707 @@
+[0.000000] (-) TimerEvent: {}
+[0.001547] (-) JobUnselected: {'identifier': 'helios16p_cane_robot'}
+[0.002339] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.002446] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.002615] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/ph/ws/helios16p_ws/install/rslidar_msg')])}
+[0.002717] (rslidar_sdk) JobStarted: {'identifier': 'rslidar_sdk'}
+[0.042544] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'cmake'}
+[0.043970] (rslidar_sdk) Command: {'cmd': ['/home/ph/.local/bin/cmake', '/home/ph/ws/helios16p_ws/src/rslidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/rslidar_sdk'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:/home/ph/ws/helios16p_ws/install/kiss_icp/lib:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control/lib:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver/lib:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt/lib:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_control/lib:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ws/helios16p_ws'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2261'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install:/home/ph/mocap4r2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '54525964'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ph'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ph/.local/bin:/home/ph/.local/bin:/home/ph/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2cli:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '2'), ('GPG_TTY', '/dev/pts/4'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/mocap4r2_ws/install/mocap4r2cli/lib/python3.10/site-packages:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2348'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble')]), 'shell': False}
+[0.099120] (-) TimerEvent: {}
+[0.199707] (-) TimerEvent: {}
+[0.300443] (-) TimerEvent: {}
+[0.323856] (rslidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.324538] (rslidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.324904] (rslidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[0.325197] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[0.325520] (rslidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.325830] (rslidar_sdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.326161] (rslidar_sdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.326460] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[0.326762] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400564] (-) TimerEvent: {}
+[0.499781] (rslidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500667] (-) TimerEvent: {}
+[0.601172] (-) TimerEvent: {}
+[0.704523] (-) TimerEvent: {}
+[0.769689] (rslidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.807508] (-) TimerEvent: {}
+[0.812617] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.907683] (-) TimerEvent: {}
+[1.008279] (-) TimerEvent: {}
+[1.032524] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.095652] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.096943] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.098512] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.108457] (-) TimerEvent: {}
+[1.140772] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.208623] (-) TimerEvent: {}
+[1.309174] (-) TimerEvent: {}
+[1.358652] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.409306] (-) TimerEvent: {}
+[1.416597] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.417518] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.419317] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.439973] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.440356] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- POINT_TYPE is XYZI\x1b[0m\n'}
+[1.440574] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.481125] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.481535] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS Not Found. ROS Support is turned Off.\x1b[0m\n'}
+[1.481720] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[1.509442] (-) TimerEvent: {}
+[1.609850] (-) TimerEvent: {}
+[1.710282] (-) TimerEvent: {}
+[1.810753] (-) TimerEvent: {}
+[1.888542] (rslidar_sdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.910875] (-) TimerEvent: {}
+[2.011290] (-) TimerEvent: {}
+[2.111768] (-) TimerEvent: {}
+[2.212259] (-) TimerEvent: {}
+[2.312782] (-) TimerEvent: {}
+[2.413272] (-) TimerEvent: {}
+[2.513760] (-) TimerEvent: {}
+[2.518087] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.548529] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.597771] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.613861] (-) TimerEvent: {}
+[2.663900] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.713979] (-) TimerEvent: {}
+[2.758569] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.814122] (-) TimerEvent: {}
+[2.914581] (-) TimerEvent: {}
+[3.009262] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.014671] (-) TimerEvent: {}
+[3.027082] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.114862] (-) TimerEvent: {}
+[3.215355] (-) TimerEvent: {}
+[3.315899] (-) TimerEvent: {}
+[3.399619] (rslidar_sdk) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[3.416003] (-) TimerEvent: {}
+[3.516448] (-) TimerEvent: {}
+[3.528321] (rslidar_sdk) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[3.616581] (-) TimerEvent: {}
+[3.696240] (rslidar_sdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.716719] (-) TimerEvent: {}
+[3.746554] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.816863] (-) TimerEvent: {}
+[3.917414] (-) TimerEvent: {}
+[3.944682] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.948581] (rslidar_sdk) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[4.017519] (-) TimerEvent: {}
+[4.117979] (-) TimerEvent: {}
+[4.201803] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[4.202240] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS2 Found. ROS2 Support is turned On.\x1b[0m\n'}
+[4.202483] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[4.214601] (rslidar_sdk) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.218056] (-) TimerEvent: {}
+[4.318447] (-) TimerEvent: {}
+[4.361321] (rslidar_sdk) StdoutLine: {'line': b'-- Found rslidar_msg: 0.0.0 (/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake)\n'}
+[4.418583] (-) TimerEvent: {}
+[4.440354] (rslidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[4.440761] (rslidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[4.441060] (rslidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[4.441254] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[4.441469] (rslidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[4.441673] (rslidar_sdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[4.441856] (rslidar_sdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[4.442040] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[4.442220] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[4.442416] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[4.442616] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- CMake run for UNIX GNU Compiler\x1b[0m\n'}
+[4.442798] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[4.446518] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[4.446833] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- rs_driver Version : v1.5.18\x1b[0m\n'}
+[4.447017] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[4.518716] (-) TimerEvent: {}
+[4.619169] (-) TimerEvent: {}
+[4.659439] (rslidar_sdk) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.708072] (rslidar_sdk) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.719262] (-) TimerEvent: {}
+[4.798751] (rslidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/ph/ws/helios16p_ws/build/rslidar_sdk\n'}
+[4.819445] (-) TimerEvent: {}
+[4.831465] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[4.833007] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'build'}
+[4.834926] (rslidar_sdk) Command: {'cmd': ['/home/ph/.local/bin/cmake', '--build', '/home/ph/ws/helios16p_ws/build/rslidar_sdk', '--', '-j8', '-l8'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:/home/ph/ws/helios16p_ws/install/kiss_icp/lib:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control/lib:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver/lib:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt/lib:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_control/lib:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ws/helios16p_ws'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2261'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install:/home/ph/mocap4r2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '54525964'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ph'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ph/.local/bin:/home/ph/.local/bin:/home/ph/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2cli:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '2'), ('GPG_TTY', '/dev/pts/4'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/mocap4r2_ws/install/mocap4r2cli/lib/python3.10/site-packages:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2348'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble')]), 'shell': False}
+[4.919562] (-) TimerEvent: {}
+[5.020008] (-) TimerEvent: {}
+[5.120488] (-) TimerEvent: {}
+[5.161186] (rslidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o\x1b[0m\n'}
+[5.161631] (rslidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o\x1b[0m\n'}
+[5.220632] (-) TimerEvent: {}
+[5.321097] (-) TimerEvent: {}
+[5.421577] (-) TimerEvent: {}
+[5.522094] (-) TimerEvent: {}
+[5.622705] (-) TimerEvent: {}
+[5.723168] (-) TimerEvent: {}
+[5.823634] (-) TimerEvent: {}
+[5.924095] (-) TimerEvent: {}
+[6.024568] (-) TimerEvent: {}
+[6.125029] (-) TimerEvent: {}
+[6.225485] (-) TimerEvent: {}
+[6.325956] (-) TimerEvent: {}
+[6.426451] (-) TimerEvent: {}
+[6.526926] (-) TimerEvent: {}
+[6.627435] (-) TimerEvent: {}
+[6.727908] (-) TimerEvent: {}
+[6.828411] (-) TimerEvent: {}
+[6.928881] (-) TimerEvent: {}
+[7.029339] (-) TimerEvent: {}
+[7.129826] (-) TimerEvent: {}
+[7.230293] (-) TimerEvent: {}
+[7.330784] (-) TimerEvent: {}
+[7.431255] (-) TimerEvent: {}
+[7.531739] (-) TimerEvent: {}
+[7.632213] (-) TimerEvent: {}
+[7.732717] (-) TimerEvent: {}
+[7.833187] (-) TimerEvent: {}
+[7.933679] (-) TimerEvent: {}
+[8.034154] (-) TimerEvent: {}
+[8.134650] (-) TimerEvent: {}
+[8.235990] (-) TimerEvent: {}
+[8.336573] (-) TimerEvent: {}
+[8.437054] (-) TimerEvent: {}
+[8.537560] (-) TimerEvent: {}
+[8.638036] (-) TimerEvent: {}
+[8.738525] (-) TimerEvent: {}
+[8.839129] (-) TimerEvent: {}
+[8.939766] (-) TimerEvent: {}
+[9.040697] (-) TimerEvent: {}
+[9.141367] (-) TimerEvent: {}
+[9.242082] (-) TimerEvent: {}
+[9.342725] (-) TimerEvent: {}
+[9.443331] (-) TimerEvent: {}
+[9.543932] (-) TimerEvent: {}
+[9.644529] (-) TimerEvent: {}
+[9.745151] (-) TimerEvent: {}
+[9.845767] (-) TimerEvent: {}
+[9.946258] (-) TimerEvent: {}
+[10.046771] (-) TimerEvent: {}
+[10.147235] (-) TimerEvent: {}
+[10.247737] (-) TimerEvent: {}
+[10.348293] (-) TimerEvent: {}
+[10.448921] (-) TimerEvent: {}
+[10.549476] (-) TimerEvent: {}
+[10.650037] (-) TimerEvent: {}
+[10.750583] (-) TimerEvent: {}
+[10.851125] (-) TimerEvent: {}
+[10.951675] (-) TimerEvent: {}
+[11.052194] (-) TimerEvent: {}
+[11.152754] (-) TimerEvent: {}
+[11.253252] (-) TimerEvent: {}
+[11.353787] (-) TimerEvent: {}
+[11.454300] (-) TimerEvent: {}
+[11.554852] (-) TimerEvent: {}
+[11.655368] (-) TimerEvent: {}
+[11.755834] (-) TimerEvent: {}
+[11.856335] (-) TimerEvent: {}
+[11.956870] (-) TimerEvent: {}
+[12.057330] (-) TimerEvent: {}
+[12.157808] (-) TimerEvent: {}
+[12.258261] (-) TimerEvent: {}
+[12.358742] (-) TimerEvent: {}
+[12.459227] (-) TimerEvent: {}
+[12.559769] (-) TimerEvent: {}
+[12.660230] (-) TimerEvent: {}
+[12.760721] (-) TimerEvent: {}
+[12.861190] (-) TimerEvent: {}
+[12.961692] (-) TimerEvent: {}
+[13.062194] (-) TimerEvent: {}
+[13.162745] (-) TimerEvent: {}
+[13.263214] (-) TimerEvent: {}
+[13.363706] (-) TimerEvent: {}
+[13.464179] (-) TimerEvent: {}
+[13.565533] (-) TimerEvent: {}
+[13.666126] (-) TimerEvent: {}
+[13.766741] (-) TimerEvent: {}
+[13.867272] (-) TimerEvent: {}
+[13.967775] (-) TimerEvent: {}
+[14.068249] (-) TimerEvent: {}
+[14.168754] (-) TimerEvent: {}
+[14.269195] (-) TimerEvent: {}
+[14.369665] (-) TimerEvent: {}
+[14.470132] (-) TimerEvent: {}
+[14.570617] (-) TimerEvent: {}
+[14.671080] (-) TimerEvent: {}
+[14.771620] (-) TimerEvent: {}
+[14.872078] (-) TimerEvent: {}
+[14.972561] (-) TimerEvent: {}
+[15.073016] (-) TimerEvent: {}
+[15.173477] (-) TimerEvent: {}
+[15.273953] (-) TimerEvent: {}
+[15.374446] (-) TimerEvent: {}
+[15.474915] (-) TimerEvent: {}
+[15.575375] (-) TimerEvent: {}
+[15.675865] (-) TimerEvent: {}
+[15.776325] (-) TimerEvent: {}
+[15.876840] (-) TimerEvent: {}
+[15.977433] (-) TimerEvent: {}
+[16.079218] (-) TimerEvent: {}
+[16.179787] (-) TimerEvent: {}
+[16.280342] (-) TimerEvent: {}
+[16.380814] (-) TimerEvent: {}
+[16.481268] (-) TimerEvent: {}
+[16.581742] (-) TimerEvent: {}
+[16.682200] (-) TimerEvent: {}
+[16.782705] (-) TimerEvent: {}
+[16.883167] (-) TimerEvent: {}
+[16.983639] (-) TimerEvent: {}
+[17.084113] (-) TimerEvent: {}
+[17.184608] (-) TimerEvent: {}
+[17.285132] (-) TimerEvent: {}
+[17.385673] (-) TimerEvent: {}
+[17.486214] (-) TimerEvent: {}
+[17.586817] (-) TimerEvent: {}
+[17.687416] (-) TimerEvent: {}
+[17.787998] (-) TimerEvent: {}
+[17.888606] (-) TimerEvent: {}
+[17.989374] (-) TimerEvent: {}
+[18.090159] (-) TimerEvent: {}
+[18.190754] (-) TimerEvent: {}
+[18.291284] (-) TimerEvent: {}
+[18.391761] (-) TimerEvent: {}
+[18.492215] (-) TimerEvent: {}
+[18.592696] (-) TimerEvent: {}
+[18.693163] (-) TimerEvent: {}
+[18.793665] (-) TimerEvent: {}
+[18.894138] (-) TimerEvent: {}
+[18.994847] (-) TimerEvent: {}
+[19.095417] (-) TimerEvent: {}
+[19.195909] (-) TimerEvent: {}
+[19.296410] (-) TimerEvent: {}
+[19.396933] (-) TimerEvent: {}
+[19.497504] (-) TimerEvent: {}
+[19.598030] (-) TimerEvent: {}
+[19.698567] (-) TimerEvent: {}
+[19.799086] (-) TimerEvent: {}
+[19.899652] (-) TimerEvent: {}
+[20.000131] (-) TimerEvent: {}
+[20.100657] (-) TimerEvent: {}
+[20.201187] (-) TimerEvent: {}
+[20.301679] (-) TimerEvent: {}
+[20.402147] (-) TimerEvent: {}
+[20.502630] (-) TimerEvent: {}
+[20.603096] (-) TimerEvent: {}
+[20.703603] (-) TimerEvent: {}
+[20.804080] (-) TimerEvent: {}
+[20.904578] (-) TimerEvent: {}
+[21.005091] (-) TimerEvent: {}
+[21.105592] (-) TimerEvent: {}
+[21.206074] (-) TimerEvent: {}
+[21.306558] (-) TimerEvent: {}
+[21.407109] (-) TimerEvent: {}
+[21.507672] (-) TimerEvent: {}
+[21.608130] (-) TimerEvent: {}
+[21.708612] (-) TimerEvent: {}
+[21.809136] (-) TimerEvent: {}
+[21.910035] (-) TimerEvent: {}
+[22.010734] (-) TimerEvent: {}
+[22.111229] (-) TimerEvent: {}
+[22.211783] (-) TimerEvent: {}
+[22.312277] (-) TimerEvent: {}
+[22.412841] (-) TimerEvent: {}
+[22.513322] (-) TimerEvent: {}
+[22.613801] (-) TimerEvent: {}
+[22.714248] (-) TimerEvent: {}
+[22.814709] (-) TimerEvent: {}
+[22.915160] (-) TimerEvent: {}
+[23.015636] (-) TimerEvent: {}
+[23.116108] (-) TimerEvent: {}
+[23.216643] (-) TimerEvent: {}
+[23.317125] (-) TimerEvent: {}
+[23.417614] (-) TimerEvent: {}
+[23.518111] (-) TimerEvent: {}
+[23.618640] (-) TimerEvent: {}
+[23.719144] (-) TimerEvent: {}
+[23.819659] (-) TimerEvent: {}
+[23.920184] (-) TimerEvent: {}
+[24.020737] (-) TimerEvent: {}
+[24.121217] (-) TimerEvent: {}
+[24.221684] (-) TimerEvent: {}
+[24.322163] (-) TimerEvent: {}
+[24.422673] (-) TimerEvent: {}
+[24.523207] (-) TimerEvent: {}
+[24.623784] (-) TimerEvent: {}
+[24.724285] (-) TimerEvent: {}
+[24.824802] (-) TimerEvent: {}
+[24.925305] (-) TimerEvent: {}
+[25.025917] (-) TimerEvent: {}
+[25.126509] (-) TimerEvent: {}
+[25.227102] (-) TimerEvent: {}
+[25.327739] (-) TimerEvent: {}
+[25.428340] (-) TimerEvent: {}
+[25.528880] (-) TimerEvent: {}
+[25.629337] (-) TimerEvent: {}
+[25.729816] (-) TimerEvent: {}
+[25.830261] (-) TimerEvent: {}
+[25.930744] (-) TimerEvent: {}
+[26.031197] (-) TimerEvent: {}
+[26.131726] (-) TimerEvent: {}
+[26.232252] (-) TimerEvent: {}
+[26.332738] (-) TimerEvent: {}
+[26.436520] (-) TimerEvent: {}
+[26.537122] (-) TimerEvent: {}
+[26.637622] (-) TimerEvent: {}
+[26.738084] (-) TimerEvent: {}
+[26.838572] (-) TimerEvent: {}
+[26.939060] (-) TimerEvent: {}
+[27.039482] (-) TimerEvent: {}
+[27.139954] (-) TimerEvent: {}
+[27.240433] (-) TimerEvent: {}
+[27.340906] (-) TimerEvent: {}
+[27.441426] (-) TimerEvent: {}
+[27.541902] (-) TimerEvent: {}
+[27.642397] (-) TimerEvent: {}
+[27.742897] (-) TimerEvent: {}
+[27.843392] (-) TimerEvent: {}
+[27.943869] (-) TimerEvent: {}
+[28.044339] (-) TimerEvent: {}
+[28.144834] (-) TimerEvent: {}
+[28.245414] (-) TimerEvent: {}
+[28.345977] (-) TimerEvent: {}
+[28.446494] (-) TimerEvent: {}
+[28.547007] (-) TimerEvent: {}
+[28.647528] (-) TimerEvent: {}
+[28.748043] (-) TimerEvent: {}
+[28.848928] (-) TimerEvent: {}
+[28.949480] (-) TimerEvent: {}
+[29.050009] (-) TimerEvent: {}
+[29.150564] (-) TimerEvent: {}
+[29.251086] (-) TimerEvent: {}
+[29.351652] (-) TimerEvent: {}
+[29.452179] (-) TimerEvent: {}
+[29.552671] (-) TimerEvent: {}
+[29.653153] (-) TimerEvent: {}
+[29.753636] (-) TimerEvent: {}
+[29.854088] (-) TimerEvent: {}
+[29.954596] (-) TimerEvent: {}
+[30.055063] (-) TimerEvent: {}
+[30.155519] (-) TimerEvent: {}
+[30.256041] (-) TimerEvent: {}
+[30.356576] (-) TimerEvent: {}
+[30.457098] (-) TimerEvent: {}
+[30.557603] (-) TimerEvent: {}
+[30.658085] (-) TimerEvent: {}
+[30.758576] (-) TimerEvent: {}
+[30.859094] (-) TimerEvent: {}
+[30.959620] (-) TimerEvent: {}
+[31.060102] (-) TimerEvent: {}
+[31.160581] (-) TimerEvent: {}
+[31.261061] (-) TimerEvent: {}
+[31.361564] (-) TimerEvent: {}
+[31.462083] (-) TimerEvent: {}
+[31.562812] (-) TimerEvent: {}
+[31.663301] (-) TimerEvent: {}
+[31.763804] (-) TimerEvent: {}
+[31.864251] (-) TimerEvent: {}
+[31.964743] (-) TimerEvent: {}
+[32.065186] (-) TimerEvent: {}
+[32.165639] (-) TimerEvent: {}
+[32.266077] (-) TimerEvent: {}
+[32.366511] (-) TimerEvent: {}
+[32.466968] (-) TimerEvent: {}
+[32.567449] (-) TimerEvent: {}
+[32.667901] (-) TimerEvent: {}
+[32.768553] (-) TimerEvent: {}
+[32.869242] (-) TimerEvent: {}
+[32.969981] (-) TimerEvent: {}
+[33.070478] (-) TimerEvent: {}
+[33.170938] (-) TimerEvent: {}
+[33.271462] (-) TimerEvent: {}
+[33.372151] (-) TimerEvent: {}
+[33.472725] (-) TimerEvent: {}
+[33.573225] (-) TimerEvent: {}
+[33.673740] (-) TimerEvent: {}
+[33.774208] (-) TimerEvent: {}
+[33.874694] (-) TimerEvent: {}
+[33.975160] (-) TimerEvent: {}
+[34.075637] (-) TimerEvent: {}
+[34.176158] (-) TimerEvent: {}
+[34.276690] (-) TimerEvent: {}
+[34.377180] (-) TimerEvent: {}
+[34.477713] (-) TimerEvent: {}
+[34.578224] (-) TimerEvent: {}
+[34.678764] (-) TimerEvent: {}
+[34.779273] (-) TimerEvent: {}
+[34.879810] (-) TimerEvent: {}
+[34.980318] (-) TimerEvent: {}
+[35.080860] (-) TimerEvent: {}
+[35.181367] (-) TimerEvent: {}
+[35.281911] (-) TimerEvent: {}
+[35.382449] (-) TimerEvent: {}
+[35.482950] (-) TimerEvent: {}
+[35.583468] (-) TimerEvent: {}
+[35.683979] (-) TimerEvent: {}
+[35.784495] (-) TimerEvent: {}
+[35.885006] (-) TimerEvent: {}
+[35.985526] (-) TimerEvent: {}
+[36.086033] (-) TimerEvent: {}
+[36.186577] (-) TimerEvent: {}
+[36.287087] (-) TimerEvent: {}
+[36.387628] (-) TimerEvent: {}
+[36.488140] (-) TimerEvent: {}
+[36.588686] (-) TimerEvent: {}
+[36.689197] (-) TimerEvent: {}
+[36.789732] (-) TimerEvent: {}
+[36.890253] (-) TimerEvent: {}
+[36.990804] (-) TimerEvent: {}
+[37.091327] (-) TimerEvent: {}
+[37.191862] (-) TimerEvent: {}
+[37.292409] (-) TimerEvent: {}
+[37.392903] (-) TimerEvent: {}
+[37.493399] (-) TimerEvent: {}
+[37.593863] (-) TimerEvent: {}
+[37.694327] (-) TimerEvent: {}
+[37.794819] (-) TimerEvent: {}
+[37.895326] (-) TimerEvent: {}
+[37.995816] (-) TimerEvent: {}
+[38.096277] (-) TimerEvent: {}
+[38.196764] (-) TimerEvent: {}
+[38.297223] (-) TimerEvent: {}
+[38.397722] (-) TimerEvent: {}
+[38.498169] (-) TimerEvent: {}
+[38.598674] (-) TimerEvent: {}
+[38.699138] (-) TimerEvent: {}
+[38.799678] (-) TimerEvent: {}
+[38.900211] (-) TimerEvent: {}
+[39.000729] (-) TimerEvent: {}
+[39.101196] (-) TimerEvent: {}
+[39.201695] (-) TimerEvent: {}
+[39.302167] (-) TimerEvent: {}
+[39.402681] (-) TimerEvent: {}
+[39.503154] (-) TimerEvent: {}
+[39.603661] (-) TimerEvent: {}
+[39.704131] (-) TimerEvent: {}
+[39.804642] (-) TimerEvent: {}
+[39.905118] (-) TimerEvent: {}
+[40.005633] (-) TimerEvent: {}
+[40.106168] (-) TimerEvent: {}
+[40.206679] (-) TimerEvent: {}
+[40.307147] (-) TimerEvent: {}
+[40.407630] (-) TimerEvent: {}
+[40.508103] (-) TimerEvent: {}
+[40.608582] (-) TimerEvent: {}
+[40.709042] (-) TimerEvent: {}
+[40.809501] (-) TimerEvent: {}
+[40.909958] (-) TimerEvent: {}
+[41.010441] (-) TimerEvent: {}
+[41.110965] (-) TimerEvent: {}
+[41.211488] (-) TimerEvent: {}
+[41.311985] (-) TimerEvent: {}
+[41.412484] (-) TimerEvent: {}
+[41.512951] (-) TimerEvent: {}
+[41.613425] (-) TimerEvent: {}
+[41.713900] (-) TimerEvent: {}
+[41.814342] (-) TimerEvent: {}
+[41.914834] (-) TimerEvent: {}
+[42.015362] (-) TimerEvent: {}
+[42.115906] (-) TimerEvent: {}
+[42.216422] (-) TimerEvent: {}
+[42.316931] (-) TimerEvent: {}
+[42.417449] (-) TimerEvent: {}
+[42.517962] (-) TimerEvent: {}
+[42.618483] (-) TimerEvent: {}
+[42.719008] (-) TimerEvent: {}
+[42.819518] (-) TimerEvent: {}
+[42.920029] (-) TimerEvent: {}
+[43.020553] (-) TimerEvent: {}
+[43.121070] (-) TimerEvent: {}
+[43.221603] (-) TimerEvent: {}
+[43.322121] (-) TimerEvent: {}
+[43.422654] (-) TimerEvent: {}
+[43.523175] (-) TimerEvent: {}
+[43.623702] (-) TimerEvent: {}
+[43.724217] (-) TimerEvent: {}
+[43.824780] (-) TimerEvent: {}
+[43.925284] (-) TimerEvent: {}
+[44.025813] (-) TimerEvent: {}
+[44.126338] (-) TimerEvent: {}
+[44.226877] (-) TimerEvent: {}
+[44.328515] (-) TimerEvent: {}
+[44.429100] (-) TimerEvent: {}
+[44.529662] (-) TimerEvent: {}
+[44.630155] (-) TimerEvent: {}
+[44.730708] (-) TimerEvent: {}
+[44.831214] (-) TimerEvent: {}
+[44.931757] (-) TimerEvent: {}
+[45.032270] (-) TimerEvent: {}
+[45.132800] (-) TimerEvent: {}
+[45.233297] (-) TimerEvent: {}
+[45.333841] (-) TimerEvent: {}
+[45.434348] (-) TimerEvent: {}
+[45.534885] (-) TimerEvent: {}
+[45.635410] (-) TimerEvent: {}
+[45.735934] (-) TimerEvent: {}
+[45.836460] (-) TimerEvent: {}
+[45.936981] (-) TimerEvent: {}
+[46.037480] (-) TimerEvent: {}
+[46.137981] (-) TimerEvent: {}
+[46.238486] (-) TimerEvent: {}
+[46.339009] (-) TimerEvent: {}
+[46.439501] (-) TimerEvent: {}
+[46.540009] (-) TimerEvent: {}
+[46.640514] (-) TimerEvent: {}
+[46.741029] (-) TimerEvent: {}
+[46.841543] (-) TimerEvent: {}
+[46.942060] (-) TimerEvent: {}
+[47.042612] (-) TimerEvent: {}
+[47.143135] (-) TimerEvent: {}
+[47.243689] (-) TimerEvent: {}
+[47.344218] (-) TimerEvent: {}
+[47.444781] (-) TimerEvent: {}
+[47.545307] (-) TimerEvent: {}
+[47.645861] (-) TimerEvent: {}
+[47.746403] (-) TimerEvent: {}
+[47.846920] (-) TimerEvent: {}
+[47.947456] (-) TimerEvent: {}
+[48.047975] (-) TimerEvent: {}
+[48.148490] (-) TimerEvent: {}
+[48.248951] (-) TimerEvent: {}
+[48.349443] (-) TimerEvent: {}
+[48.449925] (-) TimerEvent: {}
+[48.550396] (-) TimerEvent: {}
+[48.650853] (-) TimerEvent: {}
+[48.751311] (-) TimerEvent: {}
+[48.851807] (-) TimerEvent: {}
+[48.952493] (-) TimerEvent: {}
+[49.053262] (-) TimerEvent: {}
+[49.153997] (-) TimerEvent: {}
+[49.254812] (-) TimerEvent: {}
+[49.355519] (-) TimerEvent: {}
+[49.456216] (-) TimerEvent: {}
+[49.556725] (-) TimerEvent: {}
+[49.657203] (-) TimerEvent: {}
+[49.757691] (-) TimerEvent: {}
+[49.858173] (-) TimerEvent: {}
+[49.958734] (-) TimerEvent: {}
+[50.059199] (-) TimerEvent: {}
+[50.159761] (-) TimerEvent: {}
+[50.260267] (-) TimerEvent: {}
+[50.360748] (-) TimerEvent: {}
+[50.461194] (-) TimerEvent: {}
+[50.561675] (-) TimerEvent: {}
+[50.662169] (-) TimerEvent: {}
+[50.762702] (-) TimerEvent: {}
+[50.863232] (-) TimerEvent: {}
+[50.963784] (-) TimerEvent: {}
+[51.064309] (-) TimerEvent: {}
+[51.164827] (-) TimerEvent: {}
+[51.265336] (-) TimerEvent: {}
+[51.365886] (-) TimerEvent: {}
+[51.466406] (-) TimerEvent: {}
+[51.566940] (-) TimerEvent: {}
+[51.667491] (-) TimerEvent: {}
+[51.768007] (-) TimerEvent: {}
+[51.868498] (-) TimerEvent: {}
+[51.969004] (-) TimerEvent: {}
+[52.069515] (-) TimerEvent: {}
+[52.170017] (-) TimerEvent: {}
+[52.270505] (-) TimerEvent: {}
+[52.371012] (-) TimerEvent: {}
+[52.471516] (-) TimerEvent: {}
+[52.572025] (-) TimerEvent: {}
+[52.672523] (-) TimerEvent: {}
+[52.773031] (-) TimerEvent: {}
+[52.873548] (-) TimerEvent: {}
+[52.974686] (-) TimerEvent: {}
+[53.075756] (-) TimerEvent: {}
+[53.176325] (-) TimerEvent: {}
+[53.276842] (-) TimerEvent: {}
+[53.377312] (-) TimerEvent: {}
+[53.477798] (-) TimerEvent: {}
+[53.578251] (-) TimerEvent: {}
+[53.678741] (-) TimerEvent: {}
+[53.779212] (-) TimerEvent: {}
+[53.879718] (-) TimerEvent: {}
+[53.980178] (-) TimerEvent: {}
+[54.081109] (-) TimerEvent: {}
+[54.182522] (-) TimerEvent: {}
+[54.283675] (-) TimerEvent: {}
+[54.384265] (-) TimerEvent: {}
+[54.484774] (-) TimerEvent: {}
+[54.585247] (-) TimerEvent: {}
+[54.685753] (-) TimerEvent: {}
+[54.786249] (-) TimerEvent: {}
+[54.886767] (-) TimerEvent: {}
+[54.987338] (-) TimerEvent: {}
+[55.087897] (-) TimerEvent: {}
+[55.188442] (-) TimerEvent: {}
+[55.288949] (-) TimerEvent: {}
+[55.389470] (-) TimerEvent: {}
+[55.492513] (-) TimerEvent: {}
+[55.593177] (-) TimerEvent: {}
+[55.693829] (-) TimerEvent: {}
+[55.794365] (-) TimerEvent: {}
+[55.894856] (-) TimerEvent: {}
+[55.995365] (-) TimerEvent: {}
+[56.095881] (-) TimerEvent: {}
+[56.196437] (-) TimerEvent: {}
+[56.296950] (-) TimerEvent: {}
+[56.397426] (-) TimerEvent: {}
+[56.497895] (-) TimerEvent: {}
+[56.598432] (-) TimerEvent: {}
+[56.698928] (-) TimerEvent: {}
+[56.799664] (-) TimerEvent: {}
+[56.900440] (-) TimerEvent: {}
+[57.000978] (-) TimerEvent: {}
+[57.101520] (-) TimerEvent: {}
+[57.202131] (-) TimerEvent: {}
+[57.302673] (-) TimerEvent: {}
+[57.403271] (-) TimerEvent: {}
+[57.503900] (-) TimerEvent: {}
+[57.604488] (-) TimerEvent: {}
+[57.704994] (-) TimerEvent: {}
+[57.805529] (-) TimerEvent: {}
+[57.906189] (-) TimerEvent: {}
+[58.006899] (-) TimerEvent: {}
+[58.107508] (-) TimerEvent: {}
+[58.208084] (-) TimerEvent: {}
+[58.308597] (-) TimerEvent: {}
+[58.409317] (-) TimerEvent: {}
+[58.509882] (-) TimerEvent: {}
+[58.575296] (rslidar_sdk) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable rslidar_sdk_node\x1b[0m\n'}
+[58.610039] (-) TimerEvent: {}
+[58.710618] (-) TimerEvent: {}
+[58.811171] (-) TimerEvent: {}
+[58.911800] (-) TimerEvent: {}
+[59.012317] (-) TimerEvent: {}
+[59.112952] (-) TimerEvent: {}
+[59.213574] (-) TimerEvent: {}
+[59.314147] (-) TimerEvent: {}
+[59.319064] (rslidar_sdk) StdoutLine: {'line': b'[100%] Built target rslidar_sdk_node\n'}
+[59.341129] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[59.344478] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'install'}
+[59.414291] (-) TimerEvent: {}
+[59.514825] (-) TimerEvent: {}
+[59.615320] (-) TimerEvent: {}
+[59.629998] (rslidar_sdk) Command: {'cmd': ['/home/ph/.local/bin/cmake', '--install', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'], 'cwd': '/home/ph/ws/helios16p_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ph'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:/home/ph/ws/helios16p_ws/install/kiss_icp/lib:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control/lib:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver/lib:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt/lib:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:/home/ph/mocap4r2_ws/install/mocap4r2_control/lib:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ph'), ('OLDPWD', '/home/ph/ws/helios16p_ws'), ('DESKTOP_SESSION', 'i3'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '2261'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install:/home/ph/mocap4r2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ph'), ('WINDOWID', '54525964'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XTERM_SHELL', '/bin/bash'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ph'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ph/.local/bin:/home/ph/.local/bin:/home/ph/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2cli:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('CMAKE_POLICY_VERSION_MINIMUM', '3.5'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '2'), ('GPG_TTY', '/dev/pts/4'), ('PWD', '/home/ph/ws/helios16p_ws/build/rslidar_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('XTERM_LOCALE', 'en_US.UTF-8'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XTERM_VERSION', 'XTerm(372)'), ('PYTHONPATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/mocap4r2_ws/install/mocap4r2cli/lib/python3.10/site-packages:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.2348'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble')]), 'shell': False}
+[59.715483] (-) TimerEvent: {}
+[59.816025] (-) TimerEvent: {}
+[59.890796] (rslidar_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[59.891374] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node\n'}
+[59.896860] (rslidar_sdk) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""\n'}
+[59.897345] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch\n'}
+[59.897748] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py\n'}
+[59.898182] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch\n'}
+[59.898966] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py\n'}
+[59.899474] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py\n'}
+[59.899961] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz\n'}
+[59.900305] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz\n'}
+[59.901115] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz\n'}
+[59.902371] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk\n'}
+[59.903589] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk\n'}
+[59.904574] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh\n'}
+[59.905028] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv\n'}
+[59.905809] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh\n'}
+[59.906231] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv\n'}
+[59.906897] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash\n'}
+[59.907764] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh\n'}
+[59.908359] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh\n'}
+[59.908940] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv\n'}
+[59.909499] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv\n'}
+[59.910239] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk\n'}
+[59.910832] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake\n'}
+[59.911520] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake\n'}
+[59.912158] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml\n'}
+[59.916227] (-) TimerEvent: {}
+[59.917580] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[59.977437] (rslidar_sdk) JobEnded: {'identifier': 'rslidar_sdk', 'rc': 0}
+[59.979148] (-) EventReactorShutdown: {}

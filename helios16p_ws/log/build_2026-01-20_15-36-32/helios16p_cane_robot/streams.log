@@ -1,0 +1,32 @@
+[2.159s] Invoking command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data
+[3.002s] /home/ph/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: 
+[3.002s] ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x
+[3.002s] 
+[3.003s] Your build configuration is incomplete and previously worked by accident!
+[3.003s] setuptools-scm requires setuptools>=61 (recommended: >=80)
+[3.003s] 
+[3.004s] Suggested workaround if applicable:
+[3.004s]  - migrating from the deprecated setup_requires mechanism to pep517/518
+[3.004s]    and using a pyproject.toml to declare build dependencies
+[3.004s]    which are reliably pre-installed before running the build tools
+[3.005s] 
+[3.005s]   warnings.warn(
+[3.025s] running egg_info
+[3.028s] writing ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/PKG-INFO
+[3.029s] writing dependency_links to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/dependency_links.txt
+[3.030s] writing entry points to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/entry_points.txt
+[3.030s] writing requirements to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/requires.txt
+[3.031s] writing top-level names to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt
+[7.197s] writing manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+[7.197s] running build
+[7.197s] running build_py
+[7.198s] running install
+[7.198s] running install_lib
+[7.202s] running install_data
+[7.202s] copying launch/helios16p_cane_robot.launch.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+[7.204s] running install_egg_info
+[7.206s] removing '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[7.207s] Copying ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info to /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info
+[7.210s] running install_scripts
+[7.255s] writing list of installed files to '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log'
+[7.357s] Invoked command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot' returned '0': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data

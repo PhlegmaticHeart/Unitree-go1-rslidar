@@ -6,15 +6,12 @@
 
 §
 
-Actually, the folder of interest for getting a working kiss_icp pipeline setup is helios16p_ws.
-Folder tutorial_wss is a group of workspaces made to better undestand how ROS 2 works.
-
 
 ---
 
 <span style='color: red;'>long</span>
 
-## § Workspace structure §
+## § Workspace structure 
 
 In the helios16p_ws workspaces there are the following packages:
 
@@ -29,7 +26,7 @@ helios16p_cane_robot
 
 ---
 
-## § Packages functions §
+## § Packages functions 
 
 rslidar_msg: Contains the msg structure that rslidar_sdk expects.
 
@@ -43,7 +40,7 @@ helios16p_cane_robot: Contains a launch file and an urdf model with xacro syntax
 
 ---
 
-## § Launch file parameters §
+## § Launch file parameters 
 
 The launch file actually has the following parameters: 
 
@@ -85,7 +82,7 @@ change the **default_config_file_path** variable path or load it with **ros2 par
 
 ---
 
-## § Configuration files §
+## § Configuration files 
 
 The folder "configs" of helios16p_cane_robot package holds a number of stable and semi-stable configurations for an out-of-the-box use.
 
@@ -108,7 +105,7 @@ as reducing the pipeline threshold without doing the same with the LiDAR one cou
 
 ---
 
-## § Launch description §
+## § Launch description 
  
 The launch file actually contains the following nodes:
 
@@ -135,7 +132,7 @@ The launch file actually contains the following nodes:
 
 ---
 
-## § Behaviour §
+## § Behaviour 
 
 If simulate is flagged true:
 
@@ -161,14 +158,14 @@ if simulate is flagged false:
 
 ---
 
-## § Building §
+## § Building 
 
 Its necessary, if building from scratch is needed, to build rslidar_msg package BEFORE rslidar_sdk, as its required by the latter to build effectively.
 
 
 ---
 
-## § Next steps §
+## § Next steps 
 
 Soon there will be:
 
@@ -179,9 +176,9 @@ Soon there will be:
  
 ---
 
-## § Infos on the project §
+## § Infos on the project 
 
-This project is currently a cooperational project led by Links Foundation and ITS Meccatronica e Aerospazio Piemonte (MAP).
+This project is currently a cooperational project lead by Links Foundation and ITS Meccatronica e Aerospazio Piemonte (MAP).
 
 
 

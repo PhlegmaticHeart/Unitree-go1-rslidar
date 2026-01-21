@@ -1,0 +1,100 @@
+[0.049s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble /home/ph/.local/bin/cmake /home/ph/ws/helios16p_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/rslidar_sdk
+[0.321s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.322s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.322s]   CMake.
+[0.322s] 
+[0.323s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.323s]   to tell CMake that the project requires at least <min> but has been updated
+[0.323s]   to work with policies introduced by <max> or earlier.
+[0.324s] 
+[0.324s] [0m
+[0.497s] -- The C compiler identification is GNU 11.4.0
+[0.767s] -- The CXX compiler identification is GNU 11.4.0
+[0.810s] -- Detecting C compiler ABI info
+[1.030s] -- Detecting C compiler ABI info - done
+[1.093s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.094s] -- Detecting C compile features
+[1.096s] -- Detecting C compile features - done
+[1.138s] -- Detecting CXX compiler ABI info
+[1.356s] -- Detecting CXX compiler ABI info - done
+[1.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.415s] -- Detecting CXX compile features
+[1.417s] -- Detecting CXX compile features - done
+[1.437s] [0m=============================================================[0m
+[1.438s] [0m-- POINT_TYPE is XYZI[0m
+[1.438s] [0m=============================================================[0m
+[1.479s] [0m=============================================================[0m
+[1.479s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[1.479s] [0m=============================================================[0m
+[1.886s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.515s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.546s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.595s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.007s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.024s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.397s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[3.526s] -- Found FastRTPS: /opt/ros/humble/include
+[3.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.946s] -- Found Threads: TRUE
+[4.199s] [0m=============================================================[0m
+[4.199s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[4.200s] [0m=============================================================[0m
+[4.212s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.359s] -- Found rslidar_msg: 0.0.0 (/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake)
+[4.438s] [0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):
+[4.438s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[4.438s]   CMake.
+[4.438s] 
+[4.439s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[4.439s]   to tell CMake that the project requires at least <min> but has been updated
+[4.439s]   to work with policies introduced by <max> or earlier.
+[4.439s] 
+[4.439s] [0m
+[4.440s] [0m=============================================================[0m
+[4.440s] [0m-- CMake run for UNIX GNU Compiler[0m
+[4.440s] [0m=============================================================[0m
+[4.444s] [0m=============================================================[0m
+[4.444s] [0m-- rs_driver Version : v1.5.18[0m
+[4.444s] [0m=============================================================[0m
+[4.657s] -- Configuring done (4.3s)
+[4.705s] -- Generating done (0.0s)
+[4.796s] -- Build files have been written to: /home/ph/ws/helios16p_ws/build/rslidar_sdk
+[4.829s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble /home/ph/.local/bin/cmake /home/ph/ws/helios16p_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/rslidar_sdk
+[4.834s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble /home/ph/.local/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_sdk -- -j8 -l8
+[5.159s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[5.159s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[58.573s] [100%] [1m[32mLinking CXX executable rslidar_sdk_node[0m
+[59.317s] [100%] Built target rslidar_sdk_node
+[59.339s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble /home/ph/.local/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_sdk -- -j8 -l8
+[59.629s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble /home/ph/.local/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_sdk
+[59.888s] -- Install configuration: "Release"
+[59.889s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[59.894s] -- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+[59.895s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[59.895s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[59.895s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[59.896s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[59.897s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[59.897s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[59.898s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[59.898s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[59.900s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[59.901s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[59.902s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[59.902s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[59.903s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[59.903s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[59.904s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[59.905s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[59.906s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[59.906s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[59.907s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[59.907s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[59.908s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[59.909s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[59.909s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[59.916s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/mocap4r2_ws/install/rqt_mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_vicon_driver:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt:/home/ph/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz:/home/ph/mocap4r2_ws/install/mocap4r2_marker_publisher:/home/ph/mocap4r2_ws/install/mocap4r2_dummy_driver:/home/ph/mocap4r2_ws/install/mocap4r2_msgs:/home/ph/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/ph/mocap4r2_ws/install/mocap4r2_control:/home/ph/mocap4r2_ws/install/mocap4r2_control_msgs:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/home/ph/mocap4r2_ws/install/mocap4r2cli:/opt/ros/humble /home/ph/.local/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_sdk

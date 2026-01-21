@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001053] (-) JobUnselected: {'identifier': 'kiss_icp'}
+[0.001680] (-) JobUnselected: {'identifier': 'rslidar_msg'}
+[0.001742] (-) JobUnselected: {'identifier': 'rslidar_sdk'}
+[0.001796] (helios16p_cane_robot) JobQueued: {'identifier': 'helios16p_cane_robot', 'dependencies': OrderedDict()}
+[0.002084] (helios16p_cane_robot) JobStarted: {'identifier': 'helios16p_cane_robot'}
+[0.099430] (-) TimerEvent: {}
+[0.199875] (-) TimerEvent: {}
+[0.300286] (-) TimerEvent: {}
+[0.400697] (-) TimerEvent: {}
+[0.501150] (-) TimerEvent: {}
+[0.601569] (-) TimerEvent: {}
+[0.702053] (-) TimerEvent: {}
+[0.802454] (-) TimerEvent: {}
+[0.902935] (-) TimerEvent: {}
+[1.003443] (-) TimerEvent: {}
+[1.103899] (-) TimerEvent: {}
+[1.204323] (-) TimerEvent: {}
+[1.304745] (-) TimerEvent: {}
+[1.405253] (-) TimerEvent: {}
+[1.505742] (-) TimerEvent: {}
+[1.606243] (-) TimerEvent: {}
+[1.706717] (-) TimerEvent: {}
+[1.807201] (-) TimerEvent: {}
+[1.907639] (-) TimerEvent: {}
+[2.008128] (-) TimerEvent: {}
+[2.108640] (-) TimerEvent: {}
+[2.174670] (helios16p_cane_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/helios16p_cane_robot', 'build', '--build-base', '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build', 'install', '--record', '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ph', 'LC_TIME': 'it_IT.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:/home/ph/ws/helios16p_ws/install/kiss_icp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ph', 'OLDPWD': '/home/ph', 'DESKTOP_SESSION': 'i3', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'SYSTEMD_EXEC_PID': '2222', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/ph/ws/helios16p_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ph', 'WINDOWID': '56623116', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/bin/bash', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ph', 'TERM': 'xterm', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/ph/.local/bin:/home/ph/.local/bin:/home/ph/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'CMAKE_POLICY_VERSION_MINIMUM': '3.5', 'LC_NAME': 'it_IT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'i3', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'GPG_TTY': '/dev/pts/8', 'PWD': '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'XTERM_LOCALE': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XTERM_VERSION': 'XTerm(372)', 'PYTHONPATH': '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'I3SOCK': '/run/user/1000/i3/ipc-socket.2319', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ph/ws/helios16p_ws/install/rslidar_sdk:/home/ph/ws/helios16p_ws/install/rslidar_msg:/home/ph/ws/helios16p_ws/install/kiss_icp'}, 'shell': False}
+[2.208767] (-) TimerEvent: {}
+[2.309201] (-) TimerEvent: {}
+[2.409615] (-) TimerEvent: {}
+[2.510043] (-) TimerEvent: {}
+[2.610448] (-) TimerEvent: {}
+[2.710870] (-) TimerEvent: {}
+[2.811289] (-) TimerEvent: {}
+[2.911710] (-) TimerEvent: {}
+[2.973540] (helios16p_cane_robot) StderrLine: {'line': b'/home/ph/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:24: RuntimeWarning: \n'}
+[2.974029] (helios16p_cane_robot) StderrLine: {'line': b'ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x\n'}
+[2.974227] (helios16p_cane_robot) StderrLine: {'line': b'\n'}
+[2.974397] (helios16p_cane_robot) StderrLine: {'line': b'Your build configuration is incomplete and previously worked by accident!\n'}
+[2.974564] (helios16p_cane_robot) StderrLine: {'line': b'setuptools-scm requires setuptools>=61 (recommended: >=80)\n'}
+[2.974731] (helios16p_cane_robot) StderrLine: {'line': b'\n'}
+[2.974925] (helios16p_cane_robot) StderrLine: {'line': b'Suggested workaround if applicable:\n'}
+[2.975103] (helios16p_cane_robot) StderrLine: {'line': b' - migrating from the deprecated setup_requires mechanism to pep517/518\n'}
+[2.975267] (helios16p_cane_robot) StderrLine: {'line': b'   and using a pyproject.toml to declare build dependencies\n'}
+[2.975430] (helios16p_cane_robot) StderrLine: {'line': b'   which are reliably pre-installed before running the build tools\n'}
+[2.975596] (helios16p_cane_robot) StderrLine: {'line': b'\n'}
+[2.975759] (helios16p_cane_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.996972] (helios16p_cane_robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.998871] (helios16p_cane_robot) StdoutLine: {'line': b'writing ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/PKG-INFO\n'}
+[2.999509] (helios16p_cane_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/dependency_links.txt\n'}
+[2.999996] (helios16p_cane_robot) StdoutLine: {'line': b'writing entry points to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/entry_points.txt\n'}
+[3.000304] (helios16p_cane_robot) StdoutLine: {'line': b'writing requirements to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/requires.txt\n'}
+[3.000611] (helios16p_cane_robot) StdoutLine: {'line': b'writing top-level names to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt\n'}
+[3.011837] (-) TimerEvent: {}
+[3.112248] (-) TimerEvent: {}
+[3.212742] (-) TimerEvent: {}
+[3.313238] (-) TimerEvent: {}
+[3.413744] (-) TimerEvent: {}
+[3.514262] (-) TimerEvent: {}
+[3.614738] (-) TimerEvent: {}
+[3.715237] (-) TimerEvent: {}
+[3.815770] (-) TimerEvent: {}
+[3.916696] (-) TimerEvent: {}
+[4.017216] (-) TimerEvent: {}
+[4.117740] (-) TimerEvent: {}
+[4.218229] (-) TimerEvent: {}
+[4.318659] (-) TimerEvent: {}
+[4.419155] (-) TimerEvent: {}
+[4.519605] (-) TimerEvent: {}
+[4.620058] (-) TimerEvent: {}
+[4.720546] (-) TimerEvent: {}
+[4.821086] (-) TimerEvent: {}
+[4.921559] (-) TimerEvent: {}
+[5.022035] (-) TimerEvent: {}
+[5.122555] (-) TimerEvent: {}
+[5.223040] (-) TimerEvent: {}
+[5.323498] (-) TimerEvent: {}
+[5.427927] (-) TimerEvent: {}
+[5.528486] (-) TimerEvent: {}
+[5.628976] (-) TimerEvent: {}
+[5.729426] (-) TimerEvent: {}
+[5.829895] (-) TimerEvent: {}
+[5.930325] (-) TimerEvent: {}
+[6.030754] (-) TimerEvent: {}
+[6.131247] (-) TimerEvent: {}
+[6.231867] (-) TimerEvent: {}
+[6.332452] (-) TimerEvent: {}
+[6.432993] (-) TimerEvent: {}
+[6.533521] (-) TimerEvent: {}
+[6.634052] (-) TimerEvent: {}
+[6.734518] (-) TimerEvent: {}
+[6.835043] (-) TimerEvent: {}
+[6.935526] (-) TimerEvent: {}
+[7.036022] (-) TimerEvent: {}
+[7.136830] (-) TimerEvent: {}
+[7.237342] (-) TimerEvent: {}
+[7.337893] (-) TimerEvent: {}
+[7.438418] (-) TimerEvent: {}
+[7.538928] (-) TimerEvent: {}
+[7.577587] (helios16p_cane_robot) StdoutLine: {'line': b"writing manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'\n"}
+[7.578707] (helios16p_cane_robot) StdoutLine: {'line': b'running build\n'}
+[7.578987] (helios16p_cane_robot) StdoutLine: {'line': b'running build_py\n'}
+[7.579195] (helios16p_cane_robot) StdoutLine: {'line': b'running install\n'}
+[7.579567] (helios16p_cane_robot) StdoutLine: {'line': b'running install_lib\n'}
+[7.583956] (helios16p_cane_robot) StdoutLine: {'line': b'running install_data\n'}
+[7.584392] (helios16p_cane_robot) StdoutLine: {'line': b'copying launch/helios16p_cane_robot.launch.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch\n'}
+[7.586137] (helios16p_cane_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.588901] (helios16p_cane_robot) StdoutLine: {'line': b"removing '/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.589951] (helios16p_cane_robot) StdoutLine: {'line': b'Copying ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info to /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info\n'}
+[7.593912] (helios16p_cane_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[7.639040] (-) TimerEvent: {}
+[7.644941] (helios16p_cane_robot) StdoutLine: {'line': b"writing list of installed files to '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log'\n"}
+[7.739161] (-) TimerEvent: {}
+[7.746358] (helios16p_cane_robot) CommandEnded: {'returncode': 0}
+[7.784175] (helios16p_cane_robot) JobEnded: {'identifier': 'helios16p_cane_robot', 'rc': 0}
+[7.786934] (-) EventReactorShutdown: {}

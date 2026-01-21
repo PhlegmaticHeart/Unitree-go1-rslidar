@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ph/ws/helios16p_ws/src/build/rslidar_msg/cmake_install.cmake",
+		"/home/ph/ws/helios16p_ws/src/build/rslidar_msg/rslidar_msg__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
