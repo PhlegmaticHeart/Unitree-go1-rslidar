@@ -386,7 +386,7 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=PHs
+SITE:STRING=phs
 
 //Generate the install target.
 SOPHUS_INSTALL:BOOL=OFF

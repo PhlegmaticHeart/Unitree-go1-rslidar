@@ -42,7 +42,7 @@
 
 
   <!-- Base Link Its the "squared" part of the lidar base -->
-  <link name="base_link">
+  <link name="base_l">
     <visual>
       <geometry>
         <box size="${base_box_size}"/>
@@ -67,7 +67,7 @@
     </visual>
   </link>
   <joint name="base_round_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="base_round_part"/>
     <origin xyz="0 0 ${base_round_z+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -85,7 +85,7 @@
     </visual>
   </link>
   <joint name="top_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="top_link"/>
     <origin xyz="0 0 ${top_z+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -103,7 +103,7 @@
     </visual>
   </link>
   <joint name="top_round_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="top_round_part"/>
     <origin xyz="0 0 ${top_z+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -121,7 +121,7 @@
     </visual>
   </link>
   <joint name="sx_pillar_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="sx_pillar"/>
     <origin xyz="-0.055 0.05 ${pillar_z+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -139,7 +139,7 @@
     </visual>
   </link>
   <joint name="dx_pillar_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="dx_pillar"/>
     <origin xyz="-0.055 -0.05 ${pillar_z+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -157,7 +157,7 @@
     </visual>
   </link>
   <joint name="base_to_lidar" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="lidar_link"/>
     <origin xyz="0 0 ${lidar_z+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -175,7 +175,7 @@
     </visual>
   </link>
   <joint name="gobody_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="gobody"/>
     <origin xyz="${0-goshift_x} 0 ${-gobody_fourth_of_y+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -193,7 +193,7 @@
     </visual>
   </link>
   <joint name="gobodysx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="gobodysx"/>
     <origin xyz="${0-goshift_x} ${gobody_fourth_of_y} ${-gobody_fourth_of_y+global_z_offset}" rpy="0 ${halfpi} 0"/>
   </joint>
@@ -210,7 +210,7 @@
     </visual>
   </link>
   <joint name="gobodydx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="gobodydx"/>
     <origin xyz="${0-goshift_x} ${-gobody_fourth_of_y} ${-gobody_fourth_of_y+global_z_offset}" rpy="0 ${halfpi} 0"/>
   </joint>
@@ -228,7 +228,7 @@
     </visual>
   </link>
   <joint name="goneck_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="goneck"/>
     <origin xyz="${(gobody_length / 2) + (gobody_fourth_of_y / 2) -goshift_x} 0 ${-gobody_fourth_of_y+global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -246,7 +246,7 @@
     </visual>
   </link>
   <joint name="gohead_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="gohead"/>
     <origin xyz="${(gobody_length / 2) + (gobody_fourth_of_y * 2) - goshift_x} 0 ${-gobody_fourth_of_y+global_z_offset}" rpy="${halfpi} 0 0"/>
   </joint>
@@ -264,7 +264,7 @@
     </visual>
   </link>
   <joint name="goback_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="goback"/>
     <origin xyz="${(-gobody_length / 2) -goshift_x} 0 ${-gobody_fourth_of_y+global_z_offset}" rpy="${halfpi} 0 0"/>
   </joint>
@@ -282,7 +282,7 @@
     </visual>
   </link>
   <joint name="gobackdx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="gobackdx"/>
     <origin xyz="${(-gobody_length / 2) -goshift_x} ${-gobody_fourth_of_y *2} ${-gobody_fourth_of_y+global_z_offset}" rpy="${halfpi} 0 0"/>
   </joint>
@@ -301,7 +301,7 @@
     </visual>
   </link>
   <joint name="gobacksx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="gobacksx"/>
     <origin xyz="${(-gobody_length / 2) -goshift_x} ${gobody_fourth_of_y * 2} ${-gobody_fourth_of_y+global_z_offset}" rpy="${halfpi} 0 0"/>
   </joint>
@@ -319,7 +319,7 @@
     </visual>
   </link>
   <joint name="goneckdx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="goneckdx"/>
     <origin xyz="${(gobody_length / 2) -goshift_x} ${-gobody_fourth_of_y * 2} ${-gobody_fourth_of_y+global_z_offset}" rpy="${halfpi} 0 0"/>
   </joint>
@@ -336,7 +336,7 @@
     </visual>
   </link>
   <joint name="gonecksx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="gonecksx"/>
     <origin xyz="${(gobody_length / 2) -goshift_x} ${gobody_fourth_of_y * 2} ${-gobody_fourth_of_y+global_z_offset}" rpy="${halfpi} 0 0"/>
   </joint>
@@ -354,7 +354,7 @@
     </visual>
   </link>
   <joint name="goaneckshoulders_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="goaneckshoulders"/>
     <origin xyz="${(gobody_length / 2) -goshift_x} 0 ${-gobody_fourth_of_y+global_z_offset}" rpy="${halfpi} 0 0"/>
   </joint>
@@ -372,7 +372,7 @@
     </visual>
   </link>
   <joint name="legsx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="legsx"/>
     <origin xyz="${-goshift_x} ${gobody_fourth_of_y * 5 / 2} ${-((0.2 + (gobody_fourth_of_y * 2)) / 2) - gobody_fourth_of_y + global_z_offset}" rpy="0 0 0"/>
   </joint>
@@ -390,7 +390,7 @@
     </visual>
   </link>
   <joint name="legdx_to_base" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_l"/>
     <child link="legdx"/>
     <origin xyz="${-goshift_x} ${-gobody_fourth_of_y * 5 / 2} ${-((0.2 + (gobody_fourth_of_y * 2)) / 2) - gobody_fourth_of_y + global_z_offset}" rpy="0 0 0"/>
   </joint>

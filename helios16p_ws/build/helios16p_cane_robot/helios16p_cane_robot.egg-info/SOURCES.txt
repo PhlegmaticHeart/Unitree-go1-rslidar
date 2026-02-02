@@ -19,11 +19,14 @@ configs/mrange30.yaml
 configs/mrange4.yaml
 configs/mrange5.yaml
 configs/mrange8.yaml
+configs/rviz_vicon.rviz
 helios16p_cane_robot/__init__.py
 launch/helios16p_cane_robot.launch.py
+launch/helios16p_cane_robot_demo.launch.py
+launch/helios16p_cane_robot_vicon_track.launch.py
 resource/helios16p_cane_robot
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
-urdf/helios16p.LiDAR.urdf.xacro
 urdf/helios16p.urdf.xacro
+urdf/helios16p_LiDAR.urdf.xacro

@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/ph/ws/helios16p_ws/src/build/kiss_icp/_deps/sophus-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

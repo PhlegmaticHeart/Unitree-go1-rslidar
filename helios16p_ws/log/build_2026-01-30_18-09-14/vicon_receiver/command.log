@@ -1,0 +1,6 @@
+Invoking command in '/home/ph/ws/helios16p_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ph/.local/bin/cmake /home/ph/ws/helios16p_ws/src/vicon_receiver -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/vicon_receiver
+Invoked command in '/home/ph/ws/helios16p_ws/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ph/.local/bin/cmake /home/ph/ws/helios16p_ws/src/vicon_receiver -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/vicon_receiver
+Invoking command in '/home/ph/ws/helios16p_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ph/.local/bin/cmake --build /home/ph/ws/helios16p_ws/build/vicon_receiver -- -j8 -l8
+Invoked command in '/home/ph/ws/helios16p_ws/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ph/.local/bin/cmake --build /home/ph/ws/helios16p_ws/build/vicon_receiver -- -j8 -l8
+Invoking command in '/home/ph/ws/helios16p_ws/build/vicon_receiver': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ph/.local/bin/cmake --install /home/ph/ws/helios16p_ws/build/vicon_receiver
+Invoked command in '/home/ph/ws/helios16p_ws/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ph/.local/bin/cmake --install /home/ph/ws/helios16p_ws/build/vicon_receiver

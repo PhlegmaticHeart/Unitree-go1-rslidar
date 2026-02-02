@@ -24,6 +24,8 @@ def generate_launch_description():
 
     robot_description = xacro.process_file(xacro_file).toxml() # Robot description in xml format, keep in mind that this model requires xacro package
 
+    rviz_config_file = os.path.join(pkg_share, 'configs', 'launchrviz.rviz') # Rviz2 config file path
+
     lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml') # RSLidar's config file path
 
     bag_path = '/home/ph/bagrecords/vicontests/rec_all_ostacoli_lunga_20260119_175552074139752' # Bag file path
@@ -113,7 +115,7 @@ def generate_launch_description():
 
     declare_deskew_arg = DeclareLaunchArgument(
         'data.deskew',
-        default_value='True',
+        default_value='False',
         description='Enable deskew for pointcloud data'
     )
     data_deskew = LaunchConfiguration('data.deskew') # Enable manipulation of max and min range
@@ -124,7 +126,7 @@ def generate_launch_description():
         default_value='',
         description='Base frame for the robot'
     )
-    base_frame = LaunchConfiguration('base_frame')  # (base_link/base_footprint)
+    base_frame = LaunchConfiguration('base_frame')  # (base_l/base_footprint)
 
 
     declare_odom_frame_arg = DeclareLaunchArgument(
@@ -138,9 +140,9 @@ def generate_launch_description():
     declare_publish_odom_tf_arg = DeclareLaunchArgument(
         'publish_odom_tf',
         default_value='True',
-        description='Flag to publish odom->base_link transform'
+        description='Flag to publish odom->base_l transform'
     )
-    publish_odom_tf = LaunchConfiguration('publish_odom_tf') # Flag to publish odom->base_link transform
+    publish_odom_tf = LaunchConfiguration('publish_odom_tf') # Flag to publish odom->base_l transform
 
 
     declare_invert_odom_tf_arg = DeclareLaunchArgument(
@@ -203,21 +205,21 @@ def generate_launch_description():
         )
 
 
-    tf2_map_to_base_link = Node( # Static transform from map to base_link
+    tf2_map_to_base_l = Node( # Static transform from map to base_l
             package='tf2_ros',
-            name='static_transform_map_to_base_link',
+            name='static_transform_map_to_base_l',
             executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', 'map', 'base_link'],
+            arguments=['0', '0', '0', '0', '0', '0', 'map', 'base_l'],
             parameters=[{'use_sim_time' : use_sim_time}],
             output='screen'
         )
 
 
-    tf2_base_link_to_rslidar = Node( # Static transform from base_link to rslidar
+    tf2_base_l_to_rslidar = Node( # Static transform from base_l to rslidar
             package='tf2_ros',
-            name='static_transform_base_link_to_rslidar',
+            name='static_transform_base_l_to_rslidar',
             executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'rslidar'],
+            arguments=['0', '0', '0', '0', '0', '0', 'base_l', 'rslidar'],
             parameters=[{'use_sim_time' : use_sim_time}],
             output='screen'
         )
@@ -228,8 +230,8 @@ def generate_launch_description():
                 'ros2', 'bag', 'play',
                 '--rate', '1.0',
                 bagfile,
-                '--clock', '1.0', '--loop',
-                #'--topics', '/rslidar_points',
+                '--clock', '1.0',# '--loop',
+                '--topics', '/rslidar_points',
             ],
             output='screen',
             condition=IfCondition(play_bag),
@@ -292,7 +294,7 @@ def generate_launch_description():
             output='screen',
             arguments=[
                 '-d',
-                PathJoinSubstitution([FindPackageShare('kiss_icp'), 'rviz', 'kiss_icp.rviz']),
+                rviz_config_file
             ],
             parameters=[{'use_sim_time' : use_sim_time}],
             condition=IfCondition(visualize)
@@ -324,8 +326,8 @@ def generate_launch_description():
         declare_config_name_arg,
 
         publisher_node,
-        tf2_map_to_base_link,
-        tf2_base_link_to_rslidar,
+        tf2_map_to_base_l,
+        tf2_base_l_to_rslidar,
         bag_start_process,
         lidar_driver_node,
         kiss_node,

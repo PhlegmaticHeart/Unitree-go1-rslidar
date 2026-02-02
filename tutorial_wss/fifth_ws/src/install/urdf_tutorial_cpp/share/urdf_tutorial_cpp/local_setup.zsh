@@ -1,1 +1,0 @@
-/home/ph/fifth_ws/src/build/urdf_tutorial_cpp/ament_cmake_environment_hooks/local_setup.zsh

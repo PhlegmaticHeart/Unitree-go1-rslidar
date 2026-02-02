@@ -3,8 +3,8 @@
 <package format="3">
   <name>helios16p_cane_robot</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="gabriele.barletta@edu.its-aerospazio.it">ph</maintainer>
+  <description>TODO: Provides configurations and launch files for the helios16p cane robot</description>
+  <maintainer email="gabriele.barletta03@gmail.com">ph</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>
