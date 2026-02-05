@@ -24,11 +24,11 @@ def generate_launch_description():
 
     rviz_config_file = os.path.join(pkg_share, 'configs', 'launchrviz.rviz') # Rviz2 config file path
 
-    bag_path = '/home/ph/bagrecords/vicontests/rec_all_ostacoli_lunga_20260119_175552074139752' # Bag file path
+    bag_path = '/home/ph/bagrecords/senza_desincronizzazione_ma_con_shift/serpentina_con_shift_tra_dati' # Bag file path
 
     go1_package=get_package_share_directory('go1_description')
 
-    go1_launch_path = os.path.join(go1_package, 'launch', 'load_go1.launch.py')
+    go1_launch_path = os.path.join(go1_package, 'launch', 'go1_description.launch.py')
 
     kiss_package=get_package_share_directory('kiss_icp')
    
@@ -199,11 +199,7 @@ def generate_launch_description():
 
 
     go1_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(go1_launch_path),
-            launch_arguments={
-                'use_jsp': 'none',
-                'use_rviz': 'false'
-            }.items()
+        PythonLaunchDescriptionSource(go1_launch_path)
         )
    
     tf2_map_to_base = Node( # Static transform from map to base_link
@@ -302,7 +298,7 @@ def generate_launch_description():
         declare_topic_arg,
         declare_config_name_arg,
 
-        go1_launch,
+        #go1_launch,
         tf2_map_to_base,
         tf2_base_to_rslidar,
         bag_start_process,

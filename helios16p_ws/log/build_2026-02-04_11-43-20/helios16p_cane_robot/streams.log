@@ -1,0 +1,53 @@
+[2.504s] Invoking command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data
+[3.260s] running egg_info
+[3.262s] creating ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info
+[3.262s] writing ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/PKG-INFO
+[3.263s] writing dependency_links to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/dependency_links.txt
+[3.263s] writing entry points to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/entry_points.txt
+[3.263s] writing requirements to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/requires.txt
+[3.264s] writing top-level names to ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/top_level.txt
+[3.264s] writing manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+[3.269s] reading manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+[3.271s] writing manifest file '../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info/SOURCES.txt'
+[3.272s] running build
+[3.272s] running build_py
+[3.273s] creating /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build
+[3.273s] creating /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build/lib
+[3.273s] creating /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build/lib/helios16p_cane_robot
+[3.273s] copying helios16p_cane_robot/__init__.py -> /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build/lib/helios16p_cane_robot
+[3.274s] running install
+[3.275s] running install_lib
+[3.277s] creating /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot
+[3.277s] copying /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build/lib/helios16p_cane_robot/__init__.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot
+[3.279s] byte-compiling /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot/__init__.py to __init__.cpython-310.pyc
+[3.280s] running install_data
+[3.280s] creating /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/ament_index
+[3.280s] creating /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/ament_index/resource_index
+[3.281s] creating /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/ament_index/resource_index/packages
+[3.281s] copying resource/helios16p_cane_robot -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/ament_index/resource_index/packages
+[3.281s] copying package.xml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot
+[3.281s] creating /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+[3.282s] copying launch/helios16p_cane_robot_demo.launch.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+[3.282s] copying launch/helios16p_cane_robot_vicon_track.launch.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+[3.282s] copying launch/helios16p_cane_robot.launch.py -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/launch
+[3.283s] creating /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.283s] copying configs/launchrviz.rviz -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.283s] copying configs/rviz_vicon.rviz -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.284s] copying configs/mrange20.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.285s] copying configs/mrange30.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.285s] copying configs/mrange4.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.286s] copying configs/mrange100.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.287s] copying configs/lidar_config.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.287s] copying configs/mrange25.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.288s] copying configs/mrange5.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.289s] copying configs/mrange15.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.289s] copying configs/mrange10.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.290s] copying configs/mrange8.yaml -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/configs
+[3.290s] creating /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/urdf
+[3.290s] copying urdf/helios16p_LiDAR.urdf.xacro -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/urdf
+[3.291s] copying urdf/helios16p.urdf.xacro -> /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/share/helios16p_cane_robot/urdf
+[3.292s] running install_egg_info
+[3.297s] Copying ../../build/helios16p_cane_robot/helios16p_cane_robot.egg-info to /home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages/helios16p_cane_robot-0.0.0-py3.10.egg-info
+[3.299s] running install_scripts
+[3.362s] writing list of installed files to '/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log'
+[3.443s] Invoked command in '/home/ph/ws/helios16p_ws/src/helios16p_cane_robot' returned '0': PYTHONPATH=/home/ph/ws/helios16p_ws/build/helios16p_cane_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ph/ws/helios16p_ws/install/helios16p_cane_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/helios16p_cane_robot build --build-base /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/build install --record /home/ph/ws/helios16p_ws/build/helios16p_cane_robot/install.log --single-version-externally-managed install_data

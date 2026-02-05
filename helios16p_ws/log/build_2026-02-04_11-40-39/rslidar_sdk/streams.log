@@ -1,0 +1,100 @@
+[0.039s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/ph/.local/bin/cmake /home/ph/ws/helios16p_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/rslidar_sdk
+[0.302s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.302s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.303s]   CMake.
+[0.303s] 
+[0.303s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.303s]   to tell CMake that the project requires at least <min> but has been updated
+[0.304s]   to work with policies introduced by <max> or earlier.
+[0.304s] 
+[0.304s] [0m
+[0.462s] -- The C compiler identification is GNU 11.4.0
+[0.700s] -- The CXX compiler identification is GNU 11.4.0
+[0.732s] -- Detecting C compiler ABI info
+[0.930s] -- Detecting C compiler ABI info - done
+[0.985s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.987s] -- Detecting C compile features
+[0.988s] -- Detecting C compile features - done
+[1.028s] -- Detecting CXX compiler ABI info
+[1.262s] -- Detecting CXX compiler ABI info - done
+[1.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.322s] -- Detecting CXX compile features
+[1.324s] -- Detecting CXX compile features - done
+[1.344s] [0m=============================================================[0m
+[1.345s] [0m-- POINT_TYPE is XYZI[0m
+[1.345s] [0m=============================================================[0m
+[1.381s] [0m=============================================================[0m
+[1.381s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[1.381s] [0m=============================================================[0m
+[1.761s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.279s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.298s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.335s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.386s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.646s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.657s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.961s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[3.065s] -- Found FastRTPS: /opt/ros/humble/include
+[3.212s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.431s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.435s] -- Found Threads: TRUE
+[3.652s] [0m=============================================================[0m
+[3.652s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[3.652s] [0m=============================================================[0m
+[3.660s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.796s] -- Found rslidar_msg: 0.0.0 (/home/ph/ws/helios16p_ws/install/rslidar_msg/share/rslidar_msg/cmake)
+[3.874s] [0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):
+[3.875s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.875s]   CMake.
+[3.875s] 
+[3.875s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.875s]   to tell CMake that the project requires at least <min> but has been updated
+[3.876s]   to work with policies introduced by <max> or earlier.
+[3.876s] 
+[3.876s] [0m
+[3.876s] [0m=============================================================[0m
+[3.876s] [0m-- CMake run for UNIX GNU Compiler[0m
+[3.877s] [0m=============================================================[0m
+[3.878s] [0m=============================================================[0m
+[3.879s] [0m-- rs_driver Version : v1.5.18[0m
+[3.879s] [0m=============================================================[0m
+[4.084s] -- Configuring done (3.8s)
+[4.134s] -- Generating done (0.0s)
+[4.237s] -- Build files have been written to: /home/ph/ws/helios16p_ws/build/rslidar_sdk
+[4.272s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/ph/.local/bin/cmake /home/ph/ws/helios16p_ws/src/rslidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ph/ws/helios16p_ws/install/rslidar_sdk
+[4.278s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/ph/.local/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_sdk -- -j8 -l8
+[4.576s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[4.577s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[60.841s] [100%] [1m[32mLinking CXX executable rslidar_sdk_node[0m
+[61.488s] [100%] Built target rslidar_sdk_node
+[61.506s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/ph/.local/bin/cmake --build /home/ph/ws/helios16p_ws/build/rslidar_sdk -- -j8 -l8
+[61.734s] Invoking command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/ph/.local/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_sdk
+[61.960s] -- Install configuration: "Release"
+[61.961s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[61.966s] -- Set non-toolchain portion of runtime path of "/home/ph/ws/helios16p_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+[61.967s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[61.967s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[61.967s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[61.968s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[61.968s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[61.968s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[61.969s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[61.970s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[61.971s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[61.971s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[61.972s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[61.973s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[61.973s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[61.973s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[61.974s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[61.974s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[61.975s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[61.975s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[61.976s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[61.976s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[61.977s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[61.977s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[61.978s] -- Installing: /home/ph/ws/helios16p_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[61.983s] Invoked command in '/home/ph/ws/helios16p_ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ph/ws/helios16p_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/ph/.local/bin/cmake --install /home/ph/ws/helios16p_ws/build/rslidar_sdk

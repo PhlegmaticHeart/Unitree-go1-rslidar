@@ -28,7 +28,7 @@ def generate_launch_description():
 
     lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml') # RSLidar's config file path
 
-    bag_path = '/home/ph/bagrecords/vicontests/rec_all_ostacoli_lunga_20260119_175552074139752' # Bag file path
+    bag_path = '/home/ph/bagrecords/senza_desincronizzazione_ma_con_shift/serpentina_con_shift_tra_dati' # Bag file path
 
 
 # ----------------------------------- Simulation and bag flags parameters -----------------------------------
