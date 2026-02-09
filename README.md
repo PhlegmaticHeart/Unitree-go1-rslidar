@@ -103,6 +103,31 @@ you'll may want to change the distance thresholds into the lidar configuration f
 as reducing the pipeline threshold without doing the same with the LiDAR one could burden unnecessarily your maps.
 
 
+Architecture:             x86_64
+  CPU op-mode(s):         32-bit, 64-bit
+  Address sizes:          43 bits physical, 48 bits virtual
+  Byte Order:             Little Endian
+CPU(s):                   8
+  On-line CPU(s) list:    0-7
+Vendor ID:                AuthenticAMD
+  Model name:             AMD Ryzen 5 3450U with Radeon Vega M
+                          obile Gfx
+    CPU family:           23
+    Model:                24
+    Thread(s) per core:   2
+    Core(s) per socket:   4
+    Socket(s):            1
+    Stepping:             1
+    Frequency boost:      enabled
+    CPU max MHz:          2100.0000
+    CPU min MHz:          1400.0000
+    BogoMIPS:             4192.31
+
+
+
+
+
+
 ---
 
 ## § Launch description 

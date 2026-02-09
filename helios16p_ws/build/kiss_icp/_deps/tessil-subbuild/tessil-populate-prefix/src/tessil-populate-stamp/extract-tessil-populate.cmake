@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-src" ABSOLUTE)
+get_filename_component(filename "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

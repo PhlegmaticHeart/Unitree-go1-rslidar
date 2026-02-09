@@ -20,8 +20,8 @@ project(sophus-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(sophus-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/strasdat/Sophus/archive/refs/tags/1.24.6.tar.gz"
-                    SOURCE_DIR          "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-src"
-                    BINARY_DIR          "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-build"
+                    SOURCE_DIR          "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/sophus-src"
+                    BINARY_DIR          "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/sophus-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

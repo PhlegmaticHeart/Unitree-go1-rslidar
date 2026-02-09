@@ -1,4 +1,4 @@
-# Install script for directory: /home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-subbuild
+# Install script for directory: /home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/sophus-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-subbuild/install_local_manifest.txt"
+  file(WRITE "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/sophus-subbuild/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-subbuild/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/sophus-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ph/ws/helios16p_ws/src/kiss-icp/cpp/kiss_icp
+# Install script for directory: /home/ph/treasure/dockerBENCH/helios16p_ws/src/kiss-icp/cpp/kiss_icp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ph/ws/helios16p_ws/install/kiss_icp")
+  set(CMAKE_INSTALL_PREFIX "/home/ph/treasure/dockerBENCH/helios16p_ws/install/kiss_icp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,32 +44,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/sophus-build/cmake_install.cmake")
+  include("/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/sophus-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-build/cmake_install.cmake")
+  include("/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/core/cmake_install.cmake")
+  include("/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/kiss_icp/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/metrics/cmake_install.cmake")
+  include("/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/kiss_icp/metrics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/pipeline/cmake_install.cmake")
+  include("/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/kiss_icp/pipeline/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ph/ws/helios16p_ws/build/kiss_icp/kiss_icp/install_local_manifest.txt"
+  file(WRITE "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/kiss_icp/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

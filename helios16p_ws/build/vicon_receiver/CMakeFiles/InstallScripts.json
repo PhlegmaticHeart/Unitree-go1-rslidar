@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ph/ws/helios16p_ws/build/vicon_receiver/cmake_install.cmake"
+		"/home/ph/treasure/dockerBENCH/helios16p_ws/build/vicon_receiver/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

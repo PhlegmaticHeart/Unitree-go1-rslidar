@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(VERBOSE "verifying file...
-       file='/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'")
+       file='/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'")
 
-  file("" "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz" actual_value)
+  file("" "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(VERBOSE " hash of
-    /home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz
+    /home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
+if(EXISTS "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(VERBOSE "File already exists and hash match (skip download):
-  file='/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'
+  file='/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'
   =''"
       )
       return()
     else()
       message(VERBOSE "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
+      file(REMOVE "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
     endif()
   else()
     message(VERBOSE "File already exists but no hash specified (use URL_HASH):
-  file='/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'
+  file='/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
+    file(REMOVE "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(VERBOSE "Downloading...
-   dst='/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'
+   dst='/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz"
+        "${url}" "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -136,7 +136,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(VERBOSE "Hash mismatch, removing...")
-          file(REMOVE "/home/ph/ws/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
+          file(REMOVE "/home/ph/treasure/dockerBENCH/helios16p_ws/build/kiss_icp/_deps/tessil-subbuild/tessil-populate-prefix/src/v1.4.0.tar.gz")
         else()
           message(VERBOSE "Downloading... done")
           return()

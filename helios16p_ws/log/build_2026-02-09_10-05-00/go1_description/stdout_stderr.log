@@ -1,0 +1,9 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//launch
+-- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//launch/go1_demo.launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/ph/treasure/dockerBENCH/helios16p_ws/src/go1_description/config": No
+  such file or directory.
+
+[0m

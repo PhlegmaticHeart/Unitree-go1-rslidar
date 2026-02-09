@@ -1,1 +1,1 @@
-/opt/ros/humble
+/home/ph/treasure/dockerBENCH/helios16p_ws/install/vicon_receiver:/home/ph/treasure/dockerBENCH/helios16p_ws/install/rslidar_sdk:/home/ph/treasure/dockerBENCH/helios16p_ws/install/rslidar_msg:/home/ph/treasure/dockerBENCH/helios16p_ws/install/kiss_icp:/home/ph/treasure/dockerBENCH/helios16p_ws/install/helios16p_cane_robot:/home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description:/opt/ros/humble
