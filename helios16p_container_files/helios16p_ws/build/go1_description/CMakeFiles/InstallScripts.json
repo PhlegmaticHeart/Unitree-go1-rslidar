@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

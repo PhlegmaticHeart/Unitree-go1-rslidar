@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/ph/treasure/dockerBENCH/helios16p_ws/build/rslidar_msg/cmake_install.cmake",
-		"/home/ph/treasure/dockerBENCH/helios16p_ws/build/rslidar_msg/rslidar_msg__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

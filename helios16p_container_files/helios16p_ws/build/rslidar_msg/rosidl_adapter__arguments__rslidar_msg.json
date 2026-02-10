@@ -1,6 +1,0 @@
-{
-  "package_name": "rslidar_msg",
-  "non_idl_tuples": [
-    "/home/ph/treasure/dockerBENCH/helios16p_ws/src/rslidar_msg:msg/RslidarPacket.msg"
-  ]
-}
