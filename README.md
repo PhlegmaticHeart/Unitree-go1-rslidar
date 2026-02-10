@@ -51,6 +51,7 @@ vicon_receiver
 
 ---
 
+
 ## § Packages functions 
 
 rslidar_msg: Contains the msg structure that rslidar_sdk expects.
@@ -67,7 +68,9 @@ vicon_receiver: Needed if vicon sensor trajectory recording is required
 
 Actually for bare deployment purposes, you can remove go1_description and vicon_receiver, they are included here as the helios16p_cane_robot includes two dedicated launch files
 for out-of-the-box usage.
+
 ---
+
 
 ## § Launch file parameters 
 
@@ -112,6 +115,7 @@ For granular tuning as for movement thresholds, use yaml config files included.
 
 ---
 
+
 ## § Configuration files 
 
 The folder "configs" of helios16p_cane_robot package holds a number of stable and semi-stable configurations for an out-of-the-box use.
@@ -140,23 +144,19 @@ Architecture:             x86_64
   Address sizes:          43 bits physical, 48 bits virtual
 
 CPU(s):                   8
-  On-line CPU(s) list:    0-7
-  
-  Model name:             AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx
-    CPU family:           23
-    Model:                24
-    Thread(s) per core:   2
-    Core(s) per socket:   4
-    Socket(s):            1
-    Stepping:             1
-    Frequency boost:      enabled
-    CPU max MHz:          2100.0000
-    CPU min MHz:          1400.0000
-    BogoMIPS:             4192.31
+- On-line CPU(s) list:    0-7
 
-
-
-
+Model name:             AMD Ryzen 5 3450U with Radeon Vega Mobile Gfx
+- CPU family:           23
+- Model:                24
+- Thread(s) per core:   2
+- Core(s) per socket:   4
+- Socket(s):            1
+- Stepping:             1
+- Frequency boost:      enabled
+- CPU max MHz:          2100.0000
+- CPU min MHz:          1400.0000
+- BogoMIPS:             4192.31
 
 
 ---
