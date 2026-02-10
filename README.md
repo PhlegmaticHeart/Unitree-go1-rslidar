@@ -2,7 +2,7 @@
 
 # Workspace for out-of-the-box Helios 16 P Deploy
 
-///This project aims to integrate the Robosense Helios 16 P on a robot dog\\\\
+This project aims to integrate the Robosense Helios 16 P on a Go1 Unitree robot dog.
 
 §
 
