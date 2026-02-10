@@ -9,7 +9,6 @@
 
 ---
 
-<span style='color: red;'>long</span>
 
 # Content
 
