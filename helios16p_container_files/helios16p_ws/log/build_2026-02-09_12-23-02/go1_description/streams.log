@@ -1,0 +1,73 @@
+[0.039s] Invoking command in '/home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(pvenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(pvenv) /home/ph/.local/bin/cmake /home/ph/treasure/dockerBENCH/helios16p_ws/src/go1_description -DCMAKE_INSTALL_PREFIX=/home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description
+[0.577s] -- The C compiler identification is GNU 11.4.0
+[0.577s] -- The CXX compiler identification is GNU 11.4.0
+[0.577s] -- Detecting C compiler ABI info
+[0.577s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.578s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.578s]   CMake.
+[0.578s] 
+[0.578s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.579s]   to tell CMake that the project requires at least <min> but has been updated
+[0.582s]   to work with policies introduced by <max> or earlier.
+[0.582s] 
+[0.582s] [0m
+[0.644s] -- Detecting C compiler ABI info - done
+[0.692s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.693s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.724s] -- Detecting CXX compiler ABI info
+[0.896s] -- Detecting CXX compiler ABI info - done
+[0.939s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.939s] -- Detecting CXX compile features
+[0.941s] -- Detecting CXX compile features - done
+[0.960s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.343s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.566s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.764s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.766s] -- Added test 'lint_cmake' to check CMake code style
+[1.768s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.772s] -- Added test 'xmllint' to check XML markup files
+[1.776s] -- Configuring done (1.6s)
+[1.785s] -- Generating done (0.0s)
+[1.788s] -- Build files have been written to: /home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description
+[1.802s] Invoked command in '/home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(pvenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(pvenv) /home/ph/.local/bin/cmake /home/ph/treasure/dockerBENCH/helios16p_ws/src/go1_description -DCMAKE_INSTALL_PREFIX=/home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description
+[1.806s] Invoking command in '/home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(pvenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(pvenv) /home/ph/.local/bin/cmake --build /home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description -- -j8 -l8
+[2.038s] Invoked command in '/home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(pvenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(pvenv) /home/ph/.local/bin/cmake --build /home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description -- -j8 -l8
+[2.195s] Invoking command in '/home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(pvenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(pvenv) /home/ph/.local/bin/cmake --install /home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description
+[2.334s] -- Install configuration: ""
+[2.334s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//launch
+[2.334s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//launch/go1_demo.launch.py
+[2.335s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes
+[2.335s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes/depthCamera.dae
+[2.336s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+[2.342s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes/calf.dae
+[2.350s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes/thigh.dae
+[2.355s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes/hip.dae
+[2.363s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes/ultraSound.dae
+[2.365s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//meshes/trunk.dae
+[2.555s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro
+[2.555s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/robot.xacro
+[2.555s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/materials.xacro
+[2.556s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/const.xacro
+[2.556s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+[2.557s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/gazebo.xacro
+[2.558s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/helios16p_LiDAR.urdf.xacro
+[2.558s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+[2.559s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/transmission.xacro
+[2.559s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description//xacro/leg.xacro
+[2.560s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+[2.561s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+[2.561s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+[2.562s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+[2.562s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/environment/path.sh
+[2.562s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/environment/path.dsv
+[2.563s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/local_setup.bash
+[2.563s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/local_setup.sh
+[2.563s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/local_setup.zsh
+[2.563s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/local_setup.dsv
+[2.564s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/package.dsv
+[2.564s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/ament_index/resource_index/packages/go1_description
+[2.564s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+[2.565s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+[2.565s] -- Installing: /home/ph/treasure/dockerBENCH/helios16p_ws/install/go1_description/share/go1_description/package.xml
+[2.568s] Invoked command in '/home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(pvenv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(pvenv) /home/ph/.local/bin/cmake --install /home/ph/treasure/dockerBENCH/helios16p_ws/build/go1_description
