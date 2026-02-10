@@ -1,3 +1,6 @@
-helios16p_container_files/build/
-helios16p_container_files/install/
-helios16p_container_files/log/
+helios16p_container_files/helios16p_ws/build/
+helios16p_container_files/helios16p_ws/install/
+helios16p_container_files/helios16p_ws/log/
+.github
+.vscode
+.gitignore
