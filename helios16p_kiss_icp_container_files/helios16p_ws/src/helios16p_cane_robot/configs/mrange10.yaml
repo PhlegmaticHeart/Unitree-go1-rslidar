@@ -8,7 +8,7 @@ kiss_icp_node:
 
     mapping:
       max_points_per_voxel: 10
-      voxel_size: 0.5
+      voxel_size: 0.2
    
     adaptive_threshold:
       initial_threshold: 2.0
