@@ -119,24 +119,18 @@ For granular tuning as for movement thresholds, use yaml config files included.
 
 The folder "configs" of helios16p_cane_robot package holds a number of stable and semi-stable configurations for an out-of-the-box use.
 
-Actually the stablest configurations are:
+Actually the stablest configurations included are:
 
 [STABLE]
-Up to 4, 5, 8, 10, 15, 20, 25 and 30 [m]
-
-[SEMI-STABLE]
-Ranges 11-14, 16-19, 21-24, 26-29 [m]
-
-[UNSTABLE]
-Actually if you need a max_range up to 6, 7 and 9 meters, you'll not find it preconfigured as they requires more tuning.
+mrange 5, 6, 7, 8, 9, 10, 15, 20, 25, 30 and the base 100 config [m]
 
 
 Keep in mind that if you want to change configurations,
-you'll may want to change the distance thresholds into the lidar configuration file(same folder as other config files),
+you'll might want to change the distance thresholds into the lidar configuration file(same folder as other config files),
 as reducing the pipeline threshold without doing the same with the LiDAR one could burden unnecessarily your maps.
 
 
-Here are listed the specs of CPU used for kiss-icp tuning, keep in mind that those configurations said unstable or semistable could be otherwise with your hardware.
+Here are listed the specs of CPU used for kiss-icp tuning, keep in mind that those configurations said stable could be otherwise with your hardware.
 
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -223,13 +217,69 @@ Its necessary, if building from scratch is needed, to build rslidar_msg package 
 
 ---
 
+## § Benchmark for Kiss-icp
+
+In this section i'll show you the results of benchmarks related to the various configs offered in this package, specifically the range [5, 10] as its the more affected by the reduced max_range parameter and so its also more prone to angular error increase.
+
+The datasets used have been produced for this purpose and will be accessible in the future.
+
+The tool used for comparations of cinematic curves is EVO, as its a standard.
+
+The following are the trajectories used for the comparison:
+
+*Linear (L)*:
+duration (s)    73.40
+nr. of poses    3816
+path length (m) 24.5491
+
+*Inclinations (I)*:
+ duration (s)    77.04
+ nr. of poses    5064
+ path length (m) 8.4849
+
+*Rotations (R)*:
+duration (s)    44.16
+nr. of poses    2782
+path length (m) 6.8828
+
+*Inclinations and Rotations (Ir)*:
+duration (s)    130.85
+nr. of poses    8235
+path length (m) 13.7381
+
+*Snake-like (S)*:
+ duration (s)    141.80
+ nr. of poses    9018
+ path length (m) 47.4038
+ 
+*Variety (V)*:
+ duration (s)    219.22
+ nr. of poses    13978
+ path length (m) 40.2368
+
+-----| --- *(L)* --- | --- *(I)* --- | --- *(R)* --- | --- *(Ir)*--- | --- *(S)* --- | --- *(V)* --- 
+-----| RTE % | ATE % | RTE % | ATE % | RTE % | ATE % | RTE % | ATE % | RTE % | ATE % | RTE % | ATE % 
+-----|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------
+ 5   | 0.181 | 0.435 | 0.523 | 1.258 | 0.427 | 0.947 | 0.180 | 0.716 | 0.121 | 1.245 | 0.142 | 2.489 
+ 6   | 0.213 | 2.937 | 0.566 | 1.319 | 0.395 | 0.916 | 0.350 | 0.815 | 0.119 | 1.211 | 0.174 | 0.931 
+ 7   | 0.216 | 2.947 | 0.573 | 1.287 | 0.384 | 0.938 | 0.264 | 0.600 | 0.128 | 1.222 | 0.176 | 0.912 
+ 8   | 0.215 | 2.947 | 0.572 | 1.307 | 0.379 | 0.935 | 0.253 | 0.597 | 0.143 | 1.214 | 0.186 | 1.056 
+ 9   | 0.215 | 2.951 | 0.606 | 1.636 | 0.367 | 0.942 | 0.248 | 0.607 | 0.144 | 1.204 | 0.096 | 2.527 
+ 10  | 0.214 | 2.961 | 0.534 | 1.288 | 0.326 | 0.949 | 0.139 | 0.779 | 0.140 | 1.473 | 0.142 | 2.328 
+ 100 | 0.224 | 2.955 | 0.630 | 1.597 | 0.353 | 0.982 | 0.259 | 0.665 | 0.177 | 1.223 | 0.237 | 0.887 
+
+
+
+---
+
 ## § Next steps 
 
 Soon there will be:
 
-- a multi-architecture docker container image linked to this page, with, for completion, a Dockerfile to let you tune the application.
+- Better kiss-icp configurations
 
-- a benchmark of the Kiss-ICP pipeline respect to a Vicon based groundtruth.
+- Mola container
+
 
  
 ---

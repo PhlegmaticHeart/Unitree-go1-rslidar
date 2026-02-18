@@ -26,9 +26,9 @@ def generate_launch_description():
 
     rviz_config_file = os.path.join(pkg_share, 'configs', 'launchrviz.rviz') # Rviz2 config file path
 
-    lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml') # RSLidar's config file path
+    lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config_mr8.yaml') # RSLidar's config file path
 
-    bag_path = '/home/ph/bagrecords/senza_desincronizzazione_ma_con_shift/serpentina_con_shift_tra_dati' # Bag file path
+    bag_path = '' # Bag file path
 
 
 # ----------------------------------- Simulation and bag flags parameters -----------------------------------
@@ -63,6 +63,19 @@ def generate_launch_description():
     )
     bagfile = LaunchConfiguration('bagfile') # Bag file path
 
+    declare_statepublisher_arg = DeclareLaunchArgument(
+        'state_publisher',
+        default_value='True',
+        description='Flag to enable robot state publisher'
+    )
+    statepublisher = LaunchConfiguration('state_publisher') # Flag to enable robot state publisher
+
+    declare_lidar_config_arg = DeclareLaunchArgument(
+        'lidar_config',
+        default_value=lidar_config_file,
+        description='Path to the lidar configuration file'
+    )
+    lidar_config = LaunchConfiguration('lidar_config') # Lidar configuration file path
 
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
 
@@ -201,7 +214,9 @@ def generate_launch_description():
             parameters=[{
                 'robot_description': robot_description,
                 'use_sim_time': use_sim_time,
+                'publish_frequency': 20.0 # For minor impact on resources as the default is 50Hz
             }],
+            condition=IfCondition(statepublisher)
         )
 
 
@@ -320,6 +335,8 @@ def generate_launch_description():
         declare_play_bag_arg,
         declare_bagfile_arg,    
         declare_visualize_arg,
+        declare_statepublisher_arg,
+        declare_lidar_config_arg,
         declare_nokiss_arg,
         declare_max_range_arg,
         declare_min_range_arg,

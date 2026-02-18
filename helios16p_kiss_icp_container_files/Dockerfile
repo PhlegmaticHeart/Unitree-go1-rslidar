@@ -18,8 +18,11 @@ RUN apt-get update && apt install -y \
 WORKDIR /home/admin/helios16p_ws
 RUN mkdir -p src
 
-# Copy the ROS package
-COPY helios16p_ws/src/ src/
+# Copy the ROS packages
+COPY helios16p_ws/src/rslidar_msg/ src/rslidar_msg/
+COPY helios16p_ws/src/rslidar_sdk/ src/rslidar_sdk/
+COPY helios16p_ws/src/kiss-icp/ src/kiss-icp/
+COPY helios16p_ws/src/helios16p_cane_robot/ src/helios16p_cane_robot/
 
 # ROS dependencies installation, necessary to packages build
 RUN apt-get update && apt install -y libpcap-dev \
