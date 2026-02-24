@@ -85,6 +85,8 @@ The launch file actually has the following parameters:
 
 - bagfile:='<your/bag/path>' -> it allows you to set a different path for your bag file.
 
+- nomap:=True/False -> it disables map -> odom_lidar tf, its False by default.
+
 - visualize:=True/False -> it enables Rviz visualization, its False by default and its recommended so for performances.
 
 - visualize_clouds:=True/False -> it enables Rviz visualization, its False by default and assumes the "visualize" value, turn it true if you have to debug kiss-icp topics.
@@ -101,7 +103,7 @@ The launch file actually has the following parameters:
 
 - base_frame:=<str> -> it allows you to set the base frame's name.
 
-- lidar_odom_frame:=<double> -> it determines the odometry frame's name, by default its set as "odom lidar".
+- lidar_odom_frame:=<double> -> it determines the odometry frame's name, by default its set as "odom".
 
 - publish_odom_tf:=True/False -> it determines if odometry has to be published, by default its set True.
 
@@ -285,7 +287,7 @@ Soon there will be:
 
 - Better kiss-icp configurations with more detailed and trustworthy values for different borderline config sets
 
-
+- pointcloud to laserscan package for nav2 navigation
 
 ---
 
