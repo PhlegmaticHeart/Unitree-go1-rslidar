@@ -66,6 +66,12 @@ def generate_launch_description():
     )
     bagfile = LaunchConfiguration('bagfile') # Bag file path
 
+    declare_nomap_arg = DeclareLaunchArgument(
+        'nomap',
+        default_value='False',
+        description='Flag to disable map->odom_lidar transform for better performance evaluation of kiss-ICP'
+    )
+    nomap = LaunchConfiguration('nomap') # Flag to disable map->odom_lidar
 
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
 
@@ -75,6 +81,15 @@ def generate_launch_description():
         description='Flag to enable rviz visualization'
     )
     visualize = LaunchConfiguration('visualize') # Flag to enable rviz visualization
+
+
+    declare_visualize_clouds_arg = DeclareLaunchArgument(
+        'visualize_clouds',
+        default_value=visualize,
+        description='Flag to enable rviz visualization of clouds published by kiss-ICP'
+    )
+    visualize_clouds = LaunchConfiguration('visualize_clouds') # Flag to enable rviz visualization of clouds published by kiss-ICP
+
 
     declare_nokiss_arg = DeclareLaunchArgument(
         'nokiss',
@@ -296,8 +311,10 @@ def generate_launch_description():
         declare_simulate_arg,
         declare_use_sim_time_arg,
         declare_play_bag_arg,
-        declare_bagfile_arg,    
+        declare_bagfile_arg, 
+        declare_nomap_arg,  
         declare_visualize_arg,
+        declare_visualize_clouds_arg,
         declare_nokiss_arg,
         declare_max_range_arg,
         declare_min_range_arg,

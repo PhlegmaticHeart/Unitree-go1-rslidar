@@ -77,6 +77,13 @@ def generate_launch_description():
     )
     lidar_config = LaunchConfiguration('lidar_config') # Lidar configuration file path
 
+    declare_nomap_arg = DeclareLaunchArgument(
+        'nomap',
+        default_value='False',
+        description='Flag to disable map->odom_lidar transform for better performance evaluation of kiss-ICP'
+    )
+    nomap = LaunchConfiguration('nomap') # Flag to disable map->odom_lidar
+
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
 
     declare_visualize_arg = DeclareLaunchArgument(
@@ -86,12 +93,14 @@ def generate_launch_description():
     )
     visualize = LaunchConfiguration('visualize') # Flag to enable rviz visualization
 
+
     declare_visualize_clouds_arg = DeclareLaunchArgument(
         'visualize_clouds',
         default_value=visualize,
         description='Flag to enable rviz visualization of clouds published by kiss-ICP'
     )
     visualize_clouds = LaunchConfiguration('visualize_clouds') # Flag to enable rviz visualization of clouds published by kiss-ICP
+
 
     declare_nokiss_arg = DeclareLaunchArgument(
         'nokiss',
@@ -233,7 +242,8 @@ def generate_launch_description():
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', 'map', lidar_odom_frame],
             parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen'
+            output='screen',
+            condition=UnlessCondition(nomap),
         )
 
 
@@ -346,6 +356,7 @@ def generate_launch_description():
         declare_statepublisher_arg,
         declare_lidar_config_arg,
         declare_nokiss_arg,
+        declare_nomap_arg,
         declare_max_range_arg,
         declare_min_range_arg,
         declare_voxel_size_arg,
