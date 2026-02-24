@@ -15,15 +15,20 @@ This project aims to integrate the Robosense Helios 16 P on a Go1 Unitree robot 
 This project borns as an applicative oriented project, here you will find two ready for building containers workspaces.
 Actually the containers are for Kiss-ICP and for MOLA pipelines usage related to Robosense Helios16p LIDAR.
 
-Every workspace contains:
+Every container workspace contains:
 
-- The ros2 workspace
+- The ros2 workspace helios16p_ws
 
 - A passwd.txt for configuring your users passwords
 
 - A build.sh script for building your container
 
 - A run.sh script for running the container after having built it
+
+- An entrypoint.sh to let you tune the container's boot
+
+- An xml config file for Eclipse Cyclone DDS rmw
+  actually if you use Eprosima Fast DDS, you can comment into the Dockerfile those lines that have been pointed out as necessary for Cyclone
 
 - The dockerfile needed for the build, the golden image used is crossbuildable, keep in mind that the build.sh file will automatically build with your native architecture,
   if you want to override this aspect there is a declared variable for this purpose.
@@ -66,7 +71,7 @@ go1_description: A fork of the project located at https://github.com/unitreerobo
 vicon_receiver: Needed if vicon sensor trajectory recording is required
 
 Actually for bare deployment purposes, you can remove go1_description and vicon_receiver, they are included here as the helios16p_cane_robot includes two dedicated launch files
-for out-of-the-box usage.
+for out-of-the-box usage. Anyway those files are already excluded from Dockerfile, to keep everything lean.
 
 ---
 
@@ -81,6 +86,8 @@ The launch file actually has the following parameters:
 - bagfile:='<your/bag/path>' -> it allows you to set a different path for your bag file.
 
 - visualize:=True/False -> it enables Rviz visualization, its False by default and its recommended so for performances.
+
+- visualize_clouds:=True/False -> it enables Rviz visualization, its False by default and assumes the "visualize" value, turn it true if you have to debug kiss-icp topics.
 
 - max_range:=<double> -> it allows you to set the maximum threshold before which the collected points are computed.
 
@@ -105,7 +112,7 @@ The launch file actually has the following parameters:
 - convergence_criterion:=<float> -> it allows you to set the convergence threshold, default value is 0.0001.
 
 Their default values can be set in the launch file's def generate_launch_description.
-These parameters are included exclusively for debugging and testing.
+These parameters are included exclusively for debugging and testing, for a complete list of all parameters, refer to the launch files.
 
 If you want to load a certain configuration, please,
 change the **default_config_file_path** variable path or load it with **ros2 param load <file_path>* .
@@ -276,12 +283,10 @@ path length (m) 13.7381
 
 Soon there will be:
 
-- Better kiss-icp configurations
-
-- Mola container
+- Better kiss-icp configurations with more detailed and trustworthy values for different borderline config sets
 
 
- 
+
 ---
 
 ## § Infos on the project 
