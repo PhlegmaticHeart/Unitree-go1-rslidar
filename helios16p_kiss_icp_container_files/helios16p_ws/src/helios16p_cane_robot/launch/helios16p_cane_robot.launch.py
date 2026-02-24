@@ -86,6 +86,13 @@ def generate_launch_description():
     )
     visualize = LaunchConfiguration('visualize') # Flag to enable rviz visualization
 
+    declare_visualize_clouds_arg = DeclareLaunchArgument(
+        'visualize_clouds',
+        default_value=visualize,
+        description='Flag to enable rviz visualization of clouds published by kiss-ICP'
+    )
+    visualize_clouds = LaunchConfiguration('visualize_clouds') # Flag to enable rviz visualization of clouds published by kiss-ICP
+
     declare_nokiss_arg = DeclareLaunchArgument(
         'nokiss',
         default_value='False',
@@ -288,7 +295,7 @@ def generate_launch_description():
                 #///kiss-ICP's configuration\\\
                 {
 
-                'publish_debug_clouds': visualize, # Toggle rviz visualization
+                'publish_debug_clouds': visualize_clouds, # Toggle rviz visualization
                 'use_sim_time': use_sim_time,      # Toggle simulation time
                 'base_frame': base_frame,
                 'publish_odom_tf': publish_odom_tf,
@@ -335,6 +342,7 @@ def generate_launch_description():
         declare_play_bag_arg,
         declare_bagfile_arg,    
         declare_visualize_arg,
+        declare_visualize_clouds_arg,
         declare_statepublisher_arg,
         declare_lidar_config_arg,
         declare_nokiss_arg,

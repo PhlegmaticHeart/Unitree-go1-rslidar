@@ -19,10 +19,7 @@ WORKDIR /home/admin/helios16p_ws
 RUN mkdir -p src
 
 # Copy the ROS packages
-COPY helios16p_ws/src/rslidar_msg/ src/rslidar_msg/
-COPY helios16p_ws/src/rslidar_sdk/ src/rslidar_sdk/
-COPY helios16p_ws/src/kiss-icp/ src/kiss-icp/
-COPY helios16p_ws/src/helios16p_cane_robot/ src/helios16p_cane_robot/
+COPY helios16p_ws/src/ src/
 
 # ROS dependencies installation, necessary to packages build
 RUN apt-get update && apt install -y libpcap-dev \
@@ -42,6 +39,13 @@ RUN echo "source /opt/ros/humble/setup.bash" > /ros_entrypoint.sh \
     && echo "source /home/admin/helios16p_ws/install/setup.bash" >> /ros_entrypoint.sh \
     && echo "exec \"\$@\"" >> /ros_entrypoint.sh \
     && chmod +x /ros_entrypoint.sh
+    
+# Get cyclone-dds and copy the relative xml config file - If you want to use eprosima fast dds, comment the next RUN and COPY
+RUN apt-get update && apt-get install -y ros-humble-rmw-cyclonedds-cpp
+COPY cyclonedds_config.xml /
+
+# Get rviz2, vim
+RUN apt-get update && apt install -y libxcb-cursor0 libxcb-xinerama0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 ros-humble-rviz2 vim
 
 # Installs all required python packages
 RUN apt-get update && apt-get install -y pip
@@ -55,8 +59,7 @@ RUN apt-get update && apt-get install -y libpcap-dev
 
 # Build workspace
 RUN . /opt/ros/humble/setup.sh && \ 
-    colcon build --packages-select rslidar_msg --symlink-install && colcon build --packages-select rslidar_sdk --symlink-install && \ 
-    colcon build --packages-select kiss_icp --symlink-install && colcon build --packages-select helios16p_cane_robot --symlink-install
+    colcon build --packages-select rslidar_msg --symlink-install && colcon build --packages-skip rslidar_msg
 
 # If no password is needed, then uncomment this line and comment the following two lines 
 #RUN echo "root ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
@@ -84,12 +87,14 @@ USER admin
 WORKDIR /home/admin
 
 # Aliases
-RUN echo "alias start='source /home/admin/helios16p_ws/install/setup.bash && ros2 launch helios16p_cane_robot helios16p_cane_robot.launch.py'" >> ~/.bashrc
+RUN echo "alias start='source /home/admin/helios16p_ws/install/setup.bash && ros2 launch helios16p_cane_robot helios16p_cane_robot.launch.py setrange:=mrange8.yaml visualize_clouds:=true'" >> ~/.bashrc
 
-# Automatical source
+# Automatical source - If you want to use eprosima fast dds, comment the last two echoes
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc \
-    && echo "source ~/helios16p_ws/install/setup.bash" >> ~/.bashrc  
-
+    && echo "source ~/helios16p_ws/install/setup.bash" >> ~/.bashrc \
+    && echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc \
+    && echo 'export CYCLONEDDS_URI=/cyclonedds_config.xml' >> ~/.bashrc 
+ 
 RUN bash -c 'source ~/.bashrc'
 
 # Entrypoint setup
