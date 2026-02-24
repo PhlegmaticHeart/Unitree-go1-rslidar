@@ -85,7 +85,7 @@ The launch file actually has the following parameters:
 
 - bagfile:='<your/bag/path>' -> it allows you to set a different path for your bag file.
 
-- nomap:=True/False -> it disables map -> odom_lidar tf, its False by default.
+- nomap:=True/False -> it disables map -> odom tf, its False by default.
 
 - visualize:=True/False -> it enables Rviz visualization, its False by default and its recommended so for performances.
 
@@ -169,14 +169,14 @@ The launch file actually contains the following nodes:
 
 **NODE** | robot_state_publisher: Displays the urdf, accordingly to frames.
 
-**NODE** | static_transform_map_to_odom_lidar: Powered by tf2,
-	# sends the static transform of the map to odom_lidar frame.
+**NODE** | static_transform_map_to_odom: Powered by tf2,
+	# sends the static transform of the map to odom frame.
 
-**NODE** | static_transform_odom_lidar_to_base_link: Powered by tf2, 
-	# sends the static transform of odom_lidar to the base_link frame.
+**NODE** | static_transform_odom_to_base_link: Powered by tf2, 
+	# sends the static transform of odom to the base_link frame.
 
 **NODE** | static_transform_base_link_to_rslidar: Powered by tf2, 
-	# sends the static transform of odom_lidar to the lidar's rslidar frame.
+	# sends the static transform of odom to the lidar's rslidar frame.
 
 **PROCESS** | startmybag: Its a ROS 2 command that start a bag loop, 
               with the correct time clock to prevent simulation blockage due to incorrect datastamps.

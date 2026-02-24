@@ -69,9 +69,9 @@ def generate_launch_description():
     declare_nomap_arg = DeclareLaunchArgument(
         'nomap',
         default_value='False',
-        description='Flag to disable map->odom_lidar transform for better performance evaluation of kiss-ICP'
+        description='Flag to disable map->odom transform for better performance evaluation of kiss-ICP'
     )
-    nomap = LaunchConfiguration('nomap') # Flag to disable map->odom_lidar
+    nomap = LaunchConfiguration('nomap') # Flag to disable map->odom
 
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
 
@@ -149,7 +149,7 @@ def generate_launch_description():
 
     declare_odom_frame_arg = DeclareLaunchArgument(
         'lidar_odom_frame',
-        default_value='odom_lidar',
+        default_value='odom',
         description='Name of the lidar odometry frame'
     )
     lidar_odom_frame = LaunchConfiguration('lidar_odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
@@ -221,9 +221,9 @@ def generate_launch_description():
                 }.items()
         )
 
-    tf2_map_to_odom_lidar = Node( # Static transform from map to base_frame
+    tf2_map_to_odom = Node( # Static transform from map to base_frame
             package='tf2_ros',
-            name='static_transform_map_to_odom_lidar',
+            name='static_transform_map_to_odom',
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', 'map', lidar_odom_frame],
             parameters=[{'use_sim_time' : use_sim_time}],
@@ -231,9 +231,9 @@ def generate_launch_description():
         )
     
 
-    tf2_odom_lidar_to_base_frame = Node( # Static transform from odom_lidar to base_frame
+    tf2_odom_to_base_frame = Node( # Static transform from odom to base_frame
             package='tf2_ros',
-            name='static_transform_odom_lidar_to_base_frame',
+            name='static_transform_odom_to_base_frame',
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', lidar_odom_frame, base_frame],
             parameters=[{'use_sim_time' : use_sim_time}],
@@ -331,8 +331,8 @@ def generate_launch_description():
         declare_config_name_arg,
 
         go1_launch,
-        tf2_map_to_odom_lidar,
-        tf2_odom_lidar_to_base_frame,
+        tf2_map_to_odom,
+        tf2_odom_to_base_frame,
         tf2_base_frame_to_rslidar,
         bag_start_process,
         lidar_driver_node,

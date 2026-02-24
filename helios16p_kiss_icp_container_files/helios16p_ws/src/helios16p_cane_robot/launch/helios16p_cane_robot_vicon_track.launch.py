@@ -71,9 +71,9 @@ def generate_launch_description():
     declare_nomap_arg = DeclareLaunchArgument(
         'nomap',
         default_value='False',
-        description='Flag to disable map->odom_lidar transform for better performance evaluation of kiss-ICP'
+        description='Flag to disable map->odom transform for better performance evaluation of kiss-ICP'
     )
-    nomap = LaunchConfiguration('nomap') # Flag to disable map->odom_lidar
+    nomap = LaunchConfiguration('nomap') # Flag to disable map->odom
 
 
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
@@ -152,7 +152,7 @@ def generate_launch_description():
 
     declare_odom_frame_arg = DeclareLaunchArgument(
         'lidar_odom_frame',
-        default_value='odom_lidar',
+        default_value='odom',
         description='Name of the lidar odometry frame'
     )
     lidar_odom_frame = LaunchConfiguration('lidar_odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
