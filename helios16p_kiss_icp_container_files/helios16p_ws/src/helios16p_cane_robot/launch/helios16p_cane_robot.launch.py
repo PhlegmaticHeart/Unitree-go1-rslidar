@@ -3,9 +3,10 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
-from launch.actions import ExecuteProcess, DeclareLaunchArgument
+from launch.actions import ExecuteProcess, DeclareLaunchArgument, IncludeLaunchDescription
 from launch.conditions import IfCondition, UnlessCondition
 from launch_ros.parameter_descriptions import ParameterFile
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 import xacro
 import os
 
@@ -29,6 +30,10 @@ def generate_launch_description():
     lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config_mr8.yaml') # RSLidar's config file path
 
     bag_path = '' # Bag file path
+
+    pointcloud_to_laserscan_package=get_package_share_directory('pointcloud_to_laserscan') # pointcloud_to_laserscan package share directory, necessary for the configuration of the pointcloud_to_laserscan node in the rviz config file
+   
+    pointcloud_to_laserscan_launch_path = os.path.join(pointcloud_to_laserscan_package, 'launch', 'helios16p_pointcloud_to_laserscan_launch.py')
 
 
 # ----------------------------------- Simulation and bag flags parameters -----------------------------------
@@ -290,6 +295,11 @@ def generate_launch_description():
             condition=UnlessCondition(simulate)
         )
 
+    pointcloud_to_laserscan_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(pointcloud_to_laserscan_launch_path),
+         #launch_arguments={
+         #      }.items()
+        )
 
     kiss_node = Node( # kiss-ICP node
             package='kiss_icp',
@@ -377,6 +387,7 @@ def generate_launch_description():
         tf2_base_frame_to_rslidar,
         bag_start_process,
         lidar_driver_node,
+        pointcloud_to_laserscan_launch,
         kiss_node,
         rviz2_node,
 

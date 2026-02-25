@@ -41,17 +41,19 @@ Every container workspace contains:
 
 In the helios16p_ws workspaces there are the following packages:
 
-rslidar_msg
+rslidar_msg (https://github.com/RoboSense-LiDAR/rslidar_msg)
 
-rslidar_sdk
+rslidar_sdk (https://github.com/RoboSense-LiDAR/rslidar_sdk)
 
-kiss_icp
+kiss_icp (https://github.com/PRBonn/kiss-icp) 
 
 helios16p_cane_robot
 
-go1_description
+pointcloud_to_laserscan (fork of https://gitlab.epfl.ch/create-lab/robocup_at_home/epfl-robocup/-/tree/v1.0/pointcloud_to_laserscan)
 
-vicon_receiver
+go1_description (https://github.com/unitreerobotics/unitree_ros/tree/master/robots/go1_description)
+
+vicon_receiver (https://github.com/OPT4SMART/ros2-vicon-receiver)
 
 ---
 
@@ -65,7 +67,9 @@ rslidar_sdk: Contains the drivers of Helios 16 P lidar, they are handled by the 
 kiss_icp: Contains the odometry SLAM pipeline with a personalized configuration of Rviz for a better visualization of the ongoing matters.
 
 helios16p_cane_robot: Contains a launch file, a series of yaml config files and an urdf model with xacro syntax, be sure to install xacro throught pip before attempting to load it. 
-                     
+
+pointcloud_to_laserscan: Computes /rslidar_points topic and outputs the /scan topic, containing the laserscan necessary to let the go1 navigate throught NAV2.
+
 go1_description: A fork of the project located at https://github.com/unitreerobotics/unitree_ros, with a demo launch file ready for use.
 
 vicon_receiver: Needed if vicon sensor trajectory recording is required
@@ -84,6 +88,8 @@ The launch file actually has the following parameters:
                           Its set by default to False.
 
 - bagfile:='<your/bag/path>' -> it allows you to set a different path for your bag file.
+
+- state_publisher:=True/False -> it enables the robot_state_publisher, its True by default but can be turned False for edge applications..
 
 - nomap:=True/False -> it disables map -> odom tf, its False by default.
 
@@ -184,6 +190,9 @@ The launch file actually contains the following nodes:
 
 **NODE** | rslidar_sdk: Starts the driver handler, opening the topic rslidar_points where lidar data will be received.
          **Note:* This process will be executed only if the simulation flag is set false.
+
+**NODE** | pointcloud_to_laserscan_launch: Starts the pointcloud_to_laserscan node throught a modified launch located inside the relative pointcloud_to_laserscan package.
+         **Note:* Remember to edit the launch file accordingly to your lidar's pointcloud.
 
 **NODE** | kiss_icp: Starts the pipeline for converting lidar data to odometry.
 

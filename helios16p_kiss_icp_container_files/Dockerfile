@@ -34,18 +34,13 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/* \
     && . /opt/ros/humble/setup.sh
 
-# Entrypoint configuration for ROS and source of workspace's setup.bash
-RUN echo "source /opt/ros/humble/setup.bash" > /ros_entrypoint.sh \
-    && echo "source /home/admin/helios16p_ws/install/setup.bash" >> /ros_entrypoint.sh \
-    && echo "exec \"\$@\"" >> /ros_entrypoint.sh \
-    && chmod +x /ros_entrypoint.sh
-    
 # Get cyclone-dds and copy the relative xml config file - If you want to use eprosima fast dds, comment the next RUN and COPY
 RUN apt-get update && apt-get install -y ros-humble-rmw-cyclonedds-cpp
 COPY cyclonedds_config.xml /
 
 # Get rviz2, vim
-RUN apt-get update && apt install -y libxcb-cursor0 libxcb-xinerama0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 ros-humble-rviz2 vim
+RUN apt-get update && apt install -y libxcb-cursor0 libxcb-xinerama0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 ros-humble-rviz2 vim \
+    && rm -rf /var/lib/apt/lists/*
 
 # Installs all required python packages
 RUN apt-get update && apt-get install -y pip
@@ -55,7 +50,8 @@ RUN pip install cmake xacro
 ENV CMAKE_POLICY_VERSION_MINIMUM=3.10
 
 # Ulteriori librerie necessarie
-RUN apt-get update && apt-get install -y libpcap-dev
+RUN apt-get update && apt-get install -y libpcap-dev \
+    && rm -rf /var/lib/apt/lists/* 
 
 # Build workspace
 RUN . /opt/ros/humble/setup.sh && \ 
