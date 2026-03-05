@@ -47,13 +47,21 @@ rslidar_sdk (https://github.com/RoboSense-LiDAR/rslidar_sdk)
 
 kiss_icp (https://github.com/PRBonn/kiss-icp) 
 
-helios16p_cane_robot
+helios16p_cane_robot (custom wrapper package)
 
 pointcloud_to_laserscan (fork of https://gitlab.epfl.ch/create-lab/robocup_at_home/epfl-robocup/-/tree/v1.0/pointcloud_to_laserscan)
 
 go1_description (https://github.com/unitreerobotics/unitree_ros/tree/master/robots/go1_description)
 
 vicon_receiver (https://github.com/OPT4SMART/ros2-vicon-receiver)
+
+ros2_unitree_legged_msgs (https://github.com/unitreerobotics/unitree_ros_to_real/tree/master/unitree_legged_msgs)
+
+unitree_legged_real (fork of https://github.com/unitreerobotics/unitree_ros_to_real/tree/master/unitree_legged_real)
+
+unitree_nav_interfaces (https://github.com/ngmor/unitree_nav/tree/main/unitree_nav_interfaces)
+
+unitree_nav (fork of https://github.com/ngmor/unitree_nav)
 
 ---
 
@@ -72,7 +80,15 @@ pointcloud_to_laserscan: Computes /rslidar_points topic and outputs the /scan to
 
 go1_description: A fork of the project located at https://github.com/unitreerobotics/unitree_ros, with a demo launch file ready for use.
 
-vicon_receiver: Needed if vicon sensor trajectory recording is required
+vicon_receiver: Needed if vicon sensor trajectory recording is required.
+
+ros2_unitree_legged_msgs: Defines ros2_unitree_legged messages structure.
+
+unitree_legged_real: Contains necessary to spin up a bridge between Rpi4 nd go1's MCU, enabling internal odom and imu values.
+
+unitree_nav_interfaces: Defines the interfaces needed by the unitree_nav package.
+
+unitree_nav: Needed to convert twist type msgs to HighCmd type msgs and send them to the cmd_vel topic, enabling nav2 navigation.
 
 Actually for bare deployment purposes, you can remove go1_description and vicon_receiver, they are included here as the helios16p_cane_robot includes two dedicated launch files
 for out-of-the-box usage. Anyway those files are already excluded from Dockerfile, to keep everything lean.
@@ -188,10 +204,12 @@ The launch file actually contains the following nodes:
               with the correct time clock to prevent simulation blockage due to incorrect datastamps.
               Note: This process will be executed only if the simulation flag is set true.
 
+**LAUNCH** | unitree_legged_real_launch: Starts the udp_high, jsp_high and cmd_processor nodes throught a modified launch located inside the unitree_legged_real package.
+
 **NODE** | rslidar_sdk: Starts the driver handler, opening the topic rslidar_points where lidar data will be received.
          **Note:* This process will be executed only if the simulation flag is set false.
 
-**NODE** | pointcloud_to_laserscan_launch: Starts the pointcloud_to_laserscan node throught a modified launch located inside the relative pointcloud_to_laserscan package.
+**LAUNCH** | pointcloud_to_laserscan_launch: Starts the pointcloud_to_laserscan node throught a modified launch located inside the relative pointcloud_to_laserscan package.
          **Note:* Remember to edit the launch file accordingly to your lidar's pointcloud.
 
 **NODE** | kiss_icp: Starts the pipeline for converting lidar data to odometry.
@@ -226,11 +244,12 @@ if simulate is flagged false:
 - The rviz2 session will start with a custom config file and it'll show the raw data visualization with a odometry and mapped data output as well.
 
 
+
 ---
 
 ## § Building 
 
-Its necessary, if building from scratch is needed, to build rslidar_msg package BEFORE rslidar_sdk, as its required by the latter to build effectively.
+Its necessary, if building from scratch is needed, to build firstly rslidar_msg, ros2_unitree_legged_msgs and unitree_nav_interfaces packages as they're required by the others to build effectively.
 
 
 ---
@@ -296,7 +315,7 @@ Soon there will be:
 
 - Better kiss-icp configurations with more detailed and trustworthy values for different borderline config sets
 
-- pointcloud to laserscan package for nav2 navigation
+- Docker compose files for out-of-the-box deployment inside go1.
 
 ---
 

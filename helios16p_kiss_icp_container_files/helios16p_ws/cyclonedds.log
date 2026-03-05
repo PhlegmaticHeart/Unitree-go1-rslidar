@@ -1,143 +1,144 @@
-1772030952.003256 [7]       ros2: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
-1772030952.003322 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: true {1}
-1772030952.003338 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@name]:  {}
-1772030952.003351 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@address]:  {}
-1772030952.003364 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {1}
-1772030952.003375 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
-1772030952.003387 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
-1772030952.003399 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@multicast]: default {1}
-1772030952.003411 [7]       ros2: config: Domain/General/ExternalNetworkAddress/#text: auto {}
-1772030952.003422 [7]       ros2: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
-1772030952.003433 [7]       ros2: config: Domain/General/AllowMulticast/#text: default {1}
-1772030952.003445 [7]       ros2: config: Domain/General/MulticastTimeToLive/#text: 32 {}
-1772030952.003456 [7]       ros2: config: Domain/General/DontRoute/#text: false {}
-1772030952.003467 [7]       ros2: config: Domain/General/Transport/#text: udp {}
-1772030952.003478 [7]       ros2: config: Domain/General/EnableMulticastLoopback/#text: true {}
-1772030952.003490 [7]       ros2: config: Domain/General/MaxMessageSize/#text: 65500 B {1}
-1772030952.003501 [7]       ros2: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
-1772030952.003512 [7]       ros2: config: Domain/General/FragmentSize/#text: 1344 B {}
-1772030952.003523 [7]       ros2: config: Domain/General/RedundantNetworking/#text: false {}
-1772030952.003534 [7]       ros2: config: Domain/General/EntityAutoNaming/#text: empty {}
-1772030952.003547 [7]       ros2: config: Domain/General/EntityAutoNaming[@seed]: 3964445271 1986740537 4274438369 3505272894 1240039819 1648838728 3016186251 1171383014 {}
-1772030952.003561 [7]       ros2: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
-1772030952.003573 [7]       ros2: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
-1772030952.003584 [7]       ros2: config: Domain/Compatibility/StandardsConformance/#text: lax {}
-1772030952.003595 [7]       ros2: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
-1772030952.003606 [7]       ros2: config: Domain/Compatibility/ManySocketsMode/#text: single {}
-1772030952.003617 [7]       ros2: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
-1772030952.003628 [7]       ros2: config: Domain/Discovery/Tag/#text:  {}
-1772030952.003639 [7]       ros2: config: Domain/Discovery/ExternalDomainId/#text: 7 {}
-1772030952.003651 [7]       ros2: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
-1772030952.003662 [7]       ros2: config: Domain/Discovery/ParticipantIndex/#text: none {}
-1772030952.003673 [7]       ros2: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
-1772030952.003684 [7]       ros2: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
-1772030952.003695 [7]       ros2: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
-1772030952.003706 [7]       ros2: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
-1772030952.003718 [7]       ros2: config: Domain/Discovery/Ports/Base/#text: 7400 {}
-1772030952.003729 [7]       ros2: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
-1772030952.003740 [7]       ros2: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
-1772030952.003752 [7]       ros2: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
-1772030952.003763 [7]       ros2: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
-1772030952.003774 [7]       ros2: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
-1772030952.003785 [7]       ros2: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
-1772030952.003817 [7]       ros2: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
-1772030952.003829 [7]       ros2: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
-1772030952.003854 [7]       ros2: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config {1}
-1772030952.003866 [7]       ros2: config: Domain/Tracing/OutputFile/#text: cyclonedds.log {}
-1772030952.003897 [7]       ros2: config: Domain/Tracing/AppendToFile/#text: false {}
-1772030952.003917 [7]       ros2: config: Domain/Tracing/PacketCaptureFile/#text:  {}
-1772030952.003930 [7]       ros2: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
-1772030952.003941 [7]       ros2: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
-1772030952.003952 [7]       ros2: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
-1772030952.003963 [7]       ros2: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
-1772030952.003973 [7]       ros2: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
-1772030952.003984 [7]       ros2: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
-1772030952.003995 [7]       ros2: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
-1772030952.004006 [7]       ros2: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
-1772030952.004018 [7]       ros2: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
-1772030952.004028 [7]       ros2: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
-1772030952.004039 [7]       ros2: config: Domain/Internal/MaxParticipants/#text: 0 {}
-1772030952.004052 [7]       ros2: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
-1772030952.004065 [7]       ros2: config: Domain/Internal/RetransmitMerging/#text: never {}
-1772030952.004079 [7]       ros2: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
-1772030952.004092 [7]       ros2: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
-1772030952.004104 [7]       ros2: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
-1772030952.004115 [7]       ros2: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
-1772030952.004127 [7]       ros2: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
-1772030952.004138 [7]       ros2: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
-1772030952.004149 [7]       ros2: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
-1772030952.004160 [7]       ros2: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
-1772030952.004172 [7]       ros2: config: Domain/Internal/SocketReceiveBufferSize[@min]: default {}
-1772030952.004183 [7]       ros2: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
-1772030952.004195 [7]       ros2: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
-1772030952.004206 [7]       ros2: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
-1772030952.004217 [7]       ros2: config: Domain/Internal/NackDelay/#text: 100 ms {}
-1772030952.004228 [7]       ros2: config: Domain/Internal/AckDelay/#text: 10 ms {}
-1772030952.004239 [7]       ros2: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
-1772030952.004250 [7]       ros2: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
-1772030952.004261 [7]       ros2: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
-1772030952.004272 [7]       ros2: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
-1772030952.004283 [7]       ros2: config: Domain/Internal/SquashParticipants/#text: false {}
-1772030952.004294 [7]       ros2: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
-1772030952.004305 [7]       ros2: config: Domain/Internal/LateAckMode/#text: false {}
-1772030952.004315 [7]       ros2: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
-1772030952.004326 [7]       ros2: config: Domain/Internal/GenerateKeyhash/#text: false {}
-1772030952.004337 [7]       ros2: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
-1772030952.004348 [7]       ros2: config: Domain/Internal/LivelinessMonitoring/#text: false {}
-1772030952.004379 [7]       ros2: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
-1772030952.004390 [7]       ros2: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
-1772030952.004401 [7]       ros2: config: Domain/Internal/MonitorPort/#text: -1 {}
-1772030952.004412 [7]       ros2: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
-1772030952.004423 [7]       ros2: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
-1772030952.004434 [7]       ros2: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
-1772030952.004445 [7]       ros2: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
-1772030952.004457 [7]       ros2: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
-1772030952.004468 [7]       ros2: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
-1772030952.004480 [7]       ros2: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
-1772030952.004492 [7]       ros2: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
-1772030952.004504 [7]       ros2: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
-1772030952.004516 [7]       ros2: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
-1772030952.004527 [7]       ros2: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
-1772030952.004539 [7]       ros2: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
-1772030952.004550 [7]       ros2: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
-1772030952.004562 [7]       ros2: config: Domain/Internal/EnableExpensiveChecks/#text:  {}
-1772030952.004574 [7]       ros2: config: Domain/TCP/NoDelay/#text: true {}
-1772030952.004585 [7]       ros2: config: Domain/TCP/Port/#text: -1 {}
-1772030952.004596 [7]       ros2: config: Domain/TCP/ReadTimeout/#text: 2 s {}
-1772030952.004607 [7]       ros2: config: Domain/TCP/WriteTimeout/#text: 2 s {}
-1772030952.004618 [7]       ros2: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
-1772030952.004629 [7]       ros2: config: Domain/SSL/Enable/#text: false {}
-1772030952.004640 [7]       ros2: config: Domain/SSL/CertificateVerification/#text: true {}
-1772030952.004652 [7]       ros2: config: Domain/SSL/VerifyClient/#text: true {}
-1772030952.004666 [7]       ros2: config: Domain/SSL/SelfSignedCertificates/#text: false {}
-1772030952.004680 [7]       ros2: config: Domain/SSL/KeystoreFile/#text: keystore {}
-1772030952.004692 [7]       ros2: config: Domain/SSL/KeyPassphrase/#text: secret {}
-1772030952.004704 [7]       ros2: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
-1772030952.004715 [7]       ros2: config: Domain/SSL/EntropyFile/#text:  {}
-1772030952.004726 [7]       ros2: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
-1772030952.004737 [7]       ros2: config: Domain/SharedMemory/Enable/#text: false {}
-1772030952.004748 [7]       ros2: config: Domain/SharedMemory/Locator/#text:  {}
-1772030952.004759 [7]       ros2: config: Domain/SharedMemory/Prefix/#text: DDS_CYCLONE {}
-1772030952.004770 [7]       ros2: config: Domain/SharedMemory/LogLevel/#text: info {}
-1772030952.004782 [7]       ros2: config: Domain[@Id]: 7 {1}
-1772030952.004837 [7]       ros2: started at 1772030952.064801 -- 2026-02-25 14:49:12+00:00
-1772030952.004851 [7]       ros2: udp initialized
-1772030952.006110 [7]       ros2: interfaces: lo udp/127.0.0.1(q1) wlp1s0 wireless udp/192.168.50.12(q9) docker0 udp/172.17.0.1(q9) br-e1285d407b53 udp/172.18.0.1(q9) br-3cf87dffb69a udp/172.19.0.1(q9)
-1772030952.006164 [7]       ros2: determined wlp1s0 (udp/192.168.50.12) as highest quality interface, selected for automatic interface.
-1772030952.006193 [7]       ros2: selected interfaces: wlp1s0 (index 2 priority 0)
-1772030952.006203 [7]       ros2: presumed flaky multicast, use for SPDP only
-1772030952.006252 [7]       ros2: ownip: udp/192.168.50.12
-1772030952.006262 [7]       ros2: extmask: invalid/0 (not applicable)
-1772030952.006272 [7]       ros2: SPDP MC: udp/239.255.0.1
-1772030952.006310 [7]       ros2: default MC: udp/239.255.0.1
-1772030952.006318 [7]       ros2: SSM support included
-1772030952.006648 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1772030952.006692 [7]       ros2: rtps_init: uc ports: disc 0 data 0
-1772030952.006702 [7]       ros2: rtps_init: domainid 7 participantid -2
-1772030952.006712 [7]       ros2: Unicast Ports: discovery 36072 data 36072
-1772030952.006750 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1772030952.006794 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1772030952.006817 [7]       ros2: Multicast Ports: discovery 9150 data 9151 
-1772030952.006850 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1772030952.006901 [7]       ros2: interface wlp1s0: transmit port 4177211772031150.080366 [7] pointcloud: udp finalized
-1772031150.080751 [7] pointcloud: Finis.
+1772639334.201455 [7] teleop_twi: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
+1772639334.201510 [7] teleop_twi: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: true {1}
+1772639334.201523 [7] teleop_twi: config: Domain/General/Interfaces/NetworkInterface[@name]:  {}
+1772639334.201534 [7] teleop_twi: config: Domain/General/Interfaces/NetworkInterface[@address]:  {}
+1772639334.201546 [7] teleop_twi: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {1}
+1772639334.201556 [7] teleop_twi: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
+1772639334.201567 [7] teleop_twi: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
+1772639334.201578 [7] teleop_twi: config: Domain/General/Interfaces/NetworkInterface[@multicast]: default {1}
+1772639334.201587 [7] teleop_twi: config: Domain/General/ExternalNetworkAddress/#text: auto {}
+1772639334.201597 [7] teleop_twi: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
+1772639334.201622 [7] teleop_twi: config: Domain/General/AllowMulticast/#text: default {1}
+1772639334.201637 [7] teleop_twi: config: Domain/General/MulticastTimeToLive/#text: 32 {}
+1772639334.201647 [7] teleop_twi: config: Domain/General/DontRoute/#text: false {}
+1772639334.201656 [7] teleop_twi: config: Domain/General/Transport/#text: udp {}
+1772639334.201666 [7] teleop_twi: config: Domain/General/EnableMulticastLoopback/#text: true {}
+1772639334.201676 [7] teleop_twi: config: Domain/General/MaxMessageSize/#text: 65500 B {1}
+1772639334.201686 [7] teleop_twi: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
+1772639334.201696 [7] teleop_twi: config: Domain/General/FragmentSize/#text: 1344 B {}
+1772639334.201705 [7] teleop_twi: config: Domain/General/RedundantNetworking/#text: false {}
+1772639334.201715 [7] teleop_twi: config: Domain/General/EntityAutoNaming/#text: empty {}
+1772639334.201726 [7] teleop_twi: config: Domain/General/EntityAutoNaming[@seed]: 3090195840 1912135019 1022108474 3865949993 485344284 2276975047 2464487482 3005729372 {}
+1772639334.201740 [7] teleop_twi: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
+1772639334.201750 [7] teleop_twi: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
+1772639334.201760 [7] teleop_twi: config: Domain/Compatibility/StandardsConformance/#text: lax {}
+1772639334.201769 [7] teleop_twi: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
+1772639334.201779 [7] teleop_twi: config: Domain/Compatibility/ManySocketsMode/#text: single {}
+1772639334.201788 [7] teleop_twi: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
+1772639334.201798 [7] teleop_twi: config: Domain/Discovery/Tag/#text:  {}
+1772639334.201807 [7] teleop_twi: config: Domain/Discovery/ExternalDomainId/#text: 7 {}
+1772639334.201817 [7] teleop_twi: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
+1772639334.201827 [7] teleop_twi: config: Domain/Discovery/ParticipantIndex/#text: none {}
+1772639334.201836 [7] teleop_twi: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
+1772639334.201846 [7] teleop_twi: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
+1772639334.201855 [7] teleop_twi: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
+1772639334.201865 [7] teleop_twi: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
+1772639334.201875 [7] teleop_twi: config: Domain/Discovery/Ports/Base/#text: 7400 {}
+1772639334.201885 [7] teleop_twi: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
+1772639334.201895 [7] teleop_twi: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
+1772639334.201905 [7] teleop_twi: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
+1772639334.201915 [7] teleop_twi: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
+1772639334.201925 [7] teleop_twi: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
+1772639334.201935 [7] teleop_twi: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
+1772639334.201960 [7] teleop_twi: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
+1772639334.201970 [7] teleop_twi: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
+1772639334.201994 [7] teleop_twi: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config {1}
+1772639334.202004 [7] teleop_twi: config: Domain/Tracing/OutputFile/#text: cyclonedds.log {}
+1772639334.202013 [7] teleop_twi: config: Domain/Tracing/AppendToFile/#text: false {}
+1772639334.202023 [7] teleop_twi: config: Domain/Tracing/PacketCaptureFile/#text:  {}
+1772639334.202033 [7] teleop_twi: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
+1772639334.202042 [7] teleop_twi: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
+1772639334.202052 [7] teleop_twi: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
+1772639334.202061 [7] teleop_twi: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
+1772639334.202070 [7] teleop_twi: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
+1772639334.202079 [7] teleop_twi: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
+1772639334.202089 [7] teleop_twi: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
+1772639334.202098 [7] teleop_twi: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
+1772639334.202108 [7] teleop_twi: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
+1772639334.202117 [7] teleop_twi: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
+1772639334.202126 [7] teleop_twi: config: Domain/Internal/MaxParticipants/#text: 0 {}
+1772639334.202136 [7] teleop_twi: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
+1772639334.202145 [7] teleop_twi: config: Domain/Internal/RetransmitMerging/#text: never {}
+1772639334.202155 [7] teleop_twi: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
+1772639334.202164 [7] teleop_twi: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
+1772639334.202174 [7] teleop_twi: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
+1772639334.202184 [7] teleop_twi: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
+1772639334.202194 [7] teleop_twi: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
+1772639334.202204 [7] teleop_twi: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
+1772639334.202214 [7] teleop_twi: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
+1772639334.202223 [7] teleop_twi: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
+1772639334.202233 [7] teleop_twi: config: Domain/Internal/SocketReceiveBufferSize[@min]: default {}
+1772639334.202243 [7] teleop_twi: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
+1772639334.202253 [7] teleop_twi: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
+1772639334.202263 [7] teleop_twi: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
+1772639334.202272 [7] teleop_twi: config: Domain/Internal/NackDelay/#text: 100 ms {}
+1772639334.202282 [7] teleop_twi: config: Domain/Internal/AckDelay/#text: 10 ms {}
+1772639334.202291 [7] teleop_twi: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
+1772639334.202301 [7] teleop_twi: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
+1772639334.202310 [7] teleop_twi: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
+1772639334.202320 [7] teleop_twi: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
+1772639334.202329 [7] teleop_twi: config: Domain/Internal/SquashParticipants/#text: false {}
+1772639334.202338 [7] teleop_twi: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
+1772639334.202348 [7] teleop_twi: config: Domain/Internal/LateAckMode/#text: false {}
+1772639334.202357 [7] teleop_twi: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
+1772639334.202366 [7] teleop_twi: config: Domain/Internal/GenerateKeyhash/#text: false {}
+1772639334.202376 [7] teleop_twi: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
+1772639334.202385 [7] teleop_twi: config: Domain/Internal/LivelinessMonitoring/#text: false {}
+1772639334.202404 [7] teleop_twi: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
+1772639334.202415 [7] teleop_twi: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
+1772639334.202424 [7] teleop_twi: config: Domain/Internal/MonitorPort/#text: -1 {}
+1772639334.202434 [7] teleop_twi: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
+1772639334.202443 [7] teleop_twi: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
+1772639334.202452 [7] teleop_twi: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
+1772639334.202462 [7] teleop_twi: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
+1772639334.202472 [7] teleop_twi: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
+1772639334.202481 [7] teleop_twi: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
+1772639334.202492 [7] teleop_twi: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
+1772639334.202503 [7] teleop_twi: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
+1772639334.202513 [7] teleop_twi: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
+1772639334.202523 [7] teleop_twi: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
+1772639334.202533 [7] teleop_twi: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
+1772639334.202544 [7] teleop_twi: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
+1772639334.202554 [7] teleop_twi: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
+1772639334.202564 [7] teleop_twi: config: Domain/Internal/EnableExpensiveChecks/#text:  {}
+1772639334.202574 [7] teleop_twi: config: Domain/TCP/NoDelay/#text: true {}
+1772639334.202583 [7] teleop_twi: config: Domain/TCP/Port/#text: -1 {}
+1772639334.202593 [7] teleop_twi: config: Domain/TCP/ReadTimeout/#text: 2 s {}
+1772639334.202603 [7] teleop_twi: config: Domain/TCP/WriteTimeout/#text: 2 s {}
+1772639334.202624 [7] teleop_twi: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
+1772639334.202638 [7] teleop_twi: config: Domain/SSL/Enable/#text: false {}
+1772639334.202648 [7] teleop_twi: config: Domain/SSL/CertificateVerification/#text: true {}
+1772639334.202658 [7] teleop_twi: config: Domain/SSL/VerifyClient/#text: true {}
+1772639334.202667 [7] teleop_twi: config: Domain/SSL/SelfSignedCertificates/#text: false {}
+1772639334.202677 [7] teleop_twi: config: Domain/SSL/KeystoreFile/#text: keystore {}
+1772639334.202686 [7] teleop_twi: config: Domain/SSL/KeyPassphrase/#text: secret {}
+1772639334.202696 [7] teleop_twi: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
+1772639334.202705 [7] teleop_twi: config: Domain/SSL/EntropyFile/#text:  {}
+1772639334.202715 [7] teleop_twi: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
+1772639334.202725 [7] teleop_twi: config: Domain/SharedMemory/Enable/#text: false {}
+1772639334.202734 [7] teleop_twi: config: Domain/SharedMemory/Locator/#text:  {}
+1772639334.202743 [7] teleop_twi: config: Domain/SharedMemory/Prefix/#text: DDS_CYCLONE {}
+1772639334.202753 [7] teleop_twi: config: Domain/SharedMemory/LogLevel/#text: info {}
+1772639334.202763 [7] teleop_twi: config: Domain[@Id]: 7 {1}
+1772639334.202810 [7] teleop_twi: started at 1772639334.06202779 -- 2026-03-04 15:48:54+00:00
+1772639334.202818 [7] teleop_twi: udp initialized
+1772639334.203503 [7] teleop_twi: interfaces: lo udp/127.0.0.1(q1) wlp1s0 wireless udp/192.168.50.12(q9) docker0 udp/172.17.0.1(q9)
+1772639334.203520 [7] teleop_twi: determined wlp1s0 (udp/192.168.50.12) as highest quality interface, selected for automatic interface.
+1772639334.203549 [7] teleop_twi: selected interfaces: wlp1s0 (index 2 priority 0)
+1772639334.203556 [7] teleop_twi: presumed flaky multicast, use for SPDP only
+1772639334.203595 [7] teleop_twi: ownip: udp/192.168.50.12
+1772639334.203605 [7] teleop_twi: extmask: invalid/0 (not applicable)
+1772639334.203641 [7] teleop_twi: SPDP MC: udp/239.255.0.1
+1772639334.203651 [7] teleop_twi: default MC: udp/239.255.0.1
+1772639334.203675 [7] teleop_twi: SSM support included
+1772639334.204037 [7] teleop_twi: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1772639334.204076 [7] teleop_twi: rtps_init: uc ports: disc 0 data 0
+1772639334.204085 [7] teleop_twi: rtps_init: domainid 7 participantid -2
+1772639334.204095 [7] teleop_twi: Unicast Ports: discovery 52465 data 52465
+1772639334.204133 [7] teleop_twi: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1772639334.204171 [7] teleop_twi: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1772639334.204188 [7] teleop_twi: Multicast Ports: discovery 9150 data 9151 
+1772639334.204212 [7] teleop_twi: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1772639334.204238 [7] teleop_twi: interface wlp1s0: transmit port 59842
+1772639367.318841 [7] teleop_twi: udp finalized
+1772639367.319165 [7] teleop_twi: Finis.

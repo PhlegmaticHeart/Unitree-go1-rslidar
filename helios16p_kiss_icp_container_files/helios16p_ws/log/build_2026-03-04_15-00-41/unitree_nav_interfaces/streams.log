@@ -1,0 +1,343 @@
+[0.046s] Invoking command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/local/bin/cmake /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/src/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces
+[0.408s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.409s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.409s]   CMake.
+[0.409s] 
+[0.409s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.409s]   to tell CMake that the project requires at least <min> but has been updated
+[0.410s]   to work with policies introduced by <max> or earlier.
+[0.410s] 
+[0.410s] [0m
+[0.967s] -- The C compiler identification is GNU 11.4.0
+[1.637s] -- The CXX compiler identification is GNU 11.4.0
+[1.677s] -- Detecting C compiler ABI info
+[1.934s] -- Detecting C compiler ABI info - done
+[1.989s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.991s] -- Detecting C compile features
+[1.993s] -- Detecting C compile features - done
+[2.307s] -- Detecting CXX compiler ABI info
+[2.604s] -- Detecting CXX compiler ABI info - done
+[2.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.664s] -- Detecting CXX compile features
+[2.666s] -- Detecting CXX compile features - done
+[2.879s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.264s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[3.776s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.164s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.214s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.299s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.778s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.489s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.892s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[9.892s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[9.892s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[9.893s]   the cmake_policy command to set the policy and suppress this warning.
+[9.893s] 
+[9.893s] Call Stack (most recent call first):
+[9.894s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[9.894s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[9.894s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[9.895s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.895s] [0m
+[9.969s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[9.991s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.998s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[9.998s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[9.999s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[9.999s]   the cmake_policy command to set the policy and suppress this warning.
+[10.000s] 
+[10.000s] Call Stack (most recent call first):
+[10.000s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[10.001s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[10.001s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[10.001s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[10.001s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.001s] [0m
+[10.057s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[10.058s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[10.058s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[10.058s]   the cmake_policy command to set the policy and suppress this warning.
+[10.058s] 
+[10.059s] Call Stack (most recent call first):
+[10.059s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[10.059s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[10.060s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[10.060s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[10.060s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.060s] [0m
+[10.091s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[10.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.091s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.092s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.140s] -- Found PythonExtra: .so
+[10.467s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.696s] -- Added test 'lint_cmake' to check CMake code style
+[10.706s] -- Added test 'xmllint' to check XML markup files
+[10.730s] -- Configuring done (10.3s)
+[11.074s] -- Generating done (0.3s)
+[11.249s] -- Build files have been written to: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces
+[11.285s] Invoked command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/local/bin/cmake /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/src/unitree_nav_interfaces -DCMAKE_INSTALL_PREFIX=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces
+[11.288s] Invoking command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/local/bin/cmake --build /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces -- -j8 -l8
+[11.654s] [  2%] [1m[34mGenerating C code for ROS interfaces[0m
+[11.673s] [  4%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[11.694s] [  4%] Built target ament_cmake_python_copy_unitree_nav_interfaces
+[12.726s] running egg_info
+[12.727s] creating unitree_nav_interfaces.egg-info
+[12.727s] writing unitree_nav_interfaces.egg-info/PKG-INFO
+[12.727s] writing dependency_links to unitree_nav_interfaces.egg-info/dependency_links.txt
+[12.728s] writing top-level names to unitree_nav_interfaces.egg-info/top_level.txt
+[12.728s] writing manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[12.738s] reading manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[12.739s] writing manifest file 'unitree_nav_interfaces.egg-info/SOURCES.txt'
+[12.887s] [  4%] Built target ament_cmake_python_build_unitree_nav_interfaces_egg
+[14.151s] [  6%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_gait__functions.c.o[0m
+[14.152s] [  8%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.c.o[0m
+[14.158s] [ 10%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_c.dir/rosidl_generator_c/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.c.o[0m
+[14.422s] [ 10%] Built target unitree_nav_interfaces_srv__cpp
+[14.453s] [ 12%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[14.456s] [ 14%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.460s] [ 17%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.779s] [ 19%] [1m[32mLinking C shared library libunitree_nav_interfaces__rosidl_generator_c.so[0m
+[15.053s] [ 19%] Built target unitree_nav_interfaces_srv__rosidl_generator_c
+[15.114s] [ 21%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[15.115s] [ 23%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[15.127s] [ 25%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[19.841s] [ 29%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_nav_interfaces/srv/set_gait__type_support.cpp.o[0m
+[19.842s] [ 29%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_nav_interfaces/srv/set_body_rpy__type_support.cpp.o[0m
+[19.854s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_nav_interfaces/srv/nav_to_pose__type_support.cpp.o[0m
+[19.863s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.cpp.o[0m
+[20.353s] [ 36%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_nav_interfaces/srv/detail/dds_fastrtps/set_body_rpy__type_support.cpp.o[0m
+[20.952s] [ 38%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.c.o[0m
+[21.030s] [ 40%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_nav_interfaces/srv/set_body_rpy__type_support.cpp.o[0m
+[21.351s] [ 42%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.c.o[0m
+[21.465s] [ 44%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_nav_interfaces/srv/nav_to_pose__type_support.cpp.o[0m
+[21.680s] [ 46%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_nav_interfaces/srv/set_gait__type_support.cpp.o[0m
+[21.813s] [ 48%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_nav_interfaces/srv/detail/set_gait__type_support.c.o[0m
+[22.013s] [ 51%] [1m[32mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_c.so[0m
+[22.138s] [ 53%] [1m[32mLinking C shared library libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so[0m
+[22.176s] [ 55%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support_c.cpp.o[0m
+[22.261s] [ 57%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_nav_interfaces/srv/detail/dds_fastrtps/nav_to_pose__type_support.cpp.o[0m
+[22.466s] [ 57%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_c
+[22.510s] [ 59%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.cpp.o[0m
+[22.516s] [ 59%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_c
+[22.595s] [ 61%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_nav_interfaces/srv/detail/set_gait__type_support.cpp.o[0m
+[22.936s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support_c.cpp.o[0m
+[23.159s] [ 65%] [1m[32mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_cpp.so[0m
+[23.507s] [ 65%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_cpp
+[23.552s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_nav_interfaces/srv/detail/dds_fastrtps/set_gait__type_support.cpp.o[0m
+[24.278s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_nav_interfaces/srv/detail/set_gait__type_support_c.cpp.o[0m
+[26.570s] [ 72%] [1m[32mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[26.961s] [ 72%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cpp
+[27.179s] [ 74%] [1m[32mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[27.208s] [ 76%] [1m[32mLinking CXX shared library libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.067s] [ 76%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_c
+[28.115s] [ 76%] Built target unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cpp
+[28.251s] [ 76%] Built target unitree_nav_interfaces_srv
+[28.342s] [ 78%] [1m[34mGenerating Python code for ROS interfaces[0m
+[34.142s] [ 78%] Built target unitree_nav_interfaces_srv__py
+[34.264s] [ 82%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_py.dir/rosidl_generator_py/unitree_nav_interfaces/srv/_set_body_rpy_s.c.o[0m
+[34.265s] [ 82%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_py.dir/rosidl_generator_py/unitree_nav_interfaces/srv/_nav_to_pose_s.c.o[0m
+[34.268s] [ 85%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces_srv__rosidl_generator_py.dir/rosidl_generator_py/unitree_nav_interfaces/srv/_set_gait_s.c.o[0m
+[35.367s] [ 87%] [1m[32mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/libunitree_nav_interfaces_srv__rosidl_generator_py.so[0m
+[35.698s] [ 87%] Built target unitree_nav_interfaces_srv__rosidl_generator_py
+[35.814s] [ 89%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[35.817s] [ 91%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.819s] [ 93%] [32mBuilding C object CMakeFiles/unitree_nav_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[36.480s] [ 95%] [1m[32mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.612s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.732s] [ 97%] Built target unitree_nav_interfaces__rosidl_typesupport_c__pyext
+[36.813s] [100%] [1m[32mLinking C shared library rosidl_generator_py/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.888s] [100%] Built target unitree_nav_interfaces__rosidl_typesupport_introspection_c__pyext
+[37.093s] [100%] Built target unitree_nav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[37.154s] Invoked command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/local/bin/cmake --build /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces -- -j8 -l8
+[37.169s] Invoking command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/local/bin/cmake --install /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces
+[37.570s] -- Install configuration: ""
+[37.572s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/ament_index/resource_index/rosidl_interfaces/unitree_nav_interfaces
+[37.576s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[37.576s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[37.577s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.h
+[37.577s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[37.578s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__functions.h
+[37.578s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.h
+[37.579s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.c
+[37.579s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.h
+[37.579s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__functions.h
+[37.581s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.h
+[37.581s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__functions.c
+[37.583s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.h
+[37.584s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.h
+[37.585s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.h
+[37.586s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.h
+[37.586s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__functions.c
+[37.587s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.h
+[37.588s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.h
+[37.589s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[37.589s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[37.592s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.sh
+[37.593s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/library_path.dsv
+[37.597s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so
+[37.598s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_generator_c.so" to ""
+[37.598s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[37.598s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[37.598s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[37.599s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_fastrtps_c.h
+[37.599s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_c.h
+[37.599s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_c.h
+[37.600s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[37.600s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[37.601s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so
+[37.604s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[37.605s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[37.605s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[37.607s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[37.607s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__struct.hpp
+[37.610s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__builder.hpp
+[37.610s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__struct.hpp
+[37.611s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.hpp
+[37.611s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__builder.hpp
+[37.611s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__struct.hpp
+[37.612s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.hpp
+[37.612s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__builder.hpp
+[37.612s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.hpp
+[37.613s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__traits.hpp
+[37.613s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__traits.hpp
+[37.614s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__traits.hpp
+[37.615s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/nav_to_pose.hpp
+[37.615s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_body_rpy.hpp
+[37.616s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/set_gait.hpp
+[37.617s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[37.617s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[37.618s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[37.620s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[37.620s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[37.621s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/dds_fastrtps
+[37.622s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_fastrtps_cpp.hpp
+[37.623s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_fastrtps_cpp.hpp
+[37.623s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[37.623s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[37.626s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[37.627s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[37.627s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[37.627s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[37.628s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[37.628s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[37.628s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_c.h
+[37.632s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.c
+[37.633s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_c.h
+[37.633s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_introspection_c.h
+[37.634s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.c
+[37.634s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.c
+[37.634s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg
+[37.635s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[37.635s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so
+[37.638s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[37.639s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so
+[37.639s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_c.so" to ""
+[37.642s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces
+[37.643s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv
+[37.643s] -- Up-to-date: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail
+[37.644s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__type_support.cpp
+[37.644s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__type_support.cpp
+[37.644s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__type_support.cpp
+[37.647s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_body_rpy__rosidl_typesupport_introspection_cpp.hpp
+[37.647s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/nav_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[37.648s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/include/unitree_nav_interfaces/unitree_nav_interfaces/srv/detail/set_gait__rosidl_typesupport_introspection_cpp.hpp
+[37.648s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so
+[37.648s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[37.649s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so
+[37.651s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces__rosidl_typesupport_cpp.so" to ""
+[37.652s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.sh
+[37.652s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/pythonpath.dsv
+[37.652s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info
+[37.657s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[37.658s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[37.658s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[37.659s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[37.659s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces
+[37.660s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.663s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[37.663s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_c.c
+[37.664s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.664s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/_unitree_nav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[37.665s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/__init__.py
+[37.665s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[37.667s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv
+[37.667s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose.py
+[37.668s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy.py
+[37.669s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait_s.c
+[37.670s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait.py
+[37.670s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose_s.c
+[37.670s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/__init__.py
+[37.671s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy_s.c
+[37.671s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[37.855s] Listing '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces'...
+[37.856s] Compiling '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/__init__.py'...
+[37.856s] Listing '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv'...
+[37.856s] Compiling '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/__init__.py'...
+[37.857s] Compiling '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_nav_to_pose.py'...
+[37.857s] Compiling '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_body_rpy.py'...
+[37.857s] Compiling '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/srv/_set_gait.py'...
+[37.904s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.913s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[37.913s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[37.917s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[37.918s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.928s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/local/lib/python3.10/dist-packages/unitree_nav_interfaces/unitree_nav_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[37.928s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so
+[37.979s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/lib/libunitree_nav_interfaces_srv__rosidl_generator_py.so" to ""
+[37.980s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.idl
+[37.982s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.idl
+[37.988s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait.idl
+[37.990s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY.srv
+[37.992s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Request.msg
+[37.994s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetBodyRPY_Response.msg
+[37.995s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose.srv
+[37.997s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Request.msg
+[38.000s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/NavToPose_Response.msg
+[38.002s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait.srv
+[38.004s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait_Request.msg
+[38.006s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/srv/SetGait_Response.msg
+[38.007s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/ament_index/resource_index/package_run_dependencies/unitree_nav_interfaces
+[38.007s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/ament_index/resource_index/parent_prefix_path/unitree_nav_interfaces
+[38.009s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.sh
+[38.009s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/ament_prefix_path.dsv
+[38.012s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.sh
+[38.013s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/environment/path.dsv
+[38.016s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.bash
+[38.016s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.sh
+[38.017s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.zsh
+[38.017s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/local_setup.dsv
+[38.018s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.dsv
+[38.018s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/ament_index/resource_index/packages/unitree_nav_interfaces
+[38.020s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport.cmake
+[38.021s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cExport-noconfig.cmake
+[38.022s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[38.024s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[38.025s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_cppExport.cmake
+[38.028s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.029s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[38.030s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport.cmake
+[38.031s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.033s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport.cmake
+[38.035s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cExport-noconfig.cmake
+[38.036s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport.cmake
+[38.039s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.039s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport.cmake
+[38.040s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfaces_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[38.043s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport.cmake
+[38.048s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/export_unitree_nav_interfaces_srv__rosidl_generator_pyExport-noconfig.cmake
+[38.048s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.049s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake-extras.cmake
+[38.051s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.052s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[38.052s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[38.053s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.053s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.057s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig.cmake
+[38.057s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/cmake/unitree_nav_interfacesConfig-version.cmake
+[38.058s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_nav_interfaces/share/unitree_nav_interfaces/package.xml
+[38.064s] Invoked command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble /usr/local/bin/cmake --install /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_nav_interfaces

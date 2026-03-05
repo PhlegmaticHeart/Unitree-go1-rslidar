@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rslidar_msg__py",
+		"source" : "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/rslidar_msg/rslidar_msg__py"
+	}
+}

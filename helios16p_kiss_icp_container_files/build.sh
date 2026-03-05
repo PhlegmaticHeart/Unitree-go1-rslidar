@@ -4,7 +4,7 @@
 
 set -e
 
-IMAGE_NAME="helios16p-kiss"
+IMAGE_NAME="helios16p_kiss-icp_cyclone"
 TAG="latest"
 PLATFORM=$(docker info --format '{{.Architecture}}')  # Auto-detect
 

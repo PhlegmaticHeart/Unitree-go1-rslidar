@@ -1,0 +1,121 @@
+[1.070s] Invoking command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/go1_control/install/unitree_nav:/home/admin/bench/lab/go1_control/install/unitree_nav_interfaces:/home/admin/bench/lab/go1_control/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/helios16p_ws/install/vicon_receiver:/home/admin/bench/lab/helios16p_ws/install/rslidar_sdk:/home/admin/bench/lab/helios16p_ws/install/rslidar_msg:/home/admin/bench/lab/helios16p_ws/install/kiss_icp:/home/admin/bench/lab/helios16p_ws/install/go1_description:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/src/unitree_legged_real -DCMAKE_INSTALL_PREFIX=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real
+[1.475s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.475s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.476s]   CMake.
+[1.476s] 
+[1.476s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.476s]   to tell CMake that the project requires at least <min> but has been updated
+[1.477s]   to work with policies introduced by <max> or earlier.
+[1.477s] 
+[1.477s] [0m
+[1.858s] -- The C compiler identification is GNU 11.4.0
+[2.392s] -- The CXX compiler identification is GNU 11.4.0
+[2.429s] -- Detecting C compiler ABI info
+[2.815s] -- Detecting C compiler ABI info - done
+[2.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.872s] -- Detecting C compile features
+[2.874s] -- Detecting C compile features - done
+[3.090s] -- Detecting CXX compiler ABI info
+[3.703s] -- Detecting CXX compiler ABI info - done
+[3.782s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.784s] -- Detecting CXX compile features
+[3.787s] -- Detecting CXX compile features - done
+[4.197s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.643s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[5.198s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[5.568s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.619s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.702s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.819s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.396s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.421s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[6.602s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.684s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.283s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.284s] -- Found Threads: TRUE
+[7.686s] -- Found ros2_unitree_legged_msgs: 0.4.0 (/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/share/ros2_unitree_legged_msgs/cmake)
+[7.777s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.987s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.096s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[8.193s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[9.718s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[9.784s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.790s] -- Found Eigen3: TRUE (found version "3.4.0")
+[9.790s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.797s] -- -- CMAKE_SYSTEM_PROCESSOR: x86_64
+[10.062s] -- Configuring done (8.6s)
+[10.896s] -- Generating done (0.8s)
+[11.115s] -- Build files have been written to: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real
+[11.142s] Invoked command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/go1_control/install/unitree_nav:/home/admin/bench/lab/go1_control/install/unitree_nav_interfaces:/home/admin/bench/lab/go1_control/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/helios16p_ws/install/vicon_receiver:/home/admin/bench/lab/helios16p_ws/install/rslidar_sdk:/home/admin/bench/lab/helios16p_ws/install/rslidar_msg:/home/admin/bench/lab/helios16p_ws/install/kiss_icp:/home/admin/bench/lab/helios16p_ws/install/go1_description:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/src/unitree_legged_real -DCMAKE_INSTALL_PREFIX=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real
+[11.145s] Invoking command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/go1_control/install/unitree_nav:/home/admin/bench/lab/go1_control/install/unitree_nav_interfaces:/home/admin/bench/lab/go1_control/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/helios16p_ws/install/vicon_receiver:/home/admin/bench/lab/helios16p_ws/install/rslidar_sdk:/home/admin/bench/lab/helios16p_ws/install/rslidar_msg:/home/admin/bench/lab/helios16p_ws/install/kiss_icp:/home/admin/bench/lab/helios16p_ws/install/go1_description:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real -- -j8 -l8
+[11.492s] [  6%] [32mBuilding CXX object CMakeFiles/udp_high.dir/src/udp_high.cpp.o[0m
+[11.492s] [ 12%] [32mBuilding CXX object CMakeFiles/ros2_udp.dir/src/ros2_udp.cpp.o[0m
+[11.493s] [ 18%] [32mBuilding CXX object CMakeFiles/jsp_high.dir/src/jsp_high.cpp.o[0m
+[11.495s] [ 31%] [32mBuilding CXX object CMakeFiles/udp_low.dir/src/udp_low.cpp.o[0m
+[11.495s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2_walk_example.dir/src/ros2_walk_example.cpp.o[0m
+[11.502s] [ 37%] [32mBuilding CXX object CMakeFiles/jsp_low.dir/src/jsp_low.cpp.o[0m
+[160.201s] [ 43%] [1m[32mLinking CXX executable ros2_walk_example[0m
+[161.659s] [ 43%] Built target ros2_walk_example
+[201.138s] [ 50%] [1m[32mLinking CXX executable udp_low[0m
+[202.215s] [ 50%] Built target udp_low
+[203.371s] [ 56%] [1m[32mLinking CXX executable jsp_high[0m
+[204.282s] [ 56%] Built target jsp_high
+[209.113s] [ 62%] [1m[32mLinking CXX executable udp_high[0m
+[209.974s] [ 62%] Built target udp_high
+[215.549s] [ 68%] [1m[32mLinking CXX executable ros2_udp[0m
+[216.712s] [ 68%] Built target ros2_udp
+[224.222s] [ 75%] [1m[32mLinking CXX executable jsp_low[0m
+[225.166s] [ 75%] Built target jsp_low
+[225.996s] [ 81%] [32mBuilding CXX object CMakeFiles/custom_gait.dir/src/custom_gait.cpp.o[0m
+[265.226s] [ 87%] [1m[32mLinking CXX executable custom_gait[0m
+[266.468s] [ 87%] Built target custom_gait
+[268.970s] [ 93%] [32mBuilding CXX object CMakeFiles/ros2_position_example.dir/src/ros2_position_example.cpp.o[0m
+[311.218s] [100%] [1m[32mLinking CXX executable ros2_position_example[0m
+[311.628s] [100%] Built target ros2_position_example
+[311.784s] Invoked command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/go1_control/install/unitree_nav:/home/admin/bench/lab/go1_control/install/unitree_nav_interfaces:/home/admin/bench/lab/go1_control/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/helios16p_ws/install/vicon_receiver:/home/admin/bench/lab/helios16p_ws/install/rslidar_sdk:/home/admin/bench/lab/helios16p_ws/install/rslidar_msg:/home/admin/bench/lab/helios16p_ws/install/kiss_icp:/home/admin/bench/lab/helios16p_ws/install/go1_description:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real -- -j8 -l8
+[311.794s] Invoking command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real': AMENT_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/go1_control/install/unitree_nav:/home/admin/bench/lab/go1_control/install/unitree_nav_interfaces:/home/admin/bench/lab/go1_control/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/helios16p_ws/install/vicon_receiver:/home/admin/bench/lab/helios16p_ws/install/rslidar_sdk:/home/admin/bench/lab/helios16p_ws/install/rslidar_msg:/home/admin/bench/lab/helios16p_ws/install/kiss_icp:/home/admin/bench/lab/helios16p_ws/install/go1_description:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real
+[312.152s] -- Install configuration: ""
+[312.152s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib
+[312.153s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_amd64.so
+[312.162s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/libunitree_legged_sdk_arm64.so
+[312.170s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp
+[312.175s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_udp" to ""
+[312.176s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_high
+[312.180s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_high" to ""
+[312.181s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_high
+[312.185s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_high" to ""
+[312.185s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example
+[312.190s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_walk_example" to ""
+[312.191s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example
+[312.194s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/ros2_position_example" to ""
+[312.194s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/custom_gait
+[312.199s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/custom_gait" to ""
+[312.199s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_low
+[312.203s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/udp_low" to ""
+[312.203s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_low
+[312.209s] -- Set non-toolchain portion of runtime path of "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/lib/unitree_legged_real/jsp_low" to ""
+[312.209s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//launch
+[312.210s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//launch/helios16p_high_no_desc.launch.py
+[312.211s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//launch/low.launch.py
+[312.212s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//launch/high.launch.py
+[312.214s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//config
+[312.214s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//config/state_and_cmd.rviz
+[312.216s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//config/cmd_only.rviz
+[312.217s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real//config/state_only.rviz
+[312.220s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[312.222s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[312.223s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[312.224s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[312.225s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[312.226s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[312.227s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[312.228s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[312.229s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[312.230s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[312.230s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[312.232s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[312.233s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[312.234s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[312.235s] -- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[312.241s] Invoked command in '/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real' returned '0': AMENT_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/go1_control/install/unitree_nav:/home/admin/bench/lab/go1_control/install/unitree_nav_interfaces:/home/admin/bench/lab/go1_control/install/ros2_unitree_legged_msgs:/home/admin/bench/lab/helios16p_ws/install/vicon_receiver:/home/admin/bench/lab/helios16p_ws/install/rslidar_sdk:/home/admin/bench/lab/helios16p_ws/install/rslidar_msg:/home/admin/bench/lab/helios16p_ws/install/kiss_icp:/home/admin/bench/lab/helios16p_ws/install/go1_description:/home/admin/bench/lab/helios16p_ws/install/helios16p_cane_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/ros2_unitree_legged_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/unitree_legged_real

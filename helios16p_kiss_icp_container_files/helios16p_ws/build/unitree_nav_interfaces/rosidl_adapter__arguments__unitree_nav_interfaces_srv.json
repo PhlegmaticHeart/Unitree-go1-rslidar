@@ -1,0 +1,8 @@
+{
+  "package_name": "unitree_nav_interfaces",
+  "non_idl_tuples": [
+    "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/src/unitree_nav_interfaces:srv/SetBodyRPY.srv",
+    "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/src/unitree_nav_interfaces:srv/NavToPose.srv",
+    "/home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/src/unitree_nav_interfaces:srv/SetGait.srv"
+  ]
+}

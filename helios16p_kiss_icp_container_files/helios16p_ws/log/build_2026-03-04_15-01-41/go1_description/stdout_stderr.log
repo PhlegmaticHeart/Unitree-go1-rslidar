@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/build/go1_description
+-- Install configuration: ""
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//launch
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//launch/go1_demo.launch.py
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes/depthCamera.dae
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes/thigh_mirror.dae
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes/calf.dae
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes/thigh.dae
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes/hip.dae
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes/ultraSound.dae
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//meshes/trunk.dae
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/robot.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/materials.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/const.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/ultraSound.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/gazebo.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/helios16p_LiDAR.urdf.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/depthCamera.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/transmission.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description//xacro/leg.xacro
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/ament_index/resource_index/package_run_dependencies/go1_description
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/ament_index/resource_index/parent_prefix_path/go1_description
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.sh
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/environment/ament_prefix_path.dsv
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/environment/path.sh
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/environment/path.dsv
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/local_setup.bash
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/local_setup.sh
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/local_setup.zsh
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/local_setup.dsv
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/package.dsv
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/ament_index/resource_index/packages/go1_description
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig.cmake
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/cmake/go1_descriptionConfig-version.cmake
+-- Installing: /home/admin/bench/lab/STAGING_helios16p_kiss_legged_bench_cyclone_container_files/helios16p_ws/install/go1_description/share/go1_description/package.xml
