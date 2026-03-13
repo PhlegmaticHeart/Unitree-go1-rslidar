@@ -12,7 +12,9 @@ docker run \
   --network=host \
   --name helios16_kiss-icp_container \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v ~/.Xauthority:/root/.Xauthority \
   -e DISPLAY=$DISPLAY \
+  -e XAUTHORITY=/root/.Xauthority \
   -e ROS_DOMAIN_ID=3 \
   "$IMAGE_NAME:$TAG"
 

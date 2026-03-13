@@ -1,0 +1,20 @@
+version: '2.4'
+
+services:
+
+  zenoh:
+    container_name: zenoh_client_container
+    image: zenoh:custom_client
+    network_mode: "host"
+#   restart: on-failure
+#    volumes:
+#      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+#      - ~/.Xauthority:/root/.Xauthority:ro
+#    tty: True
+    environment:
+      - ROS_DOMAIN_ID=7
+      - ROS_DISTRO=humble
+#      - ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
+      - CYCLONEDDS_URI=/cyclonedds_config.xml
+#      -  DISPLAY=${DISPLAY}
+#      - XAUTHORITY=/root/.Xauthority

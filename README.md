@@ -17,7 +17,7 @@ Actually the containers are for Kiss-ICP and for MOLA pipelines usage related to
 
 Every container workspace contains:
 
-- The ros2 workspace helios16p_ws
+- The ros2 humble needed files
 
 - A passwd.txt for configuring your users passwords
 
@@ -32,6 +32,9 @@ Every container workspace contains:
 
 - The dockerfile needed for the build, the golden image used is crossbuildable, keep in mind that the build.sh file will automatically build with your native architecture,
   if you want to override this aspect there is a declared variable for this purpose.
+
+- A docker-compose.yaml file to spin every container as intended using compose plugin
+  **NOTE:* Go1's outdated boards' operative systems have docker-compose 1.21, and specifically require 1.21 syntax. 
 
 ---
 
@@ -202,7 +205,7 @@ The launch file actually contains the following nodes:
 
 **PROCESS** | startmybag: Its a ROS 2 command that start a bag loop, 
               with the correct time clock to prevent simulation blockage due to incorrect datastamps.
-              Note: This process will be executed only if the simulation flag is set true.
+              **Note:* This process will be executed only if the simulation flag is set true.
 
 **LAUNCH** | unitree_legged_real_launch: Starts the udp_high, jsp_high and cmd_processor nodes throught a modified launch located inside the unitree_legged_real package.
 
@@ -250,6 +253,20 @@ if simulate is flagged false:
 ## § Building 
 
 Its necessary, if building from scratch is needed, to build firstly rslidar_msg, ros2_unitree_legged_msgs and unitree_nav_interfaces packages as they're required by the others to build effectively.
+
+
+---
+
+# § Zenoh client and Zenoh server 
+
+Here are included two additional containers preconfigured to let you plug-and-play a functional data-sending setup.
+They are based on Zenoh's Ros2 bridge and work with Eclipse Cyclone DDS, so you need to change your rmw to cyclone in order to visualize the received data correctly.
+
+The Zenoh router actually receives data on Ros domain 3 while Zenoh client publish datasent by router on the Ros domain 7; tune your Ros domain settings accordingly.
+
+Its advisable for the correct functioning of this setup, to enable multicast on your client loopback interface, to prevent data-loops during Zenoh communications.
+
+**Note:* that at the moment Zenoh's Ros2 bridge peer-to-peer configuration has some criticalities on Ros2 Humble, so for now will be included only this type of configured containers.
 
 
 ---
