@@ -66,6 +66,8 @@ unitree_nav_interfaces (https://github.com/ngmor/unitree_nav/tree/main/unitree_n
 
 unitree_nav (fork of https://github.com/ngmor/unitree_nav)
 
+cloudini_ros (https://github.com/facontidavide/cloudini/tree/main/cloudini_ros)
+
 ---
 
 
@@ -93,6 +95,8 @@ unitree_nav_interfaces: Defines the interfaces needed by the unitree_nav package
 
 unitree_nav: Needed to convert twist type msgs to HighCmd type msgs and send them to the cmd_vel topic, enabling nav2 navigation.
 
+cloudini_ros: It allows a roughly 50% compression of rslidar_points pointcloud, its useful to transfer data throught wifi.
+
 Actually for bare deployment purposes, you can remove go1_description and vicon_receiver, they are included here as the helios16p_cane_robot includes two dedicated launch files
 for out-of-the-box usage. Anyway those files are already excluded from Dockerfile, to keep everything lean.
 
@@ -101,7 +105,7 @@ for out-of-the-box usage. Anyway those files are already excluded from Dockerfil
 
 ## § Launch file parameters 
 
-The launch file actually has the following parameters: 
+The main launch file actually has the following parameters: 
 
 - simulate:=True/False -> its a flag to enable or disable the simulated environment, to enable it you first require a ros bag.
                           Its set by default to False.
@@ -112,17 +116,19 @@ The launch file actually has the following parameters:
 
 - nomap:=True/False -> it disables map -> odom tf, its False by default.
 
+- nokiss:=True/False -> it disables Kiss-ICP node, its False by default.
+
+- nolegged:=True/False -> it disables unitree_legged package nodes, its False by default.
+
+- noscan:=True/False -> it disables pointcloud_to_laserscan node, its False by default.
+
+- statepublisher:=True/False -> it enables robot_state_publisher node, its False by default.
+
+- compressed_clouds:=True/False -> it enables cloudini_ros package node, its True by default.
+
 - visualize:=True/False -> it enables Rviz visualization, its False by default and its recommended so for performances.
 
 - visualize_clouds:=True/False -> it enables Rviz visualization, its False by default and assumes the "visualize" value, turn it true if you have to debug kiss-icp topics.
-
-- max_range:=<double> -> it allows you to set the maximum threshold before which the collected points are computed.
-
-- min_range:=<double> -> it allows you to set the minimum threshold by which the collected points are computed.
-
-- mapping_voxel_size:=<double> -> it allows you to set the edge lenght of the voxel.
-
-- mapping_voxel_points:=<double> -> it allows you to set the max number of points per voxel.
 
 - data_deskew:=True/False -> it allows you to enable frame deskewing, by default its set True.
 
@@ -134,15 +140,11 @@ The launch file actually has the following parameters:
 
 - invert_odom_tf:=True/False -> it allows you to invert the transform, by default its set False.
 
-- max_num_iterations:=<int> -> it allows you to set the maximum number of iteractions allowed for reaching the convergence threshold.
-
-- convergence_criterion:=<float> -> it allows you to set the convergence threshold, default value is 0.0001.
-
 Their default values can be set in the launch file's def generate_launch_description.
 These parameters are included exclusively for debugging and testing, for a complete list of all parameters, refer to the launch files.
 
 If you want to load a certain configuration, please,
-change the **default_config_file_path** variable path or load it with **ros2 param load <file_path>* .
+change the **config_name_path** variable path or load it with **ros2 param load <file_path>* .
 
 For granular tuning as for movement thresholds, use yaml config files included.
 
@@ -195,7 +197,7 @@ The launch file actually contains the following nodes:
 **NODE** | robot_state_publisher: Displays the urdf, accordingly to frames.
 
 **NODE** | static_transform_map_to_odom: Powered by tf2,
-	# sends the static transform of the map to odom frame.
+	# sends the static transform of the map to odom frame, disable with nomap launch parameter if you need nav2 navigation.
 
 **NODE** | static_transform_odom_to_base_link: Powered by tf2, 
 	# sends the static transform of odom to the base_link frame.
@@ -203,7 +205,7 @@ The launch file actually contains the following nodes:
 **NODE** | static_transform_base_link_to_rslidar: Powered by tf2, 
 	# sends the static transform of odom to the lidar's rslidar frame.
 
-**PROCESS** | startmybag: Its a ROS 2 command that start a bag loop, 
+**PROCESS** | bag_start_process: Its a ROS 2 command that start a bag file, 
               with the correct time clock to prevent simulation blockage due to incorrect datastamps.
               **Note:* This process will be executed only if the simulation flag is set true.
 
@@ -211,6 +213,9 @@ The launch file actually contains the following nodes:
 
 **NODE** | rslidar_sdk: Starts the driver handler, opening the topic rslidar_points where lidar data will be received.
          **Note:* This process will be executed only if the simulation flag is set false.
+
+**NODE** | cloudini_ros: Starts the cloudini_topic_converter node, compressing /rslidar_points pointcloud to /rslidar_points/compressed compressed_pointcloud.
+         **Note:* set compressed_clouds to false if you can handle not compressed data transmission.
 
 **LAUNCH** | pointcloud_to_laserscan_launch: Starts the pointcloud_to_laserscan node throught a modified launch located inside the relative pointcloud_to_laserscan package.
          **Note:* Remember to edit the launch file accordingly to your lidar's pointcloud.
@@ -223,7 +228,21 @@ The launch file actually contains the following nodes:
 
 ---
 
-## § Behaviour 
+## § Behaviour and other specialized launch files
+
+# helios16p_cane_robot.launch.py* 
+Its the main launch file, this is the one the you might want to run on your go1.
+
+*Features:* 
+
+- Handles MCU drivers and LIDAR drivers.
+
+- Handles Kiss-ICP node and tf hierarchy.
+
+- Manages to convert /rslidar_points pointcloud to a /scan laserscan.
+
+- Manages to compress /rslidar_points pointcloud to /rslidar_points/compressed compressed_pointcloud, to reduce overhead if transmission is needed.
+
 
 If simulate is flagged true:
 
@@ -247,6 +266,34 @@ if simulate is flagged false:
 - The rviz2 session will start with a custom config file and it'll show the raw data visualization with a odometry and mapped data output as well.
 
 
+# helios16p_cane_robot_demo.launch.py* 
+
+Its a visualization oriented launch file, you can run this one on a remote client to visualize whats happening around your go1.
+
+*Features:* 
+
+- Throught a "on_wifi" parameter (True/False) you can switch from remote data visualization to local data computation.
+
+- Manages to decompress compressed_pointcloud /rslidar_points/compressed to /rslidar_points pointcloud.
+
+
+# helios16p_cane_robot_vicon_track.launch.py* 
+
+Its a bag record oriented launch file, you can use it to record vicon trajectory of your go1 (remember to change the "vicon_host" launch parameter in base of your vicon host's ip).
+
+*Features:* 
+
+- Manages to enstablish a connection with vicon server throught vicon_receiver package node.
+
+- Handles LIDAR drivers.
+
+- Handles tf hierarchy.
+
+
+# helios16p_cane_robot_vicon_track.launch.py* 
+
+Its a simple benchmark oriented launch file, you can use it to test different configurations with a specified bag file.
+you can change Kiss-ICP's configuration file with "setrange" launch parameter.
 
 ---
 
@@ -330,9 +377,9 @@ path length (m) 13.7381
 
 Soon there will be:
 
-- Better kiss-icp configurations with more detailed and trustworthy values for different borderline config sets
+- Better kiss-icp configurations with more detailed values for different borderline config sets on Jetson Xavier board.
 
-- Docker compose files for out-of-the-box deployment inside go1.
+- nav2 params file for out-of-the-box navigation.
 
 ---
 
