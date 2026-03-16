@@ -36,7 +36,7 @@
 
 <xacro:macro name="lidar_macro" params="parent">
   <!-- Link principale - è la parte "squadrata" della base del lidar -->
-  <link name="${parent}_base_l">
+  <link name="${parent}_base_link">
     <visual>
       <geometry>
         <box size="${base_box_size}"/>
@@ -61,7 +61,7 @@
     </visual>
   </link>
   <joint name="${parent}_base_round_to_base" type="fixed">
-    <parent link="${parent}_base_l"/>
+    <parent link="${parent}_base_link"/>
     <child link="${parent}_base_round_part"/>
     <origin xyz="${global_x_lidar_shift} ${global_y_lidar_shift} ${global_z_lidar_shift + base_round_z}" rpy="0 0 0"/>
   </joint>
@@ -79,7 +79,7 @@
     </visual>
   </link>
   <joint name="${parent}_top_to_base" type="fixed">
-    <parent link="${parent}_base_l"/>
+    <parent link="${parent}_base_link"/>
     <child link="${parent}_top_link"/>
     <origin xyz="${global_x_lidar_shift} ${global_y_lidar_shift} ${global_z_lidar_shift + top_z}" rpy="0 0 0"/>
   </joint>
@@ -97,7 +97,7 @@
     </visual>
   </link>
   <joint name="${parent}_top_round_to_base" type="fixed">
-    <parent link="${parent}_base_l"/>
+    <parent link="${parent}_base_link"/>
     <child link="${parent}_top_round_part"/>
     <origin xyz="${global_x_lidar_shift} ${global_y_lidar_shift} ${global_z_lidar_shift + top_z}" rpy="0 0 0"/>
   </joint>
@@ -115,7 +115,7 @@
     </visual>
   </link>
   <joint name="${parent}_sx_pillar_to_base" type="fixed">
-    <parent link="${parent}_base_l"/>
+    <parent link="${parent}_base_link"/>
     <child link="${parent}_sx_pillar"/>
     <origin xyz="${global_x_lidar_shift - 0.055} ${global_y_lidar_shift + 0.05} ${global_z_lidar_shift + pillar_z}" rpy="0 0 0"/>
   </joint>
@@ -133,7 +133,7 @@
     </visual>
   </link>
   <joint name="${parent}_dx_pillar_to_base" type="fixed">
-    <parent link="${parent}_base_l"/>
+    <parent link="${parent}_base_link"/>
     <child link="${parent}_dx_pillar"/>
     <origin xyz="${global_x_lidar_shift - 0.055} ${global_y_lidar_shift - 0.05} ${global_z_lidar_shift + pillar_z}" rpy="0 0 0"/>
   </joint>
@@ -151,7 +151,7 @@
     </visual>
   </link>
   <joint name="${parent}_base_to_lidar" type="fixed">
-    <parent link="${parent}_base_l"/>
+    <parent link="${parent}_base_link"/>
     <child link="${parent}_lidar_link"/>
     <origin xyz="${global_x_lidar_shift} ${global_y_lidar_shift} ${global_z_lidar_shift + lidar_z}" rpy="0 0 0"/>
   </joint>

@@ -38,17 +38,10 @@ def generate_launch_description():
 
     declare_simulate_arg = DeclareLaunchArgument(
         'simulate',
-        default_value='False',
+        default_value='True',
         description='Flag simulation time + bag'
     )
     simulate = LaunchConfiguration('simulate') # Flag simulation time + bag
-
-    declare_on_wifi_arg = DeclareLaunchArgument(
-        'on_wifi',
-        default_value='True',
-        description='Flag to enable wifi computation'
-    )
-    on_wifi = LaunchConfiguration('on_wifi') # Flag to enable wifi connection
 
     declare_use_sim_time_arg = DeclareLaunchArgument(
         'use_sim_time',
@@ -78,15 +71,6 @@ def generate_launch_description():
         description='Flag to disable map->odom transform for better performance evaluation of kiss-ICP'
     )
     nomap = LaunchConfiguration('nomap') # Flag to disable map->odom
-
-
-    declare_compressed_clouds_arg = DeclareLaunchArgument(
-        'compressed_clouds',
-        default_value=on_wifi,
-        description='Flag to enable compressed pointclouds'
-    )
-    compressed_clouds = LaunchConfiguration('compressed_clouds') # Flag to enable compressed pointclouds
-
 
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
 
@@ -180,8 +164,7 @@ def generate_launch_description():
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', lidar_odom_frame, base_frame],
             parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen',
-            condition=UnlessCondition(on_wifi)
+            output='screen'
         )
 
 
@@ -191,8 +174,7 @@ def generate_launch_description():
             executable='static_transform_publisher',
             arguments=['0', '0', '0', '0', '0', '0', base_frame, 'rslidar'],
             parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen',
-            condition=UnlessCondition(on_wifi)
+            output='screen'
         )
 
 
@@ -202,21 +184,7 @@ def generate_launch_description():
             executable='rslidar_sdk_node',
             name='helios16p_node',
             output='screen',
-            parameters=[{'config_path': lidar_config_file}],
-            condition=UnlessCondition(on_wifi)
-        )
-    
-    cloudini_node = Node(
-            package='cloudini_ros',
-            name='cloudini_rslidar_pointcloud_converter',
-            executable='cloudini_topic_converter',
-            parameters=[{
-                'compressing': False,
-                'topic_input': PathJoinSubstitution([pointcloud_topic, 'compressed']),
-                'topic_output': pointcloud_topic,
-                'resolution': 0.001,
-            }],
-            condition=IfCondition(compressed_clouds)    
+            parameters=[{'config_path': lidar_config_file}]
         )
 
 
@@ -247,7 +215,6 @@ def generate_launch_description():
                 'publish_odom_tf': publish_odom_tf,
                 'invert_odom_tf': invert_odom_tf,
             }.items(),
-            condition=UnlessCondition(on_wifi)
         )
     
 
@@ -274,9 +241,6 @@ def generate_launch_description():
         declare_bagfile_arg, 
         declare_nomap_arg,  
         declare_visualize_arg,
-        declare_on_wifi_arg,
-        declare_compressed_clouds_arg,
-
         declare_base_frame_arg,
         declare_odom_frame_arg,
         declare_publish_odom_tf_arg,
@@ -284,13 +248,12 @@ def generate_launch_description():
         declare_topic_arg,
         declare_config_name_arg,
 
-        go1_launch,
         tf2_map_to_odom,
         tf2_odom_to_base_frame,
         tf2_base_frame_to_rslidar,
         lidar_driver_node,
-        cloudini_node,
         kiss_launch,
+        bag_start_process,
         rviz2_node,
 
     ]   

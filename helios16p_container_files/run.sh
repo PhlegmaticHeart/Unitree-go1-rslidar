@@ -16,5 +16,6 @@ docker run \
   -e DISPLAY=$DISPLAY \
   -e XAUTHORITY=/root/.Xauthority \
   -e ROS_DOMAIN_ID=3 \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET \
   "$IMAGE_NAME:$TAG"
 

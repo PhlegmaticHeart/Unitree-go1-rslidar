@@ -10,7 +10,7 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
      return LaunchDescription([
 
-          DeclareLaunchArgument(name='fixed_frame', default_value='base',
+          DeclareLaunchArgument(name='fixed_frame', default_value='base_link',
                                 description='Fixed frame for RVIZ'),
           DeclareLaunchArgument(name='namespace', default_value='',
                                 description=

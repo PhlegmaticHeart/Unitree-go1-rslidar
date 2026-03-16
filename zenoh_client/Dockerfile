@@ -1,5 +1,5 @@
 #FROM osrf/ros:debian-boo
-FROM eclipse/zenoh-bridge-ros2dds:latest
+FROM eclipse/zenoh-bridge-ros2dds:1.8.0
 
 #Avoid interactive mode during installation
 ENV DEBIAN_FRONTEND=noninteractive

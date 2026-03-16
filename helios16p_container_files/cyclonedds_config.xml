@@ -7,8 +7,8 @@
   <Domain Id="any">
     <General>
       <Interfaces>
-        <NetworkInterface autodetermine="true" priority="default"
-        multicast="default" />
+        <NetworkInterface name="eth0" autodetermine="false" priority="default"
+        multicast="true" />
       </Interfaces>
       <AllowMulticast>default</AllowMulticast>
       <MaxMessageSize>65500B</MaxMessageSize>

@@ -55,13 +55,14 @@
             //   action_clients: [],
             // },
             deny: {
-                publishers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events"],
-                subscribers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events"],
-                service_servers: [".*/set_parameters"],
-                service_clients: [".*/set_parameters"],
+                publishers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
+                subscribers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
+                service_servers: [],
+                service_clients: [],
                 action_servers: [],
                 action_clients: [],
-            },            ////
+            },
+            ////
             //// pub_max_frequencies: Specify a list of maximum frequency of publications routing over zenoh for a set of Publishers.
             ////                      The strings must have the format "<regex>=<float>":
             ////                      - "regex" is a regular expression matching a Publisher interface name
@@ -190,7 +191,7 @@
             /// Accepts a single value or different values for router, peer and client.
             /// Each value is an array containing values "peer", "router" and "client".
             "autoconnect": {
-                "router": ["client"],
+                "router": [],
                 "peer": [
                     "router",
                     "peer"

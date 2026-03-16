@@ -1,4 +1,3 @@
-#FROM osrf/ros:humble-desktop-jammy
 FROM ros:humble-ros-base@sha256:370191995451bb63f2e37bb2f6636a09f66ca810d0865703058361dc6ac70c87
 
 #Avoid interactive mode during installation
@@ -28,6 +27,7 @@ COPY helios16p_ws/src/ros2_unitree_legged_msgs/ src/ros2_unitree_legged_msgs/
 COPY helios16p_ws/src/unitree_legged_real/ src/unitree_legged_real/
 COPY helios16p_ws/src/unitree_nav/ src/unitree_nav/
 COPY helios16p_ws/src/unitree_nav_interfaces/ src/unitree_nav_interfaces/
+COPY helios16p_ws/src/cloudini_ros/ src/cloudini_ros/
 
 # Installs necessary tools
 RUN apt-get update && apt install -y \
@@ -62,7 +62,7 @@ ENV CMAKE_POLICY_VERSION_MINIMUM=3.10
 
 # Other requirements
 RUN apt-get update && apt-get install -y libpcap-dev \
-    && rm -rf /var/lib/apt/lists/* 
+    && rm -rf /var/lib/apt/lists/*
 
 # Requirements for Uinitree Legged packages - BEGINNING (comment up to the END if you don't need the unitree legged package)
 RUN sudo apt-get update
@@ -94,10 +94,10 @@ WORKDIR /home/admin/helios16p_ws
 
 RUN apt-get update && apt-get install -y ca-certificates
 RUN rosdep update \
-    && rosdep install --from-paths src --ignore-src -r -y 
+    && rosdep install --from-paths src --ignore-src -r -y
 #    || echo "Some rosdep packages failed, install them manually"
 
-RUN . /opt/ros/humble/setup.sh && \ 
+RUN . /opt/ros/humble/setup.sh && \
     colcon build --packages-select rslidar_msg ros2_unitree_legged_msgs unitree_nav_interfaces --symlink-install \
     && colcon build --packages-skip rslidar_msg ros2_unitree_legged_msgs --symlink-install
 
@@ -125,19 +125,17 @@ USER admin
 WORKDIR /home/admin
 
 # Aliases
-RUN echo "alias start='source /home/admin/helios16p_ws/install/setup.bash && ros2 launch helios16p_cane_robot helios16p_cane_robot.launch.py setrange:=mrange8.yaml visualize_clouds:=true'" >> ~/.bashrc
+RUN echo "alias start='source /home/admin/helios16p_ws/install/setup.bash && ros2 launch helios16p_cane_robot helios16p_cane_robot.launch.py setrange:=mrange8.yaml'" >> ~/.bashrc
 
 # Automatical source - If you want to use eprosima fast dds, comment the last two echoes
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc \
     && echo "source ~/helios16p_ws/install/setup.bash" >> ~/.bashrc \
     && echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc \
-    && echo 'export CYCLONEDDS_URI=/cyclonedds_config.xml' >> ~/.bashrc 
- 
+    && echo 'export CYCLONEDDS_URI=/cyclonedds_config.xml' >> ~/.bashrc
+
 RUN bash -c 'source ~/.bashrc'
 
 # Entrypoint setup
 #ENTRYPOINT ["/bin/bash"] uncomment if you want to use the container interactively and then comment the following entrypoint
 
 ENTRYPOINT ["/entrypoint.sh"]
-
-

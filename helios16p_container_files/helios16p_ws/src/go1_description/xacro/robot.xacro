@@ -26,11 +26,11 @@
         <joint name="base_static_joint" type="fixed">
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <parent link="world"/>
-            <child link="base"/>
+            <child link="base_link"/>
         </joint>
     </xacro:if> 
 
-    <link name="base">
+    <link name="base_link">
         <visual>
             <origin rpy="0 0 0" xyz="0 0 0"/>
             <geometry>
@@ -41,7 +41,7 @@
 
     <joint name="floating_base" type="fixed">
         <origin rpy="0 0 0" xyz="0 0 0"/>
-        <parent link="base"/>
+        <parent link="base_link"/>
         <child link="trunk"/>
     </joint>
 
@@ -154,9 +154,9 @@
     <!-- LiDAR mounted on the back of the robot -->
     <xacro:lidar_macro parent="trunk"/>
 
-    <joint name="trunk_to_lidar_base" type="fixed">
+    <joint name="trunk_to_lidar_base_link" type="fixed">
         <parent link="trunk"/>
-        <child link="trunk_base_l"/>
+        <child link="trunk_base_link"/>
         <origin xyz="0.05 0 0.05" rpy="0 0 0"/>
     </joint>
 
