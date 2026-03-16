@@ -51,6 +51,12 @@ def generate_launch_description():
     )
     use_sim_time = LaunchConfiguration('use_sim_time') # Flag to enable simulation time
 
+    declare_vicon_host_arg = DeclareLaunchArgument(
+        'vicon_host',
+        default_value='192.168.50.56',
+        description='Vicon host IP address'
+    )
+    vicon_host = LaunchConfiguration('vicon_host') # Vicon host IP address
 
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
 
@@ -158,7 +164,7 @@ def generate_launch_description():
     vicon_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(vicon_launch_path),
         launch_arguments={
-            'hostname': '192.168.50.56',
+            'hostname': vicon_host,
             'topic_namespace': 'vicon', 
             'buffer_size': '200',
             'world_frame': 'map',
@@ -190,6 +196,7 @@ def generate_launch_description():
 
         declare_simulate_arg,
         declare_use_sim_time_arg,
+        declare_vicon_host_arg,
         declare_visualize_arg,
         declare_base_frame_arg,
         declare_vicon_obj_frame_arg,
