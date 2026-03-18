@@ -32,11 +32,11 @@ def generate_launch_description():
     bag_path = '' # Bag file path
 
     pointcloud_to_laserscan_package=get_package_share_directory('pointcloud_to_laserscan') # pointcloud_to_laserscan package share directory, necessary for the configuration of the pointcloud_to_laserscan node in the rviz config file
-   
+
     pointcloud_to_laserscan_launch_path = os.path.join(pointcloud_to_laserscan_package, 'launch', 'helios16p_pointcloud_to_laserscan_launch.py')
 
     unitree_legged_real_package=get_package_share_directory('unitree_legged_real') # unitree_legged_real package share directory, necessary for the configuration of the unitree_legged_real node in the rviz config file
-   
+
     unitree_legged_real_launch_path = os.path.join(unitree_legged_real_package, 'launch', 'helios16p_high_no_desc.launch.py')
 
 # ----------------------------------- Simulation and bag flags parameters -----------------------------------
@@ -104,42 +104,49 @@ def generate_launch_description():
 
 # ----------------------------------- Unitree legged real's debug parameters -----------------------------------
 
-    declare_enable_internal_frame_arg = DeclareLaunchArgument(
-            'enable_frame',
-            default_value='True',
-            description='Whether to enable frame broadcasting of go1 internal odometry and imu (True/False)'
-        )   
+    declare_enable_internal_publish_arg = DeclareLaunchArgument(
+            'enable_internal_publish',
+            default_value='False',
+            description='Whether to enable internal publish of go1 internal odometry and imu (True/False)'
+        )
 
-    enable_internal_frame_arg = LaunchConfiguration('enable_frame')
+    enable_internal_publish_arg = LaunchConfiguration('enable_internal_publish')
 
 
-    declare_odom_go1_frame_name_arg = DeclareLaunchArgument(
-            'odom_frame',
-            default_value='odom_go1',
+    declare_internal_odom_go1_frame_name_arg = DeclareLaunchArgument(
+            'internal_odom_frame',
+            default_value='internal_odom_go1',
             description='The name of the go1 internal calculated odometry frame to broadcast'
-        )  
-    odom_go1_frame_name_arg = LaunchConfiguration('odom_frame')
+        )
+    internal_odom_go1_frame_name_arg = LaunchConfiguration('internal_odom_frame')
 
-    declare_imu_go1_frame_name_arg = DeclareLaunchArgument(
-            'imu_frame',
-            default_value='imu_go1',
+    declare_internal_imu_go1_frame_name_arg = DeclareLaunchArgument(
+            'internal_imu_frame',
+            default_value='internal_imu_go1',
             description='The name of the base frame linked to internal go1 odometry to broadcast'
         )
-    imu_go1_frame_name_arg = LaunchConfiguration('imu_frame')
-    declare_odom_go1_topic_name_arg = DeclareLaunchArgument(
-            'odom_topic',
-            default_value='odom_go1',
+    internal_imu_go1_frame_name_arg = LaunchConfiguration('internal_imu_frame')
+
+    declare_internal_odom_go1_topic_name_arg = DeclareLaunchArgument(
+            'internal_odom_topic',
+            default_value='internal_odom_go1',
             description='The name of the internal calculated odometry topic to publish'
         )
-    odom_go1_topic_name_arg = LaunchConfiguration('odom_topic')
+    internal_odom_go1_topic_name_arg = LaunchConfiguration('internal_odom_topic')
 
-    declare_imu_go1_topic_name_arg = DeclareLaunchArgument(
-            'imu_topic',
-            default_value='imu_go1',
-            description='The name of the imu topic to publish'
+    declare_internal_imu_go1_topic_name_arg = DeclareLaunchArgument(
+            'internal_imu_topic',
+            default_value='internal_imu_go1',
+            description='The name of the internal imu topic to publish'
         )
-    imu_go1_topic_name_arg = LaunchConfiguration('imu_topic')
-
+    internal_imu_go1_topic_name_arg = LaunchConfiguration('internal_imu_topic')
+    
+    declare_internal_base_go1_topic_name_arg = DeclareLaunchArgument(
+            'internal_base_topic',
+            default_value='internal_link_go1',
+            description='The name of the internal base topic to publish'
+        )
+    internal_base_go1_topic_name_arg = LaunchConfiguration('internal_base_topic')
 
 
 
@@ -152,6 +159,12 @@ def generate_launch_description():
     )
     visualize = LaunchConfiguration('visualize') # Flag to enable rviz visualization
 
+    declare_nolidar_arg = DeclareLaunchArgument(
+        'nolidar',
+        default_value='False',
+        description='Flag to disable lidar driver'
+    )
+    nolidar = LaunchConfiguration('nolidar') # Flag to disable lidar driver
 
     declare_visualize_clouds_arg = DeclareLaunchArgument(
         'visualize_clouds',
@@ -181,13 +194,6 @@ def generate_launch_description():
     )
     nokiss = LaunchConfiguration('nokiss') # Flag to enable rviz visualization
 
-    declare_deskew_arg = DeclareLaunchArgument(
-        'data.deskew',
-        default_value='True',
-        description='Enable deskew for pointcloud data'
-    )
-    data_deskew = LaunchConfiguration('data.deskew') # Enable manipulation of max and min range
-
 
     declare_base_frame_arg = DeclareLaunchArgument(
         'base_frame',
@@ -198,11 +204,11 @@ def generate_launch_description():
 
 
     declare_odom_frame_arg = DeclareLaunchArgument(
-        'lidar_odom_frame',
+        'odom_frame',
         default_value='odom',
         description='Name of the lidar odometry frame'
     )
-    lidar_odom_frame = LaunchConfiguration('lidar_odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
+    odom_frame = LaunchConfiguration('odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
 
 
     declare_publish_odom_tf_arg = DeclareLaunchArgument(
@@ -221,23 +227,23 @@ def generate_launch_description():
     invert_odom_tf = LaunchConfiguration('invert_odom_tf') # necessary for getting the correct transform as by default kiss-ICP pblishes an inverted transform
 
 
-    declare_config_name_arg = DeclareLaunchArgument(
+    declare_kiss_config_name_arg = DeclareLaunchArgument(
         'setrange',
         default_value='mrange100.yaml',
         description='Name of kiss-icp yaml configuration to load'
     )
-    config_name = LaunchConfiguration('setrange') # Configuration file name to load, by default its set to 100m range
+    kiss_config_name = LaunchConfiguration('setrange') # Configuration file name to load, by default its set to 100m range
 
 
-    config_name_path = PathJoinSubstitution([
-        FindPackageShare(package_name),  
+    kiss_config_name_path = PathJoinSubstitution([
+        FindPackageShare(package_name),
         'configs',
-        config_name
+        kiss_config_name
     ])
 
 
 
-    
+
 # ----------------------------------- Topics' configuration -----------------------------------
 
     declare_topic_arg = DeclareLaunchArgument(
@@ -269,20 +275,10 @@ def generate_launch_description():
             package='tf2_ros',
             name='static_transform_map_to_odom',
             executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', 'map', lidar_odom_frame],
+            arguments=['0', '0', '0', '0', '0', '0', 'map', odom_frame],
             parameters=[{'use_sim_time' : use_sim_time}],
             output='screen',
             condition=UnlessCondition(nomap),
-        )
-
-
-    tf2_odom_to_base_frame = Node( # Static transform from map to base_link
-            package='tf2_ros',
-            name='static_transform_odom_to_base_frame',
-            executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', lidar_odom_frame, base_frame],
-            parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen' 
         )
 
 
@@ -295,14 +291,16 @@ def generate_launch_description():
             output='screen'
         )
 
+
     unitree_legged_real_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(unitree_legged_real_launch_path),
         launch_arguments={
-            'enable_frame': enable_internal_frame_arg, # Disable frame broadcasting in the unitree_legged_real node as we are already publishing the necessary frames with static_transform_publisher nodes in this launch file
-            'odom_frame': odom_go1_frame_name_arg, # Set the odom frame name in the unitree_legged_real node to be the same as the one published by kiss-ICP for better integration in rviz and easier performance evaluation
-            'imu_frame': imu_go1_frame_name_arg, # Set the base frame name in the unitree_leg
-            'odom_topic': odom_go1_topic_name_arg, # Set the odom topic name in the unitree_legged_real node to be different from the one published by kiss-ICP to avoid confusion in rviz and for better performance evaluation
-            'imu_topic': imu_go1_topic_name_arg # Set the imu topic name in
+            'enable_internal_publish': enable_internal_publish_arg, # Disable frame broadcasting in the unitree_legged_real node as we are already publishing the necessary frames with static_transform_publisher nodes in this launch file
+            'internal_odom_frame': internal_odom_go1_frame_name_arg, # Set the odom frame name in the unitree_legged_real node to be the same as the one published by kiss-ICP for better integration in rviz and easier performance evaluation
+            'internal_imu_frame': internal_imu_go1_frame_name_arg, # Set the base frame name in the unitree_leg
+            'internal_odom_topic': internal_odom_go1_topic_name_arg, # Set the odom topic name in the unitree_legged_real node to be different from the one published by kiss-ICP to avoid confusion in rviz and for better performance evaluation
+            'internal_imu_topic': internal_imu_go1_topic_name_arg, # Set the imu topic name in
+            'internal_base_topic': internal_base_go1_topic_name_arg # Set the base topic name in the unitree_legged_real node to be different from the one published by kiss-ICP to avoid confusion in rviz and for better performance evaluation
             }.items(),
         condition=UnlessCondition(nolegged)
         )
@@ -314,10 +312,10 @@ def generate_launch_description():
             name='helios16p_node',
             output='screen',
             parameters=[{'config_path': lidar_config}],
-            condition=UnlessCondition(simulate)
+            condition=UnlessCondition(nolidar)
         )
 
-    
+
     cloudini_node = Node(
             package='cloudini_ros',
             name='cloudini_rslidar_pointcloud_converter',
@@ -328,7 +326,7 @@ def generate_launch_description():
                 'topic_output': PathJoinSubstitution([pointcloud_topic, 'compressed']),
                 'resolution': 0.001,
             }],
-            condition=IfCondition(compressed_clouds)    
+            condition=IfCondition(compressed_clouds)
         )
 
 
@@ -339,6 +337,7 @@ def generate_launch_description():
          #      }.items()
         condition=UnlessCondition(noscan)
         )
+
 
     bag_start_process = ExecuteProcess( # Bag file playback
             cmd=[
@@ -361,9 +360,9 @@ def generate_launch_description():
             output='screen',
             remappings=[
                 ('pointcloud_topic', pointcloud_topic),
-        ],
+            ],
             parameters=[
-                ParameterFile(config_name_path),# Load the configuration file, by default its the 100m range one
+                ParameterFile(kiss_config_name_path),# Load the configuration file, by default its the 100m range one
 
                 #///kiss-ICP's configuration\\\
                 {
@@ -373,19 +372,7 @@ def generate_launch_description():
                 'base_frame': base_frame,
                 'publish_odom_tf': publish_odom_tf,
                 'invert_odom_tf': invert_odom_tf,
-                'lidar_odom_frame': lidar_odom_frame,
-                'data.deskew': data_deskew,
-
-                # Main parameters to tune for performance evaluation
-
-                #  'data.max_range': max_range,
-                #  'data.min_range': min_range,
-                #  'mapping.max_points_per_voxel': mapping_voxel_points,
-                #  'mapping.voxel_size': mapping_voxel_size,
-                #  'registration.convergence_criterion': convergence_criterion,
-                #  'registration.max_num_iterations': max_num_iterations,
-
-                # More parameters available for tuning in the configuration files
+                'lidar_odom_frame': odom_frame,
 
                 },
             ],
@@ -413,41 +400,42 @@ def generate_launch_description():
         declare_simulate_arg,
         declare_use_sim_time_arg,
         declare_play_bag_arg,
-        declare_bagfile_arg,    
+        declare_bagfile_arg,
         declare_visualize_arg,
+        declare_nolidar_arg,
         declare_visualize_clouds_arg,
         declare_compressed_clouds_arg,
         declare_statepublisher_arg,
         declare_lidar_config_arg,
-        declare_enable_internal_frame_arg,
-        declare_odom_go1_frame_name_arg,
-        declare_imu_go1_frame_name_arg,
-        declare_odom_go1_topic_name_arg,
-        declare_imu_go1_topic_name_arg,
+        declare_enable_internal_publish_arg,
+        declare_internal_odom_go1_frame_name_arg,
+        declare_internal_imu_go1_frame_name_arg,
+        declare_internal_odom_go1_topic_name_arg,
+        declare_internal_imu_go1_topic_name_arg,
+        declare_internal_base_go1_topic_name_arg,
+
 
         declare_nolegged_arg,
         declare_noscan_arg,
         declare_nokiss_arg,
         declare_nomap_arg,
-        declare_deskew_arg,
         declare_base_frame_arg,
         declare_odom_frame_arg,
         declare_publish_odom_tf_arg,
         declare_invert_odom_tf_arg,
         declare_topic_arg,
-        declare_config_name_arg,
+        declare_kiss_config_name_arg,
 
         publisher_node,
         tf2_map_to_odom,
-        tf2_odom_to_base_frame,
         tf2_base_frame_to_rslidar,
-        unitree_legged_real_launch,
         lidar_driver_node,
-        cloudini_node,
-        pointcloud_to_laserscan_launch,
-        bag_start_process,
         kiss_node,
+        unitree_legged_real_launch,
+        pointcloud_to_laserscan_launch,
+        cloudini_node,
+        bag_start_process,
         rviz2_node,
 
-    ]   
+    ]
 )

@@ -13,7 +13,7 @@ This project aims to integrate the Robosense Helios 16 P on a Go1 Unitree robot 
 # Content
 
 This project borns as an applicative oriented project, here you will find two ready for building containers workspaces.
-Actually the containers are for Kiss-ICP and for MOLA pipelines usage related to Robosense Helios16p LIDAR.
+Actually the containers are for Kiss-ICP and for zenoh ros2 bridge usage related to Robosense Helios16p LIDAR ang go1 unitree robot.
 
 Every container workspace contains:
 
@@ -199,9 +199,6 @@ The launch file actually contains the following nodes:
 **NODE** | static_transform_map_to_odom: Powered by tf2,
 	# sends the static transform of the map to odom frame, disable with nomap launch parameter if you need nav2 navigation.
 
-**NODE** | static_transform_odom_to_base_link: Powered by tf2, 
-	# sends the static transform of odom to the base_link frame.
-
 **NODE** | static_transform_base_link_to_rslidar: Powered by tf2, 
 	# sends the static transform of odom to the lidar's rslidar frame.
 
@@ -220,7 +217,7 @@ The launch file actually contains the following nodes:
 **LAUNCH** | pointcloud_to_laserscan_launch: Starts the pointcloud_to_laserscan node throught a modified launch located inside the relative pointcloud_to_laserscan package.
          **Note:* Remember to edit the launch file accordingly to your lidar's pointcloud.
 
-**NODE** | kiss_icp: Starts the pipeline for converting lidar data to odometry.
+**NODE** | kiss_icp: Starts the pipeline for converting lidar data to odometry and provides odom->base_link tf.
 
 **NODE** | rviz2: Starts a preconfigured, working out of the box rviz2 session,
            equipped with visual data, visual odometry and visual mapping.

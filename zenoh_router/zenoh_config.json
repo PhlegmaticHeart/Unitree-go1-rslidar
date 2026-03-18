@@ -46,22 +46,22 @@
             ////               or is not specified at all, it means that NO such interface is allowed.
             ////               Use 'deny' to allow all except the specified interfaces. If an interface type is set to an empty list
             ////               or is not specified at all, it means that ALL such interface are allowed.
-            // allow: {
-            //   publishers: [".*/laser_scan", "/tf", ".*/pose"],
-            //   subscribers: [".*/cmd_vel"],
-            //   service_servers: [".*/.*_parameters"],
-            //   service_clients: [],
-            //   action_servers: [".*/rotate_absolute"],
-            //   action_clients: [],
-            // },
-            deny: {
-                publishers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
-                subscribers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
-                service_servers: [],
-                service_clients: [],
-                action_servers: [],
-                action_clients: [],
+            allow: {
+                publishers: ["/cmd_vel", "/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan", "/tf", "/tf_static"]
+                subscribers: ["/cmd_vel"],
+                service_servers: [".*/**"],
+                service_clients: [".*/**"],
+                action_servers: [".*/**"],
+                action_clients: [".*/**"],
             },
+            //deny: {
+            //    publishers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
+            //    subscribers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
+            //    service_servers: [],
+            //    service_clients: [],
+            //    action_servers: [],
+            //    action_clients: [],
+            //},
             ////
             //// pub_max_frequencies: Specify a list of maximum frequency of publications routing over zenoh for a set of Publishers.
             ////                      The strings must have the format "<regex>=<float>":

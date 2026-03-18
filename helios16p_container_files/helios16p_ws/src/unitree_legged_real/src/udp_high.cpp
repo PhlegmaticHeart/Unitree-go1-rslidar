@@ -44,27 +44,29 @@ public:
     interval_ = 1.0 / rate_;
 
     // Frame names
-    declare_parameter<bool>("enable_frame", false);
-    frame_enabled = get_parameter("enable_frame").as_bool(); // if true, publish odom and imu with frame_id and broadcast tf; if false, publish without frame_id and do not broadcast tf
+    declare_parameter<bool>("enable_internal_publish", false);
+    std::atomic<bool> publish_enabled;
+    publish_enabled = get_parameter("enable_internal_publish").as_bool(); // if true, publish odom and imu with frame_id and broadcast tf; if false, publish without frame_id and do not broadcast tf
 
+    if (publish_enabled) {
     // Frame names parametrized
-    declare_parameter<std::string>("odom_frame", "odom_go1");
-    declare_parameter<std::string>("imu_frame", "imu_go1");
-    declare_parameter<std::string>("base_frame", "base_link_go1");
-    odom_frame_ = get_parameter("odom_frame").as_string();
-    imu_frame_ = get_parameter("imu_frame").as_string();
-
+    declare_parameter<std::string>("internal_odom_frame", "internal_odom_go1");
+    declare_parameter<std::string>("internal_imu_frame", "internal_imu_go1");
+    declare_parameter<std::string>("internal_base_frame", "internal_link_go1");
+    odom_frame_ = get_parameter("internal_odom_frame").as_string();
+    imu_frame_ = get_parameter("internal_imu_frame").as_string();
+    link_frame_ = get_parameter("internal_base_frame").as_string();
 
     // Publishers
-    declare_parameter<std::string>("odom_topic", "odom_go1");
-    declare_parameter<std::string>("imu_topic", "imu_go1");
-    odom_topic_ = get_parameter("odom_topic").as_string();
-    imu_topic_ = get_parameter("imu_topic").as_string();
+    declare_parameter<std::string>("internal_odom_topic", "internal_odom_go1");
+    declare_parameter<std::string>("internal_imu_topic", "internal_imu_go1");
+    odom_topic_ = get_parameter("internal_odom_topic").as_string();
+    imu_topic_ = get_parameter("internal_imu_topic").as_string();
 
-    pub_state_ = create_publisher<ros2_unitree_legged_msgs::msg::HighState>("high_state", 10);
     pub_imu_ = create_publisher<sensor_msgs::msg::Imu>(imu_topic_, 10);
     pub_odom_ = create_publisher<nav_msgs::msg::Odometry>(odom_topic_, 10);
-
+    };
+    pub_state_ = create_publisher<ros2_unitree_legged_msgs::msg::HighState>("high_state", 10);
     // Subscriber for commands
     sub_cmd_ = create_subscription<ros2_unitree_legged_msgs::msg::HighCmd>(
       "high_cmd", 10,
@@ -73,32 +75,37 @@ public:
 
     RCLCPP_INFO(get_logger(), "udp_high node started");
 
-    // Choose the correct version of timer callback based on frame_enabled parameter
-    if (frame_enabled) {
-      RCLCPP_INFO(get_logger(), "Frame broadcasting enabled: odom_frame='%s', base_frame='%s'", odom_frame_.c_str(), imu_frame_.c_str());
+    if (publish_enabled.load()) {
+      RCLCPP_INFO(get_logger(), "Publishing enabled: odom_frame='%s', imu_frame='%s', base_frame='%s'", odom_frame_.c_str(), imu_frame_.c_str(), link_frame_.c_str());
+    } else {
+      RCLCPP_INFO(get_logger(), "Publishing disabled");
+    }
+
+    if (publish_enabled.load()) {
       timer_ = create_wall_timer(
         std::chrono::microseconds(static_cast<int>(interval_ * 1e6)),
         std::bind(&UDPHighNode::timer_callback<true>, this)
       );
     } else {
-      RCLCPP_INFO(get_logger(), "Frame broadcasting disabled");
       timer_ = create_wall_timer(
         std::chrono::microseconds(static_cast<int>(interval_ * 1e6)),
         std::bind(&UDPHighNode::timer_callback<false>, this)
       );
     }
-     
+
   }
 
 private:
+
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<ros2_unitree_legged_msgs::msg::HighState>::SharedPtr pub_state_;
   rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr pub_imu_;
   rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr pub_odom_;
   rclcpp::Subscription<ros2_unitree_legged_msgs::msg::HighCmd>::SharedPtr sub_cmd_;
   double rate_, interval_;
-  std::atomic<bool> frame_enabled;
-  std::string odom_frame_, imu_frame_;
+
+  std::atomic<bool> publish_enabled;
+  std::string odom_frame_, imu_frame_, link_frame_;  // added for frame parameters
   std::string odom_topic_, imu_topic_;  // added for topic parameters
   UDPHighBridge bridge_;
   ros2_unitree_legged_msgs::msg::HighState state_ros_;
@@ -110,7 +117,7 @@ private:
     bridge_.udp.Send();
   }
 
-  template<bool frame_enabled>
+  template<bool publish_enabled>
   void timer_callback()
   {
     // Receive raw HighState via UDP
@@ -120,13 +127,12 @@ private:
     state_ros_ = state2rosMsg(bridge_.state);
     pub_state_->publish(state_ros_);
 
+    if constexpr (publish_enabled) {
     // IMU message
     sensor_msgs::msg::Imu imu_msg;
     imu_msg.header.stamp = now();
+    imu_msg.header.frame_id = imu_frame_;
 
-    if constexpr (frame_enabled) {
-      imu_msg.header.frame_id = imu_frame_;
-    }
     // Orientation quaternion
     imu_msg.orientation = tf2::toMsg(
       tf2::Quaternion(
@@ -142,16 +148,15 @@ private:
     imu_msg.linear_acceleration.x = state_ros_.imu.accelerometer[0];
     imu_msg.linear_acceleration.y = state_ros_.imu.accelerometer[1];
     imu_msg.linear_acceleration.z = state_ros_.imu.accelerometer[2];
+
     pub_imu_->publish(imu_msg);
 
     // Odometry message
     nav_msgs::msg::Odometry odom_msg;
     odom_msg.header.stamp = imu_msg.header.stamp;
-    
-    if constexpr (frame_enabled) {
-      odom_msg.header.frame_id = odom_frame_;
-      odom_msg.child_frame_id = imu_frame_;
-    }
+    odom_msg.header.frame_id = odom_frame_;
+    odom_msg.child_frame_id = link_frame_;
+
     // Pose
     odom_msg.pose.pose.position.x = state_ros_.position[0];
     odom_msg.pose.pose.position.y = state_ros_.position[1];
@@ -163,7 +168,8 @@ private:
     odom_msg.twist.twist.linear.z = state_ros_.velocity[2];
     odom_msg.twist.twist.angular.z = state_ros_.yaw_speed;
     pub_odom_->publish(odom_msg);
-  }
+    };
+  };
 };
 
 int main(int argc, char ** argv)

@@ -105,11 +105,11 @@ def generate_launch_description():
     base_frame = LaunchConfiguration('base_frame')  # (base_link/base_footprint)
 
     declare_odom_frame_arg = DeclareLaunchArgument(
-        'lidar_odom_frame',
+        'odom_frame',
         default_value='odom',
         description='Name of the lidar odometry frame'
     )
-    lidar_odom_frame = LaunchConfiguration('lidar_odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
+    odom_frame = LaunchConfiguration('odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
 
 
     declare_publish_odom_tf_arg = DeclareLaunchArgument(
@@ -167,21 +167,10 @@ def generate_launch_description():
             package='tf2_ros',
             name='static_transform_map_to_odom',
             executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', 'map', lidar_odom_frame],
+            arguments=['0', '0', '0', '0', '0', '0', 'map', odom_frame],
             parameters=[{'use_sim_time' : use_sim_time}],
             output='screen',
             condition=UnlessCondition(nomap)
-        )
-    
-
-    tf2_odom_to_base_frame = Node( # Static transform from odom to base_frame
-            package='tf2_ros',
-            name='static_transform_odom_to_base_frame',
-            executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', lidar_odom_frame, base_frame],
-            parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen',
-            condition=UnlessCondition(on_wifi)
         )
 
 
@@ -243,7 +232,7 @@ def generate_launch_description():
                 'use_sim_time': use_sim_time,
                 'topic': pointcloud_topic,
                 'base_frame': base_frame,
-                'lidar_odom_frame': lidar_odom_frame,
+                'lidar_odom_frame': odom_frame,
                 'publish_odom_tf': publish_odom_tf,
                 'invert_odom_tf': invert_odom_tf,
             }.items(),
@@ -286,7 +275,6 @@ def generate_launch_description():
 
         go1_launch,
         tf2_map_to_odom,
-        tf2_odom_to_base_frame,
         tf2_base_frame_to_rslidar,
         lidar_driver_node,
         cloudini_node,

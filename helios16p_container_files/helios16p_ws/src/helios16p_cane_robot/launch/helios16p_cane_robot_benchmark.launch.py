@@ -81,6 +81,13 @@ def generate_launch_description():
     )
     visualize = LaunchConfiguration('visualize') # Flag to enable rviz visualization
 
+    declare_visualize_clouds_arg = DeclareLaunchArgument(
+        'visualize_clouds',
+        default_value='True',
+        description='Flag to enable rviz visualization of clouds published by kiss-ICP'
+    )
+    visualize_clouds = LaunchConfiguration('visualize_clouds') # Flag to enable rviz visualization of clouds published by kiss-ICP
+
     declare_base_frame_arg = DeclareLaunchArgument(
         'base_frame',
         default_value='base_link',
@@ -89,11 +96,11 @@ def generate_launch_description():
     base_frame = LaunchConfiguration('base_frame')  # (base_link/base_footprint)
 
     declare_odom_frame_arg = DeclareLaunchArgument(
-        'lidar_odom_frame',
+        'odom_frame',
         default_value='odom',
         description='Name of the lidar odometry frame'
     )
-    lidar_odom_frame = LaunchConfiguration('lidar_odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
+    odom_frame = LaunchConfiguration('odom_frame') # It gives the name to the frame of the odometry published by kiss-ICP
 
 
     declare_publish_odom_tf_arg = DeclareLaunchArgument(
@@ -112,19 +119,26 @@ def generate_launch_description():
     invert_odom_tf = LaunchConfiguration('invert_odom_tf') # necessary for getting the correct transform as by default kiss-ICP pblishes an inverted transform
 
 
+    declare_nokiss_arg = DeclareLaunchArgument(
+        'nokiss',
+        default_value='False',
+        description='Flag to disable kiss-ICP'
+    )
+    nokiss = LaunchConfiguration('nokiss') # Flag to enable rviz visualization
 
-    declare_config_name_arg = DeclareLaunchArgument(
+
+    declare_kiss_config_name_arg = DeclareLaunchArgument(
         'setrange',
         default_value='mrange100.yaml',
         description='Name of kiss-icp yaml configuration to load'
     )
-    config_name = LaunchConfiguration('setrange') # Configuration file name to load, by default its set to 100m range
+    kiss_config_name = LaunchConfiguration('setrange') # Configuration file name to load, by default its set to 100m range
 
 
-    config_name_path = PathJoinSubstitution([
-        FindPackageShare(package_name),  
+    kiss_config_name_path = PathJoinSubstitution([
+        FindPackageShare(package_name),
         'configs',
-        config_name
+        kiss_config_name
     ])
 # ----------------------------------- Topics' configuration -----------------------------------
 
@@ -151,20 +165,10 @@ def generate_launch_description():
             package='tf2_ros',
             name='static_transform_map_to_odom',
             executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', 'map', lidar_odom_frame],
+            arguments=['0', '0', '0', '0', '0', '0', 'map', odom_frame],
             parameters=[{'use_sim_time' : use_sim_time}],
             output='screen',
             condition=UnlessCondition(nomap)
-        )
-    
-
-    tf2_odom_to_base_frame = Node( # Static transform from odom to base_frame
-            package='tf2_ros',
-            name='static_transform_odom_to_base_frame',
-            executable='static_transform_publisher',
-            arguments=['0', '0', '0', '0', '0', '0', lidar_odom_frame, base_frame],
-            parameters=[{'use_sim_time' : use_sim_time}],
-            output='screen'
         )
 
 
@@ -203,18 +207,30 @@ def generate_launch_description():
         )
 
 
-    kiss_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(kiss_launch_path),
-            launch_arguments={
-                'visualize': visualize,
-                'config_file': config_name_path,
-                'use_sim_time': use_sim_time,
-                'topic': pointcloud_topic,
+    kiss_node = Node( # kiss-ICP node
+            package='kiss_icp',
+            executable='kiss_icp_node',
+            name='kiss_icp_node',
+            output='screen',
+            remappings=[
+                ('pointcloud_topic', pointcloud_topic),
+            ],
+            parameters=[
+                ParameterFile(kiss_config_name_path),# Load the configuration file, by default its the 100m range one
+
+                #///kiss-ICP's configuration\\\
+                {
+
+                'publish_debug_clouds': visualize_clouds, # Toggle rviz visualization
+                'use_sim_time': use_sim_time,      # Toggle simulation time
                 'base_frame': base_frame,
-                'lidar_odom_frame': lidar_odom_frame,
                 'publish_odom_tf': publish_odom_tf,
                 'invert_odom_tf': invert_odom_tf,
-            }.items(),
+                'lidar_odom_frame': odom_frame,
+
+                },
+            ],
+            condition=UnlessCondition(nokiss)
         )
     
 
@@ -241,18 +257,19 @@ def generate_launch_description():
         declare_bagfile_arg, 
         declare_nomap_arg,  
         declare_visualize_arg,
+        declare_visualize_clouds_arg,
+        declare_nokiss_arg,
         declare_base_frame_arg,
         declare_odom_frame_arg,
         declare_publish_odom_tf_arg,
         declare_invert_odom_tf_arg,
         declare_topic_arg,
-        declare_config_name_arg,
+        declare_kiss_config_name_arg,
 
         tf2_map_to_odom,
-        tf2_odom_to_base_frame,
         tf2_base_frame_to_rslidar,
         lidar_driver_node,
-        kiss_launch,
+        kiss_node,
         bag_start_process,
         rviz2_node,
 
