@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: helios16p-cane-robot
+Version: 0.0.0
+Summary: This package hs the aim of organizing and configuring all nodes related to Lidar Helios 16P Robosense functioning, accordingly to Links Foundation requirements.
+Home-page: UNKNOWN
+Maintainer: Gabriele Barletta
+Maintainer-email: Gabriele.Barletta03@gmail.com
+License: GNU GPL
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

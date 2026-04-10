@@ -1,4 +1,19 @@
 #!/bin/ash
+#Current_Wifi=$( iwgetid -r )
 
-./zenoh-bridge-ros2dds -c /zenoh_config.json
+#case "$Current_Wifi" in
+#    "LINKS-GUEST")
+
+	./zenoh-bridge-ros2dds -c /zenoh_config_links_guest.json
+
+#        ;;
+#    "zeppelin-test" | "pattern3")
+#
+#	./zenoh-bridge-ros2dds -c /zenoh_config_zeppelin.json
+
+#        ;;
+#    *)
+#        ;;
+#esac
+
 

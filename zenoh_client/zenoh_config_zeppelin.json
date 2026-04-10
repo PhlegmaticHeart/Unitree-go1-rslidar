@@ -48,7 +48,7 @@
             ////               or is not specified at all, it means that ALL such interface are allowed.
             allow: {
                 publishers: ["/cmd_vel"],
-                subscribers: ["/cmd_vel", "/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan", "/tf", "/tf_static"]
+                subscribers: ["/cmd_vel", "/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan", "/tf", "/tf_static"],
                 service_servers: [".*/**"],
                 service_clients: [".*/**"],
                 action_servers: [".*/**"],

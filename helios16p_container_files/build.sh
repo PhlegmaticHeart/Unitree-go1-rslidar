@@ -11,10 +11,10 @@ PLATFORM=$(docker info --format '{{.Architecture}}')  # Auto-detect
 echo "Build for platform: $PLATFORM"
 
 docker build \
-  --platform "linux/$PLATFORM" \
   --tag "$IMAGE_NAME:$TAG" \
   --secret id=pusrs,src=$PWD/passwd.txt \
-  --load .
+  . \
+  $@
 
 echo "Build completed for $PLATFORM, now it is possible to execute run.sh"
 

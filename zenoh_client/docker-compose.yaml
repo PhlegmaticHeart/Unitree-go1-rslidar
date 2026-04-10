@@ -4,7 +4,7 @@ services:
 
   zenoh:
     container_name: zenoh_client_container
-    image: zenoh:custom_client
+    image: eclipse/zenoh-bridge-ros2dds:1.8.0
     network_mode: "host"
 #   restart: on-failure
 #    volumes:
@@ -18,3 +18,9 @@ services:
       - CYCLONEDDS_URI=/cyclonedds_config.xml
 #      -  DISPLAY=${DISPLAY}
 #      - XAUTHORITY=/root/.Xauthority
+
+    volumes:
+      -  ./entrypoint.sh:/entrypoint.sh
+      -  ./cyclonedds_config.xml:/cyclonedds_config.xml
+      -  ./zenoh_config_links_guest.json:/zenoh_config_links_guest.json
+      -  ./zenoh_config_zeppelin.json:/zenoh_config_zeppelin.json

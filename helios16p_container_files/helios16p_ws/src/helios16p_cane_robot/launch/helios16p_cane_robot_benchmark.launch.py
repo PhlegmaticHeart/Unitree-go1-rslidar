@@ -20,20 +20,8 @@ def generate_launch_description():
 
     pkg_share = FindPackageShare('helios16p_cane_robot').find('helios16p_cane_robot') # Package share directory
 
-    lidar_config_file = os.path.join(pkg_share, 'configs', 'lidar_config.yaml') # RSLidar's config file path
-
-    rviz_config_file = os.path.join(pkg_share, 'configs', 'launchrviz.rviz') # Rviz2 config file path
-
     bag_path = '' # Bag file path
-
-    go1_package=get_package_share_directory('go1_description')
-
-    go1_launch_path = os.path.join(go1_package, 'launch', 'go1_demo.launch.py')
-
-    kiss_package=get_package_share_directory('kiss_icp')
    
-    kiss_launch_path = os.path.join(kiss_package, 'launch', 'odometry.launch.py')
-
 # ----------------------------------- Simulation and bag flags parameters -----------------------------------
 
     declare_simulate_arg = DeclareLaunchArgument(
@@ -73,13 +61,6 @@ def generate_launch_description():
     nomap = LaunchConfiguration('nomap') # Flag to disable map->odom
 
 # ----------------------------------- Kiss-ICP's debug parameters -----------------------------------
-
-    declare_visualize_arg = DeclareLaunchArgument(
-        'visualize',
-        default_value='True',
-        description='Flag to enable rviz visualization'
-    )
-    visualize = LaunchConfiguration('visualize') # Flag to enable rviz visualization
 
     declare_visualize_clouds_arg = DeclareLaunchArgument(
         'visualize_clouds',
@@ -129,7 +110,7 @@ def generate_launch_description():
 
     declare_kiss_config_name_arg = DeclareLaunchArgument(
         'setrange',
-        default_value='mrange100.yaml',
+        default_value='lidar_config_mr8.yaml',
         description='Name of kiss-icp yaml configuration to load'
     )
     kiss_config_name = LaunchConfiguration('setrange') # Configuration file name to load, by default its set to 100m range
@@ -152,15 +133,6 @@ def generate_launch_description():
 
 # ----------------------------------- Nodes -----------------------------------
 
-
-    go1_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(go1_launch_path),
-         launch_arguments={
-                'use_jsp': 'none',
-                'use_rviz': 'false'
-                }.items()
-        )
-
     tf2_map_to_odom = Node( # Static transform from map to base_frame
             package='tf2_ros',
             name='static_transform_map_to_odom',
@@ -182,24 +154,13 @@ def generate_launch_description():
         )
 
 
-
-    lidar_driver_node = Node( # Driver node
-            package='rslidar_sdk',
-            executable='rslidar_sdk_node',
-            name='helios16p_node',
-            output='screen',
-            parameters=[{'config_path': lidar_config_file}]
-        )
-
-
     bag_start_process = ExecuteProcess(
             cmd=[
                 'ros2', 'bag', 'play',
                 bagfile,  
                 '--topics', '/rslidar_points', 
                 '--rate', '1.0',
-                '--clock', '1.0',
-                '--loop'
+                '--clock', '1.0'
             ],
             output='screen',
             condition=IfCondition(play_bag),
@@ -232,20 +193,6 @@ def generate_launch_description():
             ],
             condition=UnlessCondition(nokiss)
         )
-    
-
-    rviz2_node = Node( # Rviz2 node
-            package='rviz2',
-            executable='rviz2',
-            output='screen',
-            arguments=[
-                '-d',
-                rviz_config_file
-            ],
-            parameters=[{'use_sim_time' : use_sim_time}],
-            condition=IfCondition(visualize)
-        )
-
 
 # ----------------------------------- Nodes and commands execution -----------------------------------
 
@@ -256,7 +203,6 @@ def generate_launch_description():
         declare_play_bag_arg,
         declare_bagfile_arg, 
         declare_nomap_arg,  
-        declare_visualize_arg,
         declare_visualize_clouds_arg,
         declare_nokiss_arg,
         declare_base_frame_arg,
@@ -268,10 +214,8 @@ def generate_launch_description():
 
         tf2_map_to_odom,
         tf2_base_frame_to_rslidar,
-        lidar_driver_node,
         kiss_node,
         bag_start_process,
-        rviz2_node,
 
     ]   
 )

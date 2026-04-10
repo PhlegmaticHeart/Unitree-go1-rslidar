@@ -4,9 +4,9 @@ services:
 
   zenoh:
     container_name: zenoh_router_container
-    image: zenoh:custom_router
+    image: eclipse/zenoh-bridge-ros2dds:1.8.0
     network_mode: "host"
-#    restart: on-failure
+#   restart: on-failure
 #    volumes:
 #      - /tmp/.X11-unix:/tmp/.X11-unix:rw
 #      - ~/.Xauthority:/root/.Xauthority:ro
@@ -15,6 +15,12 @@ services:
       - ROS_DOMAIN_ID=3
       - ROS_DISTRO=humble
       - ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
+#      - ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
       - CYCLONEDDS_URI=/cyclonedds_config.xml
 #      -  DISPLAY=${DISPLAY}
 #      - XAUTHORITY=/root/.Xauthority
+
+    volumes:
+      -  ./entrypoint.sh:/entrypoint.sh
+      -  ./cyclonedds_config.xml:/cyclonedds_config.xml
+      -  ./zenoh_config.json:/zenoh_config.json

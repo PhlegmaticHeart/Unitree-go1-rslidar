@@ -31,10 +31,13 @@ Every container workspace contains:
   actually if you use Eprosima Fast DDS, you can comment into the Dockerfile those lines that have been pointed out as necessary for Cyclone
 
 - The dockerfile needed for the build, the golden image used is crossbuildable, keep in mind that the build.sh file will automatically build with your native architecture,
-  if you want to override this aspect there is a declared variable for this purpose.
+  if you want to override this aspect there is a declared variable for this exact purpose.
 
 - A docker-compose.yaml file to spin every container as intended using compose plugin
+
   **NOTE:* Go1's outdated boards' operative systems have docker-compose 1.21, and specifically require 1.21 syntax. 
+           run.sh is meant for debugging and will mount automatically the ws folder to home/admin/debug_build
+
 
 ---
 
@@ -111,6 +114,8 @@ The main launch file actually has the following parameters:
                           Its set by default to False.
 
 - bagfile:='<your/bag/path>' -> it allows you to set a different path for your bag file.
+
+- setrange:='<yaml file in helios16p_cane_robot/configs folder>' -> it allows you to set a different predefined config file for kiss-icp.
 
 - state_publisher:=True/False -> it enables the robot_state_publisher, its True by default but can be turned False for edge applications..
 
@@ -277,6 +282,7 @@ Its a visualization oriented launch file, you can run this one on a remote clien
 # helios16p_cane_robot_vicon_track.launch.py* 
 
 Its a bag record oriented launch file, you can use it to record vicon trajectory of your go1 (remember to change the "vicon_host" launch parameter in base of your vicon host's ip).
+You can use it to record both vicon datastrea and pointclouds for successive benchmarks.
 
 *Features:* 
 
@@ -289,7 +295,11 @@ Its a bag record oriented launch file, you can use it to record vicon trajectory
 
 # helios16p_cane_robot_vicon_track.launch.py* 
 
-Its a simple benchmark oriented launch file, you can use it to test different configurations with a specified bag file.
+A simple vicon tracking visualizer oriented launch file,
+
+# helios16p_cane_robot_bechmark.launch.py* 
+
+Its a benchmark oriented launch file, you can use it to test different configurations with a specified bag file.
 you can change Kiss-ICP's configuration file with "setrange" launch parameter.
 
 ---
@@ -298,6 +308,7 @@ you can change Kiss-ICP's configuration file with "setrange" launch parameter.
 
 Its necessary, if building from scratch is needed, to build firstly rslidar_msg, ros2_unitree_legged_msgs and unitree_nav_interfaces packages as they're required by the others to build effectively.
 
+Actually, the offered container is lean, and contains only the required code
 
 ---
 

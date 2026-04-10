@@ -1,0 +1,20 @@
+kiss_icp_node:
+  ros__parameters:
+
+    data:
+      deskew: True
+      max_range: 8.0
+      min_range: 0.35
+
+    mapping:
+      max_points_per_voxel: 8
+      voxel_size: 0.2
+   
+    adaptive_threshold:
+      initial_threshold: 2.0
+      min_motion_th: 0.1
+
+    registration:
+      max_num_iterations: 100
+      convergence_criterion: 0.0001
+      max_num_threads: 0 
