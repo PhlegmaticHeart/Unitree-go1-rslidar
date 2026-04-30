@@ -1,4 +1,4 @@
-FROM ros:humble-ros-base@sha256:370191995451bb63f2e37bb2f6636a09f66ca810d0865703058361dc6ac70c87 AS base
+FROM ros:humble-ros-base AS base
 
 #Avoid interactive mode during installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -60,7 +60,7 @@ RUN pip install cmake
 ENV CMAKE_POLICY_VERSION_MINIMUM=3.10
 
 # Other requirements
-RUN apt-get update && apt-get install -y libpcap-dev \
+RUN apt-get update && apt-get install -y libpcap-dev ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
 # Requirements for Uinitree Legged packages - BEGINNING (comment up to the END if you don't need the unitree legged package)
@@ -113,20 +113,23 @@ COPY helios16p_ws/src/cloudini_ros/ src/cloudini_ros/
 # Build workspace
 WORKDIR /home/admin/helios16p_ws
 
-RUN apt-get update && apt-get install -y ca-certificates
 RUN rosdep update \
     && rosdep install --from-paths src --ignore-src -r -y
 #    || echo "Some rosdep packages failed, install them manually"
 
 RUN . /opt/ros/humble/setup.sh && \
-    colcon build --packages-select rslidar_msg ros2_unitree_legged_msgs unitree_nav_interfaces --symlink-install \
-    && colcon build --packages-skip rslidar_msg ros2_unitree_legged_msgs --symlink-install
+    colcon build --packages-select rslidar_msg ros2_unitree_legged_msgs unitree_nav_interfaces \
+    && colcon build --packages-skip rslidar_msg ros2_unitree_legged_msgs
 
 FROM builder AS built_ws
 
 #COPY --from=builder /home/admin/helios16p_ws/install/ /home/admin/helios16p_ws/install/
 
 RUN rm -rf /home/admin/helios16p_ws/log 
+
+RUN rm -rf /home/admin/helios16p_ws/build
+
+RUN rm -rf /home/admin/helios16p_ws/src
 
 # Change user to admin and workdir to /home/admin
 USER admin
