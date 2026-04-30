@@ -4,12 +4,13 @@
 #case "$Current_Wifi" in
 #    "LINKS-GUEST")
 
-	./zenoh-bridge-ros2dds -c /zenoh_config_links_guest.json
+#	./zenoh-bridge-ros2dds -c /zenoh_config_links_guest.json
 
 #        ;;
 #    "zeppelin-test" | "pattern3")
 #
 #	./zenoh-bridge-ros2dds -c /zenoh_config_zeppelin.json
+	./zenoh-bridge-ros2dds -c /zenoh_config_test_template.json
 
 #        ;;
 #    *)

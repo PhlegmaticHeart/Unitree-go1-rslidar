@@ -14,6 +14,7 @@ services:
     environment:
       - ROS_DOMAIN_ID=7
       - ROS_DISTRO=humble
+      - ROS_LOCALHOST_ONLY=1 \
 #      - ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
       - CYCLONEDDS_URI=/cyclonedds_config.xml
 #      -  DISPLAY=${DISPLAY}
@@ -24,3 +25,4 @@ services:
       -  ./cyclonedds_config.xml:/cyclonedds_config.xml
       -  ./zenoh_config_links_guest.json:/zenoh_config_links_guest.json
       -  ./zenoh_config_zeppelin.json:/zenoh_config_zeppelin.json
+      -  ./zenoh_config_zeppelin.json:/zenoh_config_test_template.json

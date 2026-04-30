@@ -7,7 +7,7 @@
   <Domain Id="any">
     <General>
       <Interfaces>
-        <NetworkInterface name="lo" autodetermine="false" priority="default"
+        <NetworkInterface autodetermine="true" priority="default"
         multicast="true" />
       </Interfaces>
       <AllowMulticast>default</AllowMulticast>

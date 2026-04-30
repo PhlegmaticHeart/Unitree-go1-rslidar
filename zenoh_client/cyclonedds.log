@@ -1,141 +1,153 @@
-1773238375.018943 [7]    python3: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
-1773238375.018990 [7]    python3: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: false {1}
-1773238375.019004 [7]    python3: config: Domain/General/Interfaces/NetworkInterface[@name]: lo {1}
-1773238375.019017 [7]    python3: config: Domain/General/Interfaces/NetworkInterface[@address]:  {}
-1773238375.019029 [7]    python3: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {1}
-1773238375.019041 [7]    python3: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
-1773238375.019052 [7]    python3: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
-1773238375.019064 [7]    python3: config: Domain/General/Interfaces/NetworkInterface[@multicast]: true {1}
-1773238375.019075 [7]    python3: config: Domain/General/ExternalNetworkAddress/#text: auto {}
-1773238375.019086 [7]    python3: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
-1773238375.019097 [7]    python3: config: Domain/General/AllowMulticast/#text: default {1}
-1773238375.019108 [7]    python3: config: Domain/General/MulticastTimeToLive/#text: 32 {}
-1773238375.019118 [7]    python3: config: Domain/General/DontRoute/#text: false {}
-1773238375.019129 [7]    python3: config: Domain/General/Transport/#text: udp {}
-1773238375.019139 [7]    python3: config: Domain/General/EnableMulticastLoopback/#text: true {}
-1773238375.019151 [7]    python3: config: Domain/General/MaxMessageSize/#text: 65500 B {1}
-1773238375.019162 [7]    python3: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
-1773238375.019173 [7]    python3: config: Domain/General/FragmentSize/#text: 1344 B {}
-1773238375.019183 [7]    python3: config: Domain/General/RedundantNetworking/#text: false {}
-1773238375.019194 [7]    python3: config: Domain/General/EntityAutoNaming/#text: empty {}
-1773238375.019207 [7]    python3: config: Domain/General/EntityAutoNaming[@seed]: 2945048602 2788895592 925438655 3264338553 337893203 2036054319 1748989270 929358411 {}
-1773238375.019221 [7]    python3: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
-1773238375.019232 [7]    python3: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
-1773238375.019243 [7]    python3: config: Domain/Compatibility/StandardsConformance/#text: lax {}
-1773238375.019254 [7]    python3: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
-1773238375.019264 [7]    python3: config: Domain/Compatibility/ManySocketsMode/#text: single {}
-1773238375.019275 [7]    python3: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
-1773238375.019285 [7]    python3: config: Domain/Discovery/Tag/#text:  {}
-1773238375.019296 [7]    python3: config: Domain/Discovery/ExternalDomainId/#text: 7 {}
-1773238375.019307 [7]    python3: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
-1773238375.019318 [7]    python3: config: Domain/Discovery/ParticipantIndex/#text: none {}
-1773238375.019329 [7]    python3: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
-1773238375.019339 [7]    python3: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
-1773238375.019350 [7]    python3: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
-1773238375.019361 [7]    python3: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
-1773238375.019372 [7]    python3: config: Domain/Discovery/Ports/Base/#text: 7400 {}
-1773238375.019383 [7]    python3: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
-1773238375.019395 [7]    python3: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
-1773238375.019406 [7]    python3: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
-1773238375.019417 [7]    python3: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
-1773238375.019428 [7]    python3: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
-1773238375.019439 [7]    python3: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
-1773238375.019464 [7]    python3: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
-1773238375.019476 [7]    python3: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
-1773238375.019497 [7]    python3: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config {1}
-1773238375.019508 [7]    python3: config: Domain/Tracing/OutputFile/#text: cyclonedds.log {}
-1773238375.019518 [7]    python3: config: Domain/Tracing/AppendToFile/#text: false {}
-1773238375.019529 [7]    python3: config: Domain/Tracing/PacketCaptureFile/#text:  {}
-1773238375.019540 [7]    python3: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
-1773238375.019551 [7]    python3: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
-1773238375.019561 [7]    python3: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
-1773238375.019572 [7]    python3: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
-1773238375.019582 [7]    python3: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
-1773238375.019593 [7]    python3: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
-1773238375.019603 [7]    python3: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
-1773238375.019614 [7]    python3: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
-1773238375.019624 [7]    python3: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
-1773238375.019667 [7]    python3: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
-1773238375.019679 [7]    python3: config: Domain/Internal/MaxParticipants/#text: 0 {}
-1773238375.019689 [7]    python3: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
-1773238375.019700 [7]    python3: config: Domain/Internal/RetransmitMerging/#text: never {}
-1773238375.019711 [7]    python3: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
-1773238375.019722 [7]    python3: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
-1773238375.019733 [7]    python3: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
-1773238375.019744 [7]    python3: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
-1773238375.019755 [7]    python3: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
-1773238375.019766 [7]    python3: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
-1773238375.019777 [7]    python3: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
-1773238375.019787 [7]    python3: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
-1773238375.019799 [7]    python3: config: Domain/Internal/SocketReceiveBufferSize[@min]: default {}
-1773238375.019809 [7]    python3: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
-1773238375.019820 [7]    python3: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
-1773238375.019831 [7]    python3: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
-1773238375.019842 [7]    python3: config: Domain/Internal/NackDelay/#text: 100 ms {}
-1773238375.019853 [7]    python3: config: Domain/Internal/AckDelay/#text: 10 ms {}
-1773238375.019863 [7]    python3: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
-1773238375.019874 [7]    python3: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
-1773238375.019885 [7]    python3: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
-1773238375.019895 [7]    python3: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
-1773238375.019906 [7]    python3: config: Domain/Internal/SquashParticipants/#text: false {}
-1773238375.019916 [7]    python3: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
-1773238375.019926 [7]    python3: config: Domain/Internal/LateAckMode/#text: false {}
-1773238375.019937 [7]    python3: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
-1773238375.019947 [7]    python3: config: Domain/Internal/GenerateKeyhash/#text: false {}
-1773238375.019958 [7]    python3: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
-1773238375.019969 [7]    python3: config: Domain/Internal/LivelinessMonitoring/#text: false {}
-1773238375.019991 [7]    python3: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
-1773238375.020003 [7]    python3: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
-1773238375.020013 [7]    python3: config: Domain/Internal/MonitorPort/#text: -1 {}
-1773238375.020024 [7]    python3: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
-1773238375.020035 [7]    python3: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
-1773238375.020045 [7]    python3: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
-1773238375.020056 [7]    python3: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
-1773238375.020067 [7]    python3: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
-1773238375.020077 [7]    python3: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
-1773238375.020089 [7]    python3: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
-1773238375.020101 [7]    python3: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
-1773238375.020112 [7]    python3: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
-1773238375.020124 [7]    python3: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
-1773238375.020135 [7]    python3: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
-1773238375.020149 [7]    python3: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
-1773238375.020162 [7]    python3: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
-1773238375.020176 [7]    python3: config: Domain/Internal/EnableExpensiveChecks/#text:  {}
-1773238375.020190 [7]    python3: config: Domain/TCP/NoDelay/#text: true {}
-1773238375.020205 [7]    python3: config: Domain/TCP/Port/#text: -1 {}
-1773238375.020220 [7]    python3: config: Domain/TCP/ReadTimeout/#text: 2 s {}
-1773238375.020235 [7]    python3: config: Domain/TCP/WriteTimeout/#text: 2 s {}
-1773238375.020249 [7]    python3: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
-1773238375.020262 [7]    python3: config: Domain/SSL/Enable/#text: false {}
-1773238375.020274 [7]    python3: config: Domain/SSL/CertificateVerification/#text: true {}
-1773238375.020287 [7]    python3: config: Domain/SSL/VerifyClient/#text: true {}
-1773238375.020300 [7]    python3: config: Domain/SSL/SelfSignedCertificates/#text: false {}
-1773238375.020314 [7]    python3: config: Domain/SSL/KeystoreFile/#text: keystore {}
-1773238375.020326 [7]    python3: config: Domain/SSL/KeyPassphrase/#text: secret {}
-1773238375.020340 [7]    python3: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
-1773238375.020352 [7]    python3: config: Domain/SSL/EntropyFile/#text:  {}
-1773238375.020366 [7]    python3: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
-1773238375.020379 [7]    python3: config: Domain/SharedMemory/Enable/#text: false {}
-1773238375.020392 [7]    python3: config: Domain/SharedMemory/Locator/#text:  {}
-1773238375.020406 [7]    python3: config: Domain/SharedMemory/Prefix/#text: DDS_CYCLONE {}
-1773238375.020419 [7]    python3: config: Domain/SharedMemory/LogLevel/#text: info {}
-1773238375.020434 [7]    python3: config: Domain[@Id]: 7 {1}
-1773238375.020464 [7]    python3: started at 1773238375.0620454 -- 2026-03-11 15:12:55+01:00
-1773238375.020474 [7]    python3: udp initialized
-1773238375.021411 [7]    python3: interfaces: lo udp/127.0.0.1(q1) wlp1s0 wireless udp/192.168.50.12(q9) docker0 udp/172.17.0.1(q9) br-eec6265d9b1e udp/172.18.0.1(q9)
-1773238375.021443 [7]    python3: selected interfaces: lo (index 1 priority 2)
-1773238375.021453 [7]    python3: presumed robust multicast support, use for everything
-1773238375.021476 [7]    python3: ownip: udp/127.0.0.1
-1773238375.021486 [7]    python3: extmask: invalid/0 (not applicable)
-1773238375.021498 [7]    python3: SPDP MC: udp/239.255.0.1
-1773238375.021510 [7]    python3: default MC: udp/239.255.0.1
-1773238375.021518 [7]    python3: SSM support included
-1773238375.021816 [7]    python3: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1773238375.021875 [7]    python3: rtps_init: uc ports: disc 0 data 0
-1773238375.021887 [7]    python3: rtps_init: domainid 7 participantid -2
-1773238375.021897 [7]    python3: Unicast Ports: discovery 53273 data 53273
-1773238375.021942 [7]    python3: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1773238375.021998 [7]    python3: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1773238375.022025 [7]    python3: Multicast Ports: discovery 9150 data 9151 
-1773238375.022060 [7]    python3: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
-1773238375.022095 [7]    python3: interface lo: transmit port 46570
+1776760921.514787 [7]       ros2: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
+1776760921.514871 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: false {}
+1776760921.514891 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@name]:  {}
+1776760921.514903 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@address]: 127.0.0.1 {0}
+1776760921.514915 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {}
+1776760921.514926 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
+1776760921.514937 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
+1776760921.514948 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@multicast]: default {}
+1776760921.514960 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: true {2}
+1776760921.514971 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@name]:  {}
+1776760921.514982 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@address]:  {}
+1776760921.514993 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {2}
+1776760921.515004 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
+1776760921.515015 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
+1776760921.515026 [7]       ros2: config: Domain/General/Interfaces/NetworkInterface[@multicast]: true {2}
+1776760921.515036 [7]       ros2: config: Domain/General/ExternalNetworkAddress/#text: auto {}
+1776760921.515047 [7]       ros2: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
+1776760921.515057 [7]       ros2: config: Domain/General/AllowMulticast/#text: default {2}
+1776760921.515068 [7]       ros2: config: Domain/General/MulticastTimeToLive/#text: 32 {}
+1776760921.515078 [7]       ros2: config: Domain/General/DontRoute/#text: false {}
+1776760921.515088 [7]       ros2: config: Domain/General/Transport/#text: udp {}
+1776760921.515098 [7]       ros2: config: Domain/General/EnableMulticastLoopback/#text: true {}
+1776760921.515110 [7]       ros2: config: Domain/General/MaxMessageSize/#text: 65500 B {2}
+1776760921.515120 [7]       ros2: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
+1776760921.515130 [7]       ros2: config: Domain/General/FragmentSize/#text: 1344 B {}
+1776760921.515140 [7]       ros2: config: Domain/General/RedundantNetworking/#text: false {}
+1776760921.515150 [7]       ros2: config: Domain/General/EntityAutoNaming/#text: empty {}
+1776760921.515163 [7]       ros2: config: Domain/General/EntityAutoNaming[@seed]: 2519418571 2286793499 990805541 4182744333 1280647975 3976125157 2880754298 788562173 {}
+1776760921.515177 [7]       ros2: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
+1776760921.515187 [7]       ros2: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
+1776760921.515198 [7]       ros2: config: Domain/Compatibility/StandardsConformance/#text: lax {}
+1776760921.515208 [7]       ros2: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
+1776760921.515218 [7]       ros2: config: Domain/Compatibility/ManySocketsMode/#text: single {}
+1776760921.515228 [7]       ros2: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
+1776760921.515238 [7]       ros2: config: Domain/Discovery/Tag/#text:  {}
+1776760921.515248 [7]       ros2: config: Domain/Discovery/ExternalDomainId/#text: 7 {}
+1776760921.515259 [7]       ros2: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
+1776760921.515270 [7]       ros2: config: Domain/Discovery/ParticipantIndex/#text: none {}
+1776760921.515280 [7]       ros2: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 9 {}
+1776760921.515290 [7]       ros2: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
+1776760921.515300 [7]       ros2: config: Domain/Discovery/SPDPInterval/#text: 30 s {}
+1776760921.515324 [7]       ros2: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
+1776760921.515336 [7]       ros2: config: Domain/Discovery/Ports/Base/#text: 7400 {}
+1776760921.515347 [7]       ros2: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
+1776760921.515357 [7]       ros2: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
+1776760921.515368 [7]       ros2: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
+1776760921.515379 [7]       ros2: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
+1776760921.515389 [7]       ros2: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
+1776760921.515400 [7]       ros2: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
+1776760921.515410 [7]       ros2: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
+1776760921.515420 [7]       ros2: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
+1776760921.515445 [7]       ros2: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config {2}
+1776760921.515455 [7]       ros2: config: Domain/Tracing/OutputFile/#text: cyclonedds.log {}
+1776760921.515465 [7]       ros2: config: Domain/Tracing/AppendToFile/#text: false {}
+1776760921.515475 [7]       ros2: config: Domain/Tracing/PacketCaptureFile/#text:  {}
+1776760921.515486 [7]       ros2: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
+1776760921.515496 [7]       ros2: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
+1776760921.515506 [7]       ros2: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
+1776760921.515516 [7]       ros2: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
+1776760921.515527 [7]       ros2: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
+1776760921.515537 [7]       ros2: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
+1776760921.515547 [7]       ros2: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
+1776760921.515557 [7]       ros2: config: Domain/Internal/UnicastResponseToSPDPMessages/#text: true {}
+1776760921.515567 [7]       ros2: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
+1776760921.515577 [7]       ros2: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
+1776760921.515587 [7]       ros2: config: Domain/Internal/MaxParticipants/#text: 0 {}
+1776760921.515597 [7]       ros2: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
+1776760921.515607 [7]       ros2: config: Domain/Internal/RetransmitMerging/#text: never {}
+1776760921.515617 [7]       ros2: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
+1776760921.515628 [7]       ros2: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
+1776760921.515638 [7]       ros2: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
+1776760921.515649 [7]       ros2: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
+1776760921.515659 [7]       ros2: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
+1776760921.515670 [7]       ros2: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
+1776760921.515680 [7]       ros2: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
+1776760921.515690 [7]       ros2: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
+1776760921.515700 [7]       ros2: config: Domain/Internal/SocketReceiveBufferSize[@min]: default {}
+1776760921.515711 [7]       ros2: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
+1776760921.515722 [7]       ros2: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
+1776760921.515732 [7]       ros2: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
+1776760921.515742 [7]       ros2: config: Domain/Internal/NackDelay/#text: 100 ms {}
+1776760921.515752 [7]       ros2: config: Domain/Internal/AckDelay/#text: 10 ms {}
+1776760921.515763 [7]       ros2: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
+1776760921.515773 [7]       ros2: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
+1776760921.515793 [7]       ros2: config: Domain/Internal/ScheduleTimeRounding/#text: 0 s {}
+1776760921.515804 [7]       ros2: config: Domain/Internal/DDSI2DirectMaxThreads/#text: 1 {}
+1776760921.515830 [7]       ros2: config: Domain/Internal/SquashParticipants/#text: false {}
+1776760921.515840 [7]       ros2: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
+1776760921.515850 [7]       ros2: config: Domain/Internal/LateAckMode/#text: false {}
+1776760921.515860 [7]       ros2: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
+1776760921.515871 [7]       ros2: config: Domain/Internal/GenerateKeyhash/#text: false {}
+1776760921.515881 [7]       ros2: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
+1776760921.515891 [7]       ros2: config: Domain/Internal/LivelinessMonitoring/#text: false {}
+1776760921.515901 [7]       ros2: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
+1776760921.515912 [7]       ros2: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
+1776760921.515922 [7]       ros2: config: Domain/Internal/MonitorPort/#text: -1 {}
+1776760921.515932 [7]       ros2: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
+1776760921.515943 [7]       ros2: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
+1776760921.515952 [7]       ros2: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
+1776760921.515963 [7]       ros2: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
+1776760921.515973 [7]       ros2: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
+1776760921.515983 [7]       ros2: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
+1776760921.515995 [7]       ros2: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
+1776760921.516006 [7]       ros2: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
+1776760921.516017 [7]       ros2: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
+1776760921.516028 [7]       ros2: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
+1776760921.516038 [7]       ros2: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
+1776760921.516050 [7]       ros2: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
+1776760921.516060 [7]       ros2: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
+1776760921.516071 [7]       ros2: config: Domain/Internal/EnableExpensiveChecks/#text:  {}
+1776760921.516082 [7]       ros2: config: Domain/TCP/NoDelay/#text: true {}
+1776760921.516092 [7]       ros2: config: Domain/TCP/Port/#text: -1 {}
+1776760921.516103 [7]       ros2: config: Domain/TCP/ReadTimeout/#text: 2 s {}
+1776760921.516113 [7]       ros2: config: Domain/TCP/WriteTimeout/#text: 2 s {}
+1776760921.516123 [7]       ros2: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
+1776760921.516133 [7]       ros2: config: Domain/SSL/Enable/#text: false {}
+1776760921.516143 [7]       ros2: config: Domain/SSL/CertificateVerification/#text: true {}
+1776760921.516153 [7]       ros2: config: Domain/SSL/VerifyClient/#text: true {}
+1776760921.516164 [7]       ros2: config: Domain/SSL/SelfSignedCertificates/#text: false {}
+1776760921.516174 [7]       ros2: config: Domain/SSL/KeystoreFile/#text: keystore {}
+1776760921.516184 [7]       ros2: config: Domain/SSL/KeyPassphrase/#text: secret {}
+1776760921.516194 [7]       ros2: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
+1776760921.516204 [7]       ros2: config: Domain/SSL/EntropyFile/#text:  {}
+1776760921.516215 [7]       ros2: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
+1776760921.516225 [7]       ros2: config: Domain/SharedMemory/Enable/#text: false {}
+1776760921.516235 [7]       ros2: config: Domain/SharedMemory/Locator/#text:  {}
+1776760921.516245 [7]       ros2: config: Domain/SharedMemory/Prefix/#text: DDS_CYCLONE {}
+1776760921.516255 [7]       ros2: config: Domain/SharedMemory/LogLevel/#text: info {}
+1776760921.516266 [7]       ros2: config: Domain[@Id]: 7 {2}
+1776760921.516314 [7]       ros2: started at 1776760921.06516282 -- 2026-04-21 10:42:01+02:00
+1776760921.516335 [7]       ros2: udp initialized
+1776760921.517115 [7]       ros2: interfaces: lo udp/127.0.0.1(q1) udp/123.123.123.150(q1) wlp1s0 wireless udp/192.168.50.36(q9) docker0 udp/172.17.0.1(q9)
+1776760921.517159 [7]       ros2: determined wlp1s0 (udp/192.168.50.36) as highest quality interface, selected for automatic interface.
+1776760921.517191 [7]       ros2: selected interfaces: lo (index 1 priority 2), wlp1s0 (index 2 priority 0)
+1776760921.517198 [7]       ros2: presumed robust multicast support, use for everything
+1776760921.517216 [7]       ros2: ownip: udp/127.0.0.1, udp/192.168.50.36
+1776760921.517223 [7]       ros2: extmask: invalid/0 (not applicable)
+1776760921.517231 [7]       ros2: SPDP MC: udp/239.255.0.1
+1776760921.517240 [7]       ros2: default MC: udp/239.255.0.1
+1776760921.517246 [7]       ros2: SSM support included
+1776760921.517537 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1776760921.517567 [7]       ros2: rtps_init: uc ports: disc 0 data 0
+1776760921.517575 [7]       ros2: rtps_init: domainid 7 participantid -2
+1776760921.517582 [7]       ros2: Unicast Ports: discovery 35161 data 35161
+1776760921.517612 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1776760921.517648 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1776760921.517663 [7]       ros2: Multicast Ports: discovery 9150 data 9151 
+1776760921.517687 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1776760921.517727 [7]       ros2: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1776760921.517748 [7]       ros2: interface lo: transmit port 51477
+1776760921.517756 [7]       ros2: interface wlp1s0: transmit port 54164
+1776760922.288982 [7]       ros2: udp finalized
+1776760922.289200 [7]       ros2: Finis.
