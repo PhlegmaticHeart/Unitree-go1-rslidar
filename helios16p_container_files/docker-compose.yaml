@@ -12,13 +12,14 @@ services:
     #tty: True
     environment:
       -  ROS_DOMAIN_ID=3
-      -  ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
       -  CYCLONEDDS_URI=/cyclonedds_config.xml
+      -  RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      -  ROS_DISTRO=humble
     #  -  DISPLAY=${DISPLAY}
     #  -  XAUTHORITY=/root/.Xauthority
 
     volumes:
-      -  ./entrypoint.sh:/usr/bin/entrypoint.sh
-      -  ./cyclonedds_config.xml:/usr/bin/cyclonedds_config.xml
+      -  ./entrypoint.sh:/entrypoint.sh
+      -  ./cyclonedds_config.xml:/cyclonedds_config.xml
 
-    entrypoint: /usr/bin/entrypoint.sh
+    entrypoint: /entrypoint.sh
