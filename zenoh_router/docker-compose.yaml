@@ -14,9 +14,8 @@ services:
     environment:
       - ROS_DOMAIN_ID=3
       - ROS_DISTRO=humble
-      - ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
-#      - ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
       - CYCLONEDDS_URI=/cyclonedds_config.xml
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
 #      -  DISPLAY=${DISPLAY}
 #      - XAUTHORITY=/root/.Xauthority
 
