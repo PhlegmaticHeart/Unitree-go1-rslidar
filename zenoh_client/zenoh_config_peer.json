@@ -62,7 +62,7 @@
                 service_clients: [],
                 action_servers: [],
                 action_clients: [],
-            },
+              },
             ////
             //// pub_max_frequencies: Specify a list of maximum frequency of publications routing over zenoh for a set of Publishers.
             ////                      The strings must have the format "<regex>=<float>":
@@ -154,7 +154,7 @@
     ////
     //// mode: The bridge's mode (router, peer or client)
     ////
-    "mode": "client",
+    "mode": "peer",
     ////
     //// Which endpoints to connect to. E.g. tcp/localhost:7447.
     //// By configuring the endpoints, it is possible to tell zenoh which remote router or other zenoh-bridge-ros2dds to connect to at startup.
@@ -162,7 +162,7 @@
     
     "connect": {
         "endpoints": [
-            "tcp/172.30.226.133:7447"
+//            "tcp/0.0.0.0:7447"
         ]
     },
     
@@ -172,11 +172,11 @@
     //// peers, or client can use to establish a zenoh session.
     //// In 'router' mode (default) the zenoh-bridge-ros2dds is listening by default on `tcp/0.0.0.0:7447` (`0.0.0.0` meaning all the available network interfaces)
     ////
-    // "listen": {
-    // //  endpoints: [
-    // //    // "<proto>/<ip>:<port>"
-    // //  ]
-    // },
+    "listen": {
+        endpoints: [
+            "tcp/0.0.0.0:7447#iface=wlp1s0"
+        ]
+    },
     ////
     //// Configure the scouting mechanisms and their behaviours
     ////
@@ -188,7 +188,7 @@
             /// The socket which should be used for multicast scouting
             "address": "224.0.0.224:7446",
             /// The network interface which should be used for multicast scouting
-            "interface": "auto", // If not set or set to "auto" the interface if picked automatically
+            "interface": "wlp1s0", // If not set or set to "auto" the interface if picked automatically
             /// Which type of Zenoh instances to automatically establish sessions with upon discovery on UDP multicast.
             /// Accepts a single value or different values for router, peer and client.
             /// Each value is an array containing values "peer", "router" and "client".
@@ -199,23 +199,37 @@
                     "peer"
                 ]
             },
+	    "autoconnect_strategy": {
+                "peer": {
+                    "to_router": "always",
+                    "to_peer": "always"
+                }
+            },
+
             /// Whether or not to listen for scout messages on UDP multicast and reply to them.
             "listen": true
-        }
-    }
+      }
+    },
     //  /// The gossip scouting configuration.
     //  gossip: {
     //    /// Whether gossip scouting is enabled or not
-    //    enabled: true,
+    //      enabled: true,
     //    /// When true, gossip scouting information is propagated multiple hops to all nodes in the local network.
     //    /// When false, gossip scouting information is only propagated to the next hop.
     //    /// Activating multihop gossip implies more scouting traffic and a lower scalability.
     //    /// It mostly makes sense when using "linkstate" routing mode where all nodes in the subsystem don't have
     //    /// direct connectivity with each other.
-    //    multihop: false,
+    //      multihop: false,
     //    /// Which type of Zenoh instances to automatically establish sessions with upon discovery on gossip.
     //    /// Accepts a single value or different values for router, peer and client.
     //    /// Each value is an array containing values "peer", "router" and "client".
-    //    autoconnect: { router: [], peer: ["router","peer"] },
-    //  },
+    //      autoconnect: { router: [], peer: ["router","peer"] },
+    // },
+
+    "transport": {
+        "multicast": {
+            "join_interval": 1000
+        }
+    }
+
 }

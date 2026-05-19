@@ -3,7 +3,7 @@ version: '2.4'
 services:
 
   zenoh:
-    container_name: zenoh_router_container
+    container_name: zenoh_go1_container
     image: eclipse/zenoh-bridge-ros2dds:1.8.0
     network_mode: "host"
 #   restart: on-failure
@@ -22,4 +22,5 @@ services:
     volumes:
       -  ./entrypoint.sh:/entrypoint.sh
       -  ./cyclonedds_config.xml:/cyclonedds_config.xml
-      -  ./zenoh_config.json:/zenoh_config.json
+      -  ./zenoh_config_router_iot.json:/zenoh_config_router_iot.json
+      -  ./zenoh_config_peer.json:/zenoh_config_peer.json

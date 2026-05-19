@@ -46,23 +46,23 @@
             ////               or is not specified at all, it means that NO such interface is allowed.
             ////               Use 'deny' to allow all except the specified interfaces. If an interface type is set to an empty list
             ////               or is not specified at all, it means that ALL such interface are allowed.
-            //allow: {
-             //   publishers: ["/cmd_vel"],
-              //  subscribers: ["/cmd_vel", "/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan", "/tf", "/tf_static"],
-               // service_servers: [".*/**"],
-               // service_clients: [".*/**"],
-              //  action_servers: [".*/**"],
-               // action_clients: [".*/**"],
-	    // },
+            allow: {
+                publishers: ["/cmd_vel"],
+                subscribers: ["/cmd_vel", "/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/rslidar_points", "/scan", "/tf", "/tf_static"],
+                service_servers: [".*/**"],
+                service_clients: [".*/**"],
+                action_servers: [".*/**"],
+                action_clients: [".*/**"],
+	    },
 
-            deny: {
-                publishers: ["/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan"],
-                subscribers: [],
-                service_servers: [],
-                service_clients: [],
-                action_servers: [],
-                action_clients: [],
-            },
+            //deny: {
+            //    publishers: ["/**"],
+            //    subscribers: ["/rosout"],
+            //    service_servers: [".*/set_parameters"],
+            //    service_clients: [".*/set_parameters"],
+            //    action_servers: [],
+            //    action_clients: [],
+            //},
             ////
             //// pub_max_frequencies: Specify a list of maximum frequency of publications routing over zenoh for a set of Publishers.
             ////                      The strings must have the format "<regex>=<float>":

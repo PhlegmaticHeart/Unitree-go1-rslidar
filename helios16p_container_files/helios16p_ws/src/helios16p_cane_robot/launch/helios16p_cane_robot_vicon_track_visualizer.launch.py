@@ -203,10 +203,10 @@ def generate_launch_description():
         declare_config_name_arg,
 
         publisher_node,
-        tf2_map_to_vicon,
-        tf2_vicon_to_vicon_obj_frame,
-        tf2_vicon_obj_frame_to_base_link,
-        tf2_base_link_to_rslidar,
+#        tf2_map_to_vicon,
+#        tf2_vicon_to_vicon_obj_frame,
+#        tf2_vicon_obj_frame_to_base_link,
+#        tf2_base_link_to_rslidar,
         rviz2_node,
 
 

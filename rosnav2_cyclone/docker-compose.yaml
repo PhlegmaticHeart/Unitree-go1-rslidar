@@ -1,0 +1,34 @@
+
+services:
+
+  rosnav:
+
+    attach: true
+    tty: true
+    stdin_open: true
+    container_name: rosnav2_container
+    image: rosnav2_cyclone:latest
+    network_mode: "host"
+    #restart: on-failure
+    #volumes:
+    #  - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    #  - ~/.Xauthority:/root/.Xauthority:ro
+    #tty: True
+    environment:
+      -  ROS_DOMAIN_ID=7
+      -  ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
+      -  CYCLONEDDS_URI=/cyclonedds_config.xml
+      -  ROS_DISTRO=humble
+      -  RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+      -  ROS_LOCALHOST_ONLY=1
+    #  -  DISPLAY=${DISPLAY}
+    #  -  XAUTHORITY=/root/.Xauthority
+
+    volumes:
+      -  ./entrypoint.sh:/entrypoint.sh
+      -  ./cyclonedds_config.xml:/cyclonedds_config.xml
+      -  ./nav2_params.yaml:/home/admin/nav2_params.yaml
+      -  ./maps:/home/admin/maps
+      -  ./ros_utilities:/home/admin/ros_utilities
+
+    entrypoint: /entrypoint.sh

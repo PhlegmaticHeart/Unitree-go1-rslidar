@@ -1,20 +1,7 @@
 #!/bin/ash
-#Current_Wifi=$( iwgetid -r )
-
-#case "$Current_Wifi" in
-#    "LINKS-GUEST")
-
-#	./zenoh-bridge-ros2dds -c /zenoh_config_links_guest.json
-
-#        ;;
-#    "zeppelin-test" | "pattern3")
-#
 #	./zenoh-bridge-ros2dds -c /zenoh_config_zeppelin.json
-	./zenoh-bridge-ros2dds -c /zenoh_config_test_template.json
-
-#        ;;
-#    *)
-#        ;;
-#esac
+	./zenoh-bridge-ros2dds -c /zenoh_config_client_iot.json
+#RUST_LOG=zenoh=debug ./zenoh-bridge-ros2dds -c /zenoh_config_peer.json
+#	./zenoh-bridge-ros2dds -c /zenoh_config_test_template.json
 
 

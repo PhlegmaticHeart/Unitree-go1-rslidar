@@ -1,0 +1,28 @@
+/slam_toolbox:
+  ros__parameters:
+    mode: mapping
+    use_scan_matching: true
+    use_odom_pose: false
+#    map_file_name: "map"
+    map_update_interval: 1.0
+    resolution: 0.05
+    max_laser_range: 30.0
+    min_laser_range: 0.35
+    scan_topic: "/scan"
+    scan_subscriber_queue_size: 5
+    trasform_tolerance: 0.2
+    odom_topic: "/kiss/odometry"
+    odom_frame: "odom"
+    base_frame: "base_link"
+    use_sim_time: false
+    tf_lookup_timeout: 0.2
+    scan_varying: false
+    loop_closure_threshold: 2.0
+    save_map_on_exit: true
+    map_start_pose: [ 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ]
+#    set_initial_pose: true
+#    initial_pose:
+#      x: 0.0
+#      y: 0.0
+#      yaw: 0.0
+#      theta: 0.0

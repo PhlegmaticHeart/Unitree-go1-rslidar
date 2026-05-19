@@ -11,6 +11,7 @@ docker run --name zenoh_router_container \
   -v $SCRIPTFOLDER/entrypoint.sh:/entrypoint.sh \
   -v $SCRIPTFOLDER/cyclonedds_config.xml:/cyclonedds_config.xml \
   -v $SCRIPTFOLDER/entrypoint.sh:/entrypoint.sh \
-  -v $SCRIPTFOLDER/zenoh_config_zeppelin.json:/zenoh_config_zeppelin.json \
+  -v $SCRIPTFOLDER/zenoh_config_router_iot.json:/zenoh_config_router_iot.json \
+  -v $SCRIPTFOLDER/zenoh_config_peer.json:/zenoh_config_peer.json \
   --entrypoint "/entrypoint.sh" \
   eclipse/zenoh-bridge-ros2dds:1.8.0

@@ -46,23 +46,22 @@
             ////               or is not specified at all, it means that NO such interface is allowed.
             ////               Use 'deny' to allow all except the specified interfaces. If an interface type is set to an empty list
             ////               or is not specified at all, it means that ALL such interface are allowed.
-            //allow: {
-             //   publishers: ["/cmd_vel"],
-              //  subscribers: ["/cmd_vel", "/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan", "/tf", "/tf_static"],
-               // service_servers: [".*/**"],
-               // service_clients: [".*/**"],
-              //  action_servers: [".*/**"],
-               // action_clients: [".*/**"],
-	    // },
-
-            deny: {
-                publishers: ["/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan"],
-                subscribers: [],
-                service_servers: [],
-                service_clients: [],
-                action_servers: [],
-                action_clients: [],
+            allow: {
+                publishers: ["/cmd_vel", "/kiss/frame", "/kiss/keypoints", "/kiss/local_map", "/kiss/odometry", "/rslidar_points/compressed", "/scan", "/tf", "/tf_static"],
+                subscribers: ["/cmd_vel"],
+                service_servers: [".*/**"],
+                service_clients: [".*/**"],
+                action_servers: [".*/**"],
+                action_clients: [".*/**"],
             },
+            //deny: {
+            //    publishers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
+            //    subscribers: ["*/rosout", "*/imu_go1", "*/odom_go1", "*/joint_states", "*/high_state", "*/high_cmd",  "*/parameter_events", "*/rslidar_points"],
+            //    service_servers: [],
+            //    service_clients: [],
+            //    action_servers: [],
+            //    action_clients: [],
+            //},
             ////
             //// pub_max_frequencies: Specify a list of maximum frequency of publications routing over zenoh for a set of Publishers.
             ////                      The strings must have the format "<regex>=<float>":
@@ -154,7 +153,7 @@
     ////
     //// mode: The bridge's mode (router, peer or client)
     ////
-    "mode": "client",
+    "mode": "peer",
     ////
     //// Which endpoints to connect to. E.g. tcp/localhost:7447.
     //// By configuring the endpoints, it is possible to tell zenoh which remote router or other zenoh-bridge-ros2dds to connect to at startup.
@@ -162,7 +161,7 @@
     
     "connect": {
         "endpoints": [
-            "tcp/172.30.226.133:7447"
+    //        "tcp/0.0.0.0:7447"
         ]
     },
     
@@ -172,12 +171,11 @@
     //// peers, or client can use to establish a zenoh session.
     //// In 'router' mode (default) the zenoh-bridge-ros2dds is listening by default on `tcp/0.0.0.0:7447` (`0.0.0.0` meaning all the available network interfaces)
     ////
-    // "listen": {
-    // //  endpoints: [
-    // //    // "<proto>/<ip>:<port>"
-    // //  ]
-    // },
-    ////
+    "listen": {
+        endpoints: [
+            "tcp/0.0.0.0:7447"
+        ]
+    },    ////
     //// Configure the scouting mechanisms and their behaviours
     ////
     "scouting": {

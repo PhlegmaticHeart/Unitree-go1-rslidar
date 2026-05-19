@@ -2,5 +2,6 @@ helios16p_container_files/helios16p_ws/build/
 helios16p_container_files/helios16p_ws/install/
 helios16p_container_files/helios16p_ws/log/
 helios16p_container_files/buildx.sh
+rosnav2_cyclone/old_confs/
 .vscode
 

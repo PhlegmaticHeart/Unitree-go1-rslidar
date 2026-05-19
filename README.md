@@ -323,6 +323,11 @@ Its advisable for the correct functioning of this setup, to enable multicast on 
 
 **Note:* that at the moment Zenoh's Ros2 bridge peer-to-peer configuration has some criticalities on Ros2 Humble, so for now will be included only this type of configured containers.
 
+---
+
+# § Rosnav_cyclone
+
+Its a Navigation 2 container, with wrapper utilities, configurations and what is needed for mapping, actually it's still work in progress.
 
 ---
 
@@ -385,9 +390,9 @@ path length (m) 13.7381
 
 Soon there will be:
 
-- Better kiss-icp configurations with more detailed values for different borderline config sets on Jetson Xavier board.
+- Route_Graph plugin implementation, with a dedicated python node.
 
-- nav2 params file for out-of-the-box navigation.
+- Better kiss-icp configurations with more detailed values for different borderline config sets on Jetson Xavier board.
 
 ---
 

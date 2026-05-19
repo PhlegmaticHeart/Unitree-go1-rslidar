@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "version": "1.0",
+    "frame": "map",
+    "description": "Route graph - nav2_route_server",
+    "created": "2026-05-11",
+    "bidirectional_default": true
+  },
+  "features": [
+
+    // ─── NODES ───────────────────────────────────────────────────────
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
+        "type": "node",
+        "label": "ingresso_principale",
+        "area": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "type": "node",
+        "label": "porta_ingresso",
+        "area": "transition"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "type": "node",
+        "label": "corridoio_a",
+        "area": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "type": "node",
+        "label": "stazione_dock",
+        "area": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0, 0.0]
+      }
+    },
+
+    // ─── ARCHES ──────────────────────────────────────────────────────
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "type": "edge",
+        "start": 0,
+        "end": 1,
+        "label": "ingresso_to_porta",
+        "bidirectional": true,
+        "area": "outdoor",
+        "speed_limit": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [0.0, 0.0],
+          [0.0, 0.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "type": "edge",
+        "start": 1,
+        "end": 2,
+        "label": "porta_to_corridoio",
+        "bidirectional": true,
+        "area": "transition",
+        "speed_limit": 0.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [0.0, 0.0],
+          [0.0, 0.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "type": "edge",
+        "start": 2,
+        "end": 3,
+        "label": "corridoio_to_dock",
+        "bidirectional": false,
+        "area": "indoor",
+        "speed_limit": 0.15
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [0.0, 0.0],
+          [0.0, 0.0]
+        ]
+      }
+    }
+
+  ]
+}

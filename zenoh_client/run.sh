@@ -11,8 +11,7 @@ docker run --name zenoh_client_container \
   -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
   -v $SCRIPTFOLDER/entrypoint.sh:/entrypoint.sh \
   -v $SCRIPTFOLDER/cyclonedds_config.xml:/cyclonedds_config.xml \
-  -v $SCRIPTFOLDER/zenoh_config_zeppelin.json:/zenoh_config_zeppelin.json \
-  -v $SCRIPTFOLDER/zenoh_config_links_guest.json:/zenoh_config_links_guest.json \
-  -v $SCRIPTFOLDER/zenoh_config_test_template.json:/zenoh_config_testzep.json \
+  -v $SCRIPTFOLDER/zenoh_config_client_iot.json:/zenoh_config_client_iot.json \
+  -v $SCRIPTFOLDER/zenoh_config_peer.json:/zenoh_config_peer.json \
   --entrypoint "/entrypoint.sh" \
   eclipse/zenoh-bridge-ros2dds:1.8.0
