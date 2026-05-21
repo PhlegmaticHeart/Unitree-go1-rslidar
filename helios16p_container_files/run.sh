@@ -23,6 +23,7 @@ docker run \
   -v $SCRIPTFOLDER/entrypoint.sh:/entrypoint.sh \
   -v $SCRIPTFOLDER/cyclonedds_config.xml:/cyclonedds_config.xml \
   -v $SCRIPTFOLDER/helios16p_ws:/home/admin/debug_build \
-  --entrypoint /entrypoint.sh \
   "$IMAGE_NAME:$TAG"
+  --entrypoint bash 
+#/entrypoint.sh \
 

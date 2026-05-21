@@ -43,13 +43,13 @@ public:
     rate_ = get_parameter("rate").get_parameter_value().get<double>();
     interval_ = 1.0 / rate_;
 
-    // Frame names
-    declare_parameter<bool>("enable_internal_publish", false);
-    std::atomic<bool> publish_enabled;
-    publish_enabled = get_parameter("enable_internal_publish").as_bool(); // if true, publish odom and imu with frame_id and broadcast tf; if false, publish without frame_id and do not broadcast tf
+    // Publication Flag
+    declare_parameter<bool>("enable_internal_publish", false); // ROS 2 param declaration
+    std::atomic<bool> publish_enabled; // corresponding local variable
+    publish_enabled = get_parameter("enable_internal_publish").as_bool(); // if true, publish odom and imu with frame_id and broadcast tf; if false, does not publish imu and odom topics does not broadcast tf
 
-    if (publish_enabled) {
-    // Frame names parametrized
+    if (publish_enabled) { // if false, does not declare topics and tfs
+    // Frame names parametrized, allow names remapping through ROS 2 parameters
     declare_parameter<std::string>("internal_odom_frame", "internal_odom_go1");
     declare_parameter<std::string>("internal_imu_frame", "internal_imu_go1");
     declare_parameter<std::string>("internal_base_frame", "internal_link_go1");
@@ -104,9 +104,9 @@ private:
   rclcpp::Subscription<ros2_unitree_legged_msgs::msg::HighCmd>::SharedPtr sub_cmd_;
   double rate_, interval_;
 
-  std::atomic<bool> publish_enabled;
-  std::string odom_frame_, imu_frame_, link_frame_;  // added for frame parameters
-  std::string odom_topic_, imu_topic_;  // added for topic parameters
+  std::atomic<bool> publish_enabled;   // publish flag
+  std::string odom_frame_, imu_frame_, link_frame_;  // frame parameters
+  std::string odom_topic_, imu_topic_;  // topic parameters
   UDPHighBridge bridge_;
   ros2_unitree_legged_msgs::msg::HighState state_ros_;
 
@@ -117,7 +117,7 @@ private:
     bridge_.udp.Send();
   }
 
-  template<bool publish_enabled>
+  template<bool publish_enabled> // if publish is false, then the time_callback is lightened by not initializing odom and imu data publication code block
   void timer_callback()
   {
     // Receive raw HighState via UDP

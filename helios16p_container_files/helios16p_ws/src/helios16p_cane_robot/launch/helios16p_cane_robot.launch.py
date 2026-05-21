@@ -39,6 +39,7 @@ def generate_launch_description():
 
     unitree_legged_real_launch_path = os.path.join(unitree_legged_real_package, 'launch', 'helios16p_high_no_desc.launch.py')
 
+
 # ----------------------------------- Simulation and bag flags parameters -----------------------------------
 
     declare_simulate_arg = DeclareLaunchArgument(
@@ -110,7 +111,7 @@ def generate_launch_description():
             description='Whether to enable internal publish of go1 internal odometry and imu (True/False)'
         )
 
-    enable_internal_publish_arg = LaunchConfiguration('enable_internal_publish')
+    enable_internal_publish = LaunchConfiguration('enable_internal_publish')
 
 
     declare_internal_odom_go1_frame_name_arg = DeclareLaunchArgument(
@@ -118,35 +119,35 @@ def generate_launch_description():
             default_value='internal_odom_go1',
             description='The name of the go1 internal calculated odometry frame to broadcast'
         )
-    internal_odom_go1_frame_name_arg = LaunchConfiguration('internal_odom_frame')
+    internal_odom_go1_frame_name = LaunchConfiguration('internal_odom_frame')
 
     declare_internal_imu_go1_frame_name_arg = DeclareLaunchArgument(
             'internal_imu_frame',
             default_value='internal_imu_go1',
             description='The name of the base frame linked to internal go1 odometry to broadcast'
         )
-    internal_imu_go1_frame_name_arg = LaunchConfiguration('internal_imu_frame')
+    internal_imu_go1_frame_name = LaunchConfiguration('internal_imu_frame')
 
     declare_internal_odom_go1_topic_name_arg = DeclareLaunchArgument(
             'internal_odom_topic',
             default_value='internal_odom_go1',
             description='The name of the internal calculated odometry topic to publish'
         )
-    internal_odom_go1_topic_name_arg = LaunchConfiguration('internal_odom_topic')
+    internal_odom_go1_topic_name = LaunchConfiguration('internal_odom_topic')
 
     declare_internal_imu_go1_topic_name_arg = DeclareLaunchArgument(
             'internal_imu_topic',
             default_value='internal_imu_go1',
             description='The name of the internal imu topic to publish'
         )
-    internal_imu_go1_topic_name_arg = LaunchConfiguration('internal_imu_topic')
+    internal_imu_go1_topic_name = LaunchConfiguration('internal_imu_topic')
     
     declare_internal_base_go1_topic_name_arg = DeclareLaunchArgument(
             'internal_base_topic',
             default_value='internal_link_go1',
             description='The name of the internal base topic to publish'
         )
-    internal_base_go1_topic_name_arg = LaunchConfiguration('internal_base_topic')
+    internal_base_go1_topic_name = LaunchConfiguration('internal_base_topic')
 
 
 
@@ -295,12 +296,12 @@ def generate_launch_description():
     unitree_legged_real_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(unitree_legged_real_launch_path),
         launch_arguments={
-            'enable_internal_publish': enable_internal_publish_arg, # Disable frame broadcasting in the unitree_legged_real node as we are already publishing the necessary frames with static_transform_publisher nodes in this launch file
-            'internal_odom_frame': internal_odom_go1_frame_name_arg, # Set the odom frame name in the unitree_legged_real node to be the same as the one published by kiss-ICP for better integration in rviz and easier performance evaluation
-            'internal_imu_frame': internal_imu_go1_frame_name_arg, # Set the base frame name in the unitree_leg
-            'internal_odom_topic': internal_odom_go1_topic_name_arg, # Set the odom topic name in the unitree_legged_real node to be different from the one published by kiss-ICP to avoid confusion in rviz and for better performance evaluation
-            'internal_imu_topic': internal_imu_go1_topic_name_arg, # Set the imu topic name in
-            'internal_base_topic': internal_base_go1_topic_name_arg # Set the base topic name in the unitree_legged_real node to be different from the one published by kiss-ICP to avoid confusion in rviz and for better performance evaluation
+            'enable_internal_publish': enable_internal_publish, # Disable frame broadcasting in the unitree_legged_real node as we are already publishing the necessary frames with static_transform_publisher nodes in this launch file
+            'internal_odom_frame': internal_odom_go1_frame_name, # Set the odom frame name in the unitree_legged_real node to be the same as the one published by kiss-ICP for better integration in rviz and easier performance evaluation
+            'internal_imu_frame': internal_imu_go1_frame_name, # Set the base frame name in the unitree_leg
+            'internal_odom_topic': internal_odom_go1_topic_name, # Set the odom topic name in the unitree_legged_real node to be different from the one published by kiss-ICP to avoid confusion in rviz and for better performance evaluation
+            'internal_imu_topic': internal_imu_go1_topic_name, # Set the imu topic name in
+            'internal_base_topic': internal_base_go1_topic_name # Set the base topic name in the unitree_legged_real node to be different from the one published by kiss-ICP to avoid confusion in rviz and for better performance evaluation
             }.items(),
         condition=UnlessCondition(nolegged)
         )

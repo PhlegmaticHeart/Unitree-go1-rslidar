@@ -227,7 +227,7 @@ def generate_launch_description():
     kiss_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(kiss_launch_path),
             launch_arguments={
-                'visualize': visualize,
+                'visualize': False,
                 'config_file': config_name_path,
                 'use_sim_time': use_sim_time,
                 'topic': pointcloud_topic,

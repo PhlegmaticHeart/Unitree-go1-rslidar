@@ -53,10 +53,10 @@ RUN apt-get update && apt install -y libxcb-cursor0 libxcb-xinerama0 libxcb-iccc
 RUN apt-get update && apt-get install -y pip \
     && pip install xacro
 
-# Gets cmake
-RUN pip install cmake
+# Gets cmake 4.3.2
+RUN pip install cmake==4.3.2
 
-# Export CMAKE_POLICY_VERSION_MINIMUM to 3.10, because Kiss-ICP build needs cmake 3.24
+# Export CMAKE_POLICY_VERSION_MINIMUM to 3.10, because Kiss-ICP build needs cmake 3.10
 ENV CMAKE_POLICY_VERSION_MINIMUM=3.10
 
 # Other requirements
@@ -113,13 +113,13 @@ COPY helios16p_ws/src/cloudini_ros/ src/cloudini_ros/
 # Build workspace
 WORKDIR /home/admin/helios16p_ws
 
-RUN rosdep update \
-    && rosdep install --from-paths src --ignore-src -r -y
-#    || echo "Some rosdep packages failed, install them manually"
+RUN apt update \
+    && rosdep update \
+    && rosdep install --from-paths src -r -y
 
-RUN . /opt/ros/humble/setup.sh && \
-    colcon build --packages-select rslidar_msg ros2_unitree_legged_msgs unitree_nav_interfaces \
-    && colcon build --packages-skip rslidar_msg ros2_unitree_legged_msgs
+RUN . /opt/ros/humble/setup.sh \
+    && colcon build --packages-select rslidar_msg ros2_unitree_legged_msgs unitree_nav_interfaces \
+    && colcon build --packages-skip rslidar_msg ros2_unitree_legged_msgs unitree_nav_interfaces
 
 FROM builder AS built_ws
 
